@@ -64,6 +64,9 @@ Dengan format ini, repo terasa seperti rak buku yang enak dibaca, bukan catatan 
 
 ## Susunan rak buku
 
+### 00 — Start Here dan Glosarium
+Titik awal pembelajaran, panduan cara belajar, dan daftar istilah (glosarium) yang digunakan di seluruh materi.
+
 ### 01 — Fondasi Cara Melihat Pasar
 Materi tentang perubahan cara pandang, logika institusi, narasi harga, dan dasar sebelum masuk ke konsep teknis.
 
@@ -84,6 +87,9 @@ Materi tentang validasi entry, trigger, invalidation, target, do not chase, dan 
 
 ### 07 — Sistem, Indikator, dan Translasi Logika
 Materi tentang bagaimana konsep-konsep trading diterjemahkan ke sistem, state, scoring, dashboard, dan indikator.
+
+### 08 — Jurnal dan Psikologi Pemula
+Materi tentang pencatatan transaksi, evaluasi diri, manajemen emosi, dan membangun kebiasaan trading yang sehat.
 
 ---
 
