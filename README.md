@@ -25,7 +25,7 @@ Untuk mendapatkan hasil belajar yang maksimal:
 1. **Buka Rak yang Sesuai**: Pilih folder berdasarkan topik yang ingin dipelajari.
 2. **Pilih Judul Materi**: Cari file `.md` yang relevan.
 3. **Baca Secara Utuh**: Selesaikan satu materi sebelum berpindah ke materi lainnya.
-4. **Ikuti Alur**: Disarankan mengikuti urutan folder dari 00 hingga 08 untuk pemahaman fondasi yang kuat.
+4. **Ikuti Alur**: Disarankan mengikuti urutan folder dari 00 hingga 09 untuk pemahaman fondasi yang kuat.
 
 ---
 
@@ -57,6 +57,9 @@ Materi tentang bagaimana konsep-konsep trading diterjemahkan ke sistem, state, s
 
 ### 08 — Jurnal dan Psikologi Pemula
 Materi tentang pencatatan transaksi, review mingguan/bulanan, manajemen emosi, dan membangun kebiasaan trading yang sehat.
+
+### 09 — Advanced Concepts dan Model Market
+Materi tentang konsep tingkat lanjut dalam ICT, termasuk model pergerakan harga lengkap (MMXM), konfirmasi institusional (SMT), logika pembentukan candle (PO3), siklus mingguan, dan strategi berbasis waktu (Silver Bullet).
 
 ---
 
