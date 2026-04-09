@@ -1,111 +1,76 @@
 # Materi Trading
 
-Repositori ini dirancang sebagai **rak buku belajar trading**.
+Repositori ini dirancang sebagai **rak buku belajar trading** yang terstruktur dan komprehensif.
 
-Tujuannya adalah membuat tempat belajar yang rapi, enak dibuka ulang, dan mudah dicari berdasarkan topik. Saat ingin mempelajari satu materi, kamu cukup membuka rak yang sesuai lalu membaca file `.md` yang membahas topik itu secara utuh.
-
----
-
-## Konsep utama repositori ini
-
-Struktur repo ini memakai logika sederhana:
-
-- **folder = rak / bab besar pembelajaran**
-- **file `.md` = satu materi / satu judul utama**
-- **isi file `.md` = panjang, utuh, dan enak dibaca seperti bab pembelajaran**
-
-Jadi arah repo ini bukan kumpulan catatan pendek, bukan potongan folder kecil per istilah, dan bukan tumpukan draft.
-
-Arah repo ini adalah **library materi**.
+Tujuannya adalah menyediakan tempat belajar yang rapi, mudah diakses kembali, dan terorganisir berdasarkan topik. Setiap materi dibahas secara mendalam dalam format yang enak dibaca.
 
 ---
 
-## Cara memakai repo ini
+## Konsep Utama Repositori
 
-Kalau ingin belajar topik tertentu:
+Struktur repositori ini menggunakan logika sederhana:
 
-1. buka rak yang sesuai
-2. pilih judul materi yang ingin dipelajari
-3. baca satu file `.md` sampai selesai
-4. lanjut ke materi berikutnya jika pondasinya sudah paham
+- **Folder = Rak / Bab Besar**: Mengelompokkan materi berdasarkan fase atau topik utama.
+- **File `.md` = Materi / Judul Utama**: Satu file membahas satu topik secara utuh dan mendalam.
+- **Isi Materi**: Dirancang panjang dan komprehensif, bukan sekadar catatan singkat.
 
-Contohnya:
-- ingin belajar cara pandang dasar → buka rak `01-Fondasi-Cara-Melihat-Pasar`
-- ingin belajar struktur dan likuiditas → buka rak `02-Struktur-dan-Likuiditas`
-- ingin belajar sweep, grab, run → buka rak `03-Sweep-Grab-Run-dan-Delivery`
-- ingin belajar POI → buka rak `04-POI-dan-Lokasi-Entry`
+Arah repositori ini adalah menjadi sebuah **Library Materi** yang menjadi referensi utama Anda.
 
 ---
 
-## Bentuk materi yang diinginkan
+## Cara Menggunakan Library Ini
 
-Setiap file materi idealnya membahas satu topik secara utuh, misalnya:
-- apa itu liquidity
-- apa itu liquidity sweep
-- apa itu liquidity grab
-- apa itu liquidity run
-- apa itu market structure shift
-- apa itu fair value gap
-- apa itu order block
+Untuk mendapatkan hasil belajar yang maksimal:
 
-Dan isi tiap materi sebaiknya memiliki alur seperti ini:
-- pembuka
-- mengapa materi ini penting
-- tujuan pembelajaran
-- penjelasan inti
-- cara membaca konsep
-- kesalahan umum
-- ringkasan
-- penutup
-
-Dengan format ini, repo terasa seperti rak buku yang enak dibaca, bukan catatan tercecer.
+1. **Buka Rak yang Sesuai**: Pilih folder berdasarkan topik yang ingin dipelajari.
+2. **Pilih Judul Materi**: Cari file `.md` yang relevan.
+3. **Baca Secara Utuh**: Selesaikan satu materi sebelum berpindah ke materi lainnya.
+4. **Ikuti Alur**: Disarankan mengikuti urutan folder dari 00 hingga 08 untuk pemahaman fondasi yang kuat.
 
 ---
 
-## Susunan rak buku
+## Susunan Rak Buku
 
 ### 00 — Start Here dan Glosarium
-Titik awal pembelajaran, panduan cara belajar, dan daftar istilah (glosarium) yang digunakan di seluruh materi.
+Titik awal pembelajaran, panduan cara belajar, mindset, dan daftar istilah (glosarium) yang digunakan di seluruh materi.
 
 ### 01 — Fondasi Cara Melihat Pasar
-Materi tentang perubahan cara pandang, logika institusi, narasi harga, dan dasar sebelum masuk ke konsep teknis.
+Materi tentang perubahan cara pandang, logika institusi, narasi harga, IPDA, dan dasar sebelum masuk ke konsep teknis.
 
 ### 02 — Struktur dan Likuiditas
-Materi tentang swing, HH/HL/LH/LL, buy-side liquidity, sell-side liquidity, draw on liquidity, dan tujuan harga.
+Materi tentang swing, HH/HL/LH/LL, inducement, liquidity pools, void, dan tujuan pergerakan harga.
 
-### 03 — Sweep, Grab, Run, dan Delivery
-Materi tentang bagaimana harga mengambil likuiditas, membentuk jebakan, lalu mulai bergerak ke arah tujuan berikutnya.
+### 03 — Sweep Grab Run dan Delivery
+Materi tentang bagaimana harga mengambil likuiditas, membentuk jebakan (Turtle Soup), lalu mulai bergerak ke arah tujuan berikutnya.
 
 ### 04 — POI dan Lokasi Entry
-Materi tentang OB, FVG, breaker, mitigation, dealing range, premium, discount, dan kualitas lokasi entry.
+Materi tentang OB, FVG, breaker, mitigation, dealing range, premium/discount, dan kualitas lokasi entry.
 
 ### 05 — Session dan Timing
-Materi tentang Asia, London, New York, Judas swing, dan kualitas waktu dalam setup.
+Materi tentang Asia, London, New York, Judas swing, Silver Bullet, dan kualitas waktu dalam setup.
 
-### 06 — Entry, Risk, dan Eksekusi
-Materi tentang validasi entry, trigger, invalidation, target, do not chase, dan disiplin eksekusi.
+### 06 — Entry Risk dan Eksekusi
+Materi tentang validasi entry, trigger, invalidation, target, pyramiding, dan disiplin eksekusi.
 
-### 07 — Sistem, Indikator, dan Translasi Logika
-Materi tentang bagaimana konsep-konsep trading diterjemahkan ke sistem, state, scoring, dashboard, dan indikator.
+### 07 — Sistem Indikator dan Translasi Logika
+Materi tentang bagaimana konsep-konsep trading diterjemahkan ke sistem, state, scoring, dashboard, dan indikator di TradingView.
 
 ### 08 — Jurnal dan Psikologi Pemula
-Materi tentang pencatatan transaksi, evaluasi diri, manajemen emosi, dan membangun kebiasaan trading yang sehat.
+Materi tentang pencatatan transaksi, review mingguan/bulanan, manajemen emosi, dan membangun kebiasaan trading yang sehat.
 
 ---
 
-## Arah repo ke depan
+## Arah Pengembangan
 
-Repo ini akan dibangun bertahap seperti perpustakaan:
-- raknya jelas
-- judulnya jelas
-- isi materinya utuh
-- urutannya enak diikuti dari dasar ke lanjutan
+Repositori ini akan terus diperbarui secara bertahap:
+- Penambahan materi baru yang relevan.
+- Pembaruan konten berdasarkan perkembangan market.
+- Peningkatan kualitas penjelasan dan visualisasi (jika ada).
 
-Target akhirnya adalah membuat repo ini menjadi tempat belajar yang bisa dibuka berulang kali saat butuh mendalami satu konsep tertentu.
+Target akhirnya adalah menjadi panduan lengkap dari dasar hingga tingkat lanjut dalam dunia trading.
 
 ---
 
-## Catatan
+## Catatan Penting
 
-Materi di repo ini bersifat edukatif.
-Gunakan sebagai sarana belajar, membangun kerangka berpikir, dan memperdalam cara membaca market.
+Materi di repositori ini bersifat **edukatif**. Gunakan sebagai sarana belajar, membangun kerangka berpikir, dan memperdalam cara membaca market. Selalu lakukan pengujian mandiri (*backtest*) sebelum menerapkan konsep apa pun dalam trading riil.

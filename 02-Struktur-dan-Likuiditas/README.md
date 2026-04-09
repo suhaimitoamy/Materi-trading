@@ -1,8 +1,8 @@
 # 02 — Struktur dan Likuiditas
 
-Rak ini memuat materi tentang struktur harga dan likuiditas.
+Materi tentang swing, HH/HL/LH/LL, inducement, liquidity pools, void, dan tujuan pergerakan harga.
 
-## Daftar materi
+## Daftar Materi
 - `Bab-01-Apa-itu-Struktur-Harga.md`
 - `Bab-02-Swing-High-dan-Swing-Low.md`
 - `Bab-03-HH-HL-LH-LL.md`
@@ -13,5 +13,11 @@ Rak ini memuat materi tentang struktur harga dan likuiditas.
 - `Bab-08-Apa-itu-Market-Structure-Shift.md`
 - `Bab-09-Struktur-Minor-vs-Struktur-Mayor.md`
 - `Bab-10-Valid-vs-Invalid-MSS.md`
+- `Bab-11-Inducement-vs-Break-of-Structure.md`
+- `Bab-12-Complex-Structure-dan-Sub-Structure.md`
+- `Bab-13-Liquidity-Void-dan-Cara-Mengisinya.md`
+- `Bab-14-Trendline-Liquidity-dan-Retail-Patterns.md`
+- `Bab-15-High-Resistance-Liquidity-Run-vs-Low-Resistance.md`
 
-Rak ini nanti menjadi jembatan dari fondasi cara melihat pasar menuju pembacaan tujuan harga yang lebih konkret.
+---
+*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*

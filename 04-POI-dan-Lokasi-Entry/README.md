@@ -1,8 +1,8 @@
 # 04 — POI dan Lokasi Entry
 
-Rak ini memuat materi tentang area reaksi harga dan kualitas lokasi entry.
+Materi tentang OB, FVG, breaker, mitigation, dealing range, premium/discount, dan kualitas lokasi entry.
 
-## Daftar materi
+## Daftar Materi
 - `Bab-01-Apa-itu-Order-Block.md`
 - `Bab-02-Apa-itu-Fair-Value-Gap.md`
 - `Bab-03-Apa-itu-Breaker-Block.md`
@@ -22,5 +22,7 @@ Rak ini memuat materi tentang area reaksi harga dan kualitas lokasi entry.
 - `Bab-17-Checklist-Menilai-Kekuatan-POI.md`
 - `Bab-18-Kapan-CE-Lebih-Berguna-daripada-Full-Fill-FVG.md`
 - `Bab-19-Kapan-POI-Tumpang-Tindih-Menjadi-Kekuatan-dan-Kapan-Menjadi-Bias.md`
+- `Bab-20-Volume-Imbalance-dan-Gap-Analysis.md`
 
-Rak ini membantu pembaca memahami bahwa entry yang bagus bukan hanya soal trigger, tetapi juga soal lokasi.
+---
+*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*

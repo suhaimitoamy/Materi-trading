@@ -1,8 +1,8 @@
 # 05 — Session dan Timing
 
-Rak ini memuat materi tentang kualitas waktu dalam market.
+Materi tentang Asia, London, New York, Judas swing, Silver Bullet, dan kualitas waktu dalam setup.
 
-## Daftar materi
+## Daftar Materi
 - `Bab-01-Mengapa-Session-Penting.md`
 - `Bab-02-Asia-Session-dan-Range-Awal.md`
 - `Bab-03-London-Open-dan-Perubahan-Tempo.md`
@@ -21,5 +21,7 @@ Rak ini memuat materi tentang kualitas waktu dalam market.
 - `Bab-16-Bedanya-Judas-Swing-London-vs-New-York.md`
 - `Bab-17-Kapan-Asia-Hanya-Build-dan-Kapan-Memberi-Arah.md`
 - `Bab-18-Kapan-Asia-Membuat-Jebakan-untuk-London.md`
+- `Bab-19-Silver-Bullet-Session-ICT.md`
 
-Rak ini membantu pembaca memahami bahwa setup yang bagus secara lokasi belum tentu bagus secara waktu.
+---
+*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*

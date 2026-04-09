@@ -1,8 +1,8 @@
-# 03 — Sweep, Grab, Run, dan Delivery
+# 03 — Sweep Grab Run dan Delivery
 
-Rak ini memuat materi tentang bagaimana harga mengambil likuiditas, kapan market hanya sedang menjebak, dan kapan market mulai benar-benar delivery.
+Materi tentang bagaimana harga mengambil likuiditas, membentuk jebakan (Turtle Soup), lalu mulai bergerak ke arah tujuan berikutnya.
 
-## Daftar materi
+## Daftar Materi
 - `Bab-01-Apa-itu-Liquidity-Sweep.md`
 - `Bab-02-Apa-itu-Liquidity-Grab.md`
 - `Bab-03-Apa-itu-Liquidity-Run.md`
@@ -13,5 +13,8 @@ Rak ini memuat materi tentang bagaimana harga mengambil likuiditas, kapan market
 - `Bab-08-Continuation-Failure-dan-Tanda-Awal-Pembalikan.md`
 - `Bab-09-Liquidity-Run-yang-Valid-vs-yang-Palsu.md`
 - `Bab-10-False-Displacement-dan-Cara-Membedakannya.md`
+- `Bab-11-SMR-Smart-Money-Reversal-Model.md`
+- `Bab-12-Turtle-Soup-Model-A-dan-Model-B.md`
 
-Rak ini penting agar pembaca tidak salah menilai setiap sapuan likuiditas sebagai reversal atau continuation.
+---
+*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*

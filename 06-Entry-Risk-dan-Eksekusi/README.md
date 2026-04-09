@@ -1,8 +1,8 @@
-# 06 — Entry, Risk, dan Eksekusi
+# 06 — Entry Risk dan Eksekusi
 
-Rak ini memuat materi tentang bagaimana konsep market diterjemahkan menjadi keputusan entry yang lebih sehat.
+Materi tentang validasi entry, trigger, invalidation, target, pyramiding, dan disiplin eksekusi.
 
-## Daftar materi
+## Daftar Materi
 - `Bab-01-Dari-Validasi-ke-Trigger.md`
 - `Bab-02-Invalidation-dan-Stop-Loss.md`
 - `Bab-03-Target-dan-Partial-Take-Profit.md`
@@ -24,5 +24,7 @@ Rak ini memuat materi tentang bagaimana konsep market diterjemahkan menjadi kepu
 - `Bab-19-Kapan-Memindahkan-Stop-Loss-dan-Kapan-Tidak.md`
 - `Bab-20-Kapan-Scale-Out-dan-Kapan-Hold-Full.md`
 - `Bab-21-Bedanya-Exit-Objektif-vs-Exit-Emosional.md`
+- `Bab-22-Pyramiding-dan-Scaling-In-Position.md`
 
-Rak ini membantu pembaca memahami bahwa metode yang bagus tetap membutuhkan eksekusi yang sehat.
+---
+*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*

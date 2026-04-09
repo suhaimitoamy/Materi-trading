@@ -1,10 +1,12 @@
 # 08 — Jurnal dan Psikologi Pemula
 
-Rak ini berfokus pada pentingnya jurnal trading dan pengelolaan psikologi untuk trader pemula. Tanpa disiplin dalam pencatatan dan pengelolaan emosi, sulit bagi trader untuk berkembang secara konsisten.
+Materi tentang pencatatan transaksi, review mingguan/bulanan, manajemen emosi, dan membangun kebiasaan trading yang sehat.
 
-## Daftar materi
+## Daftar Materi
 - `Bab-01-Mengapa-Jurnal-Trading-Penting.md`
 - `Bab-02-Template-Jurnal-Trading-Sederhana.md`
 - `Bab-03-Psikologi-Pemula-Takut-FOMO-dan-Balas-Dendam.md`
+- `Bab-04-Review-Mingguan-dan-Bulanan.md`
 
-Pelajari cara membuat jurnal dan bagaimana mengelola psikologi trading agar bisa tetap konsisten dan objektif.
+---
+*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*

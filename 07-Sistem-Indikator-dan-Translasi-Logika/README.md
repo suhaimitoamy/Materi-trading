@@ -1,8 +1,8 @@
-# 07 — Sistem, Indikator, dan Translasi Logika
+# 07 — Sistem Indikator dan Translasi Logika
 
-Rak ini memuat materi tentang bagaimana konsep discretionary diterjemahkan menjadi sistem yang lebih objektif.
+Materi tentang bagaimana konsep-konsep trading diterjemahkan ke sistem, state, scoring, dashboard, dan indikator di TradingView.
 
-## Daftar materi
+## Daftar Materi
 - `Bab-01-Mengubah-Konsep-menjadi-Rule.md`
 - `Bab-02-State-Engine.md`
 - `Bab-03-Zone-Engine.md`
@@ -19,5 +19,7 @@ Rak ini memuat materi tentang bagaimana konsep discretionary diterjemahkan menja
 - `Bab-14-Warning-Alert-vs-Trigger-Alert.md`
 - `Bab-15-Mengapa-Satu-Setup-Bisa-Dibaca-Beda-oleh-Manusia-dan-Indikator.md`
 - `Bab-16-Cara-Mengubah-Alert-Menjadi-Workflow-Nyata.md`
+- `Bab-17-Backtesting-Logika-Indikator-di-TradingView.md`
 
-Rak ini cocok dibaca setelah pondasi market, struktur, likuiditas, dan entry model sudah cukup kuat.
+---
+*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*
