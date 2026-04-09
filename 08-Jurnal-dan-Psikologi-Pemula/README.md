@@ -6,6 +6,5 @@ Rak ini berfokus pada pentingnya jurnal trading dan pengelolaan psikologi untuk 
 - `Bab-01-Mengapa-Jurnal-Trading-Penting.md`
 - `Bab-02-Template-Jurnal-Trading-Sederhana.md`
 - `Bab-03-Psikologi-Pemula-Takut-FOMO-dan-Balas-Dendam.md`
-- `Bab-04-Cara-Menilai-Progres-Tanpa-Terjebak-Hasil-Harian.md`
 
 Pelajari cara membuat jurnal dan bagaimana mengelola psikologi trading agar bisa tetap konsisten dan objektif.
