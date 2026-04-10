@@ -10,4 +10,5 @@ Titik awal pembelajaran, panduan cara belajar, mindset, dan daftar istilah (glos
 - `Bab-05-Daftar-Singkatan-dan-Simbol-Chart.md`
 
 ---
+
 *Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*
