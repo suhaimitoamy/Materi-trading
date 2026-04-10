@@ -2,7 +2,7 @@
 
 Repositori ini dirancang sebagai **rak buku belajar trading** yang terstruktur dan komprehensif.
 
-Tujuannya adalah menyediakan tempat belajar yang rapi, mudah diakses kembali, dan terorganisir berdasarkan topik. Setiap materi dibahas secara mendalam dalam format yang enak dibaca.
+Tujuannya adalah menyediakan tempat belajar yang rapi, mudah diakses kembali, dan terorganisir berdasarkan topik. Setiap materi disusun agar enak dibaca dan mudah dipelajari secara bertahap.
 
 ---
 
@@ -11,8 +11,8 @@ Tujuannya adalah menyediakan tempat belajar yang rapi, mudah diakses kembali, da
 Struktur repositori ini menggunakan logika sederhana:
 
 - **Folder = Rak / Bab Besar**: Mengelompokkan materi berdasarkan fase atau topik utama.
-- **File `.md` = Materi / Judul Utama**: Satu file membahas satu topik secara utuh dan mendalam.
-- **Isi Materi**: Dirancang panjang dan komprehensif, bukan sekadar catatan singkat.
+- **File `.md` = Materi / Judul Utama**: Satu file membahas satu topik secara utuh.
+- **Isi Materi**: Disusun untuk menjadi library belajar yang bisa dibaca ulang dan direview kapan saja.
 
 Arah repositori ini adalah menjadi sebuah **Library Materi** yang menjadi referensi utama Anda.
 
@@ -45,10 +45,10 @@ Materi tentang swing, HH/HL/LH/LL, inducement, liquidity pools, void, dan tujuan
 Materi tentang bagaimana harga mengambil likuiditas, membentuk jebakan, lalu mulai bergerak ke arah tujuan berikutnya.
 
 ### 04 — POI dan Lokasi Entry
-Materi tentang OB, FVG, breaker, mitigation, rejection block, vacuum block, dealing range, premium/discount, dan kualitas lokasi entry.
+Materi tentang OB, FVG, breaker, mitigation, dealing range, premium/discount, dan kualitas lokasi entry.
 
 ### 05 — Session dan Timing
-Materi tentang Asia, London, New York, Judas swing, Silver Bullet, macro ICT, dan kualitas waktu dalam setup.
+Materi tentang Asia, London, New York, Judas swing, Silver Bullet, dan kualitas waktu dalam setup.
 
 ### 06 — Entry Risk dan Eksekusi
 Materi tentang validasi entry, trigger, invalidation, target, pyramiding, dan disiplin eksekusi.
@@ -57,13 +57,13 @@ Materi tentang validasi entry, trigger, invalidation, target, pyramiding, dan di
 Materi tentang bagaimana konsep-konsep trading diterjemahkan ke sistem, state, scoring, dashboard, dan indikator di TradingView.
 
 ### 08 — Jurnal dan Psikologi Pemula
-Materi tentang pencatatan transaksi, review mingguan/bulanan, manajemen emosi, kebiasaan trading yang sehat, serta risk management dan position sizing.
+Materi tentang pencatatan transaksi, review mingguan/bulanan, manajemen emosi, dan membangun kebiasaan trading yang sehat.
 
 ### 09 — Advanced Concepts dan Model Market
-Materi tentang konsep tingkat lanjut dalam ICT, termasuk MMXM, SMT, PO3, intermarket analysis, dan model baca market yang lebih kompleks.
+Materi tentang konsep tingkat lanjut dalam ICT, termasuk MMXM, SMT, PO3, weekly profiles, silver bullet, dan model baca market yang lebih kompleks.
 
 ### 10 — Case Studies dan Backtesting
-Folder yang berisi studi kasus, contoh real trade win dan loss, template review, dan materi backtesting agar teori dapat diterjemahkan ke chart nyata.
+Folder yang disiapkan untuk menjembatani teori dan praktik melalui studi kasus, review chart, dan materi backtesting.
 
 ---
 
@@ -75,7 +75,7 @@ Agar pembelajaran lebih efektif, gunakan alur berikut:
 2. **Pelajari bahasa dasar market** di folder 02 dan 03.
 3. **Pelajari lokasi dan timing** di folder 04 dan 05.
 4. **Masuk ke eksekusi dan aturan** di folder 06 dan 07.
-5. **Perkuat psikologi, jurnal, dan manajemen risiko** di folder 08.
+5. **Perkuat psikologi, jurnal, dan kebiasaan review** di folder 08.
 6. **Dalami konsep lanjutan** di folder 09.
 7. **Uji semua pemahaman di chart nyata** lewat folder 10.
 
