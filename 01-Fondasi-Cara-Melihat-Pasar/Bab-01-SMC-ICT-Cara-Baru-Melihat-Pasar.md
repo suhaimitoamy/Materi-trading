@@ -57,6 +57,8 @@ Tetapi menjadi:
 
 Inilah perubahan besar pertama yang harus dipahami sebelum belajar konsep ICT lebih jauh.
 
+![Perbandingan cara pandang retail vs SMC/ICT](../images/Perbandingan%20cara%20pandang%20retail%20vs%20SMC%20ICT.png)
+
 ---
 
 ## 2. Siapa yang Disebut “Smart Money”?
@@ -77,6 +79,8 @@ Karena pelaku besar tidak bisa mengeksekusi order besar di sembarang tempat. Sem
 Inilah alasan mengapa pasar sering bergerak ke area tertentu terlebih dahulu. Bukan karena “kebetulan”, tetapi karena ada area yang menyediakan order lebih banyak.
 
 Jadi saat kita mempelajari SMC/ICT, kita sedang berusaha membaca pasar dari sisi **mekanisme transaksi**, bukan hanya dari sisi bentuk candle.
+
+![Ilustrasi smart money dan kebutuhan likuiditas](../images/Ilustrasi%20smart%20money%20dan%20kebutuhan%20likuiditas.png)
 
 ---
 
@@ -110,6 +114,8 @@ Sering kali harga bergerak karena ingin **mengambil likuiditas terlebih dahulu**
 
 Kalau kamu mulai memahami ini, maka banyak pergerakan yang sebelumnya terlihat aneh akan mulai terasa masuk akal.
 
+![Peta liquidity pools](../images/Peta%20liquidity%20pools.png)
+
 ---
 
 ## 4. IPDA: Melihat Harga sebagai Perpindahan dari Satu Tujuan ke Tujuan Lain
@@ -135,6 +141,8 @@ dan mulai bertanya:
 - likuiditas mana yang masih tersisa?
 
 Dengan kata lain, kita belajar membaca **narasi harga**, bukan hanya bentuk visual chart.
+
+![Diagram IPDA / perpindahan harga dari satu target ke target lain](../images/ICT-IPDA-20-40-60-days-cycle.webp)
 
 ---
 
@@ -170,6 +178,8 @@ Ini bukan berarti pasar selalu “jahat”, tetapi pasar memang bergerak dengan 
 ### Pelajaran penting
 Jangan langsung percaya pada gerakan pertama yang terlihat meyakinkan.  
 Sering kali gerakan pertama hanyalah proses mengambil likuiditas sebelum pergerakan sesungguhnya dimulai.
+
+![Contoh false breakout / breakout trap](../images/False-breakout.jpg)
 
 ---
 
@@ -263,6 +273,8 @@ Setelah bab ini, pembaca seharusnya mulai memahami bahwa:
 - chart perlu dibaca sebagai **narasi tujuan harga**, bukan sekadar bentuk candle
 
 Kalau fondasi ini sudah kuat, maka bab-bab berikutnya seperti market structure, BOS, MSS, liquidity sweep, fair value gap, dan execution akan terasa jauh lebih logis.
+
+![Ringkasan visual Bab 1](../images/Ringkasan%20visual%20Bab%201.png)
 
 ---
 
