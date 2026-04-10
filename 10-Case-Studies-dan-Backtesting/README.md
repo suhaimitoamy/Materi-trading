@@ -1,65 +1,59 @@
 # 10 — Case Studies dan Backtesting
 
-Folder ini dibuat untuk menjembatani teori dan praktik.
+Folder ini menjembatani teori dan praktik.
 
-Di folder-folder sebelumnya, pembaca mempelajari konsep seperti struktur, likuiditas, POI, timing, eksekusi, risk management, dan model market. Di folder ini, fokusnya berubah: **bagaimana semua konsep itu dipakai pada chart yang sudah terjadi**.
+Di sinilah semua konsep dari folder sebelumnya diuji pada chart nyata melalui studi kasus, review, dan backtesting.
+
+---
+
+## Fokus Folder Ini
+
+Materi di folder ini berpusat pada:
+
+- studi kasus chart
+- contoh trade win dan loss
+- urutan analisis dari bias sampai eksekusi
+- review hasil trading
+- latihan backtesting
+- evaluasi proses, bukan hanya hasil
 
 ---
 
 ## Tujuan Folder Ini
 
-Folder ini membantu pembaca:
+Folder ini dibuat agar Anda:
 
-- melihat alur analisis dari chart kosong sampai keputusan trading
-- membedakan trade yang menang karena proses benar dengan trade yang menang karena kebetulan
-- membedah trade loss tanpa emosi
-- melatih backtesting secara lebih terstruktur
-- membangun jembatan antara teori dan eksekusi nyata
+- mampu menerapkan konsep ke chart nyata
+- belajar berpikir runtut saat membaca market
+- melihat perbedaan antara ide bagus dan eksekusi bagus
+- mengubah teori menjadi pengalaman belajar yang nyata
 
 ---
 
 ## Cara Menggunakan Folder Ini
 
-Untuk hasil terbaik:
+Urutan yang disarankan:
 
-1. baca satu studi kasus sampai selesai
-2. tandai bias, likuiditas, POI, dan konfirmasi yang dipakai
-3. buka chart dan ulangi proses analisis sendiri
-4. tulis apakah Anda akan mengambil trade itu atau tidak
-5. bandingkan hasil analisis Anda dengan studi kasus
-6. simpan pelajaran utamanya di jurnal
+1. Baca studi kasus secara utuh dari awal sampai akhir.
+2. Perhatikan proses berpikir, bukan hanya hasil win atau loss.
+3. Gunakan template analisis yang sama untuk backtest pribadi.
+4. Catat pelajaran utama dari setiap chart yang direview.
 
 ---
 
-## Urutan Review yang Disarankan
+## Hasil Belajar yang Diharapkan
 
-Saat mempelajari satu studi kasus, gunakan pertanyaan ini:
+Setelah menyelesaikan folder ini, Anda diharapkan:
 
-- apa bias HTF-nya?
-- likuiditas mana yang menjadi target?
-- POI apa yang dipakai?
-- apakah timing dan session mendukung?
-- apa konfirmasi entry-nya?
-- apakah risk management sudah sehat?
-- hasil akhirnya win atau loss, dan kenapa?
-
----
-
-## Isi Folder Ini
-
-Folder ini dapat diisi dengan beberapa tipe materi:
-
-- contoh real trade win
-- contoh real trade loss
-- studi kasus session tertentu
-- studi kasus setup gagal
-- template backtesting
-- review mingguan hasil backtest
+- lebih siap membaca chart nyata
+- lebih objektif saat mereview trade
+- mampu melakukan backtesting dengan struktur
+- punya jembatan yang kuat antara teori dan praktik
 
 ---
 
 ## Penutup
 
-Folder ini sangat penting karena banyak trader merasa paham konsep saat membaca, tetapi bingung saat melihat chart nyata. Studi kasus dan backtesting membantu menutup jarak itu.
+Folder ini adalah tempat pembuktian.
 
-Baca perlahan, uji di chart, lalu review prosesnya dengan jujur.
+Teori yang tidak diuji akan mudah terasa benar, tetapi belum tentu benar saat dipakai. Melalui studi kasus dan backtesting, Anda belajar melihat apa yang benar-benar bekerja, apa yang masih lemah, dan apa yang perlu diperbaiki.
