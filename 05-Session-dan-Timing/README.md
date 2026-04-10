@@ -1,27 +1,62 @@
 # 05 — Session dan Timing
 
-Materi tentang Asia, London, New York, Judas swing, Silver Bullet, dan kualitas waktu dalam setup.
+Folder ini membahas kapan market lebih layak diamati dan kapan sebuah setup punya peluang delivery yang lebih baik.
 
-## Daftar Materi
-- `Bab-01-Mengapa-Session-Penting.md`
-- `Bab-02-Asia-Session-dan-Range-Awal.md`
-- `Bab-03-London-Open-dan-Perubahan-Tempo.md`
-- `Bab-04-New-York-dan-Kelanjutan-Delivery.md`
-- `Bab-05-Apa-itu-Judas-Swing.md`
-- `Bab-06-Daily-Bias-dan-Timeframe-Alignment.md`
-- `Bab-07-True-Day-Open-Midnight-Open-dan-Kill-Zones.md`
-- `Bab-08-ICT-Weekly-Profiles.md`
-- `Bab-09-Opening-Gap-dan-Session-Transitions.md`
-- `Bab-10-London-Kill-Zone-dan-New-York-Kill-Zone.md`
-- `Bab-11-News-Days-dan-Abnormal-Volatility.md`
-- `Bab-12-AMD-dalam-Struktur-Harian-dan-Mingguan.md`
-- `Bab-13-Kapan-London-Memberi-Reversal-dan-Kapan-Memberi-Continuation.md`
-- `Bab-14-Kapan-New-York-Memberi-Reversal-dan-Kapan-Memberi-Continuation.md`
-- `Bab-15-Kapan-New-York-Mengonfirmasi-London-dan-Kapan-Membatalkannya.md`
-- `Bab-16-Bedanya-Judas-Swing-London-vs-New-York.md`
-- `Bab-17-Kapan-Asia-Hanya-Build-dan-Kapan-Memberi-Arah.md`
-- `Bab-18-Kapan-Asia-Membuat-Jebakan-untuk-London.md`
-- `Bab-19-Silver-Bullet-Session-ICT.md`
+Lokasi yang bagus belum cukup. Market juga perlu dibaca dari sisi waktu.
 
 ---
-*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*
+
+## Fokus Folder Ini
+
+Materi di folder ini mencakup:
+
+- Asia session
+- London session
+- New York session
+- killzones
+- Judas Swing
+- timing entry
+- kualitas waktu dalam setup
+- Macro ICT (Time Windows)
+
+---
+
+## Kenapa Folder Ini Penting
+
+Banyak setup gagal bukan karena arah salah, tetapi karena entry dilakukan di waktu yang buruk.
+
+Folder ini membantu Anda memahami bahwa:
+
+- tidak semua jam punya kualitas yang sama
+- delivery harga sering lebih aktif pada sesi tertentu
+- timing bisa meningkatkan kualitas eksekusi
+
+---
+
+## Cara Menggunakan Folder Ini
+
+Urutan belajar yang disarankan:
+
+1. Pahami dulu sesi market dan karakter dasarnya.
+2. Pelajari killzone dan momen aktif market.
+3. Hubungkan timing dengan likuiditas dan POI.
+4. Gunakan Macro ICT sebagai alat bantu presisi waktu, bukan sinyal tunggal.
+
+---
+
+## Hasil Belajar yang Diharapkan
+
+Setelah menyelesaikan folder ini, Anda diharapkan:
+
+- lebih sabar menunggu waktu yang tepat
+- memahami kapan market lebih aktif
+- mampu menghubungkan lokasi entry dengan timing
+- siap masuk ke pembahasan eksekusi dan risk
+
+---
+
+## Lanjut Setelah Ini
+
+Setelah folder ini selesai, lanjut ke:
+
+**06 — Entry, Risk, dan Eksekusi**
