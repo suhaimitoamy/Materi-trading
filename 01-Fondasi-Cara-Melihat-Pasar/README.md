@@ -1,22 +1,58 @@
 # 01 — Fondasi Cara Melihat Pasar
 
-Materi tentang perubahan cara pandang, logika institusi, narasi harga, IPDA, dan dasar sebelum masuk ke konsep teknis.
+Folder ini berisi materi untuk membangun cara pandang yang benar terhadap market.
 
-## Daftar Materi
-- `Bab-01-SMC-ICT-Cara-Baru-Melihat-Pasar.md`
-- `Bab-02-Siapa-itu-Smart-Money.md`
-- `Bab-03-Dari-Support-Resistance-ke-Liquidity-Pools.md`
-- `Bab-04-Likuiditas-Sebagai-Tujuan-Harga.md`
-- `Bab-05-Support-Resistance-ala-ICT.md`
-- `Bab-06-AMD-Accumulation-Manipulation-Distribution.md`
-- `Bab-07-Mengapa-Market-Terlihat-Acak-Padahal-Sedang-Berpindah-Target.md`
-- `Bab-08-IPDA-dan-Narasi-Harga.md`
-- `Bab-09-Hubungan-Narasi-Harga-Likuiditas-dan-Waktu.md`
-- `Bab-10-Perbedaan-Trend-Range-dan-Expansion-dari-Sudut-Pandang-Institusi.md`
-- `Bab-11-Market-Efficiency-Paradigm.md`
-- `Bab-12-Memahami-Interbank-Price-Delivery-Algorithm-IPDA.md`
-- `Bab-13-Konsep-Premium-vs-Discount-Secara-Mendasar.md`
-- `Bab-14-Waktu-vs-Harga-Mana-yang-Lebih-Penting.md`
+Sebelum belajar entry, POI, atau timing, Anda perlu memahami bahwa market tidak cukup dibaca sebagai kumpulan candle. Market perlu dibaca sebagai alur harga, narasi, dan perpindahan likuiditas.
 
 ---
-*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*
+
+## Fokus Folder Ini
+
+Materi di folder ini berpusat pada:
+
+- perubahan mindset dari melihat market secara acak menjadi terstruktur
+- logika dasar bagaimana harga bergerak
+- cara membaca narasi market
+- kerangka berpikir sebelum masuk ke teknikal yang lebih detail
+- fondasi seperti IPDA, bias, dan konteks
+
+---
+
+## Tujuan Folder Ini
+
+Folder ini dibuat agar Anda:
+
+- tidak hanya menghafal pola
+- mulai memahami alasan di balik gerakan harga
+- punya dasar yang kuat sebelum masuk ke struktur dan likuiditas
+- membangun bias yang lebih logis
+
+---
+
+## Cara Belajar Folder Ini
+
+Agar hasilnya maksimal:
+
+1. Baca materi secara berurutan.
+2. Jangan buru-buru mencari entry saat masih di tahap fondasi.
+3. Fokus pada cara berpikir, bukan pada hafalan istilah saja.
+4. Cocokkan setiap konsep dengan chart agar logikanya terasa nyata.
+
+---
+
+## Hasil Belajar yang Diharapkan
+
+Setelah menyelesaikan folder ini, Anda diharapkan:
+
+- memahami kerangka dasar melihat market
+- punya cara berpikir yang lebih rapi
+- mulai paham bahwa market bergerak dengan tujuan
+- siap masuk ke struktur dan likuiditas dengan pemahaman yang lebih kuat
+
+---
+
+## Lanjut Setelah Ini
+
+Setelah folder ini selesai, lanjut ke:
+
+**02 — Struktur dan Likuiditas**
