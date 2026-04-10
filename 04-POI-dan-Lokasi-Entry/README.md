@@ -1,28 +1,62 @@
 # 04 — POI dan Lokasi Entry
 
-Materi tentang OB, FVG, breaker, mitigation, dealing range, premium/discount, dan kualitas lokasi entry.
+Folder ini membahas area penting tempat market sering bereaksi dan lokasi terbaik untuk mencari entry.
 
-## Daftar Materi
-- `Bab-01-Apa-itu-Order-Block.md`
-- `Bab-02-Apa-itu-Fair-Value-Gap.md`
-- `Bab-03-Apa-itu-Breaker-Block.md`
-- `Bab-04-Apa-itu-Mitigation-Block.md`
-- `Bab-05-Dealing-Range-Premium-dan-Discount.md`
-- `Bab-06-Memilih-POI-yang-Benar.md`
-- `Bab-07-Inversion-Fair-Value-Gap.md`
-- `Bab-08-Propulsion-Block.md`
-- `Bab-09-ICT-PD-Array-Matrix.md`
-- `Bab-10-Consequent-Encroachment.md`
-- `Bab-11-Order-Block-yang-High-Probability.md`
-- `Bab-12-Kapan-POI-Diabaikan.md`
-- `Bab-13-POI-Utama-vs-POI-Sekunder.md`
-- `Bab-14-POI-dalam-Trend-vs-POI-dalam-Range.md`
-- `Bab-15-Kapan-FVG-Lebih-Kuat-daripada-OB.md`
-- `Bab-16-Kapan-OB-Lebih-Kuat-daripada-FVG.md`
-- `Bab-17-Checklist-Menilai-Kekuatan-POI.md`
-- `Bab-18-Kapan-CE-Lebih-Berguna-daripada-Full-Fill-FVG.md`
-- `Bab-19-Kapan-POI-Tumpang-Tindih-Menjadi-Kekuatan-dan-Kapan-Menjadi-Bias.md`
-- `Bab-20-Volume-Imbalance-dan-Gap-Analysis.md`
+Di sinilah pembelajaran mulai bergerak dari membaca market secara umum menuju mencari area kerja yang lebih presisi.
 
 ---
-*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*
+
+## Fokus Folder Ini
+
+Materi di folder ini berpusat pada:
+
+- Order Block
+- Fair Value Gap
+- Breaker
+- Mitigation
+- dealing range
+- premium dan discount
+- kualitas lokasi entry
+- Rejection Block
+- Vacuum Block
+
+---
+
+## Tujuan Folder Ini
+
+Folder ini dibuat agar Anda:
+
+- paham bahwa entry tidak diambil secara acak
+- mampu memilih area reaksi yang logis
+- bisa membedakan POI berkualitas dan POI yang lemah
+- menggabungkan struktur, likuiditas, dan area entry dalam satu narasi
+
+---
+
+## Cara Belajar Folder Ini
+
+Urutan yang disarankan:
+
+1. Pahami dulu jenis-jenis POI utama.
+2. Hubungkan POI dengan premium dan discount.
+3. Pelajari kualitas lokasi entry, bukan hanya nama polanya.
+4. Lihat bagaimana Rejection Block dan Vacuum Block melengkapi pembacaan POI.
+
+---
+
+## Hasil Belajar yang Diharapkan
+
+Setelah menyelesaikan folder ini, Anda diharapkan:
+
+- mampu menandai area entry dengan lebih presisi
+- memahami alasan kenapa sebuah area layak diperhatikan
+- tidak lagi entry hanya karena candle terlihat menarik
+- siap masuk ke pembahasan session dan timing
+
+---
+
+## Lanjut Setelah Ini
+
+Setelah folder ini selesai, lanjut ke:
+
+**05 — Session dan Timing**
