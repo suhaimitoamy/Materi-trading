@@ -1,153 +1,92 @@
-# Bab 2 — Swing High dan Swing Low
+# Bab 2 — Swing High & Swing Low: Anatomi Puncak dan Lembah
 
-> Struktur harga dibangun dari titik-titik penting pada chart. Dua titik yang paling dasar adalah **swing high** dan **swing low**. Kalau dua konsep ini belum benar-benar dipahami, maka pembacaan struktur akan mudah kacau.
+> "Jika Anda tidak bisa menentukan di mana puncak dan lembah yang valid, Anda akan tersesat dalam kebisingan (noise) pasar."
 
-## Mengapa Bab Ini Penting
-
-Banyak trader melihat high dan low sekilas, tetapi tidak benar-benar memahami mana yang relevan dan mana yang hanya noise.
-
-Akibatnya:
-- target salah dipilih
-- sweep salah dibaca
-- MSS muncul di mana-mana
-- support/resistance jadi berlebihan
-
-Karena itu, swing high dan swing low adalah bahasa dasar chart yang harus dipahami dengan bersih.
+Dalam trading ICT, **Swing High** dan **Swing Low** bukan sekadar titik belok harga. Mereka adalah koordinat GPS yang menentukan di mana likuiditas berada dan ke mana arah tren akan berlanjut. Bab ini akan mengajarkan Anda cara membedakan puncak/lembah yang "asli" dari yang sekadar "noise".
 
 ---
 
-## Tujuan Pembelajaran
+## 1. Apa Itu Swing High yang Valid? (Aturan 3-Candle)
 
-Setelah mempelajari bab ini, pembaca diharapkan mampu:
+Sebuah **Swing High** tidak boleh ditentukan hanya dengan perasaan. Ada aturan teknis yang harus dipenuhi agar sebuah puncak dianggap valid.
 
-- memahami apa itu swing high dan swing low
-- membedakan swing penting dan swing kecil
-- menggunakan swing untuk membaca struktur dan likuiditas
-- memahami kenapa banyak likuiditas terkumpul di sekitar swing
+### Ciri-ciri Spesifik Swing High:
+*   **Formasi 3-Candle:** Terdiri dari minimal tiga candle yang berurutan.
+*   **Candle Tengah (Puncak):** Harus memiliki titik tertinggi (High) yang lebih tinggi daripada candle di sebelah kiri dan kanannya.
+*   **Konfirmasi:** Swing High baru benar-benar "terkunci" setelah candle ketiga ditutup.
 
----
-
-## 1. Apa Itu Swing High?
-
-**Swing high** adalah puncak lokal pada chart, yaitu titik di mana harga sempat naik lalu kemudian berbalik turun.
-
-Secara visual, swing high tampak sebagai titik tertinggi relatif dalam satu rangkaian gerak harga.
-
-Swing high penting karena sering menjadi:
-- acuan struktur
-- acuan resistance sementara
-- tempat buy-side liquidity berkumpul
-- target sapuan likuiditas
+| Posisi | Syarat High | Visual Sederhana |
+| :--- | :--- | :--- |
+| Candle 1 (Kiri) | Lebih rendah dari Candle 2 | `  | ` |
+| **Candle 2 (Tengah)** | **Paling Tinggi** | `  ^ ` |
+| Candle 3 (Kanan) | Lebih rendah dari Candle 2 | `  | ` |
 
 ---
 
-## 2. Apa Itu Swing Low?
+## 2. Apa Itu Swing Low yang Valid? (Aturan 3-Candle)
 
-**Swing low** adalah lembah lokal pada chart, yaitu titik di mana harga sempat turun lalu kemudian berbalik naik.
+Kebalikan dari Swing High, **Swing Low** adalah titik terendah yang diapit oleh dua titik yang lebih tinggi.
 
-Swing low penting karena sering menjadi:
-- acuan struktur
-- acuan support sementara
-- tempat sell-side liquidity berkumpul
-- target sapuan likuiditas
+### Ciri-ciri Spesifik Swing Low:
+*   **Formasi 3-Candle:** Minimal tiga candle berurutan.
+*   **Candle Tengah (Lembah):** Harus memiliki titik terendah (Low) yang lebih rendah daripada candle di sebelah kiri dan kanannya.
+*   **Konfirmasi:** Terkunci setelah candle ketiga ditutup.
 
----
-
-## 3. Kenapa Swing Penting?
-
-Karena swing membantu pembaca melihat chart dengan lebih objektif.
-
-Daripada hanya melihat candle terakhir, pembaca mulai melihat:
-- puncak mana yang baru terbentuk
-- lembah mana yang dipertahankan
-- high mana yang diserang
-- low mana yang gagal bertahan
-
-Inilah yang membuat struktur menjadi lebih masuk akal.
+| Posisi | Syarat Low | Visual Sederhana |
+| :--- | :--- | :--- |
+| Candle 1 (Kiri) | Lebih tinggi dari Candle 2 | `  | ` |
+| **Candle 2 (Tengah)** | **Paling Rendah** | `  v ` |
+| Candle 3 (Kanan) | Lebih tinggi dari Candle 2 | `  | ` |
 
 ---
 
-## 4. Swing dan Likuiditas
+## 3. Cara Membedakan Swing Penting vs. Noise
 
-Dalam kerangka ICT, swing bukan hanya bentuk visual.
-Swing juga penting karena sering menjadi tempat order berkumpul.
+Ini adalah keahlian yang membedakan trader pro dan pemula. Tidak semua formasi 3-candle itu penting.
 
-Contoh:
-- di atas swing high sering ada stop loss seller dan breakout buyer
-- di bawah swing low sering ada stop loss buyer dan breakout seller
+### 1. Swing Utama (Major Swing):
+*   **Lokasi:** Terbentuk di Timeframe besar (Daily, 4H, 1H).
+*   **Dampak:** Menghasilkan pergerakan harga yang jauh (Expansion).
+*   **Likuiditas:** Di atas/bawahnya terdapat "kolam uang" yang besar.
 
-Karena itu, swing sering menjadi target market.
-
----
-
-## 5. Tidak Semua Swing Sama Penting
-
-Ini poin yang sangat penting.
-
-Chart selalu penuh gerakan kecil. Kalau semua high dan low dianggap sama penting, pembacaan menjadi terlalu sensitif.
-
-Karena itu pembaca perlu belajar membedakan:
-- swing yang benar-benar relevan
-- swing kecil yang hanya noise
-
-Biasanya swing yang lebih penting adalah yang:
-- lebih jelas secara visual
-- berhubungan dengan leg utama
-- membentuk struktur yang lebih besar
-- menjadi acuan banyak reaksi pasar
+### 2. Swing Kecil (Minor Swing/Noise):
+*   **Lokasi:** Terbentuk di dalam satu pergerakan besar (Internal Structure).
+*   **Dampak:** Hanya koreksi kecil yang tidak mengubah arah tren.
+*   **Bahaya:** Seringkali menjadi jebakan bagi trader yang terlalu sensitif melihat chart.
 
 ---
 
-## 6. Hubungan Swing dengan Konsep Lain
+## 4. Mengapa Lokasi Swing Sangat Penting?
 
-Swing high dan swing low menjadi dasar bagi banyak konsep lain:
-- market structure
-- equal highs dan equal lows
-- buy-side liquidity dan sell-side liquidity
-- liquidity sweep
-- MSS/BMS
-- target harga
+Swing yang terbentuk di **Point of Interest (POI)** seperti Order Block atau Fair Value Gap memiliki bobot 10x lipat lebih kuat daripada swing yang terbentuk di "tengah jalan".
 
-Tanpa pemahaman swing, konsep-konsep itu mudah menjadi kabur.
+*   **Swing High di Area Premium:** Sangat kuat untuk mencari peluang Sell.
+*   **Swing Low di Area Discount:** Sangat kuat untuk mencari peluang Buy.
 
 ---
 
-## 7. Kesalahan Umum
+## 5. Hubungan Swing dengan Likuiditas (Penting!)
 
-### 1) Semua swing dianggap penting
-Ini membuat chart terlalu ramai dan sulit dibaca.
+Setiap kali sebuah Swing High/Low terbentuk, ia secara otomatis menciptakan **Likuiditas**.
+*   Di atas **Swing High** ada Stop Loss para Seller (Buy-Side Liquidity).
+*   Di bawah **Swing Low** ada Stop Loss para Buyer (Sell-Side Liquidity).
 
-### 2) Tidak membedakan swing utama dan swing kecil
-Akibatnya pembacaan target dan struktur menjadi tidak stabil.
-
-### 3) Menggambar swing hanya berdasarkan candle terakhir
-Padahal konteks leg secara keseluruhan jauh lebih penting.
-
-### 4) Tidak sadar bahwa swing juga berkaitan dengan likuiditas
-Ini membuat trader hanya melihat bentuk, tetapi lupa fungsi.
+**Rahasia Pro:** Institusi seringkali sengaja menembus Swing High/Low hanya untuk mengambil Stop Loss tersebut sebelum akhirnya berbalik arah. Inilah yang disebut **Liquidity Sweep**.
 
 ---
 
-## 8. Ringkasan Bab
+## 6. Glosarium Bab 2 (Wajib Hafal)
 
-Inti bab ini adalah:
-
-- swing high adalah puncak lokal
-- swing low adalah lembah lokal
-- swing menjadi dasar struktur dan likuiditas
-- tidak semua swing punya bobot yang sama
-- pembacaan swing yang baik membuat chart jauh lebih teratur
+*   **Swing High:** Formasi 3-candle di mana candle tengah memiliki High tertinggi.
+*   **Swing Low:** Formasi 3-candle di mana candle tengah memiliki Low terendah.
+*   **Major Swing:** Puncak/lembah utama yang menentukan arah tren besar.
+*   **Minor Swing:** Puncak/lembah kecil di dalam tren utama (sering dianggap noise).
+*   **Confirmed Swing:** Swing yang sudah memiliki candle penutup di sebelah kanannya.
 
 ---
 
-## Penutup
-
-Begitu pembaca mulai paham swing high dan swing low, chart mulai terasa seperti rangkaian titik penting, bukan lagi kumpulan gerakan tanpa arti.
-
-Dan dari titik-titik inilah struktur market mulai bisa dibaca dengan lebih jernih.
+## Ringkasan untuk Pemula
+Jangan pernah menebak di mana puncak atau lembah berada. Gunakan **Aturan 3-Candle**. Jika candle tengah belum lebih tinggi/rendah dari tetangganya, maka itu bukan swing yang valid. Fokuslah pada swing yang terlihat jelas dan menonjol di chart Anda.
 
 ---
-
-## Catatan
-
-Materi ini bersifat edukatif dan bukan rekomendasi finansial. Gunakan sebagai dasar untuk membangun pembacaan struktur yang lebih objektif.
+*Materi ini adalah bagian dari Kursus Mandiri Trading SMC/ICT. Latihlah mata Anda untuk melihat formasi 3-candle ini di chart setiap hari.*
