@@ -22,17 +22,18 @@ Arah repositori ini adalah menjadi sebuah **Library Materi** yang menjadi refere
 
 Untuk mendapatkan hasil belajar yang maksimal:
 
-1. **Buka Rak yang Sesuai**: Pilih folder berdasarkan topik yang ingin dipelajari.
-2. **Pilih Judul Materi**: Cari file `.md` yang relevan.
-3. **Baca Secara Utuh**: Selesaikan satu materi sebelum berpindah ke materi lainnya.
-4. **Ikuti Alur**: Disarankan mengikuti urutan folder dari 00 hingga 09 untuk pemahaman fondasi yang kuat.
+1. **Mulai dari folder 00** untuk memahami arah repo dan cara belajarnya.
+2. **Ikuti alur folder dari 00 hingga 10** agar fondasi, teknik, dan praktik tersusun rapi.
+3. **Baca satu materi secara utuh** sebelum berpindah ke materi lain.
+4. **Buka chart saat membaca** agar konsep tidak hanya dipahami secara teori.
+5. **Lakukan review dan backtest** sebelum menerapkan konsep apa pun dalam trading riil.
 
 ---
 
 ## Susunan Rak Buku
 
 ### 00 — Start Here dan Glosarium
-Titik awal pembelajaran, panduan cara belajar, mindset, dan daftar istilah (glosarium) yang digunakan di seluruh materi.
+Titik awal pembelajaran, panduan cara belajar, mindset, cara menggunakan repo, dan daftar istilah (glosarium) yang digunakan di seluruh materi.
 
 ### 01 — Fondasi Cara Melihat Pasar
 Materi tentang perubahan cara pandang, logika institusi, narasi harga, IPDA, dan dasar sebelum masuk ke konsep teknis.
@@ -41,13 +42,13 @@ Materi tentang perubahan cara pandang, logika institusi, narasi harga, IPDA, dan
 Materi tentang swing, HH/HL/LH/LL, inducement, liquidity pools, void, dan tujuan pergerakan harga.
 
 ### 03 — Sweep Grab Run dan Delivery
-Materi tentang bagaimana harga mengambil likuiditas, membentuk jebakan (Turtle Soup), lalu mulai bergerak ke arah tujuan berikutnya.
+Materi tentang bagaimana harga mengambil likuiditas, membentuk jebakan, lalu mulai bergerak ke arah tujuan berikutnya.
 
 ### 04 — POI dan Lokasi Entry
-Materi tentang OB, FVG, breaker, mitigation, dealing range, premium/discount, dan kualitas lokasi entry.
+Materi tentang OB, FVG, breaker, mitigation, rejection block, vacuum block, dealing range, premium/discount, dan kualitas lokasi entry.
 
 ### 05 — Session dan Timing
-Materi tentang Asia, London, New York, Judas swing, Silver Bullet, dan kualitas waktu dalam setup.
+Materi tentang Asia, London, New York, Judas swing, Silver Bullet, macro ICT, dan kualitas waktu dalam setup.
 
 ### 06 — Entry Risk dan Eksekusi
 Materi tentang validasi entry, trigger, invalidation, target, pyramiding, dan disiplin eksekusi.
@@ -56,19 +57,39 @@ Materi tentang validasi entry, trigger, invalidation, target, pyramiding, dan di
 Materi tentang bagaimana konsep-konsep trading diterjemahkan ke sistem, state, scoring, dashboard, dan indikator di TradingView.
 
 ### 08 — Jurnal dan Psikologi Pemula
-Materi tentang pencatatan transaksi, review mingguan/bulanan, manajemen emosi, dan membangun kebiasaan trading yang sehat.
+Materi tentang pencatatan transaksi, review mingguan/bulanan, manajemen emosi, kebiasaan trading yang sehat, serta risk management dan position sizing.
 
 ### 09 — Advanced Concepts dan Model Market
-Materi tentang konsep tingkat lanjut dalam ICT, termasuk model pergerakan harga lengkap (MMXM), konfirmasi institusional (SMT), logika pembentukan candle (PO3), siklus mingguan, dan strategi berbasis waktu (Silver Bullet).
+Materi tentang konsep tingkat lanjut dalam ICT, termasuk MMXM, SMT, PO3, intermarket analysis, dan model baca market yang lebih kompleks.
+
+### 10 — Case Studies dan Backtesting
+Folder yang berisi studi kasus, contoh real trade win dan loss, template review, dan materi backtesting agar teori dapat diterjemahkan ke chart nyata.
+
+---
+
+## Alur Belajar yang Disarankan
+
+Agar pembelajaran lebih efektif, gunakan alur berikut:
+
+1. **Bangun cara pandang lebih dulu** di folder 00 dan 01.
+2. **Pelajari bahasa dasar market** di folder 02 dan 03.
+3. **Pelajari lokasi dan timing** di folder 04 dan 05.
+4. **Masuk ke eksekusi dan aturan** di folder 06 dan 07.
+5. **Perkuat psikologi, jurnal, dan manajemen risiko** di folder 08.
+6. **Dalami konsep lanjutan** di folder 09.
+7. **Uji semua pemahaman di chart nyata** lewat folder 10.
 
 ---
 
 ## Arah Pengembangan
 
 Repositori ini akan terus diperbarui secara bertahap:
-- Penambahan materi baru yang relevan.
-- Pembaruan konten berdasarkan perkembangan market.
-- Peningkatan kualitas penjelasan dan visualisasi (jika ada).
+
+- penambahan materi baru yang relevan
+- pembaruan konten berdasarkan kebutuhan belajar
+- peningkatan kualitas penjelasan
+- penambahan studi kasus dan materi backtesting
+- penguatan hubungan antara teori, eksekusi, dan review
 
 Target akhirnya adalah menjadi panduan lengkap dari dasar hingga tingkat lanjut dalam dunia trading.
 
