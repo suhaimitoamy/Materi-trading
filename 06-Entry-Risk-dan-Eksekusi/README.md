@@ -1,30 +1,61 @@
-# 06 — Entry Risk dan Eksekusi
+# 06 — Entry, Risk, dan Eksekusi
 
-Materi tentang validasi entry, trigger, invalidation, target, pyramiding, dan disiplin eksekusi.
+Folder ini membahas bagaimana sebuah ide trading diterjemahkan menjadi eksekusi yang rapi dan terukur.
 
-## Daftar Materi
-- `Bab-01-Dari-Validasi-ke-Trigger.md`
-- `Bab-02-Invalidation-dan-Stop-Loss.md`
-- `Bab-03-Target-dan-Partial-Take-Profit.md`
-- `Bab-04-Do-Not-Chase.md`
-- `Bab-05-Disiplin-Eksekusi.md`
-- `Bab-06-2022-Mentorship-Entry-Model.md`
-- `Bab-07-Unicorn-Entry-Model.md`
-- `Bab-08-Inversion-Entry-Model.md`
-- `Bab-09-Proyeksi-Target-dengan-Standard-Deviation-Fibonacci.md`
-- `Bab-10-Menyusun-Trading-Rules-dan-Alur-Baca.md`
-- `Bab-11-OTE-Optimal-Trade-Entry.md`
-- `Bab-12-Liquidity-Grab-ke-MSS-ke-Entry-Flow-Chart.md`
-- `Bab-13-Mengelola-Layering-dan-Overtrading.md`
-- `Bab-14-Kapan-Tidak-Trade.md`
-- `Bab-15-Checklist-Sebelum-Entry.md`
-- `Bab-16-Checklist-Setelah-Entry.md`
-- `Bab-17-Cara-Membaca-Trade-yang-Gagal.md`
-- `Bab-18-Cara-Mengelola-Trade-yang-Sudah-Masuk-Profit.md`
-- `Bab-19-Kapan-Memindahkan-Stop-Loss-dan-Kapan-Tidak.md`
-- `Bab-20-Kapan-Scale-Out-dan-Kapan-Hold-Full.md`
-- `Bab-21-Bedanya-Exit-Objektif-vs-Exit-Emosional.md`
-- `Bab-22-Pyramiding-dan-Scaling-In-Position.md`
+Setelah memahami struktur, likuiditas, POI, dan timing, tahap berikutnya adalah belajar masuk ke market dengan aturan yang jelas.
 
 ---
-*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*
+
+## Fokus Folder Ini
+
+Materi di folder ini berpusat pada:
+
+- validasi entry
+- trigger entry
+- invalidation
+- stop loss dan target
+- manajemen trade
+- pyramiding
+- disiplin eksekusi
+- kualitas keputusan saat entry
+
+---
+
+## Tujuan Folder Ini
+
+Folder ini dibuat agar Anda:
+
+- tidak entry terlalu cepat
+- tahu kapan setup benar-benar valid
+- punya batas salah yang jelas
+- memahami hubungan antara setup, stop loss, dan target
+
+---
+
+## Cara Belajar Folder Ini
+
+Agar lebih efektif:
+
+1. Hubungkan folder ini dengan materi POI dan timing.
+2. Fokus pada aturan eksekusi yang bisa diulang.
+3. Jangan hanya memikirkan entry, tetapi juga invalidation.
+4. Latih membaca apakah setup sudah siap dieksekusi atau belum.
+
+---
+
+## Hasil Belajar yang Diharapkan
+
+Setelah menyelesaikan folder ini, Anda diharapkan:
+
+- mampu mengeksekusi ide trading dengan lebih rapi
+- punya aturan stop loss dan target yang logis
+- lebih disiplin saat menunggu validasi
+- siap masuk ke translasi logika trading ke sistem
+
+---
+
+## Lanjut Setelah Ini
+
+Setelah folder ini selesai, lanjut ke:
+
+**07 — Sistem Indikator dan Translasi Logika**
