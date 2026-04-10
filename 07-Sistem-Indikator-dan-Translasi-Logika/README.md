@@ -1,25 +1,62 @@
 # 07 — Sistem Indikator dan Translasi Logika
 
-Materi tentang bagaimana konsep-konsep trading diterjemahkan ke sistem, state, scoring, dashboard, dan indikator di TradingView.
+Folder ini membahas bagaimana konsep trading diterjemahkan menjadi aturan, sistem, state, scoring, atau indikator.
 
-## Daftar Materi
-- `Bab-01-Mengubah-Konsep-menjadi-Rule.md`
-- `Bab-02-State-Engine.md`
-- `Bab-03-Zone-Engine.md`
-- `Bab-04-Trigger-Engine.md`
-- `Bab-05-Scoring-dan-Dashboard.md`
-- `Bab-06-Invalidation-Engine-dan-Expiry-Logic.md`
-- `Bab-07-Mapping-Konsep-ICT-ke-Indikator.md`
-- `Bab-08-Cara-Membaca-Dashboard-dan-State-Secara-Benar.md`
-- `Bab-09-Batas-Indikator-dan-Kapan-Manusia-Harus-Mengambil-Alih.md`
-- `Bab-10-Mengapa-Indikator-Bisa-Terlambat.md`
-- `Bab-11-Mengapa-Indikator-Bisa-Terlihat-Terlalu-Ramai.md`
-- `Bab-12-Cara-Menyederhanakan-Indikator-Tanpa-Membuang-Logika.md`
-- `Bab-13-Perbedaan-Indikator-Prediktif-vs-Konfirmatif.md`
-- `Bab-14-Warning-Alert-vs-Trigger-Alert.md`
-- `Bab-15-Mengapa-Satu-Setup-Bisa-Dibaca-Beda-oleh-Manusia-dan-Indikator.md`
-- `Bab-16-Cara-Mengubah-Alert-Menjadi-Workflow-Nyata.md`
-- `Bab-17-Backtesting-Logika-Indikator-di-TradingView.md`
+Tujuan utamanya bukan menggantikan pemahaman market, tetapi membantu membuat logika trading menjadi lebih terstruktur, terukur, dan konsisten.
 
 ---
-*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*
+
+## Fokus Folder Ini
+
+Materi di folder ini mencakup:
+
+- translasi konsep trading ke aturan sistem
+- state market
+- scoring setup
+- dashboard
+- logika filter
+- indikator di TradingView
+- cara menyederhanakan konsep menjadi proses yang bisa diulang
+
+---
+
+## Kenapa Folder Ini Penting
+
+Banyak trader paham konsep, tetapi kesulitan menerapkannya secara konsisten.
+
+Folder ini membantu Anda:
+
+- mengubah ide menjadi aturan
+- mengurangi keputusan impulsif
+- membangun kerangka analisis yang lebih objektif
+- memahami batas indikator dan fungsi sebenarnya
+
+---
+
+## Cara Menggunakan Folder Ini
+
+Urutan belajar yang disarankan:
+
+1. Pastikan fondasi market sudah cukup kuat.
+2. Baca materi sebagai translasi logika, bukan jalan pintas.
+3. Fokus pada proses penyederhanaan konsep.
+4. Gunakan sistem untuk membantu konsistensi, bukan menggantikan analisis total.
+
+---
+
+## Hasil Belajar yang Diharapkan
+
+Setelah menyelesaikan folder ini, Anda diharapkan:
+
+- mampu menyusun aturan trading yang lebih jelas
+- paham cara kerja scoring dan filter setup
+- lebih mudah membangun sistem pribadi
+- siap masuk ke jurnal, psikologi, dan evaluasi diri
+
+---
+
+## Lanjut Setelah Ini
+
+Setelah folder ini selesai, lanjut ke:
+
+**08 — Jurnal dan Psikologi Pemula**
