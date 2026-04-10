@@ -1,23 +1,61 @@
 # 02 — Struktur dan Likuiditas
 
-Materi tentang swing, HH/HL/LH/LL, inducement, liquidity pools, void, dan tujuan pergerakan harga.
+Folder ini membahas bahasa dasar market: struktur dan likuiditas.
 
-## Daftar Materi
-- `Bab-01-Apa-itu-Struktur-Harga.md`
-- `Bab-02-Swing-High-dan-Swing-Low.md`
-- `Bab-03-HH-HL-LH-LL.md`
-- `Bab-04-Buy-Side-Liquidity-dan-Sell-Side-Liquidity.md`
-- `Bab-05-Equal-Highs-dan-Equal-Lows.md`
-- `Bab-06-Draw-on-Liquidity.md`
-- `Bab-07-Internal-dan-External-Liquidity.md`
-- `Bab-08-Apa-itu-Market-Structure-Shift.md`
-- `Bab-09-Struktur-Minor-vs-Struktur-Mayor.md`
-- `Bab-10-Valid-vs-Invalid-MSS.md`
-- `Bab-11-Inducement-vs-Break-of-Structure.md`
-- `Bab-12-Complex-Structure-dan-Sub-Structure.md`
-- `Bab-13-Liquidity-Void-dan-Cara-Mengisinya.md`
-- `Bab-14-Trendline-Liquidity-dan-Retail-Patterns.md`
-- `Bab-15-High-Resistance-Liquidity-Run-vs-Low-Resistance.md`
+Di tahap ini Anda mulai belajar bagaimana market membentuk high, low, swing, jebakan, dan target harga. Ini adalah fondasi penting sebelum masuk ke pembahasan sweep, delivery, dan lokasi entry.
 
 ---
-*Urutannya dibuat agar pembaca dapat mengikuti alur logika dari dasar hingga pemahaman yang lebih mendalam di bab ini.*
+
+## Fokus Folder Ini
+
+Materi di folder ini mencakup:
+
+- swing high dan swing low
+- HH, HL, LH, dan LL
+- perubahan struktur
+- inducement
+- liquidity pools
+- equal highs dan equal lows
+- void dan area yang menjadi target harga
+
+---
+
+## Kenapa Folder Ini Penting
+
+Banyak trader gagal membaca market karena tidak jelas membedakan:
+
+- struktur yang valid dan yang tidak valid
+- likuiditas utama dan noise kecil
+- target harga yang logis dan yang dipaksakan
+
+Folder ini membantu Anda memahami bahwa market sering bergerak untuk mengambil likuiditas sebelum melanjutkan delivery.
+
+---
+
+## Cara Menggunakan Folder Ini
+
+Urutan belajar yang disarankan:
+
+1. Pahami dulu struktur dasar.
+2. Pelajari bagaimana likuiditas terbentuk.
+3. Lihat hubungan antara struktur dan target harga.
+4. Latih menandai swing serta liquidity pada chart lama.
+
+---
+
+## Hasil Belajar yang Diharapkan
+
+Setelah menyelesaikan folder ini, Anda diharapkan:
+
+- mampu membaca struktur market dengan lebih rapi
+- mengenali lokasi likuiditas yang penting
+- memahami tujuan umum pergerakan harga
+- siap masuk ke pembahasan sweep, grab, run, dan delivery
+
+---
+
+## Lanjut Setelah Ini
+
+Setelah folder ini selesai, lanjut ke:
+
+**03 — Sweep, Grab, Run, dan Delivery**
