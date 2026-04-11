@@ -169,7 +169,7 @@ Setelah menyelesaikan bab fundamental ini, Anda seharusnya mulai menyadari bahwa
  * Tugas utama kita adalah membaca *chart* sebagai sebuah "Novel Tujuan Harga", bukan sekadar buku kumpulan gambar *candle*.
 Begitu fondasi pola pikir ini mengeras, percayalah, materi lanjutan seperti Market Structure, Break of Structure (BOS), Market Structure Shift (MSS), hingga Fair Value Gap (FVG) akan langsung "klik" masuk ke logika Anda tanpa paksaan.
 
-![Ringkasan visual Bab 1](../images/Ringkasan%20visual%20Bab 1.png)
+![Ringkasan visual Bab 1](../images/Ringkasan%20visual%20Bab%201.png)
 
 ## Penutup
 Bab ini adalah tentang bagaimana Anda memilih kacamata.
