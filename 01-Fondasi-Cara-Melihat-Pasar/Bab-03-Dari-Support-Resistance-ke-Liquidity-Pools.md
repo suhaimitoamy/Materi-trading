@@ -59,7 +59,7 @@ Bagi institusi besar yang ingin *Sell* dalam jumlah raksasa, mereka membutuhkan 
 ## 4. Contoh Spesifik: Resistance sebagai Target Buy-Side Liquidity
 Katakanlah pair XAU/USD memiliki rekam jejak pantulan berulang (*Highs*) di **2420**. Jutaan mata trader menatap level ini sebagai *Resistance* super kuat.
 
-![Buy Side Liquidity BSL example chart](https://www.writofinance.com/wp-content/uploads/2024/10/buy-side-liquidity-example.png)
+![Buy Side Liquidity BSL example chart](https://tradingfinder.com/wp-content/uploads/2024/10/bsl-example-gold.png)
 
 **Tindakan Ritel (Lama):**
  * *Sell* mati-matian di **2420**.
@@ -72,7 +72,7 @@ Jika setelah harga menyentuh 2424 lalu tiba-tiba terjadi *Bearish Rejection* kua
 ## 5. Contoh Spesifik: Support sebagai Target Sell-Side Liquidity
 Sebaliknya, bayangkan ada *Low* yang sangat presisi di **2398**. Banyak guru trading akan menyebut itu *Support* mayor.
 
-![Sell Side Liquidity SSL example chart](https://www.writofinance.com/wp-content/uploads/2024/10/sell-side-liquidity-example.png)
+![Sell Side Liquidity SSL example chart](https://tradingfinder.com/wp-content/uploads/2024/10/ssl-example-gold.png)
 
 **Tindakan Ritel (Lama):**
  * *Buy* dengan yakin di **2398**.
