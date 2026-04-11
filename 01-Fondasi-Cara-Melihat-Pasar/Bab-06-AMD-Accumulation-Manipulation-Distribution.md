@@ -13,7 +13,7 @@ Sering kali, sebelum harga benar-benar bergerak berekspansi ke arah tujuan utama
  * Baru setelah kepanikan terjadi, harga berbalik arah dan menunjukkan tujuan yang sebenarnya.
 Konsep AMD membantu Anda menyusun semua anomali dan gerakan menipu tersebut ke dalam **satu kerangka kerja yang mudah dipahami dan diantisipasi**.
 
-![AMD](../images/AMD.jpeg)
+
 
 ## Tujuan Pembelajaran
 Setelah mempelajari bab ini, pembaca diharapkan mampu:
@@ -61,7 +61,6 @@ Fase inilah yang paling sering membuat trader ritel menangis dan merasa market i
  * Jutaan trader ritel FOMO dan masuk pasar terlalu cepat mengikuti arah panah tipuan.
  * Market terlihat seolah-olah sudah "resmi" memilih arah tren, padahal belum tentu demikian.
 
-![False-breakout](../images/False-breakout.jpg)
 
 ## 4. Distribution (Perjalanan Menuju Target Asli)
 ### Apa itu?
@@ -81,6 +80,8 @@ Untuk mempermudah ingatan visual Anda saat melihat chart, perhatikan tabel perba
 | **Accumulation** | *Sideways*, harga mondar-mandir dalam area sempit. | Menebak arah *breakout*, menaruh SL di atas/bawah area. | Membangun posisi secara perlahan, membiarkan order ritel menumpuk. |
 | **Manipulation** | *Breakout* palsu yang tajam (*Fakeout/Judas Swing*). | *Entry* FOMO searah *breakout*, terkena SL secara massal. | Menyerang kolam likuiditas untuk mengisi bahan bakar (menyerap pesanan). |
 | **Distribution** | Tren kuat berlawanan dengan arah manipulasi awal. | Panik, bingung, atau memaksakan *reversal* (melawan arah). | Merealisasikan profit dengan mengantar harga ke target utama sesungguhnya. |
+
+![AMD](../images/AMD.jpeg)
 
 ## 6. Kenapa AMD Sangat Berguna?
 Karena pemahaman terhadap model ini membantu "mencuci otak" trader dari kebiasaan buruk yang reaktif, menjadi analis yang antisipatif. Anda akan menyadari bahwa:
