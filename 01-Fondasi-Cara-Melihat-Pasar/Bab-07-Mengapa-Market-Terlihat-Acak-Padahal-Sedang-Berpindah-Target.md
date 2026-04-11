@@ -60,7 +60,7 @@ Kita harus *zoom-out*. Jika dari *Timeframe Daily* terlihat bahwa ada **tujuan h
 Salah satu kesalahan intelektual terbesar yang dilakukan oleh trader pemula adalah menyerah dan menganggap bahwa pergerakan harga itu murni acak, liar, dan tanpa tujuan. Pikiran "pasrah" ini membuat eksekusi mereka menjadi seperti orang berjudi.
 Padahal, dengan meyakini dan memahami bahwa harga selalu memiliki **Tujuan (Target Likuiditas)**, kita bisa dengan mudah menghindari jebakan *breakout* manipulatif dan lebih sabar menyiapkan diri untuk *entry* pada *Point of Interest* (POI) yang benar-benar searah dengan niat algoritma pasar.
 Trader yang sudah menguasai cara membaca **target harga makro** akan memiliki keunggulan psikologis: mereka jauh lebih mudah memprediksi ke mana magnet harga akan bergerak selanjutnya, dan tahu kapan waktu yang paling logis untuk masuk ke medan pertempuran.
-## 7. Glosarium Singkat Bab 4
+## 7. Glosarium Singkat 
  * **Draw on Liquidity (DOL):** Titik tarik magnetis; area target likuiditas terdekat di mana harga kemungkinan besar akan bergerak menujunya.
  * **Higher Timeframe (HTF) Narrative:** Cerita atau tren utama yang sedang terjadi di grafik jangka waktu besar (Daily/H4), yang bertindak sebagai "bos" penentu arah.
  * **Fair Value / Repricing:** Kebutuhan market untuk kembali ke titik keseimbangan harga setelah pergerakan yang terlalu agresif (imbalance).
