@@ -36,7 +36,7 @@ Dan bagi institusi besar (*Smart Money*), gundukan uang itulah yang menjadi targ
 ## 2. Cara Pandang Baru: Level sebagai Kolam Likuiditas (Liquidity Pools)
 Dalam kacamata SMC/ICT, sebuah level penting tidak dibaca sebagai tembok, melainkan sebagai tempat penampungan order massal.
 
-![Liquidity Pools illustration SMC ICT](https://www.writofinance.com/wp-content/uploads/2024/10/buy-side-sell-side-liquidity.png)
+![Liquidity Pools](../images/liquidity.png)
 
 **Contoh Sederhana:**
 Bayangkan ada sebuah *Resistance* di harga **2410** yang sangat mencolok dan sudah disentuh dua kali (*Double Top*).
