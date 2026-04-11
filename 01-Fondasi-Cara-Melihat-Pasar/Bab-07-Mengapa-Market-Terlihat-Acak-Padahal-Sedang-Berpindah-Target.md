@@ -6,7 +6,7 @@ Mayoritas trader sering kali gagal mengenali tujuan akhir dari sebuah pergerakan
 Padahal, tujuan utama dari pergerakan harga yang sering terlihat "liar" tersebut sering kali murni hanya untuk **mengambil Liquidity** dari area-area yang sudah diprediksi sebelumnya oleh algoritma pasar.
 Trader yang berhasil memahami logika perpindahan target pasar ini akan mampu mengidentifikasi **arah tujuan harga sesungguhnya (Draw on Liquidity)**. Hasilnya, mereka tidak lagi panik oleh riak kecil di *timeframe* rendah, dan menjadi jauh lebih akurat dalam memilih POI (*Point of Interest*) yang tepat untuk *entry*.
 
-![Draw on liquidity](../images/Draw on liquidity.jpg)
+![Draw on liquidity](../images/Draw%20on%20liquidity.jpg)
 
 ## Tujuan Pembelajaran
 Setelah mempelajari bab ini, pembaca diharapkan mampu:
@@ -30,7 +30,7 @@ Pasar adalah sebuah mesin pencari uang. Ia selalu bergerak menuju **Liquidity Po
  * **Old Highs / Old Lows** (Puncak/Dasar historis)
  * **Equal Highs / Equal Lows** (Puncak/Dasar ganda yang terlihat seperti tembok kuat)
 
-![EQH AND EQL](../images/EQH AND EQL.jpg)
+![EQH AND EQL](../images/EQH%20AND%20EQL.jpg)
 
 Harga akan dengan sengaja diarahkan ke area-area ini untuk mengumpulkan order dari trader yang sudah melakukan kesalahan taktis, seperti **menaruh Stop Loss di tempat yang paling mudah ditebak**.
 
