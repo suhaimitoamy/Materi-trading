@@ -13,7 +13,7 @@ Masalah terbesarnya di lapangan adalah, pasar sering kali justru melakukan hal i
  * Membuat sebuah level seolah-olah "gagal" atau tertembus, padahal kenyataannya harga hanya sedang menjulurkan lidahnya untuk mengambil likuiditas sebelum kembali ke jalur aslinya.
 Di sinilah pendekatan ICT hadir memberikan kacamata baru: Area *Support* dan *Resistance* (SNR) yang terlalu *obvious* (jelas) di mata publik, jauh lebih berguna dan logis dibaca sebagai **tempat antrean order berkumpul**, bukan sekadar sebagai dinding pantulan harga yang kaku.
 
-![Support and Resistance ala ICT](../images/support and resistance.jpg)
+![Support and Resistance ala ICT](../images/support%20and%20resistance.jng)
 
 ## Tujuan Pembelajaran
 Setelah mempelajari bab fundamental ini, pembaca diharapkan mampu:
