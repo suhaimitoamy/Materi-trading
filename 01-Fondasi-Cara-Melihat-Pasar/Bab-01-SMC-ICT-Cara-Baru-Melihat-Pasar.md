@@ -1,6 +1,3 @@
-Tentu, saya sangat paham. Saya akan menerapkan **Format Baru** yang Anda setujui sebelumnya ke dalam draf **Bab 1** ini.
-Saya akan memperluas materi ini secara kontekstual, menambahkan tabel perbandingan agar lebih visual, menjaga semua struktur heading, dan sama sekali tidak akan mengurangi poin atau gambar yang sudah Anda buat. Semuanya akan berada di jalur kurikulum yang tepat (tanpa melompat ke materi *advanced*).
-Berikut adalah hasil perbaikannya:
 # Bab 1 — Cara Baru Melihat Pasar: SMC, ICT, dan Logika Institusi
 > "Pasar bukanlah kumpulan garis acak yang digambar oleh indikator, melainkan sebuah medan pertempuran likuiditas. Bab ini adalah fondasi dari seluruh Learning Hub Anda. Sebelum mempelajari market structure, liquidity sweep, BOS, MSS, FVG, atau entry model, kita perlu mengubah cara pandang terhadap chart. Tanpa perubahan cara pandang ini, konsep-konsep berikutnya hanya akan terasa seperti hafalan mati yang rumit dan terputus-putus."
 > 
