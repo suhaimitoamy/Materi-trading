@@ -112,6 +112,9 @@ Kalau market bullish dan masih menghormati bullish FVG di **2414–2416**, maka 
 
 ## 5. Cara Institusi Melihat Range
 
+![Draw on liquidity](../images/Range1.jpg) 
+
+
 Dalam range, fokus utamanya sering berpindah ke:
 - build liquidity di dua sisi
 - sweep di tepi atas atau bawah
