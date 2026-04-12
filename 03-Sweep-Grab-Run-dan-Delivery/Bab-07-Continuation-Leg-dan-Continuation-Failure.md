@@ -1,153 +1,72 @@
-# Bab 7 — Continuation Leg dan Continuation Failure
+# Bab 7 — Continuation Leg dan Continuation Failure (Menilai Kesehatan Tren)
 
-> Setelah market sweep, shift, dan displacement, masih ada satu hal penting yang perlu dibaca: apakah market benar-benar melanjutkan arah itu, atau justru mulai kehilangan tenaga? Di sinilah konsep **continuation leg** dan **continuation failure** menjadi sangat penting.
+> "Masuk ke pasar adalah satu hal, tetapi mengetahui apakah pasar memiliki tenaga untuk melanjutkan perjalanan adalah hal lain. Continuation Leg adalah bukti daya tahan, sementara Continuation Failure adalah peringatan dini akan kelelahan pasar."
 
 ## Mengapa Bab Ini Penting
+Banyak trader merasa frustrasi ketika mereka sudah masuk di posisi yang benar (setelah *sweep* dan *shift*), namun harga tiba-tiba berhenti bergerak atau bahkan berbalik arah sebelum mencapai target. Mereka sering bertanya, "Apa yang salah? Bukankah strukturnya sudah benar?"
 
-Banyak trader terlalu cepat percaya bahwa setelah satu move kuat, market pasti terus berjalan.
-Padahal kenyataannya ada dua kemungkinan:
-- market melanjutkan leg berikutnya
-- atau market gagal mempertahankan momentum dan mulai kehilangan arah
-
-Kalau pembaca tidak bisa membedakan dua kondisi ini, maka:
-- entry continuation bisa jadi terlalu cepat
-- target bisa jadi terlalu optimistis
-- exit bisa jadi terlalu lambat
-
----
+Jawabannya seringkali terletak pada ketidakmampuan membaca **Continuation Leg** (Kaki Kelanjutan) dan **Continuation Failure** (Kegagalan Kelanjutan). Memahami konsep ini akan membantu Anda mengelola ekspektasi, menentukan kapan harus menahan posisi (*hold*), dan kapan harus keluar lebih awal karena narasi pasar telah berubah.
 
 ## Tujuan Pembelajaran
-
 Setelah mempelajari bab ini, pembaca diharapkan mampu:
-
-- memahami apa itu continuation leg
-- memahami apa itu continuation failure
-- membaca apakah market masih sehat melanjutkan arah
-- memahami kapan trader perlu lebih berhati-hati terhadap narasi continuation
-
----
+*   Mendefinisikan *Continuation Leg* sebagai bagian dari urutan pengiriman harga.
+*   Mengidentifikasi tanda-tanda visual dari *Continuation Failure*.
+*   Memahami hubungan antara *retracement* yang sehat dan kelanjutan tren.
+*   Menggunakan konsep ini untuk manajemen risiko dan penempatan target yang lebih realistis.
+*   Mengenali kapan sebuah tren sedang "bernafas" dan kapan ia sedang "sekarat".
 
 ## 1. Apa Itu Continuation Leg?
+**Continuation Leg** adalah dorongan harga lanjutan yang terjadi setelah fase *retracement* selesai. Dalam urutan pengiriman harga (*Delivery Sequence*), ini adalah fase di mana pasar mengonfirmasi bahwa arah yang dipilih setelah *sweep* dan *shift* masih memiliki momentum yang kuat.
 
-**Continuation leg** adalah dorongan lanjutan setelah market melewati fase awal seperti sweep, shift, dan retrace.
+Bayangkan seorang pelari maraton. *Sweep* adalah garis start, *Shift* adalah langkah pertama yang cepat, *Retracement* adalah saat ia mengambil nafas, dan *Continuation Leg* adalah saat ia kembali berlari kencang menuju garis finish. Tanpa kaki kelanjutan ini, pelari tersebut tidak akan pernah sampai ke tujuan.
 
-Sederhananya:
-- market sudah memberi tanda arah
-- harga sempat repricing atau retrace
-- lalu arah yang sama berjalan lagi dengan tenaga yang cukup
+## 2. Karakteristik Continuation Leg yang Sehat
+Sebuah kaki kelanjutan dianggap sehat jika memenuhi kriteria berikut:
+*   **Respecting PD Arrays:** Harga memantul dari area *Premium/Discount* yang logis (seperti FVG, Order Block, atau Breaker).
+*   **Displacement Lanjutan:** Dorongan baru harus memiliki tenaga yang serupa atau lebih kuat dari dorongan awal.
+*   **Breaking New Structure:** Harga berhasil menembus *High/Low* terbaru yang tercipta sebelum *retracement*.
+*   **Time Alignment:** Terjadi pada waktu yang tepat (misalnya saat pembukaan sesi London atau New York).
 
-Itulah continuation leg.
+## 3. Apa Itu Continuation Failure?
+**Continuation Failure** terjadi ketika pasar mencoba melanjutkan arah trennya namun gagal mempertahankan momentum atau menembus struktur baru. Ini adalah tanda pertama bahwa dominasi pihak yang sebelumnya kuat mulai memudar.
 
----
+Tanda-tanda *Continuation Failure*:
+*   **Deep Retracement:** Harga kembali terlalu dalam, melewati level 0.786 atau bahkan menyentuh titik awal *displacement*.
+*   **Languid Movement:** Harga bergerak sangat lambat dan ragu-ragu saat mencoba melanjutkan tren.
+*   **Failure Swing:** Harga gagal menembus *High/Low* sebelumnya dan justru menciptakan *Lower High* (dalam tren naik) atau *Higher Low* (dalam tren turun).
+*   **Closing Inside FVG:** Harga masuk kembali dan menutup di dalam FVG yang seharusnya menjadi area pantulan.
 
-## 2. Kenapa Continuation Leg Penting?
+## 4. Tabel: Perbandingan Kesehatan Tren
+| Indikator | Continuation Leg (Sehat) | Continuation Failure (Lemah) |
+| :--- | :--- | :--- |
+| **Reaksi di FVG/OB** | Pantulan tajam dan cepat | Harga "berendam" lama atau menembus |
+| **Struktur Baru** | Berhasil menembus *High/Low* | Gagal menembus (*Failure Swing*) |
+| **Volume/Tenaga** | Meningkat saat ekspansi | Menurun, banyak *wick* kecil |
+| **Narasi** | Selaras dengan *Higher Timeframe* | Bertentangan dengan HTF |
+| **Tindakan Trader** | Tahan posisi (*Hold*) | Ambil profit atau geser *Stop Loss* |
 
-Karena continuation leg memberi tahu bahwa market tidak hanya bereaksi sesaat.
-Ia menunjukkan bahwa arah baru masih punya tenaga.
+## 5. Hubungan dengan Trade Management
+Memahami konsep ini secara langsung memengaruhi cara Anda mengelola akun:
+*   **Pyramiding:** Anda hanya boleh menambah posisi (*scaling in*) jika *Continuation Leg* pertama terkonfirmasi sehat.
+*   **Trailing Stop:** Geser *Stop Loss* ke bawah *Low* terbaru hanya setelah *Continuation Leg* berhasil menembus struktur baru.
+*   **Early Exit:** Jika Anda melihat tanda-tanda *Continuation Failure*, jangan ragu untuk mengambil profit sebagian (*partial*) atau keluar sepenuhnya meskipun target utama belum tercapai.
 
-Dalam banyak kasus, continuation leg membuat trader lebih percaya bahwa:
-- delivery masih sehat
-- target berikutnya masih realistis
-- arah yang dipilih market masih selaras dengan narasi sebelumnya
+## 6. Glosarium Bab 7
+*   **Continuation Leg:** Dorongan harga lanjutan setelah fase koreksi.
+*   **Continuation Failure:** Kegagalan harga untuk melanjutkan tren setelah koreksi.
+*   **Failure Swing:** Kondisi di mana harga gagal membuat *Higher High* atau *Lower Low* baru.
+*   **Respecting:** Kondisi di mana harga bereaksi sesuai harapan pada level teknis tertentu.
+*   **Scaling In:** Menambah posisi pada trade yang sudah berjalan searah.
 
----
-
-## 3. Contoh Continuation Leg
-
-Misalnya harga XAU sweep low di **2338**, lalu bullish MSS mematahkan **2346**, kemudian displacement membawa harga ke **2355**.
-
-Setelah itu harga retrace ke area **2349–2351**.
-Kalau dari area itu harga naik lagi ke **2362**, maka dorongan dari **2351** ke **2362** bisa dianggap continuation leg.
-
-Artinya market tidak hanya bereaksi sekali, tetapi benar-benar melanjutkan delivery.
-
----
-
-## 4. Apa Itu Continuation Failure?
-
-**Continuation failure** adalah kondisi ketika market tampak siap melanjutkan arah, tetapi ternyata gagal mempertahankan logika continuation itu.
-
-Contohnya:
-- retrace terlalu dalam
-- level yang seharusnya bertahan malah jebol
-- dorongan lanjutan terlalu lemah
-- market kembali masuk noise
-- arah baru tidak mampu mempertahankan dominasi
-
-Dengan kata lain, continuation failure adalah tanda bahwa cerita continuation mulai rusak.
-
----
-
-## 5. Contoh Continuation Failure
-
-Misalnya market bearish:
-- sweep high di **2410**
-- bearish MSS break **2401**
-- displacement turun ke **2392**
-- harga retrace ke **2398–2400**
-
-Kalau setelah itu market gagal turun lagi, malah kembali naik ke **2405** lalu **2408**, continuation bearish mulai patut dipertanyakan.
-
-Kalau bahkan high dasar ide bearish ikut rusak, maka continuation itu bukan sekadar tertunda, tetapi mulai gagal.
-
----
-
-## 6. Hubungan dengan Trade Management
-
-Konsep continuation leg dan continuation failure sangat penting untuk:
-- membaca apakah posisi masih layak ditahan
-- menilai apakah target berikutnya masih realistis
-- memutuskan kapan partial TP lebih masuk akal
-- mengenali kapan trade mulai kehilangan kualitas
-
-Trader yang paham continuation tidak hanya tahu kapan masuk, tetapi juga tahu kapan narasi mulai melemah.
-
----
-
-## 7. Hubungan dengan Market Psychology
-
-Continuation leg menunjukkan bahwa pihak dominan masih cukup kuat.
-Continuation failure menunjukkan bahwa dominasi itu mulai melemah atau setidaknya belum mampu berkembang.
-
-Jadi konsep ini bukan hanya teknis, tetapi juga membantu pembaca memahami apakah tekanan buyer atau seller masih sehat atau mulai habis.
-
----
-
-## 8. Kesalahan Umum
-
-### 1) Menganggap semua displacement otomatis akan continuation
-Padahal market tetap bisa melemah setelah move awal.
-
-### 2) Tidak membaca kualitas retrace
-Retrace yang terlalu dalam bisa mengubah makna continuation.
-
-### 3) Tetap percaya continuation padahal tanda gagal mulai jelas
-Ini membuat trader terlambat menyesuaikan keputusan.
-
-### 4) Menganggap continuation failure selalu berarti reversal besar
-Padahal kadang market hanya kembali mixed atau membangun ulang.
-
----
-
-## 9. Ringkasan Bab
-
-Inti bab ini adalah:
-
-- continuation leg adalah dorongan lanjutan setelah shift dan retrace
-- continuation failure adalah tanda bahwa lanjutan arah mulai rusak
-- membaca continuation sangat penting untuk target, hold, dan exit
-- trader yang sehat tidak hanya membaca entry, tetapi juga kesehatan leg berikutnya
-
----
+## 7. Ringkasan Bab
+*   *Continuation Leg* adalah bukti bahwa narasi pasar masih valid.
+*   Tren yang sehat selalu memberikan kesempatan *entry* melalui *retracement* yang terukur.
+*   *Continuation Failure* adalah peringatan dini bahwa pasar mungkin akan berbalik atau masuk ke fase konsolidasi.
+*   Jangan memaksakan target jauh jika pasar menunjukkan tanda-tanda kelelahan.
+*   Selalu perhatikan bagaimana harga bereaksi di area *Premium/Discount* sebelum memutuskan untuk *hold*.
 
 ## Penutup
-
-Saat pembaca mulai memahami continuation leg dan continuation failure, ia akan jauh lebih tenang dalam mengelola trade. Ia tidak hanya menebak arah, tetapi mulai membaca apakah market masih punya tenaga untuk meneruskan cerita yang sama.
-
-Dan dari situlah pembacaan delivery menjadi jauh lebih matang.
-
----
+Dengan menguasai cara membaca kelanjutan harga, Anda akan menjadi trader yang lebih adaptif. Anda tidak lagi kaku pada satu prediksi, melainkan terus memantau "kesehatan" pergerakan harga setiap saat. Di bab berikutnya, kita akan membahas lebih dalam tentang **Continuation Failure dan Tanda Awal Pembalikan** untuk mempertajam insting keluar pasar Anda.
 
 ## Catatan
-
-Materi ini bersifat edukatif dan bukan rekomendasi finansial. Gunakan untuk memahami kesehatan kelanjutan move setelah market memberi shift awal.
+*Lihatlah posisi trading Anda yang terakhir. Apakah ia gagal karena Anda masuk di arah yang salah, atau karena Anda tidak menyadari adanya Continuation Failure? Belajarlah dari jejak harga tersebut.*
