@@ -134,6 +134,8 @@ Kalau high **2410** disapu ke **2413**, lalu market balik turun ke **2402**, tra
 
 ## 6. Cara Institusi Melihat Expansion
 
+![Draw on liquidity](../images/Expansion1.jpg) 
+
 Expansion sering dibaca sebagai fase ketika market **menunjukkan niat** lebih jelas daripada fase range.
 Tetapi expansion yang sehat tetap harus diuji.
 
