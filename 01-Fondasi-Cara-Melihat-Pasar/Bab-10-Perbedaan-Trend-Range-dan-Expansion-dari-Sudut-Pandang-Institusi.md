@@ -32,6 +32,8 @@ Setelah mempelajari bab ini, pembaca diharapkan mampu:
 
 Dalam cara pandang yang lebih dewasa, **trend** adalah kondisi ketika market mampu mempertahankan arah dominan sambil terus membangun struktur yang mendukung arah itu.
 
+![trend](../images/Trend.jpg
+
 ### Ciri trend bullish
 - higher high dan higher low tetap terjaga
 - retrace masih sehat
