@@ -40,6 +40,9 @@ Di dalam tradisi ICT, ada sebuah pepatah emas: *"Time is more important than Pri
  * **Asia Session (Sesi Asia):** Fase ini cenderung memiliki volume rendah. Sering kali berbentuk fase konsolidasi atau pergerakan sempit (*range*). Fungsinya? Menjadi waktu **Akumulasi** (persiapan) dan menciptakan batas *High/Low* Asia yang akan dijadikan target mangsa oleh sesi berikutnya. biasanya  Asian Killzone: 07:00 - 11:00 WIB 
  * **London Session (Sesi London):** Sesi paling krusial. Saat London dibuka, volatilitas menyembur. Di sinilah sering terjadi gerakan manipulasi awal (*Judas Swing*) yang mengambil likuiditas dari Sesi Asia, sebelum menciptakan level *High* atau *Low* untuk hari itu.London Killzone: 13:00 - 16:00 WIB
  * **New York Session (Sesi New York):** Momentum dan volume mencapai puncaknya saat sesi ini bertindihan (*overlap*) dengan London. Biasanya berfungsi sebagai fase kelanjutan arah (*Continuation*) dari Sesi London, atau justru menjadi momen pembalikan arah (*Reversal*) menuju target distribusi akhir. New York Killzone: 18:00 - 21:00 WIB
+
+![waktu terbaik, trading](../images/kilzonejpg)
+
 ### Contoh Kasus Waktu
 Jika Anda melihat XAU/USD perlahan merangkak naik menuju **2412** di tengah malam yang sepi pada **Sesi Asia**, jangan buru-buru menyimpulkan itu tren. Sangat besar kemungkinannya ini hanyalah proses **Akumulasi** yang sengaja menggantung likuiditas di atas, menunggu waktu dieksekusi dengan *breakout/sweep* yang jauh lebih beringas saat Sesi London atau New York dibuka.
 ## 4. Kombinasi Likuiditas dan Waktu dalam Narasi Harga
