@@ -75,6 +75,8 @@ Jadi range bukan kondisi mati. Range adalah **tempat market menyiapkan bahan bak
 
 **Expansion** adalah fase ketika volatility dan range harga membesar. Market tiba-tiba bergerak jauh lebih agresif daripada sebelumnya.
 
+![Expansion](../images/Expansion.jpg) 
+
 Tetapi expansion tidak selalu otomatis berarti trend baru yang sehat.
 Expansion bisa muncul sebagai:
 - awal distribution yang kuat
