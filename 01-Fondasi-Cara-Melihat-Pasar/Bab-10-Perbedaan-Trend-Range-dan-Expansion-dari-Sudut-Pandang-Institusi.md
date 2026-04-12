@@ -55,6 +55,8 @@ Ini bukan sekadar harga naik, tetapi struktur bullish yang mampu mempertahankan 
 
 **Range** adalah kondisi ketika market belum memberi keputusan arah yang tegas dan justru lebih banyak berputar di antara dua batas harga.
 
+![Range](../images/Range.jpg) 
+
 Dari sudut pandang institusi, range sering berguna untuk:
 - mengumpulkan order
 - membangun likuiditas di dua sisi
