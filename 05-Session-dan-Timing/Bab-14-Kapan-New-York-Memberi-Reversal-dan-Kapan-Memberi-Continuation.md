@@ -1,200 +1,92 @@
 # Bab 14 — Kapan New York Memberi Reversal dan Kapan Memberi Continuation
 
-> Setelah memahami peran London, sekarang kita perlu memahami New York dengan lebih tajam. Banyak trader salah membaca sesi ini: ada yang selalu mengira New York hanya continuation dari London, ada juga yang selalu berharap reversal besar akan dimulai di sini. Keduanya bisa salah kalau context-nya tidak dibaca.
+> "New York adalah sesi penyelesaian. Jika London adalah pembuka cerita, maka New York adalah klimaks atau penyelesaian dari pergerakan harga hari itu."
 
 ## Mengapa Bab Ini Penting
+Banyak trader merasa bingung ketika sesi London sudah bergerak sangat jauh, lalu sesi New York dimulai. Mereka bertanya-tanya: "Apakah harga akan terus naik, atau sudah waktunya untuk berbalik?" Tanpa pemahaman tentang **New York Session**, trader seringkali terjebak melakukan *Buy* di puncak (saat harga sudah jenuh) atau mencoba melakukan *Sell* melawan tren yang masih sangat kuat.
 
-New York sering menjadi sesi yang sangat menentukan karena ia bisa:
-- melanjutkan cerita London
-- menguji ulang cerita London
-- atau mulai menunjukkan bahwa move sebelumnya sudah selesai
-
-Kalau pembaca tidak tahu ciri-cirinya, dia bisa:
-- buy di akhir move
-- sell melawan continuation sehat
-- atau salah mengira retrace biasa sebagai reversal besar
-
----
+Memahami **New York Reversal** dan **New York Continuation** adalah tentang membaca **Delivery** (Pengiriman Harga). New York adalah sesi dengan volume terbesar karena tumpang tindih (*overlap*) dengan sesi London. Bab ini akan mengajarkan Anda cara membaca apakah New York akan melanjutkan pergerakan London (*Continuation*) atau justru memberikan pembalikan arah (*Reversal*) yang matang.
 
 ## Tujuan Pembelajaran
-
 Setelah mempelajari bab ini, pembaca diharapkan mampu:
-
-- membedakan New York reversal dan New York continuation
-- memahami hubungan New York dengan apa yang dilakukan London
-- membaca kapan New York memperkuat cerita lama dan kapan mulai mengubahnya
-- mengurangi entry yang salah arah di sesi aktif kedua
-
----
+*   Membedakan karakteristik visual antara New York Reversal dan New York Continuation.
+*   Memahami hubungan antara pergerakan New York dengan narasi yang sudah dibentuk oleh London.
+*   Mengenali tanda-tanda pergerakan kelanjutan (*Continuation*) yang sehat.
+*   Memahami kapan New York cenderung memberikan pembalikan arah (*Reversal*).
+*   Menilai kualitas *delivery* harga menuju target likuiditas harian.
 
 ## 1. New York Harus Dibaca dari Konteks Sebelumnya
+Sesi New York tidak pernah berdiri sendiri. Ia selalu merespons apa yang sudah dilakukan oleh sesi London.
 
-Ini kunci pertama.
+**Pertanyaan Kunci Sebelum New York Open:**
+1.  **Apa yang sudah dilakukan London?** (Apakah sudah sweep atau sudah trending?).
+2.  **Apakah target harian sudah tercapai?** (Jika sudah, waspadai reversal).
+3.  **Apakah harga sudah terlalu jauh (Extended)?** (Jika ya, waspadai retracement).
+4.  **Apakah ada berita ekonomi AS (High Impact News)?** (Ini adalah katalis utama).
 
-Trader tidak boleh membaca New York seolah sesi ini berdiri sendiri.
-Sebelum itu harus dilihat:
-- London tadi melakukan apa?
-- target harian yang besar sudah selesai atau belum?
-- market masih trending sehat atau mulai kelelahan?
-- apakah ada retrace sehat menjelang New York?
-
-Kalau konteks ini tidak dibaca, New York akan terasa membingungkan.
-
----
+Tanpa menjawab pertanyaan ini, pergerakan New York akan terasa membingungkan dan penuh jebakan.
 
 ## 2. Kapan New York Lebih Mungkin Memberi Continuation?
+**New York Continuation** terjadi ketika sesi New York melanjutkan arah yang sudah dibentuk oleh sesi London setelah melakukan koreksi kecil (*Retracement*).
 
-New York lebih mungkin memberi continuation jika:
-- London sudah membentuk arah yang sehat
-- target besar masih belum selesai
-- retrace menjelang New York masih wajar dan tidak merusak struktur
-- saat New York aktif, market menghormati area continuation lalu lanjut
+**Ciri-ciri New York Continuation:**
+*   **London Trend:** London sudah membentuk arah yang jelas dan sehat.
+*   **Unreached Target:** Target likuiditas harian (High/Low harian sebelumnya) belum tercapai.
+*   **Healthy Retrace:** Harga melakukan koreksi ke area **Discount/Premium** di dalam *range* London.
+*   **POI Respect:** Harga menghormati *Order Block* atau *Fair Value Gap* yang ditinggalkan London.
 
-### Contoh sederhana
-- London bullish dari **2406** ke **2420**
-- menjelang New York harga retrace ke **2413–2415**
-- external liquidity masih di **2428**
-- New York aktif, bullish trigger muncul di **2414**
-- harga lanjut ke **2428**
+**Contoh Skenario Bullish Continuation:**
+1.  London bullish dari **2406** ke **2420**.
+2.  Menjelang New York harga retrace ke **2413 - 2415**.
+3.  New York aktif, bullish trigger muncul di **2414**.
+4.  Harga lanjut ke **2428** (Target harian).
 
-Dalam konteks ini, New York lebih masuk akal dibaca sebagai **continuation bullish**.
+## 3. Kapan New York Lebih Mungkin Memberi Reversal?
+**New York Reversal** terjadi ketika sesi New York memberikan pembalikan arah yang tajam setelah sesi London mencapai target likuiditas utama atau area jenuh.
 
----
+**Ciri-ciri New York Reversal:**
+*   **Reached Target:** London sudah mencapai target likuiditas HTF atau area *Premium/Discount* ekstrem.
+*   **Extended Move:** Harga sudah bergerak terlalu jauh tanpa adanya koreksi yang berarti.
+*   **Sweep & Shift:** New York menyapu High/Low London, lalu diikuti oleh *Market Structure Shift* (MSS) lawan arah.
+*   **News Catalyst:** Berita ekonomi AS (seperti NFP atau CPI) memicu pembalikan arah yang mendadak.
 
-## 3. Ciri New York Continuation
+**Contoh Skenario Bearish Reversal:**
+1.  London bullish dari **2410** ke **2430**.
+2.  Target harian memang berada di sekitar **2432**.
+3.  New York aktif, menyapu High London ke **2433** (Manipulasi).
+4.  Terjadi bearish MSS dan harga terjun bebas ke **2415**.
 
-Beberapa ciri yang sering terlihat:
-- London sudah membentuk shift / leg yang sehat
-- target lanjutan masih terbuka
-- retrace sebelum New York tidak terlalu dalam
-- POI continuation masih dihormati
-- New York memberi dorongan lanjutan, bukan perombakan total cerita
+## 4. Tabel: New York Continuation vs New York Reversal
+| Fitur | New York Continuation | New York Reversal |
+| :--- | :--- | :--- |
+| **Kondisi London** | Baru saja memulai ekspansi | Sudah mencapai target likuiditas HTF |
+| **Retracement** | Dangkal (hanya ke FVG/OB terdekat) | Dalam (menembus level kunci London) |
+| **Target Harga** | Belum tercapai di sesi London | Sudah tercapai atau hampir selesai |
+| **Struktur** | Menghormati High/Low London | Mematahkan struktur London (MSS) |
+| **Probabilitas** | Tinggi jika bias harian masih kuat | Tinggi jika ada berita besar yang berlawanan |
 
-Kalau tanda-tanda ini ada, trader lebih sehat fokus ke continuation daripada memaksakan reversal.
+## 5. Mengapa Banyak Trader Salah Baca New York?
+Kesalahan umum adalah menganggap New York pasti akan melanjutkan pergerakan London. Padahal, New York seringkali menjadi sesi "pembersihan" di mana institusi menutup posisi mereka (*Profit Taking*) setelah pergerakan besar di London.
 
----
+**Kunci Membedakan Keduanya:**
+*   Jika target harian **belum tercapai**, carilah **Continuation**.
+*   Jika target harian **sudah tercapai**, carilah **Reversal**.
 
-## 4. Kapan New York Lebih Mungkin Memberi Reversal?
+## 6. Glosarium Bab 14
+*   **New York Open:** Pembukaan pasar New York yang seringkali membawa volatilitas berita ekonomi.
+*   **Continuation:** Pergerakan harga yang searah dengan tren atau sesi sebelumnya.
+*   **Reversal:** Pembalikan arah harga setelah mencapai level jenuh atau target likuiditas.
+*   **Overlap:** Waktu di mana dua sesi (London & New York) aktif secara bersamaan.
+*   **Extended Move:** Pergerakan harga yang sudah terlalu jauh tanpa koreksi.
 
-New York lebih mungkin memberi reversal jika:
-- London sudah mencapai target besar atau area yang sangat penting
-- market terlihat terlalu extended
-- menjelang New York muncul tanda kelelahan atau gagal continuation
-- New York aktif justru menyapu satu sisi lalu mematahkan struktur lawan arah
-
-### Contoh sederhana
-- London bullish dari **2410** ke **2430**
-- target besar harian memang di sekitar **2432**
-- menjelang New York harga gagal lanjut di atas **2430**
-- New York aktif, high kecil disapu ke **2433**, lalu bearish MSS break **2424**
-
-Dalam konteks seperti ini, New York lebih masuk akal dibaca sebagai **reversal intraday bearish** atau minimal akhir dari delivery bullish sebelumnya.
-
----
-
-## 5. New York Sering Menjawab: Move London Masih Sehat atau Tidak?
-
-Ini salah satu fungsi paling penting dari sesi New York.
-
-Kalau London sudah membuat move besar, New York sering membantu menjawab:
-- apakah move itu masih layak dilanjutkan?
-- atau market sebenarnya sudah mulai selesai?
-
-Jadi New York sering menjadi semacam “ujian kedua” bagi cerita London.
-
----
-
-## 6. Contoh Perbandingan
-
-### New York Continuation
-- London bullish **2405 → 2420**
-- retrace ke **2414**
-- target atas **2428** belum selesai
-- New York lanjut **2414 → 2428**
-
-### New York Reversal
-- London bullish **2408 → 2431**
-- target besar sudah hampir selesai
-- New York sweep high **2431 → 2434**
-- bearish MSS break **2425**
-- harga turun ke **2416**
-
-Perhatikan bedanya:
-- pada continuation, target masih terbuka dan retrace sehat
-- pada reversal, target besar sudah hampir selesai dan market mulai gagal mempertahankan leg sebelumnya
-
----
-
-## 7. Kenapa Banyak Trader Salah Baca New York?
-
-Karena trader terlalu sering memakai satu asumsi tetap.
-
-Ada yang berpikir:
-- New York pasti continuation
-
-Ada juga yang berpikir:
-- kalau London sudah jalan jauh, New York pasti reversal
-
-Padahal keduanya tergantung konteks.
-Pertanyaan yang benar adalah:
-- target besar masih ada?
-- structure masih sehat?
-- retrace masih normal?
-- ada sweep + MSS lawan arah atau tidak?
-
-Kalau pertanyaan ini dijawab, New York jadi jauh lebih mudah dibaca.
-
----
-
-## 8. Cara Membaca New York dengan Sehat
-
-Urutan yang lebih sehat:
-
-1. lihat apa yang dilakukan London
-2. lihat target likuiditas sudah selesai atau belum
-3. lihat apakah market terlalu extended
-4. lihat retrace menjelang New York
-5. lihat apakah New York memberi continuation trigger atau justru reversal structure
-
-Kalau urutan ini dipakai, trader jauh lebih jarang salah posisi di sesi ini.
-
----
-
-## 9. Kesalahan Umum
-
-### 1) Menganggap New York selalu continuation
-Padahal kadang justru akhir dari move London.
-
-### 2) Menganggap New York selalu reversal kalau London sudah jalan
-Padahal target bisa saja masih belum selesai.
-
-### 3) Tidak melihat apakah target besar sudah tercapai
-Ini sangat penting untuk membedakan continuation dan reversal.
-
-### 4) Masuk hanya karena New York aktif, tanpa cerita market yang utuh
-Ini membuat entry terlalu reaktif.
-
----
-
-## 10. Ringkasan Bab
-
-Inti bab ini adalah:
-
-- New York bisa memberi continuation atau reversal tergantung konteks sebelumnya
-- continuation lebih sering terjadi jika London sehat dan target besar belum selesai
-- reversal lebih mungkin jika move London sudah extended, target besar hampir selesai, dan New York memberi sweep + shift lawan arah
-- sesi New York harus dibaca dari cerita London, bukan sebagai sesi yang berdiri sendiri
-
----
+## 7. Ringkasan Bab
+*   New York adalah sesi penyelesaian narasi harian.
+*   Hubungan dengan London adalah kunci untuk menentukan apakah New York akan melanjutkan atau membalikkan arah.
+*   New York sering memberikan peluang *entry* kedua melalui koreksi yang sehat.
+*   Waspadai rilis berita ekonomi AS yang dapat mengubah struktur pasar secara mendadak.
 
 ## Penutup
-
-Saat pembaca mulai memahami kapan New York memberi continuation dan kapan memberi reversal, intraday trading akan terasa jauh lebih matang. Ia tidak lagi menebak arah dari kecepatan sesi, tetapi mulai membaca fungsi sesi itu di dalam cerita harian market.
-
-Dan dari situlah keputusan entry menjadi jauh lebih bersih.
-
----
+Memahami New York akan membuat Anda lebih tenang dalam mengelola posisi. Anda tidak lagi terburu-buru menutup profit di London jika Anda melihat New York masih memiliki potensi *continuation*. Di bab berikutnya, kita akan membahas **Konfirmasi vs Pembatalan**, yang akan membantu Anda memahami apakah New York mendukung atau justru membatalkan cerita London.
 
 ## Catatan
-
-Materi ini bersifat edukatif dan bukan rekomendasi finansial. Gunakan sebagai kerangka untuk membaca peran sesi New York dengan lebih kontekstual.
+*Tugas Praktik: Perhatikan pergerakan New York malam ini. Apakah ia melanjutkan arah London atau justru membalikkannya? Tandai apakah ada berita ekonomi (High Impact News) yang memicu pergerakan tersebut. Catat bagaimana harga bereaksi terhadap High/Low yang dibentuk oleh London.*
