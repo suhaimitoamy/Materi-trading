@@ -96,6 +96,8 @@ Tetapi trader tetap harus melihat:
 
 ## 4. Cara Institusi Melihat Trend
 
+![Draw on liquidity](../images/Trend1.jpg) 
+
 Dalam trend, fokus utamanya bukan lagi sekadar apakah market naik atau turun, tetapi:
 - di mana continuation POI yang paling sehat?
 - liquidity mana yang masih tersisa di arah trend?
