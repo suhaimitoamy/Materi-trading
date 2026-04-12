@@ -1,4 +1,4 @@
-# Bab 3 — Perbedaan Trend, Range, dan Expansion dari Sudut Pandang Institusi
+# Bab 10 — Perbedaan Trend, Range, dan Expansion dari Sudut Pandang Institusi
 
 > Banyak trader melihat market hanya sebagai naik, turun, atau diam. Padahal dari sudut pandang yang lebih dalam, **trend, range, dan expansion** bukan sekadar bentuk chart. Tiga kondisi ini adalah tiga **keadaan distribusi harga** yang punya fungsi berbeda. Bab ini penting supaya pembaca tidak membaca semua kondisi market dengan logika yang sama.
 
