@@ -1,178 +1,72 @@
-# Bab 6 — Memilih POI yang Benar
+# Bab 6 — Memilih POI yang Benar: Seni Menyaring Peluang
 
-> Setelah memahami berbagai jenis POI seperti Order Block, Fair Value Gap, Breaker, dan Mitigation, tantangan berikutnya adalah: **mana yang harus dipilih?** Inilah salah satu pertanyaan paling penting, karena masalah trader biasanya bukan kekurangan area, melainkan terlalu banyak area.
+> "Masalah trader biasanya bukan kekurangan area, melainkan terlalu banyak area. Memilih POI yang benar adalah tentang kualitas, bukan kuantitas."
 
 ## Mengapa Bab Ini Penting
+Banyak trader yang sudah belajar berbagai jenis POI (seperti *Order Block*, *Fair Value Gap*, *Breaker*, dan *Mitigation*) justru berakhir dengan chart yang penuh dengan kotak-kotak. Mereka merasa semua area penting dan bingung mana yang harus dipilih. Akibatnya, pembacaan mereka menjadi kabur dan mereka seringkali melakukan *entry* di area yang lemah.
 
-Banyak trader yang sudah belajar POI justru berakhir dengan chart yang penuh:
-- terlalu banyak kotak
-- terlalu banyak level
-- terlalu banyak alasan entry
-
-Akibatnya, pembacaan menjadi kabur.
-
-Bab ini penting karena mengajarkan bahwa tugas trader bukan mencari semua POI, tetapi **menyaring POI yang paling layak**.
-
----
+Bab ini penting karena mengajarkan bahwa tugas trader bukan mencari semua POI, tetapi **menyaring POI yang paling layak**. Dengan memahami kriteria pemilihan POI yang objektif, Anda akan memiliki chart yang lebih bersih, keputusan yang lebih jernih, dan tingkat keberhasilan yang lebih tinggi.
 
 ## Tujuan Pembelajaran
-
 Setelah mempelajari bab ini, pembaca diharapkan mampu:
+*   Memahami bahwa kualitas POI lebih penting daripada jumlahnya.
+*   Menilai POI berdasarkan konteks, lokasi, dan cerita pasar.
+*   Membedakan area yang layak diamati dan area yang sebaiknya diabaikan.
+*   Membangun cara memilih POI yang lebih objektif dan sistematis.
+*   Menggunakan filter *Premium/Discount* dan *Killzones* untuk memvalidasi POI.
 
-- memahami bahwa kualitas POI lebih penting daripada jumlahnya
-- menilai POI berdasarkan context, lokasi, dan cerita market
-- membedakan area yang layak diamati dan area yang sebaiknya diabaikan
-- membangun cara memilih POI yang lebih objektif
+## 1. Apa Itu POI (Point of Interest)?
+**POI (Point of Interest)** adalah area harga yang layak diamati karena memiliki alasan teknis yang kuat untuk menjadi titik reaksi pasar. POI bisa berupa *Order Block*, *Fair Value Gap*, *Breaker Block*, atau *Mitigation Block*.
 
----
+Namun, tidak semua POI memiliki kualitas yang sama. Sebuah POI hanyalah sebuah "hipotesis" sampai pasar memberikan reaksi yang nyata di sana.
 
-## 1. Apa Itu POI?
+## 2. Faktor yang Menaikkan Kualitas POI (High Probability)
+Sebuah POI menjadi sangat menarik jika memenuhi kriteria berikut:
+1.  **Selaras dengan Bias HTF:** Area yang searah dengan tren pada *Higher Timeframe* (Daily/Weekly).
+2.  **Berada di Lokasi yang Sehat:** *Bullish POI* di area **Discount**, *Bearish POI* di area **Premium**.
+3.  **Lahir dari Cerita Penting:** Terbentuk setelah *Liquidity Sweep* dan diikuti oleh *Displacement* yang kuat.
+4.  **Masih Fresh:** Area yang belum pernah disentuh oleh harga sejak terbentuk.
+5.  **Konfluensi (Bertumpuk):** Misalnya, sebuah *Order Block* yang berada tepat di area *Fair Value Gap* atau *Breaker Block*.
 
-**POI (Point of Interest)** adalah area harga yang layak diamati karena punya alasan tertentu untuk menjadi titik reaksi market.
+## 3. Tabel: POI Berkualitas vs POI Lemah
+| Fitur | POI Berkualitas (Pilih Ini) | POI Lemah (Abaikan) |
+| :--- | :--- | :--- |
+| **Konteks** | Searah dengan tren HTF | Melawan tren HTF |
+| **Lokasi** | Di area Premium/Discount | Di area Equilibrium (tengah) |
+| **Pemicu** | Setelah *Liquidity Sweep* | Tanpa *sweep* sebelumnya |
+| **Dampak** | Menciptakan MSS dan FVG | Pergerakan lambat, tanpa FVG |
+| **Waktu** | Terbentuk di London/NY Killzone | Terbentuk di sesi Asia yang sepi |
 
-POI bisa berupa:
-- Order Block
-- Fair Value Gap
-- Breaker Block
-- Mitigation Block
-- atau area lain yang punya konteks kuat
-
-Tetapi tidak semua POI punya kualitas yang sama.
-
----
-
-## 2. Masalah Utama Trader: Terlalu Banyak POI
-
-Ini salah satu masalah paling umum.
-
-Begitu trader tahu OB, FVG, breaker, dan mitigation, chart langsung berubah menjadi penuh kotak. Semua area terasa penting.
-
-Masalahnya:
-- tidak semua area benar-benar relevan
-- terlalu banyak pilihan membuat keputusan makin lemah
-- trader mulai mencari pembenaran, bukan kualitas
-
-Jadi tujuan sebenarnya adalah **seleksi**, bukan akumulasi area.
-
----
-
-## 3. Faktor yang Menaikkan Kualitas POI
-
-Sebuah POI biasanya menjadi lebih menarik jika:
-
-### Selaras dengan bias dan struktur
-Area yang bertentangan dengan struktur besar biasanya lebih lemah.
-
-### Berada di lokasi yang sehat
-Bullish POI lebih menarik di Discount.
-Bearish POI lebih menarik di Premium.
-
-### Lahir dari cerita market yang penting
-Misalnya setelah:
-- liquidity sweep
-- shift yang valid
-- displacement yang jelas
-
-### Masih fresh
-Area yang belum terlalu sering diuji biasanya lebih menarik daripada area yang sudah berulang kali disentuh.
-
-### Bertumpuk dengan alasan lain
-Misalnya FVG yang bertemu OB, atau breaker yang selaras dengan lokasi Premium/Discount.
-
-Kalau beberapa alasan bertemu di satu area, kualitas POI biasanya naik.
-
----
-
-## 4. Faktor yang Menurunkan Kualitas POI
-
-Sebuah POI biasanya menjadi lebih lemah jika:
-- lahir di tengah noise
-- tidak didukung displacement berarti
-- bertentangan dengan bias besar
-- sudah terlalu sering diuji
-- berada di tengah range tanpa keunggulan lokasi
-- muncul di waktu market yang tidak mendukung
-
-Ini penting agar pembaca tidak memaksakan semua area menjadi entry candidate.
-
----
-
-## 5. Cara Memilih POI secara Sehat
-
+## 4. Cara Memilih POI secara Sehat (Langkah demi Langkah)
 Urutan berpikir yang lebih sehat adalah:
+1.  **Tentukan Bias dan Struktur:** Ke mana arah tren besar saat ini?
+2.  **Tentukan Draw on Liquidity:** Di mana target likuiditas berikutnya?
+3.  **Lihat Lokasi Harga:** Apakah harga saat ini berada di *Premium* atau *Discount*?
+4.  **Identifikasi Event Penting:** Apakah ada *sweep* atau *shift* yang baru saja terjadi?
+5.  **Pilih POI yang Selaras:** Cari POI yang berada di lokasi yang tepat dan searah dengan bias Anda.
 
-1. tentukan bias dan struktur dulu
-2. tentukan draw on liquidity
-3. lihat lokasi harga dalam range
-4. lihat apakah ada event penting seperti sweep atau shift
-5. baru pilih POI yang paling selaras
+## 5. POI Bukan Sinyal Berdiri Sendiri
+Banyak trader melihat satu FVG atau satu OB lalu langsung melakukan *entry*. Padahal POI seharusnya lebih dekat ke:
+*   **Area Observasi:** Tempat di mana Anda mulai memperhatikan reaksi harga.
+*   **Area Validasi:** Tempat di mana Anda menunggu konfirmasi di timeframe yang lebih rendah.
+*   **Area yang Layak Ditunggu:** Tempat di mana Anda memiliki keunggulan statistik.
 
-Dengan urutan seperti ini, POI dipilih sebagai bagian dari **narasi market**, bukan sekadar karena bentuknya menarik.
+## 6. Glosarium Bab 6
+*   **POI (Point of Interest):** Area harga yang menarik untuk diamati reaksinya.
+*   **High Probability Setup:** Pengaturan perdagangan yang memiliki peluang keberhasilan tinggi.
+*   **Confluence:** Pertemuan beberapa alasan teknis di satu titik harga yang sama.
+*   **Filter:** Kriteria yang digunakan untuk menyaring dan membuang peluang yang buruk.
+*   **Draw on Liquidity (DOL):** Target harga utama yang ingin dicapai oleh algoritma pasar.
 
----
-
-## 6. POI Bukan Sinyal Berdiri Sendiri
-
-Ini poin yang sangat penting.
-
-Banyak trader melihat satu FVG atau satu OB lalu langsung entry. Padahal POI seharusnya lebih dekat ke:
-- area observasi
-- area validasi
-- area yang layak ditunggu reaksinya
-
-Jadi POI adalah tempat memperhatikan market, bukan tombol otomatis untuk masuk.
-
----
-
-## 7. Lebih Sedikit Area, Lebih Jelas Keputusan
-
-Salah satu prinsip terbaik dalam membaca POI adalah:
-
-**lebih sedikit area yang bagus jauh lebih berguna daripada banyak area yang rata-rata.**
-
-Dengan chart yang lebih bersih:
-- keputusan lebih jernih
-- invalidation lebih mudah dibaca
-- target lebih mudah dipilih
-- emosi lebih mudah dikendalikan
-
----
-
-## 8. Kesalahan Umum
-
-### 1) Menggambar semua OB dan FVG yang terlihat
-Ini membuat chart kehilangan fokus.
-
-### 2) Tidak menyaring berdasarkan bias dan lokasi
-Akibatnya semua area terlihat sama penting.
-
-### 3) Entry hanya karena ada POI
-Padahal POI hanyalah bagian dari context.
-
-### 4) Tidak membedakan area kuat dan area lemah
-Ini membuat pembacaan menjadi kabur dan terlalu subjektif.
-
----
-
-## 9. Ringkasan Bab
-
-Inti bab ini adalah:
-
-- POI adalah area yang layak diamati, bukan otomatis area entry
-- kualitas POI lebih penting daripada jumlah POI
-- bias, struktur, lokasi, likuiditas, dan displacement sangat memengaruhi nilai POI
-- trader yang baik menyaring area, bukan memenuhi chart dengan kotak
-
----
+## 7. Ringkasan Bab
+*   Kualitas POI jauh lebih penting daripada jumlah POI di chart Anda.
+*   Gunakan filter *Premium/Discount* sebagai penyaring utama.
+*   POI yang paling valid adalah yang lahir dari *Liquidity Sweep* dan *Displacement*.
+*   Chart yang bersih dengan sedikit area berkualitas akan memberikan keputusan yang lebih jernih.
+*   POI adalah tempat untuk memperhatikan pasar, bukan tombol otomatis untuk masuk.
 
 ## Penutup
-
-Saat pembaca mulai bisa memilih POI dengan benar, chart akan terasa jauh lebih tenang. Area yang diperhatikan menjadi lebih sedikit, tetapi jauh lebih bermakna.
-
-Dan di situlah pembacaan market mulai naik kualitasnya: bukan karena semakin banyak alat, tetapi karena semakin baik memilih apa yang benar-benar penting.
-
----
+Selamat! Anda telah menyelesaikan dasar-dasar pemilihan POI. Dengan kemampuan menyaring area yang berkualitas, Anda telah naik satu level dalam pemahaman strategi ICT/SMC. Di bab-bab berikutnya, kita akan membahas variasi POI yang lebih spesifik seperti **Inversion Fair Value Gap** dan **Propulsion Block**.
 
 ## Catatan
-
-Materi ini bersifat edukatif dan bukan rekomendasi finansial. Gunakan untuk membangun kebiasaan memilih area berkualitas, bukan sekadar menambah gambar di chart.
+*Tugas Praktik: Bersihkan chart Anda. Hapus semua kotak yang tidak memenuhi kriteria High Probability (Sweep + Displacement + Lokasi). Lihatlah betapa jauh lebih jernih pandangan Anda terhadap pasar sekarang.*
