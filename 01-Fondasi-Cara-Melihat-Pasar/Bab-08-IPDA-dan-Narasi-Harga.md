@@ -26,7 +26,7 @@ Kita harus mulai bertanya dengan cara yang lebih berkelas:
  * *"Harga ini sekarang sedang menuju ke mana?"*
  * *"Kolam likuiditas mana yang masih utuh dan belum disentuh?"*
  * *"Area mana di belakang sana yang pergerakannya terlalu cepat dan masih meninggalkan ruang kosong (belum seimbang)?"*
-![ipda](../images/IPDA.webs)
+![ipda](../images/IPDA.webp)
 
 ## 2. Dari Pola Visual ke Narasi Harga
 Pendekatan tradisional sering menjebak trader untuk berpikir dalam bentuk potongan gambar statis:
