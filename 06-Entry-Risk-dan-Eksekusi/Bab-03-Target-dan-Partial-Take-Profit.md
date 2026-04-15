@@ -1,148 +1,78 @@
-# Bab 3 — Target dan Partial Take Profit
+# Bab 3 — Target dan Partial Take Profit: Mengelola Hasil Secara Objektif
 
-> Entry yang baik belum cukup kalau exit-nya asal. Dalam trading, banyak orang terlalu fokus pada cara masuk, tetapi tidak punya rencana keluar yang sehat. Karena itu bab ini penting untuk membahas **target** dan **partial take profit** sebagai bagian dari manajemen trade yang lebih dewasa.
+> "Entry yang sehat adalah awal dari sebuah peluang, tetapi exit yang sehat adalah akhir dari sebuah keberhasilan. Banyak trader gagal bukan karena tidak bisa masuk ke pasar, melainkan karena tidak tahu kapan harus keluar. Target harus lahir dari narasi pasar, bukan dari rasa takut atau serakah."
 
 ## Mengapa Bab Ini Penting
+Banyak trader mengalami fenomena "profit yang menguap". Mereka melihat posisi mereka biru (profit), namun karena tidak memiliki rencana keluar yang jelas, mereka menahan posisi terlalu lama hingga akhirnya harga berbalik arah dan mengenai *Stop Loss*. Sebaliknya, ada juga trader yang keluar terlalu cepat karena takut kehilangan keuntungan kecil, padahal pasar masih memiliki ruang gerak yang besar menuju target utama.
 
-Banyak trader mengalami salah satu dari dua masalah ini:
-- keluar terlalu cepat karena takut profit hilang
-- atau terlalu lama menahan posisi karena serakah
-
-Masalah itu sering terjadi karena target tidak dibangun dari narasi market, melainkan dari emosi.
-
-Dengan target yang lebih terstruktur, trader bisa keluar dengan alasan yang lebih logis.
-
----
+Memahami **Target** dan **Partial Take Profit** adalah kunci untuk menjaga psikologi trading tetap stabil. Dengan memiliki target yang objektif berdasarkan struktur pasar dan likuiditas, Anda tidak lagi menebak-nebak kapan harus keluar. Bab ini akan mengajarkan Anda cara menentukan target yang logis dan bagaimana mengelola posisi yang sedang berjalan agar Anda bisa mengamankan keuntungan tanpa kehilangan peluang besar.
 
 ## Tujuan Pembelajaran
-
 Setelah mempelajari bab ini, pembaca diharapkan mampu:
+*   Menentukan target profit berdasarkan *Internal* dan *External Liquidity*.
+*   Memahami konsep *Partial Take Profit* (TP Parsial) dan kapan harus menggunakannya.
+*   Menghubungkan target dengan *Draw on Liquidity* (DoL) yang sedang berlangsung.
+*   Mengelola tekanan psikologis saat harga mendekati area target.
+*   Menghindari kesalahan umum seperti keluar terlalu dini atau menahan terlalu lama tanpa alasan logis.
 
-- memahami kenapa target penting
-- memahami konsep partial take profit
-- membangun target berdasarkan likuiditas dan struktur
-- memahami hubungan target dengan delivery market
+## 1. Menentukan Target Berdasarkan Likuiditas (The "Where")
+Dalam konsep SMC/ICT, harga bergerak dari satu area likuiditas ke area likuiditas berikutnya. Oleh karena itu, target Anda tidak boleh berupa angka acak (seperti "saya mau 50 pips"), melainkan harus berupa level harga yang memiliki alasan teknis untuk dikunjungi.
 
----
+**Jenis Target Utama:**
+*   **Internal Liquidity:** Area FVG atau Order Block yang belum terisi di arah tren. Ini biasanya menjadi target pertama (TP1).
+*   **External Liquidity:** *Old High* atau *Old Low* (Liquidity Pool) yang menjadi tujuan utama pergerakan harga. Ini biasanya menjadi target utama (TP2/Final).
+*   **Standard Deviation:** Proyeksi target menggunakan Fibonacci (akan dibahas lebih dalam di Bab 9).
 
-## 1. Kenapa Target Penting?
+## 2. Apa Itu Partial Take Profit?
+*Partial Take Profit* adalah tindakan menutup sebagian dari total posisi Anda (misalnya 50% atau 75%) saat harga mencapai target tertentu, sementara sisanya dibiarkan berjalan menuju target yang lebih jauh.
 
-Target penting karena ia membantu menjawab:
-- trade ini mau dibawa ke mana?
-- area mana yang masuk akal sebagai tujuan?
-- kapan hasil sebaiknya mulai diamankan?
+**Manfaat Utama Partial TP:**
+*   **Mengamankan Modal:** Anda sudah mengunci keuntungan, sehingga jika harga berbalik arah, Anda tidak merugi.
+*   **Ketenangan Psikologis:** Mengurangi rasa takut kehilangan profit yang sudah didapat.
+*   **Peluang "Runner":** Memungkinkan Anda mendapatkan keuntungan maksimal jika pasar melakukan pergerakan besar (*expansion*) yang tidak terduga.
 
-Tanpa target, trader mudah berubah-ubah di tengah jalan. Akibatnya keputusan keluar sering menjadi emosional.
+## 3. Tabel: Target Tetap vs Target Parsial
+| Fitur | Target Tetap (Full Exit) | Target Parsial (Staged Exit) |
+| :--- | :--- | :--- |
+| **Definisi** | Menutup seluruh posisi di satu titik | Menutup posisi secara bertahap |
+| **Keuntungan** | Keuntungan maksimal jika target tercapai | Risiko lebih rendah, psikologi lebih tenang |
+| **Kerugian** | Risiko profit hilang jika harga berbalik | Keuntungan total lebih kecil jika target jauh tercapai |
+| **Cocok Untuk** | Scalping cepat atau target sangat dekat | Swing trading atau tren yang kuat |
+| **Sifat** | Agresif | Konservatif dan Terukur |
 
----
+## 4. Logika Penempatan Target (Contoh XAU/Gold)
+Bayangkan Anda melakukan *Buy* pada XAU di harga **2350** dengan narasi *Bullish*.
 
-## 2. Target Sehat Bukan Angka Acak
+1.  **Target 1 (Partial):** Ada *Bearish FVG* di **2365** (Internal Liquidity). Anda menutup 50% posisi di sini.
+2.  **Target 2 (Final):** Ada *Previous Day High* di **2380** (External Liquidity). Anda menutup sisa posisi di sini.
 
-Target yang sehat seharusnya dibangun dari konteks market.
+Dengan cara ini, jika harga mencapai **2365** lalu tiba-tiba jatuh ke **2340**, Anda tetap keluar dengan profit dari 50% posisi pertama Anda.
 
-Beberapa dasar yang sering dipakai antara lain:
-- internal liquidity
-- external liquidity
-- high atau low struktur
-- target dari dealing range
-- delivery ke likuiditas berikutnya
+## 5. Hubungan Target dengan Draw on Liquidity
+Target Anda harus selalu selaras dengan ke mana harga ingin pergi (*Draw on Liquidity*). Jika DoL harian adalah *Old High* di timeframe Daily, maka target di timeframe M15 haruslah level-level yang menuju ke arah *Old High* tersebut. Jangan mengambil target yang berlawanan dengan arus besar kecuali Anda sedang melakukan *counter-trend* yang sangat spesifik.
 
-Dengan cara ini, target menjadi bagian dari narasi market, bukan sekadar angka yang terasa enak.
+## 6. Kesalahan Umum dalam Mengambil Profit
+*   **Exit Berdasarkan Nominal Uang:** "Saya sudah untung $100, saya keluar saja," tanpa melihat apakah harga sudah sampai di POI atau belum.
+*   **Tidak Melakukan Partial TP:** Menahan semua posisi hingga target akhir, lalu kecewa saat harga berbalik arah hanya beberapa pips sebelum target.
+*   **Memindahkan Target Saat Harga Mendekat:** Karena serakah, trader menjauhkan targetnya, yang seringkali berakhir dengan harga berbalik arah.
+*   **Keluar Terlalu Cepat Karena Takut:** Menutup posisi hanya karena melihat satu *candle* kecil yang berlawanan arah.
 
----
-
-## 3. Apa Itu Partial Take Profit?
-
-**Partial Take Profit** adalah teknik mengambil sebagian hasil di target tertentu, lalu membiarkan sisa posisi mengikuti rencana berikutnya.
-
-Tujuan pendekatan ini adalah menyeimbangkan dua hal:
-- kebutuhan mengamankan hasil
-- kesempatan mengikuti move yang lebih panjang
-
-Jadi trader tidak harus memilih antara keluar total atau menahan semuanya sekaligus.
-
----
-
-## 4. Kenapa Partial Take Profit Berguna?
-
-Karena market tidak selalu bergerak lurus ke target paling jauh.
-
-Dengan partial TP, trader bisa:
-- mengurangi tekanan psikologis
-- mengunci sebagian hasil
-- tetap memberi ruang untuk continuation
-- lebih tenang saat market retrace
-
-Ini sangat berguna terutama saat delivery market masih berjalan tetapi sudah mendekati area penting pertama.
-
----
-
-## 5. Contoh Logika Target Bertahap
-
-Pendekatan sederhana yang sering sehat:
-
-### Target awal
-Area internal liquidity atau level dekat yang masuk akal.
-
-### Target menengah
-Area external liquidity atau target struktur yang lebih besar.
-
-### Target lanjut
-Area extension atau delivery lebih jauh jika context masih sangat mendukung.
-
-Dengan pola seperti ini, target menjadi lebih bertahap dan lebih realistis.
-
----
-
-## 6. Hubungan Target dengan Draw on Liquidity
-
-Target sangat erat dengan **draw on liquidity**.
-
-Kalau pembaca tahu market sedang tertarik ke mana, maka target menjadi jauh lebih mudah ditentukan.
-
-Misalnya:
-- kalau draw on liquidity masih di atas, maka target bullish masih masuk akal
-- kalau draw besar sudah hampir selesai, trader perlu lebih hati-hati untuk menahan terlalu lama
-
-Jadi target terbaik bukan hanya soal rasio, tetapi juga soal cerita market.
-
----
-
-## 7. Kesalahan Umum
-
-### 1) Menentukan target secara acak
-Tanpa dasar struktur atau likuiditas.
-
-### 2) Keluar terlalu cepat karena takut
-Ini sering terjadi saat trader tidak punya rencana sebelumnya.
-
-### 3) Menahan semua posisi tanpa alasan
-Ini juga bentuk emosi, hanya arahnya berbeda.
-
-### 4) Tidak membedakan target dekat dan target lanjut
-Akibatnya keputusan keluar menjadi serba mendadak.
-
----
+## 7. Glosarium Bab 3
+*   **Take Profit (TP):** Titik harga di mana posisi ditutup untuk mengambil keuntungan.
+*   **Partial TP:** Menutup sebagian posisi untuk mengamankan hasil.
+*   **Internal Liquidity:** Likuiditas yang berada di dalam rentang harga (*range*), seperti FVG.
+*   **External Liquidity:** Likuiditas yang berada di luar rentang harga, seperti *High/Low* struktur.
+*   **Draw on Liquidity (DoL):** Magnet harga atau tujuan utama pergerakan pasar saat ini.
 
 ## 8. Ringkasan Bab
-
-Inti bab ini adalah:
-
-- target yang sehat dibangun dari narasi market
-- internal dan external liquidity sangat berguna untuk target
-- partial take profit membantu menyeimbangkan keamanan dan peluang continuation
-- exit yang baik sama pentingnya dengan entry yang baik
-
----
+*   Target harus objektif, didasarkan pada struktur pasar dan likuiditas, bukan emosi.
+*   *Internal Liquidity* cocok untuk target awal, sementara *External Liquidity* untuk target akhir.
+*   *Partial Take Profit* membantu menyeimbangkan antara keamanan modal dan potensi keuntungan besar.
+*   Selalu tentukan rencana keluar (TP1, TP2, dst) **sebelum** melakukan eksekusi.
+*   Kualitas manajemen *exit* menentukan konsistensi pertumbuhan akun Anda dalam jangka panjang.
 
 ## Penutup
-
-Saat pembaca mulai memperlakukan target sebagai bagian dari cerita market, keputusan keluar menjadi jauh lebih tertib. Trade tidak lagi dipegang atau ditutup hanya karena rasa takut atau serakah, tetapi karena ada alasan yang jelas.
-
-Dan dari situlah kualitas manajemen trade mulai benar-benar meningkat.
-
----
+Menguasai cara keluar dari pasar adalah tanda kedewasaan seorang trader. Saat Anda tidak lagi merasa menyesal saat harga berbalik setelah Anda melakukan Partial TP, atau saat Anda bisa dengan tenang menunggu harga mencapai target utama, Anda telah memenangkan pertempuran psikologis terbesar. Di bab berikutnya, kita akan membahas tentang **Do Not Chase**, untuk memastikan Anda tidak masuk ke pasar di lokasi yang buruk.
 
 ## Catatan
-
-Materi ini bersifat edukatif dan bukan rekomendasi finansial. Gunakan untuk membangun cara keluar dari market yang lebih sehat dan terstruktur.
+*Tugas Praktik: Periksa 5 trade terakhir Anda. Apakah Anda memiliki target yang jelas sebelum entry? Apakah Anda melakukan Partial TP? Jika tidak, coba simulasikan pada trade berikutnya: tentukan satu area Internal Liquidity sebagai TP1 dan satu area External Liquidity sebagai TP2. Catat bagaimana hal ini mempengaruhi ketenangan Anda saat trading.*
