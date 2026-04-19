@@ -1,171 +1,74 @@
-# Bab 6 — Invalidation Engine dan Expiry Logic
+# Bab 6 — Invalidation Engine dan Expiry Logic: Kapan Sebuah Setup Menjadi Basi
 
-> Dalam trading discretionary, trader bisa melihat sendiri kapan sebuah area sudah tidak layak dipakai lagi. Tetapi dalam sistem atau indikator, hal seperti itu harus diterjemahkan dengan jelas. Di sinilah **Invalidation Engine** dan **Expiry Logic** menjadi sangat penting.
+> "Mengetahui kapan harus masuk ke pasar adalah sebuah keterampilan. Namun, mengetahui kapan sebuah ide trading sudah tidak lagi relevan atau 'basi' adalah tanda kedewasaan. Market tidak akan menunggu Anda selamanya; sebuah setup memiliki umur simpan. Jika batas waktunya habis atau syarat invalidasinya tersentuh, setup tersebut mati."
 
 ## Mengapa Bab Ini Penting
+Seringkali trader mendapati diri mereka masuk ke pasar berdasarkan *setup* yang memang terlihat sempurna beberapa jam atau hari sebelumnya. Masalahnya, mereka tidak menyadari bahwa narasi market sudah berubah. Mungkin harga sudah menembus level penting yang membatalkan skenario awal, atau momentum (waktu) yang diperlukan sudah lewat.
 
-Banyak indikator terlihat menarik di awal, tetapi lama-lama menjadi membingungkan karena:
-- zona lama masih tetap aktif padahal market sudah berubah
-- sinyal lama masih muncul seolah-olah masih relevan
-- area yang sebenarnya sudah rusak belum dibuang
-
-Kalau sistem tidak tahu kapan harus membatalkan dan kapan harus menghapus area, chart akan penuh “sampah logika”.
-
----
+Masuk ke dalam *setup* yang sudah *expired* atau invalid adalah salah satu penyebab utama kekalahan yang sebenarnya bisa dihindari. *Invalidation Engine* dan *Expiry Logic* adalah sistem perlindungan yang mencegah Anda mengeksekusi ide yang sudah "kadaluwarsa". Bab ini akan mengajarkan Anda cara membangun aturan yang secara otomatis mematikan *setup* Anda saat kondisinya sudah tidak lagi mendukung.
 
 ## Tujuan Pembelajaran
-
 Setelah mempelajari bab ini, pembaca diharapkan mampu:
+*   Memahami konsep *Invalidation* (kondisi di mana ide trading salah secara struktural).
+*   Memahami konsep *Expiry* (kondisi di mana ide trading kedaluwarsa secara waktu/momentum).
+*   Mengidentifikasi level-level kritis di *chart* yang membatalkan narasi *setup*.
+*   Membangun logika waktu (*time-based expiration*) untuk *setup* harian.
+*   Mengintegrasikan aturan pembatalan ini ke dalam sistem *State Engine* dan *Scoring*.
+*   Mencegah kerugian dari transaksi yang dilakukan secara terlambat.
 
-- memahami apa itu invalidation engine
-- memahami apa itu expiry logic
-- melihat kenapa sistem harus tahu kapan area gagal
-- memahami hubungan dua hal ini dengan kejujuran indikator
+## 1. Perbedaan Invalidation dan Expiry
+Meskipun keduanya membatalkan *setup*, *Invalidation* dan *Expiry* berakar dari dua dimensi market yang berbeda: Harga (*Price*) dan Waktu (*Time*).
 
----
+*   **Invalidation (Dimensi Harga):** Terjadi ketika harga menembus level tertentu yang secara struktural membuktikan bahwa ide Anda salah. Jika Anda berasumsi tren sedang naik, tetapi harga berhasil menembus dan ditutup di bawah titik *Swing Low* utama, narasi *bullish* Anda sudah hancur.
+*   **Expiry (Dimensi Waktu):** Terjadi ketika waktu yang dialokasikan untuk pergerakan tersebut telah habis, meskipun struktur harganya mungkin belum rusak. Misalnya, Anda mengharapkan *setup* London Killzone untuk bergerak, tetapi hingga sesi London berakhir harga masih bergerak *sideways* dan volume sudah kering. Skenario tersebut telah kedaluwarsa.
 
-## 1. Apa Itu Invalidation Engine?
+## 2. Membangun Invalidation Engine (Price-Based)
+*Invalidation Engine* bertugas memantau level-level struktural. Sebuah *setup* tidak boleh dieksekusi, atau posisi yang ada harus ditutup, jika level invalidasi ditembus.
 
-**Invalidation Engine** adalah bagian sistem yang bertugas menentukan kapan sebuah ide, zona, atau setup dianggap **tidak valid lagi**.
+**Contoh Aturan Invalidasi dalam ICT:**
+1.  **Swing Point Breach:** Jika Anda merencanakan *buy* pada *retrace* setelah MSS *bullish*, maka titik *Swing Low* yang menyebabkan MSS tersebut adalah level invalidasi mutlak. Jika ditembus, skenario *buy* batal.
+2.  **Order Block Failure:** Jika sebuah *Bullish Order Block* ditembus oleh *body candle* (bukan hanya *wick*), OB tersebut telah gagal dan setup yang bergantung padanya menjadi invalid.
+3.  **Target Reached Prematurely:** Ini sering diabaikan. Jika harga sudah mencapai Target/Take Profit utama Anda **sebelum** ia menjemput *entry* Anda, maka *setup* tersebut invalid. Jangan memaksa masuk karena bahan bakarnya (likuiditas target) sudah habis.
 
-Contohnya:
-- bullish zone dianggap gagal jika low struktur tertentu jebol
-- bearish zone dianggap gagal jika high penting ditembus
-- setup continuation dianggap gagal kalau retrace terlalu dalam
+## 3. Membangun Expiry Logic (Time-Based)
+*Expiry Logic* adalah pengatur waktu (*timer*) untuk *setup* Anda. Konsep ICT sangat menekankan pentingnya algoritma waktu. Jika pergerakan tidak terjadi pada waktu yang semestinya, probabilitas keberhasilannya turun drastis.
 
-Artinya, invalidation engine menjaga agar sistem tetap jujur pada cerita market.
+**Contoh Aturan Expiry:**
+1.  **Session/Killzone Expiry:** Jika Anda trading *setup* Silver Bullet (misal jam 10:00 - 11:00 NY), dan hingga jam 11:15 harga belum menyentuh POI Anda, *setup* tersebut *expired*. Batalkan *limit order* Anda.
+2.  **Daily Close Expiry:** Setup *day trading* yang tidak terpicu hingga sesi New York berakhir (menjelang tutup harian) harus dibatalkan untuk menghindari pelebaran *spread* dan *gap* pembukaan sesi berikutnya.
+3.  **Time Decay (Pembusukan Waktu):** Semakin lama harga berkonsolidasi tepat di depan area *entry* Anda tanpa bereaksi, semakin tinggi kemungkinan POI tersebut akan ditembus. Jika harga menghabiskan terlalu banyak *candle* menempel di area *entry* tanpa *rejection* tajam, *setup* mulai basi.
 
----
+## 4. Menggabungkan Invalidation dan Expiry ke dalam State Engine
+Dalam konteks *State Engine* (Bab 2) dan *Dashboard* (Bab 5), Invalidation dan Expiry berfungsi sebagai tombol "Reset".
 
-## 2. Apa Itu Expiry Logic?
+Ketika *state* berada di tahap `Waiting Entry` (Menunggu harga masuk ke zona), sistem harus secara aktif memeriksa:
+*   *Apakah harga menembus level invalidasi?* Jika Ya -> Pindahkan state ke `INVALID`.
+*   *Apakah waktu Killzone sudah habis?* Jika Ya -> Pindahkan state ke `EXPIRED`.
+*   *Apakah target sudah tersentuh duluan?* Jika Ya -> Pindahkan state ke `INVALID (Target Reached)`.
 
-**Expiry Logic** adalah bagian sistem yang menentukan kapan sebuah zona atau setup harus **kedaluwarsa** walaupun belum tentu rusak secara struktur.
+Jika salah satu dari kondisi di atas terjadi, indikator atau *dashboard* Anda harus mereset *scoring* menjadi nol dan mengubah statusnya menjadi merah atau tidak aktif. Ini secara visual mengingatkan Anda untuk tidak memaksakan *entry*.
 
-Kenapa perlu?
-Karena market terus bergerak.
-Kadang sebuah area tidak rusak, tetapi sudah terlalu lama, terlalu sering diuji, atau sudah tidak relevan untuk kondisi sekarang.
+## 5. Psikologi di Balik "Letting Go" (Melepaskan)
+Penyebab utama trader melanggar aturan invalidasi dan kedaluwarsa adalah karena mereka terlalu terikat secara emosional dengan analisa mereka. Mereka sudah "jatuh cinta" pada garis-garis dan zona yang mereka gambar. Menerima bahwa sebuah *setup* invalid berarti menerima bahwa kerja keras analisa mereka sia-sia.
 
-Jadi kalau invalidation bicara soal **gagal**, expiry bicara soal **tidak relevan lagi**.
+Anda harus melatih diri untuk menjadi "robot" saat berhadapan dengan kedaluwarsa. Membatalkan *limit order* karena *setup* sudah basi bukanlah sebuah kekalahan; itu adalah sebuah kemenangan disiplin.
 
----
+## 6. Glosarium Bab 6
+*   **Invalidation:** Pembatalan skenario trading karena harga menembus level struktural penting yang membuktikan ide awal salah.
+*   **Expiry (Kedaluwarsa):** Pembatalan skenario trading karena batas waktu atau jendela peluang (momentum) telah lewat.
+*   **Time-Based Logic:** Aturan sistem yang mempertimbangkan waktu terjadinya pergerakan, bukan hanya level harga.
+*   **Target Reached Prematurely:** Kondisi di mana harga mencapai titik target akhir sebelum menyentuh area *entry* yang direncanakan.
+*   **Time Decay:** Penurunan probabilitas keberhasilan *setup* semakin lama harga tertahan tanpa bereaksi di area keputusan.
 
-## 3. Contoh Sederhana Invalidation
-
-Misalnya sistem punya bullish zone di **2404–2406**.
-
-Narasinya:
-- sell-side liquidity sudah diambil
-- bullish MSS sudah ada
-- area **2404–2406** adalah zona buy
-
-Kalau ternyata harga jebol ke **2399** dan low struktur penting di **2401** rusak, maka bullish zone itu seharusnya dianggap invalid.
-
-Kalau indikator masih terus menampilkan zona itu seolah aktif, user akan bingung dan sistem jadi tidak jujur.
-
----
-
-## 4. Contoh Sederhana Expiry
-
-Misalnya ada bearish zone di **2438–2440** yang terbentuk saat London.
-
-Tetapi harga tidak pernah kembali ke area itu, lalu market sudah bergerak jauh ke **2415**, sudah membangun struktur baru, dan dua sesi berlalu.
-
-Secara teknis area itu mungkin belum “rusak”, tetapi secara praktis bisa jadi sudah tidak relevan.
-
-Di sinilah expiry logic berguna.
-Sistem bisa memutuskan bahwa area tersebut sudah kedaluwarsa dan tidak lagi ditampilkan sebagai zona aktif utama.
-
----
-
-## 5. Kenapa Dua Hal Ini Penting untuk Indikator?
-
-Karena indikator yang sehat harus bisa menjawab dua pertanyaan:
-- kapan sebuah ide batal?
-- kapan sebuah ide sudah terlalu usang untuk dipakai?
-
-Tanpa dua jawaban ini, indikator akan:
-- penuh zona lama
-- sulit dibaca
-- terasa tidak realistis
-- membuat user sulit membedakan peluang aktif dan peluang lama
-
----
-
-## 6. Hubungan dengan Zone Engine
-
-Invalidation engine dan expiry logic sangat erat dengan **zone engine**.
-
-Zone engine membuat area.
-Invalidation engine menentukan kapan area rusak.
-Expiry logic menentukan kapan area usang.
-
-Kalau tiga hal ini bekerja bersama, indikator menjadi jauh lebih bersih dan lebih dekat dengan realitas market.
-
----
-
-## 7. Hubungan dengan State Engine
-
-Dua konsep ini juga erat dengan **state engine**.
-
-Contohnya:
-- state = projected zone
-- state = in zone
-- state = trigger ready
-- kalau invalidation tercapai → state = invalid
-- kalau area terlalu lama tidak relevan → state = expired atau area dihapus
-
-Dengan cara ini, sistem tidak hanya mendeteksi peluang, tetapi juga tahu kapan harus berhenti menganggap peluang itu aktif.
-
----
-
-## 8. Kenapa Ini Penting untuk Kepercayaan User?
-
-User akan lebih percaya pada indikator yang:
-- tahu kapan area aktif
-- tahu kapan area gagal
-- tahu kapan area sudah lewat
-
-Sebaliknya, user akan cepat kehilangan kepercayaan pada indikator yang terus menampilkan semua hal seolah masih relevan.
-
-Jadi invalidation engine dan expiry logic bukan sekadar fitur teknis. Mereka juga bagian dari **kejujuran sistem**.
-
----
-
-## 9. Kesalahan Umum
-
-### 1) Tidak punya invalidation sama sekali
-Akibatnya semua zona terasa abadi.
-
-### 2) Menghapus area terlalu cepat
-Ini membuat sistem kehilangan konteks terlalu cepat.
-
-### 3) Membiarkan area hidup terlalu lama
-Ini membuat chart penuh sampah logika.
-
-### 4) Tidak membedakan invalid dan expired
-Padahal dua konsep ini berbeda.
-
----
-
-## 10. Ringkasan Bab
-
-Inti bab ini adalah:
-
-- invalidation engine menentukan kapan ide atau zona gagal
-- expiry logic menentukan kapan ide atau zona sudah usang
-- dua hal ini sangat penting untuk menjaga indikator tetap jujur dan bersih
-- sistem yang sehat tidak hanya tahu kapan mendeteksi peluang, tetapi juga kapan membatalkannya
-
----
+## 7. Ringkasan Bab
+*   Setiap ide trading memiliki masa berlaku. Jika batas harga atau waktu terlampaui, *setup* tersebut mati.
+*   Invalidasi terjadi karena penembusan struktur harga (*Price*), sedangkan kedaluwarsa terjadi karena habisnya jendela waktu (*Time*).
+*   Salah satu bentuk invalidasi paling umum adalah ketika harga mencapai target sebelum menjemput *entry* Anda.
+*   Jangan pernah mempertahankan *limit order* di luar sesi atau jendela waktu (*Killzone*) yang Anda tetapkan dalam sistem.
+*   Membatalkan *setup* yang sudah invalid atau *expired* adalah bentuk pengelolaan risiko dan disiplin tingkat tinggi.
 
 ## Penutup
-
-Saat pembaca memahami invalidation engine dan expiry logic, ia akan melihat bahwa sistem trading yang baik bukan hanya pintar mendeteksi, tetapi juga pintar **berhenti percaya** saat konteks sudah berubah.
-
-Dan justru dari kemampuan itulah indikator menjadi jauh lebih berguna.
-
----
+Memiliki aturan yang kuat tentang kapan harus membatalkan trade sama pentingnya dengan memiliki aturan kapan harus memasukinya. *Invalidation Engine* dan *Expiry Logic* menjaga modal Anda dari trade-trade 'zombie' yang sudah kehilangan momentum. Di bab selanjutnya, kita akan membahas **Mapping Konsep ICT ke Indikator**, bagaimana menerjemahkan teori-teori ini ke dalam bahasa pemrograman visual.
 
 ## Catatan
-
-Materi ini bersifat edukatif dan bukan rekomendasi finansial. Gunakan untuk memahami bagaimana sistem menjaga kebersihan logika saat market terus berubah.
+*Tugas Praktik: Tinjau kembali 5 loss terakhir Anda. Apakah ada di antara loss tersebut yang terjadi karena Anda masuk terlalu terlambat (waktu sudah lewat) atau karena Anda masih mencoba masuk setelah struktur jelas-jelas gagal? Identifikasi dan catat pelajaran tersebut.*
