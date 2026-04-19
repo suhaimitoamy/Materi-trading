@@ -1,8 +1,8 @@
 # 08 — Jurnal dan Psikologi Pemula
 
-Folder ini membahas bagaimana trader menjaga konsistensi, mencatat proses, dan membangun kebiasaan yang sehat.
+Folder ini membahas bagaimana trader menjaga modal, mengevaluasi proses secara berkala, dan menjinakkan emosi penghancur akun.
 
-Trading bukan hanya soal analisis. Tanpa jurnal dan kontrol diri, perkembangan akan sulit diukur.
+Trading bukanlah sekadar analisis grafik; ini adalah bisnis probabilitas di mana Anda bertarung melawan diri Anda sendiri. Tanpa jurnal yang disiplin dan manajemen risiko yang kuat, pengetahuan teknikal Anda tidak akan pernah berubah menjadi profit yang konsisten.
 
 ---
 
@@ -10,13 +10,13 @@ Trading bukan hanya soal analisis. Tanpa jurnal dan kontrol diri, perkembangan a
 
 Materi di folder ini berpusat pada:
 
-- jurnal trading
-- review mingguan dan bulanan
-- psikologi trading pemula
-- kebiasaan dan disiplin
-- manajemen emosi
-- Risk Management
-- Position Sizing
+- Pentingnya Jurnal Trading (membedakan jurnal proses dengan trade-log biasa).
+- Template praktis Jurnal Harian.
+- Psikologi trader pemula (mengatasi Fear, FOMO, dan Revenge Trading).
+- Template dan panduan melakukan Review Mingguan (Compliance Audit).
+- Template dan panduan melakukan Review Bulanan (Macro Scaling).
+- Siklus evolusi trader (PDCA).
+- Aturan baku Risk Management dan Position Sizing (Cara menghitung Lot).
 
 ---
 
@@ -24,10 +24,10 @@ Materi di folder ini berpusat pada:
 
 Folder ini dibuat agar Anda:
 
-- tidak trading tanpa evaluasi
-- bisa melihat pola kesalahan sendiri
-- memahami pentingnya kontrol risiko
-- menjaga emosi tetap stabil saat menang maupun kalah
+- Berhenti trading secara impulsif tanpa proses evaluasi.
+- Mampu mendiagnosis pola kelemahan dan kekuatan Anda sendiri melalui data.
+- Menyadari bahwa *Loss* (kerugian) adalah biaya operasional bisnis, bukan kegagalan.
+- Menjaga emosi tetap stabil dan akun tetap terlindungi saat menghadapi rentetan kerugian (*drawdown*).
 
 ---
 
@@ -35,10 +35,10 @@ Folder ini dibuat agar Anda:
 
 Agar hasilnya terasa:
 
-1. Baca materi jurnal dan psikologi bersamaan dengan praktik nyata.
-2. Terapkan aturan risk management secara konsisten.
-3. Catat proses, bukan hanya hasil akhir.
-4. Review trade win dan loss dengan jujur.
+1. Baca materi ini berdampingan dengan praktik Anda di akun Demo atau Live.
+2. Segera salin dan gunakan template Jurnal, Review Mingguan, dan Bulanan yang disediakan.
+3. Terapkan perhitungan Risk Management (1% Rule) tanpa kompromi pada setiap posisi.
+4. Lakukan evaluasi akhir pekan secara jujur (fokus pada kepatuhan, bukan pada uang yang dihasilkan).
 
 ---
 
@@ -46,10 +46,11 @@ Agar hasilnya terasa:
 
 Setelah menyelesaikan folder ini, Anda diharapkan:
 
-- punya sistem pencatatan yang rapi
-- memahami dasar risk management dan position sizing
-- lebih tenang saat eksekusi
-- siap masuk ke konsep lanjutan tanpa kehilangan disiplin dasar
+- Memiliki sistem pencatatan (jurnal) yang rapi, cepat, dan fungsional.
+- Paham cara melindungi modal menggunakan *Position Sizing* mekanis.
+- Memiliki *Circuit Breaker* mental untuk menghentikan aksi balas dendam ke pasar.
+- Menjadikan evaluasi akhir pekan sebagai kebiasaan utama pengembang diri.
+- Siap memegang modal besar dan melangkah ke konsep *Advanced*.
 
 ---
 

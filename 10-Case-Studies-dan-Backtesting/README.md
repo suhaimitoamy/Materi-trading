@@ -1,8 +1,8 @@
 # 10 — Case Studies dan Backtesting
 
-Folder ini menjembatani teori dan praktik.
+Folder ini adalah titik pertemuan antara teori dan realitas. Di sinilah kurikulum ini disempurnakan.
 
-Di sinilah semua konsep dari folder sebelumnya diuji pada chart nyata melalui studi kasus, review, dan backtesting.
+Seluruh konsep dari Folder 01 hingga 09 akan bermuara di sini untuk diuji ketangguhannya di medan pertempuran (data masa lalu dan evaluasi trade nyata).
 
 ---
 
@@ -10,12 +10,11 @@ Di sinilah semua konsep dari folder sebelumnya diuji pada chart nyata melalui st
 
 Materi di folder ini berpusat pada:
 
-- studi kasus chart
-- contoh trade win dan loss
-- urutan analisis dari bias sampai eksekusi
-- review hasil trading
-- latihan backtesting
-- evaluasi proses, bukan hanya hasil
+- Pembedahan (*Autopsi*) transaksi riil: The Flawless Win, The Good Loss, dan The Ugly Loss.
+- Proses menyatukan HTF Bias, Intermarket, Manipulasi, dan Trigger eksekusi ke dalam satu kesatuan cerita.
+- Praktik menggunakan Template Backtesting di Spreadsheet.
+- Cara menghitung probabilitas sistem (Win Rate, Maximum Drawdown, Trade Expectancy).
+- Penguasaan disiplin simulasi untuk membangun Kepercayaan Diri Besi (*Iron Confidence*).
 
 ---
 
@@ -23,10 +22,10 @@ Materi di folder ini berpusat pada:
 
 Folder ini dibuat agar Anda:
 
-- mampu menerapkan konsep ke chart nyata
-- belajar berpikir runtut saat membaca market
-- melihat perbedaan antara ide bagus dan eksekusi bagus
-- mengubah teori menjadi pengalaman belajar yang nyata
+- Bisa membedakan kegagalan karena "pasar" (Good Loss) dengan kegagalan karena "emosi trader" (Ugly Loss).
+- Menyadari bahwa kemenangan (Win) bukanlah sihir, melainkan deretan kepatuhan prosedural.
+- Berhenti mencari indikator "Holy Grail" dan mulai mencari Edge (Keunggulan) melalui data statistik.
+- Membangun benteng psikologis dari rasa panik saat menghadapi masa-masa kerugian (Drawdown).
 
 ---
 
@@ -34,10 +33,10 @@ Folder ini dibuat agar Anda:
 
 Urutan yang disarankan:
 
-1. Baca studi kasus secara utuh dari awal sampai akhir.
-2. Perhatikan proses berpikir, bukan hanya hasil win atau loss.
-3. Gunakan template analisis yang sama untuk backtest pribadi.
-4. Catat pelajaran utama dari setiap chart yang direview.
+1. Baca dengan seksama contoh studi kasus, perhatikan bagaimana logika (SMC/ICT) diaplikasikan secara terbalik (Reverse Engineering) saat mengevaluasi sebuah trade.
+2. Lakukan latihan *Autopsi Trade* pada transaksi pribadi Anda minggu lalu.
+3. Salin Template Backtesting ke dalam Excel/Google Sheets Anda.
+4. Dedikasikan waktu di akhir pekan untuk menjalankan 50-100 sampel simulasi Backtest dan temukan metrik harapan (Expectancy) Anda.
 
 ---
 
@@ -45,15 +44,15 @@ Urutan yang disarankan:
 
 Setelah menyelesaikan folder ini, Anda diharapkan:
 
-- lebih siap membaca chart nyata
-- lebih objektif saat mereview trade
-- mampu melakukan backtesting dengan struktur
-- punya jembatan yang kuat antara teori dan praktik
+- Memiliki rutinitas evaluasi yang objektif layaknya profesional.
+- Tidak pernah berani menggunakan uang riil pada strategi yang belum lulus uji 100 sampel backtest.
+- Memahami dan siap secara mental menghadapi rentetan kekalahan (*Losing Streak*).
+- Menjadikan repositori ini bukan sekadar buku bacaan, melainkan pondasi karir trading yang bisa diulang dan diukur.
 
 ---
 
-## Penutup
+## Penutup Seluruh Materi
 
-Folder ini adalah tempat pembuktian.
+Folder ini adalah akhir dari kurikulum, tetapi baru awal dari perjalanan trading Anda.
 
-Teori yang tidak diuji akan mudah terasa benar, tetapi belum tentu benar saat dipakai. Melalui studi kasus dan backtesting, Anda belajar melihat apa yang benar-benar bekerja, apa yang masih lemah, dan apa yang perlu diperbaiki.
+Pengetahuan teknikal bisa dipelajari dalam beberapa minggu, tetapi kedisiplinan mengeksekusi sistem dan mengelola kerugian membutuhkan waktu bertahun-tahun. Kembali ke sini setiap kali Anda merasa kehilangan arah. Mulailah berlatih, kumpulkan data Anda, dan biarkan probabilitas bekerja untuk Anda.
