@@ -1,348 +1,83 @@
-# Risk Management dan Position Sizing
-
-Banyak trader pemula terlalu fokus mencari entry yang bagus, tetapi melupakan satu hal yang menentukan umur akun: **berapa besar risiko per transaksi**.
-
-Anda bisa benar membaca market beberapa kali, tetapi tanpa risk management yang benar, satu atau dua kesalahan besar cukup untuk merusak akun. Karena itu, materi ini harus dipahami sebelum berpikir tentang lot besar, compounding, atau profit cepat.
-
----
-
-## 1. Apa Itu Risk Management
-
-Risk management adalah cara mengendalikan kerusakan saat hasil trading tidak sesuai rencana.
-
-Tujuannya bukan menghindari loss, karena loss adalah bagian normal dari trading. Tujuannya adalah memastikan bahwa satu loss, beberapa loss beruntun, atau satu hari buruk **tidak membunuh akun**.
-
-Risk management menjawab pertanyaan seperti:
-
-- berapa persen akun yang siap saya risikokan?
-- di mana stop loss harus ditempatkan?
-- berapa lot yang sesuai?
-- berapa batas loss harian dan mingguan?
-- kapan saya harus berhenti trading sementara?
-
----
-
-## 2. Kenapa Position Sizing Sangat Penting
-
-Position sizing adalah proses menentukan ukuran posisi berdasarkan besar risiko yang sudah ditetapkan.
-
-Banyak pemula melakukan kebalikannya:
-
-- pilih lot dulu
-- baru cari stop loss belakangan
-
-Itu salah.
-
-Urutan yang benar adalah:
-
-1. tentukan di mana setup invalid
-2. ukur jarak stop loss
-3. tentukan besar risiko uang
-4. hitung lot yang sesuai
-
-Jadi, **lot mengikuti risiko**, bukan risiko mengikuti lot.
-
----
-
-## 3. Risiko Tetap Lebih Penting Daripada Lot Tetap
-
-Lot tetap terdengar sederhana, tetapi sangat berbahaya jika stop loss tiap setup berbeda.
-
-Contoh:
-
-- setup A punya stop 10 poin
-- setup B punya stop 50 poin
-- tetapi lot yang dipakai sama
-
-Akibatnya, risiko uang menjadi sangat berbeda.
-
-Karena itu, yang harus dibuat tetap adalah **risiko per trade**, bukan ukuran lot mentahnya.
-
----
-
-## 4. Menentukan Risiko Per Transaksi
-
-Untuk pemula, pendekatan yang paling aman adalah memakai risiko kecil dan konsisten.
-
-Contoh pendekatan konservatif:
-
-- 0.25% per trade
-- 0.5% per trade
-- maksimal 1% per trade
-
-Semakin kecil akun dan semakin belum stabil performa Anda, semakin kecil risiko yang sebaiknya dipakai.
-
-Tujuan awal trader pemula bukan mempercepat profit, tetapi **bertahan cukup lama untuk belajar dengan benar**.
-
----
-
-## 5. Rumus Dasar Position Sizing
-
-Rumus sederhananya:
-
-**Ukuran posisi = Risiko uang / (jarak stop loss x nilai per poin)**
-
-Keterangan:
-
-- **Risiko uang** = nominal yang siap hilang jika salah
-- **jarak stop loss** = selisih entry ke stop loss
-- **nilai per poin** = berapa nilai uang tiap poin atau pip untuk ukuran posisi tertentu
-
-Karena tiap instrumen punya spesifikasi berbeda, Anda harus memahami kontrak atau pip value instrumen yang Anda tradingkan.
-
----
-
-## 6. Contoh Perhitungan Sederhana
-
-Misalnya:
-
-- saldo akun = Rp1.000.000
-- risiko per trade = 1%
-- berarti risiko uang = Rp10.000
-- jarak stop loss = 100 poin
-- nilai per poin untuk ukuran tertentu sudah diketahui
-
-Maka lot ditentukan dari seberapa besar ukuran posisi yang membuat total kerugian maksimal tetap Rp10.000 jika stop loss kena.
-
-Prinsipnya selalu sama: **berapa pun jarak stop-nya, total rugi tetap harus sesuai batas risiko**.
-
----
-
-## 7. Fixed Fractional Position Sizing
-
-Metode paling umum untuk pemula adalah **fixed fractional**.
-
-Artinya, Anda selalu merisikokan persentase tetap dari saldo akun.
-
-Contoh:
-
-- setiap trade risiko 0.5%
-- saat akun naik, nominal risiko ikut naik pelan
-- saat akun turun, nominal risiko ikut turun otomatis
-
-Kelebihan metode ini:
-
-- sederhana
-- mudah dijaga
-- melindungi akun saat drawdown
-- tidak agresif berlebihan
-
-Untuk pemula, ini biasanya lebih cocok daripada metode yang terlalu kompleks.
-
----
-
-## 8. Fixed Ratio Position Sizing
-
-**Fixed Ratio Position Sizing** adalah pendekatan di mana ukuran posisi ditingkatkan secara bertahap setelah akun bertumbuh sejumlah nilai tertentu.
-
-Jadi, penambahan size tidak dilakukan setiap saat, tetapi berdasarkan tonggak pertumbuhan akun.
-
-Contoh logikanya:
-
-- akun bertambah sampai angka tertentu
-- barulah ukuran posisi dinaikkan satu tingkat
-- jika performa belum stabil, size tidak dinaikkan
-
-### Kelebihan
-
-- pertumbuhan lebih terkontrol
-- tidak terlalu cepat menaikkan size
-- cocok untuk trader yang ingin scaling secara disiplin
-
-### Kekurangan
-
-- lebih rumit dihitung
-- bisa membuat trader terlalu cepat percaya diri jika parameternya terlalu agresif
-
-Untuk pemula, fixed ratio sebaiknya dipakai setelah sudah konsisten, bukan di tahap awal belajar.
-
----
-
-## 9. Mana yang Lebih Cocok untuk Pemula
-
-Untuk pemula:
-
-- mulai dari **fixed fractional**
-- gunakan risiko kecil
-- jaga konsistensi selama puluhan trade
-- baru pikirkan fixed ratio jika statistik trading sudah stabil
-
-Jangan memakai metode scaling agresif jika jurnal Anda belum menunjukkan edge yang konsisten.
-
----
-
-## 10. Risiko Harian dan Mingguan
-
-Selain risiko per trade, Anda perlu punya batas kerusakan harian dan mingguan.
-
-Contoh:
-
-### Batas harian
-- berhenti jika loss 2 kali beruntun
-- atau berhenti jika rugi 1.5% dalam sehari
-
-### Batas mingguan
-- berhenti evaluasi jika rugi 3% sampai 5% dalam seminggu
-
-Batas ini penting agar Anda tidak trading dalam kondisi emosi buruk.
-
----
-
-## 11. Stop Loss Bukan Musuh
-
-Banyak pemula takut stop loss karena merasa stop loss berarti gagal.
-
-Padahal stop loss adalah alat perlindungan.
-
-Tanpa stop loss, satu posisi bisa merusak seluruh akun. Dengan stop loss, kerusakan sudah ditentukan dari awal.
-
-Stop loss yang sehat harus diletakkan di titik yang membuat ide trading Anda tidak lagi valid, bukan sekadar di angka yang terasa nyaman.
-
----
-
-## 12. Jangan Mengecilkan Stop Hanya Agar Lot Bisa Besar
-
-Ini kesalahan klasik.
-
-Trader melihat setup yang stop loss logisnya lebar, tetapi karena ingin lot besar, stop dipersempit secara paksa.
-
-Akibatnya:
-
-- market menyentuh stop kecil itu dengan mudah
-- analisis sebenarnya belum invalid
-- trader kalah bukan karena idenya salah, tetapi karena stop dipasang tidak realistis
-
-Karena itu, **biarkan struktur menentukan stop**, lalu biarkan perhitungan risiko menentukan lot.
-
----
-
-## 13. Risk to Reward Bukan Segalanya
-
-Banyak pemula terobsesi mencari RR besar.
-
-RR memang penting, tetapi RR tinggi tidak berguna jika:
-
-- entry dipaksakan
-- strike rate sangat rendah
-- target tidak realistis
-- stop terlalu sempit secara tidak sehat
-
-Risk management yang baik bukan tentang selalu mengejar RR terbesar, tetapi menjaga hubungan sehat antara kualitas setup, strike rate, dan besar risiko.
-
----
-
-## 14. Kapan Harus Menurunkan Risiko
-
-Turunkan risiko jika:
-
-- Anda sedang loss beruntun
-- kondisi psikologis sedang buruk
-- market sulit dibaca
-- Anda baru pindah instrumen
-- Anda sedang menguji model baru
-
-Menurunkan risiko bukan tanda lemah. Itu tanda Anda menjaga umur akun.
-
----
-
-## 15. Kapan Tidak Boleh Menambah Size
-
-Jangan menambah size hanya karena:
-
-- baru menang 2 atau 3 kali
-- sedang merasa percaya diri berlebihan
-- ingin cepat balik modal
-- sedang marah karena rugi sebelumnya
-
-Ukuran posisi hanya boleh dinaikkan jika data jurnal mendukung, bukan emosi.
-
----
-
-## 16. Peran Kalkulator Risiko
-
-Kalkulator risiko membantu Anda menghitung lot tanpa tebak-tebakan.
-
-Fungsi utamanya:
-
-- memasukkan saldo akun
-- menentukan persen risiko
-- mengisi jarak stop loss
-- menampilkan ukuran posisi yang sesuai
-
-Gunakan kalkulator risiko agar keputusan ukuran posisi tidak berdasarkan feeling.
-
----
-
-## 17. Template Sederhana Sebelum Entry
-
-Sebelum entry, pastikan Anda bisa menjawab:
-
-- berapa saldo akun saya sekarang?
-- berapa persen risiko yang saya pakai?
-- berapa nominal uang yang siap hilang?
-- di mana stop loss logisnya?
-- berapa jarak stop loss?
-- berapa lot yang sesuai?
-- di mana target?
-- berapa RR realistisnya?
-
-Jika salah satu tidak jelas, jangan entry dulu.
-
----
-
-## 18. Contoh Aturan Risk Management untuk Pemula
-
-Contoh aturan sederhana:
-
-- risiko maksimal 0.5% per trade
-- maksimal 2 trade per sesi
-- stop trading jika loss 2 kali berturut-turut
-- tidak revenge trade
-- size hanya berubah saat saldo dievaluasi mingguan
-- semua trade wajib masuk jurnal
-
-Aturan sederhana yang dipatuhi jauh lebih berguna daripada aturan canggih yang dilanggar terus.
-
----
-
-## 19. Hubungan Risk Management dengan Psikologi
-
-Psikologi trading sering rusak bukan karena market, tetapi karena risiko terlalu besar.
-
-Saat ukuran risiko kebesaran:
-
-- entry terasa menegangkan
-- stop loss terasa menyakitkan
-- trader sulit objektif
-- trader mudah memindahkan stop
-- trader sulit menahan trade sesuai rencana
-
-Sebaliknya, jika risiko sesuai kemampuan mental, eksekusi menjadi lebih tenang.
-
-Jadi, risk management bukan hanya urusan matematika. Ia juga alat untuk menjaga kestabilan emosi.
-
----
-
-## 20. Tujuan Utama Pemula
-
-Bagi pemula, tujuan utama bukan menggandakan akun secepat mungkin.
-
-Tujuan utamanya adalah:
-
-- melindungi modal
-- bertahan dari fase belajar
-- mengumpulkan data jurnal
-- membangun kebiasaan eksekusi yang disiplin
-- memahami edge dengan risiko kecil
-
-Jika fase ini dilalui dengan benar, pertumbuhan akun akan datang lebih sehat.
-
----
+# Bab 6 — Risk Management dan Position Sizing: Sabuk Pengaman Akun Anda
+
+> "Tujuan utama seorang trader pada tahun pertamanya BUKANLAH mencetak uang, melainkan BERTASAN HIDUP. Anda tidak bisa belajar tentang probabilitas, psikologi, atau flow market jika modal Anda sudah hangus (Margin Call) di minggu kedua. Risk management adalah hak veto yang menyelamatkan nyawa akun Anda dari segala bentuk kebodohan analitis."
+
+## Mengapa Bab Ini Penting
+Banyak trader pemula terobsesi mencari indikator yang memberikan *Win Rate* 90%. Mereka menghabiskan ratusan jam menonton YouTube demi setup "Anti-Gagal". Ini adalah pencarian fana. Kenyataannya, para profesional (khususnya *prop-firm trader* atau *hedge fund*) sangat nyaman dengan *Win Rate* 40% - 50%. Mengapa akun mereka tetap tumbuh pesat sementara pemula dengan Win Rate 60% bisa bangkrut?
+
+Rahasia tunggalnya adalah **Risk Management** (Manajemen Risiko) dan aplikasinya yang presisi melalui **Position Sizing** (Penentuan Ukuran Posisi/Lot). Pemula sering menekan Lot 1.0 hanya karena mereka merasa "sangat yakin" pada hari itu. Ketika mereka salah, kerugian yang timbul menghapus hasil kerja keras selama sebulan. Bab ini akan menggeser fokus Anda dari "Berapa banyak yang bisa saya dapatkan?" menjadi "Berapa banyak yang bisa saya relakan jika saya salah?".
+
+## Tujuan Pembelajaran
+Setelah mempelajari bab ini, pembaca diharapkan mampu:
+*   Memahami perbedaan antara *Fixed Risk* (Risiko Tetap) dan *Gambling* (Perjudian Lot Acak).
+*   Menguasai konsep 1% *Rule* (Aturan 1%) dan penerapannya pada berbagai ukuran modal.
+*   Menghitung *Position Size* (Lot) secara mekanis berdasarkan jarak Pips ke Stop Loss, bukan tebak-tebakan.
+*   Memahami konsep *Risk/Reward Ratio* (R/R) dan bagaimana ia bekerja berdampingan dengan *Win Rate*.
+*   Menghilangkan pola pikir menebak (discretionary) dalam menentukan ukuran Lot.
+
+## 1. Hukum Mutlak: Fixed Risk (Risiko Tetap)
+Dalam dunia yang penuh dengan variabel acak (seperti pergerakan harga), Anda harus memiliki satu jangkar yang tidak pernah berubah (konstan). Jangkar tersebut adalah kerugian Anda.
+
+Anda harus menentukan persentase mutlak dari modal Anda yang siap direlakan dalam SATU KALI *trade*. Standar industri profesional adalah **0.5% hingga 1% per trade**.
+Artinya, jika Anda memiliki modal $1.000:
+*   Risiko 1% = Anda HANYA BOLEH rugi maksimal $10 jika Stop Loss Anda tersentuh.
+*   Risiko 2% = Anda HANYA BOLEH rugi maksimal $20. (2% adalah batas maksimal paling ekstrem untuk pemula).
+
+*Mengapa angka ini terlihat kecil?* Karena jika Anda mengambil risiko 1% dan mengalami 10x *Loss* berturut-turut (sebuah kejadian yang sangat mungkin terjadi dalam trading), akun Anda baru berkurang 10%. Anda masih punya $900 untuk bertarung dan otak Anda masih waras. Jika Anda menggunakan risiko 10% per *trade*, dalam 10 kali *Loss* beruntun, akun Anda meledak tak bersisa.
+
+## 2. Cara Menghitung Position Sizing (Lot)
+"Tapi bagaimana cara memastikan saya rugi tepat $10?"
+Jawabannya BUKAN dengan asal menekan Buy 0.1 Lot dan menggeser SL sampai angkanya pas $10. Stop Loss ditentukan oleh **struktur harga** (Bab 6 Folder 07), bukan oleh ukuran dompet Anda.
+
+Langkah yang benar (Position Sizing):
+1.  **Tentukan Area SL:** Cari level invalidasi struktural. Misal, SL harus dipasang sejauh 25 pips dari titik masuk (*entry*).
+2.  **Tentukan Risiko Dolar Anda:** Misal modal $1.000, risiko 1% = $10.
+3.  **Hitung Lot Anda:** Rumus kasarnya (untuk pair yang nilai pip-nya standard seperti EURUSD di mana 1 Lot = $10/pip):
+    *   $10 (Risiko Uang) dibagi 25 Pips (Jarak SL) = Nilai per Pip yang Anda butuhkan, yaitu $0.4/pip.
+    *   Karena 0.1 Lot = $1/pip, maka Anda membutuhkan **0.04 Lot**.
+
+*Jika jarak SL Anda pada setup lain hanya 10 Pips:*
+*   $10 dibagi 10 Pips = $1/pip. Anda boleh menekan **0.1 Lot**.
+
+**Kesimpulan:** Lot Anda selalu berubah-ubah menyesuaikan lebarnya SL, tetapi kerugian dolar Anda (1% / $10) selalu tetap. Inilah seni dari *Position Sizing*.
+
+## 3. Matematika Kemenangan (Win Rate vs Risk/Reward Ratio)
+Ada dua mesin utama penggerak profitabilitas sistem Anda:
+*   **Win Rate:** Seberapa sering Anda menang (Misal: dari 10 trade, menang 4 kali = 40%).
+*   **Risk/Reward (R/R):** Seberapa besar Anda menang dibandingkan saat Anda kalah. (Misal: Risiko $10, Profit $20 = R/R 1:2).
+
+Keajaiban terjadi saat Anda konsisten pada poin ini. Mari simulasikan 10 transaksi dengan Win Rate yang "buruk" (hanya 40%) namun dengan R/R 1:2.5.
+*   Risiko 1% ($10 per trade).
+*   6 Trade *Loss*: 6 x (-$10) = -$60.
+*   4 Trade *Win*: 4 x (R/R 1:2.5, jadi +$25) = +$100.
+*   Total Profit Bersih: +$40 (+4% pertumbuhan akun).
+
+Anda **SALAH** lebih sering daripada Anda BENAR, namun akun Anda tetap **TUMBUH 4%**. Ini adalah kekuatan nyata dari Risk Management yang disiplin, bukan sihir indikator.
+
+## 4. Bahaya Asumsi "Lot Tetap" (Fixed Lot Sizing)
+Sangat banyak pemula yang terjebak dengan aturan pribadi yang menyesatkan: "Akun saya $1.000, saya hanya akan pakai Lot 0.1 di setiap *trade* selamanya."
+
+Ini berbahaya. Jika di *trade* pertama SL Anda 10 pips, Anda berisiko $10 (Aman, 1%).
+Namun, jika di *trade* kedua pergerakan market sedang sangat *volatile* dan jarak ke area invalidasi SL adalah 40 pips. Karena Anda tetap keras kepala menekan 0.1 Lot, kerugian Anda jika tersentuh SL adalah $40 (Risiko melonjak menjadi 4%).
+Anda telah menghancurkan struktur R/R sistem Anda secara tidak sadar.
+
+## 5. Glosarium Bab 6
+*   **Risk Management:** Strategi dan aturan sistematis untuk membatasi jumlah modal yang bisa hilang pada satu waktu untuk melindungi keberlangsungan akun secara keseluruhan.
+*   **Position Sizing:** Proses matematis untuk menentukan seberapa banyak Lot/Kontrak yang harus dibeli/dijual agar kerugian maksimum (jika mengenai SL) sesuai dengan persentase risiko yang telah ditentukan.
+*   **Fixed Risk:** Disiplin menjaga jumlah nominal atau persentase kerugian pada titik yang konstan (misalnya selalu 1% per *trade*).
+*   **Risk/Reward Ratio (R/R):** Perbandingan rasio antara jarak pips yang Anda relakan untuk rugi (Risk) dibandingkan dengan jarak pips target profit Anda (Reward).
+*   **Overleveraging (Over-Risk):** Mengambil ukuran posisi yang terlalu besar dibandingkan dengan modal, sehingga memperbesar probabilitas *Margin Call* (kebangkrutan).
+
+## 6. Ringkasan Bab
+*   Mampu menebak arah harga tidak ada artinya jika Anda tidak bisa melindungi modal saat tebakan Anda salah.
+*   Risiko profesional berkisar antara 0.5% hingga 1% dari total ekuitas per posisi.
+*   Kerugian maksimal Anda harus konstan (Risiko Uang), sementara Lot (*Position Size*) Anda harus fleksibel (naik-turun) menyesuaikan seberapa lebar jarak Pips ke *Stop Loss*.
+*   Sistem dengan *Win Rate* di bawah 50% masih sangat bisa mencetak profit konsisten jika dipadukan dengan *Risk/Reward Ratio* minimal 1:2.
+*   *Stop Loss* selalu diletakkan berdasarkan logika teknikal di layar, bukan berdasarkan "Berapa dolar yang sanggup saya tahan minusnya".
+*   Gunakan kalkulator Lot otomatis untuk menghilangkan beban mental saat mengatur eksekusi.
 
 ## Penutup
+Di akhir bab yang teknis sekaligus psikologis ini, ingatlah satu aturan emas: "Amankan sisi bawah (*Downside*), dan sisi atas (*Upside*) akan mengurus dirinya sendiri." Trading adalah maraton yang menguji ketahanan napas, bukan lari *sprint*. Di bab-bab berikutnya (Bab 7 & 8), kita akan menyempurnakan folder ini dengan menyediakan dua **Template Praktis** untuk mengawal Review Mingguan dan Bulanan Anda.
 
-Risk management dan position sizing adalah fondasi bertahan hidup dalam trading.
-
-Anda tidak bisa mengontrol hasil satu trade, tetapi Anda bisa mengontrol seberapa besar kerusakan saat salah. Itulah inti profesionalisme dalam trading.
-
-Trader pemula yang mempelajari lot besar sebelum mempelajari batas risiko biasanya cepat hancur. Trader pemula yang belajar membatasi risiko sejak awal memberi dirinya kesempatan untuk bertahan, belajar, dan berkembang lebih lama.
+## Catatan
+*Tugas Praktik: Cari "Forex Position Size Calculator" di Google atau gunakan Tool Long/Short di TradingView. Lakukan simulasi: Anggap modal Anda $5.000 dan risiko 1%. Berapa Lot yang harus Anda pakai jika SL Anda berjarak 18 Pips pada pair EURUSD? Catat angkanya. Lakukan perhitungan ini sebelum membuka posisi apapun selamanya.*
