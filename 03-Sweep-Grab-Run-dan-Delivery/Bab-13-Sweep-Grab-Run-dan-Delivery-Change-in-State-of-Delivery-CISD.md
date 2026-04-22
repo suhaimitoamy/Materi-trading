@@ -1,72 +1,267 @@
 # Bab 13 — Change in State of Delivery (CISD) (Memahami Perubahan Algoritma Pasar)
 
-> "Pasar tidak hanya berubah arah; ia berubah cara 'bernafas'. Change in State of Delivery (CISD) adalah tanda bahwa algoritma pasar telah berhenti mencari likuiditas di satu sisi dan mulai mengirimkan harga ke sisi lainnya."
+> "Pasar tidak hanya berubah arah; ia berubah cara bergeraknya. CISD adalah tanda bahwa market berhenti mencari likuiditas di satu sisi dan mulai mengirim harga ke sisi lainnya."
 
 ## Mengapa Bab Ini Penting
-Banyak trader bingung membedakan antara koreksi kecil (*retracement*) dan pembalikan arah yang sesungguhnya (*reversal*). Mereka seringkali melakukan *buy* saat harga turun sedikit, padahal pasar sebenarnya sudah berubah status menjadi *bearish delivery*.
 
-**Change in State of Delivery (CISD)** adalah konsep tingkat lanjut yang menyatukan semua materi dalam folder ini (*Sweep, Grab, Run, dan Delivery*). Memahami CISD berarti Anda mampu membaca "niat" algoritma pasar secara *real-time*. Ini adalah filter terakhir dan paling kuat untuk mengonfirmasi bahwa sebuah pergerakan harga bukan sekadar kebetulan, melainkan perubahan sistematis dalam pengiriman harga.
+Banyak trader kesulitan membedakan antara *retracement* dan *reversal*. Mereka melihat harga bergerak berlawanan arah sedikit, lalu menganggap tren sudah berubah, padahal market sebenarnya masih dalam delivery yang sama.
+
+Masalah utamanya adalah tidak memahami **kapan arah delivery benar-benar berubah**.
+
+**Change in State of Delivery (CISD)** adalah konsep yang membantu membaca perubahan tersebut. Ini bukan hanya tentang struktur, tetapi tentang **perubahan perilaku harga terhadap likuiditas dan area teknis**.
+
+Bab ini penting karena:
+
+- menyatukan konsep **Sweep, Displacement, MSS, dan Delivery**
+- membantu membedakan koreksi dan perubahan arah
+- menjadi konfirmasi sebelum entry reversal
+- meningkatkan akurasi dalam membaca niat market
 
 ## Tujuan Pembelajaran
+
 Setelah mempelajari bab ini, pembaca diharapkan mampu:
-*   Mendefinisikan konsep *Change in State of Delivery* (CISD) secara teknis.
-*   Mengidentifikasi perbedaan antara CISD dan *Market Structure Shift* (MSS).
-*   Mengenali tanda-tanda visual ketika algoritma pasar berpindah dari fase akumulasi ke distribusi.
-*   Menggunakan CISD sebagai konfirmasi akhir sebelum melakukan eksekusi *trade*.
-*   Memahami bagaimana CISD memvalidasi area *Fair Value Gap* dan *Order Block*.
+
+- memahami apa itu CISD
+- membedakan CISD dan MSS
+- mengenali perubahan perilaku harga
+- menggunakan CISD sebagai konfirmasi
+- memahami hubungan CISD dengan FVG dan Order Block
 
 ## 1. Apa Itu Change in State of Delivery (CISD)?
-**CISD** adalah kondisi di mana perilaku harga berubah secara fundamental. Jika sebelumnya harga terus-menerus menghormati level *support* dan menembus *resistance*, lalu tiba-tiba ia mulai menembus *support* dan menghormati *resistance*, maka telah terjadi CISD.
 
-Secara algoritma, CISD terjadi ketika:
-*   **Bullish CISD:** Harga berhenti mengambil *Sell-Side Liquidity* dan mulai secara agresif mengejar *Buy-Side Liquidity*.
-*   **Bearish CISD:** Harga berhenti mengambil *Buy-Side Liquidity* dan mulai secara agresif mengejar *Sell-Side Liquidity*.
+**CISD (Change in State of Delivery)** adalah kondisi ketika market berubah dari satu arah delivery ke arah yang berlawanan.
 
-## 2. CISD vs Market Structure Shift (MSS)
-Meskipun terlihat serupa, keduanya memiliki perbedaan fungsi yang penting:
-*   **MSS (Struktur):** Berfokus pada penembusan titik *Swing High/Low*. Ini adalah konfirmasi mekanis.
-*   **CISD (Perilaku):** Berfokus pada bagaimana harga bereaksi terhadap *PD Arrays* (FVG, OB). Jika sebuah *Bearish FVG* yang seharusnya menahan harga justru ditembus dengan kuat, itu adalah CISD, bahkan sebelum *Swing High* utama ditembus.
+Secara sederhana:
 
-**Urutan Logis:** Sweep → CISD (Perubahan Perilaku) → MSS (Perubahan Struktur) → Entry.
+- sebelumnya market mencari likuiditas di satu sisi  
+- lalu berhenti  
+- dan mulai mencari likuiditas di sisi lain  
 
-## 3. Tabel: Tanda-Tanda Perubahan State
-| Fitur | State Lama (Misal: Bearish) | Change in State (Menjadi Bullish) |
+Contoh:
+
+### Bullish CISD
+- sebelumnya market turun mencari **SSL**
+- lalu berhenti
+- kemudian mulai naik mencari **BSL**
+
+### Bearish CISD
+- sebelumnya market naik mencari **BSL**
+- lalu berhenti
+- kemudian mulai turun mencari **SSL**
+
+CISD adalah perubahan **niat market**, bukan hanya perubahan arah sementara.
+
+## 2. Perbedaan CISD dan MSS
+
+Keduanya sering muncul bersama, tetapi memiliki fungsi berbeda.
+
+### MSS (Market Structure Shift)
+- fokus pada **struktur**
+- terjadi saat swing high/low ditembus
+- bersifat mekanis
+
+### CISD
+- fokus pada **perilaku harga**
+- terlihat dari cara harga bereaksi terhadap **FVG / OB**
+- bisa muncul sebelum MSS
+
+### Urutan yang sering terjadi
+
+- Sweep  
+- CISD  
+- MSS  
+- Entry  
+
+Artinya, CISD sering menjadi tanda awal sebelum struktur benar-benar berubah.
+
+## 3. Tanda-Tanda Terjadinya CISD
+
+Perubahan state bisa dilihat dari beberapa perubahan perilaku berikut:
+
+### 1. Reaksi terhadap FVG berubah
+
+Sebelumnya:
+- harga ditolak di FVG searah tren lama  
+
+Setelah CISD:
+- harga menembus FVG tersebut  
+
+Ini menunjukkan bahwa area yang sebelumnya kuat sudah tidak lagi dihormati.
+
+### 2. Arah displacement berubah
+
+Sebelumnya:
+- displacement searah tren lama  
+
+Setelah CISD:
+- displacement muncul ke arah berlawanan  
+
+Ini menunjukkan perubahan dominasi.
+
+### 3. Target likuiditas berubah
+
+Sebelumnya:
+- market mengejar satu sisi likuiditas  
+
+Setelah CISD:
+- market mulai mengejar sisi sebaliknya  
+
+### 4. Struktur mulai gagal dipertahankan
+
+Sebelumnya:
+- market terus membuat higher high / lower low  
+
+Setelah CISD:
+- mulai gagal melanjutkan struktur  
+
+## 4. Tabel Perubahan State
+
+| Fitur | State Lama | Setelah CISD |
 | :--- | :--- | :--- |
-| **Reaksi di FVG** | Harga memantul turun dari FVG | Harga menembus FVG (menjadi *Inversion*) |
-| **Pengambilan Low** | Terus membuat *Lower Low* | Gagal membuat *Low* baru (*Sweep*) |
-| **Kecepatan** | Turun dengan cepat (*Displacement*) | Naik dengan cepat (*Displacement*) |
-| **Order Block** | *Bearish OB* dihormati | *Bearish OB* ditembus, *Bullish OB* terbentuk |
-| **Target** | Mengejar SSL di bawah | Mengejar BSL di atas |
+| **Arah Delivery** | Satu arah | Berubah arah |
+| **FVG** | Dihormati | Ditembus |
+| **Displacement** | Searah tren lama | Muncul berlawanan |
+| **Struktur** | Konsisten | Mulai rusak |
+| **Target Likuiditas** | Satu sisi | Beralih sisi |
+| **Reaksi Harga** | Konsisten | Berubah |
 
-## 4. Visualisasi CISD di Chart
-Bayangkan harga sedang turun (Bearish Delivery). Setiap kali harga naik sedikit ke sebuah *Fair Value Gap*, ia langsung ditolak turun lagi.
-*   **Momen CISD:** Harga naik ke *Fair Value Gap* tersebut, namun bukannya ditolak, ia justru **menutup di atasnya** dengan candle yang kuat.
-*   Ini adalah bukti bahwa algoritma tidak lagi tertarik untuk mengirim harga lebih rendah. Status pengiriman telah berubah.
+## 5. Visual Sederhana di Chart
 
-## 5. Aplikasi Praktis: Konfirmasi Entry
-Gunakan CISD untuk memvalidasi *setup* Anda:
-1.  Harga mencapai POI (misal: *Daily Order Block*).
-2.  Di timeframe kecil (M1/M5), tunggu harga menyapu likuiditas terakhir.
-3.  Lihat apakah harga mampu menembus *Fair Value Gap* terakhir yang searah dengan tren lama.
-4.  Jika FVG tersebut ditembus dan harga bertahan di atasnya, **CISD terkonfirmasi**.
-5.  Anda bisa melakukan *entry* dengan tingkat kepercayaan yang jauh lebih tinggi.
+Contoh bearish ke bullish:
 
-## 6. Glosarium Bab 13
-*   **CISD:** Perubahan status algoritma dalam mengirimkan harga ke target likuiditas.
-*   **State of Delivery:** Kondisi pasar saat ini (apakah sedang mencari pembeli atau penjual).
-*   **Inversion FVG:** *Fair Value Gap* yang telah ditembus dan fungsinya berbalik (dari *resistance* menjadi *support* atau sebaliknya).
-*   **PD Array:** *Premium or Discount Array* (daftar level teknis seperti OB, FVG, Breaker).
-*   **Real-time Narrative:** Kemampuan membaca cerita pasar saat candle sedang terbentuk.
+- harga turun terus  
+- setiap naik ke FVG → ditolak  
+- lalu suatu saat harga naik ke FVG  
+- tetapi tidak ditolak  
+- malah close di atas  
 
-## 7. Ringkasan Bab
-*   CISD adalah "sinyal awal" sebelum struktur pasar benar-benar berubah.
-*   Perhatikan bagaimana harga memperlakukan *Fair Value Gap* sebelumnya.
-*   CISD yang valid selalu diawali dengan pengambilan likuiditas (*Sweep*).
-*   Jangan melawan *State of Delivery* yang sedang aktif; ikutilah alurnya.
-*   CISD memberikan konfirmasi bahwa *Smart Money* telah benar-benar berpindah sisi.
+Ini adalah tanda bahwa:
+
+- supply mulai melemah  
+- buyer mulai dominan  
+- delivery mulai berubah  
+
+## 6. Hubungan dengan Sweep
+
+CISD hampir selalu didahului oleh:
+
+- **Liquidity Sweep**
+- pengambilan **BSL / SSL**
+
+Tanpa sweep:
+
+- tidak ada alasan perubahan  
+- tidak ada likuiditas yang digunakan  
+
+Jadi urutan logis:
+
+> Sweep → CISD → MSS → Delivery baru
+
+## 7. Hubungan dengan Displacement
+
+Displacement membantu mengonfirmasi CISD.
+
+- displacement berlawanan arah → tanda kuat perubahan  
+- displacement lemah → CISD kurang valid  
+
+CISD tanpa displacement biasanya tidak cukup kuat untuk diandalkan.
+
+## 8. Hubungan dengan SMR Model
+
+CISD adalah bagian awal dari **SMR Model**.
+
+Dalam SMR:
+
+- sweep terjadi  
+- lalu muncul perubahan perilaku → CISD  
+- lalu struktur berubah → MSS  
+- lalu retracement → entry  
+- lalu expansion → delivery baru  
+
+Jadi CISD adalah titik transisi dalam model reversal.
+
+## 9. Peran FVG dalam CISD
+
+FVG menjadi alat utama membaca perubahan.
+
+### Sebelum CISD
+- FVG searah tren dihormati  
+
+### Setelah CISD
+- FVG tersebut ditembus  
+- bisa berubah fungsi (*inversion*)  
+
+Ini adalah tanda bahwa market tidak lagi mengikuti pola lama.
+
+## 10. Aplikasi Praktis
+
+Untuk menggunakan CISD:
+
+1. tentukan arah delivery saat ini  
+2. identifikasi target likuiditas  
+3. tunggu **Liquidity Sweep**  
+4. perhatikan reaksi di FVG / OB  
+5. lihat apakah ada perubahan perilaku  
+6. konfirmasi dengan displacement  
+7. tunggu MSS  
+8. cari entry di retracement  
+
+CISD digunakan sebagai filter sebelum entry, bukan sinyal tunggal.
+
+## 11. Kapan CISD Valid?
+
+CISD lebih valid jika:
+
+- ada sweep sebelumnya  
+- terjadi di area HTF penting  
+- ada displacement jelas  
+- FVG ditembus dengan tegas  
+- diikuti MSS  
+- ada target likuiditas baru  
+
+## 12. Kapan CISD Lemah?
+
+CISD kurang valid jika:
+
+- tidak ada sweep  
+- tidak ada displacement  
+- terjadi di tengah range  
+- tidak ada perubahan perilaku jelas  
+- tidak diikuti MSS  
+- melawan konteks HTF  
+
+## 13. Glosarium Bab 13
+
+- **CISD**: perubahan arah delivery market  
+- **State of Delivery**: arah market saat ini  
+- **MSS**: perubahan struktur  
+- **FVG**: ketidakseimbangan harga  
+- **Inversion FVG**: FVG yang berubah fungsi  
+- **Displacement**: dorongan harga kuat  
+- **Draw on Liquidity**: target likuiditas  
+
+## 14. Ringkasan Bab
+
+- CISD adalah perubahan arah delivery market  
+- Fokus utama adalah perubahan perilaku harga  
+- CISD sering muncul sebelum MSS  
+- FVG menjadi alat utama membaca perubahan  
+- CISD valid jika didukung sweep dan displacement  
+- CISD membantu membedakan retracement dan reversal  
 
 ## Penutup
-Selamat! Anda telah menyelesaikan seluruh materi dalam folder **03 — Sweep, Grab, Run, dan Delivery**. Anda sekarang memiliki pemahaman yang utuh tentang bagaimana pasar bergerak, bagaimana ia menjebak, dan bagaimana ia berubah arah. Gunakan pengetahuan ini dengan bijak dan selalu kombinasikan dengan manajemen risiko yang ketat.
+
+Dengan memahami **CISD**, Anda tidak lagi hanya melihat struktur, tetapi mulai membaca perubahan perilaku market. Ini membantu Anda mengenali kapan arah benar-benar berubah dan kapan market hanya melakukan koreksi.
+
+Materi ini menjadi penutup dari folder **Sweep, Grab, Run, dan Delivery**, dan menjadi fondasi untuk membaca pergerakan market secara utuh.
 
 ## Catatan Akhir Folder 03
-*Materi ini adalah fondasi dari strategi SMC/ICT. Jangan terburu-buru. Buka chart Anda, lakukan backtest pada konsep CISD ini, dan lihatlah bagaimana ia seringkali muncul tepat sebelum pergerakan besar terjadi. Sampai jumpa di folder berikutnya!*
+
+Gunakan konsep CISD untuk melihat chart secara keseluruhan:
+
+- tandai sweep  
+- lihat perubahan perilaku  
+- konfirmasi dengan displacement  
+- tunggu struktur berubah  
+
+Dengan latihan, Anda akan mulai melihat bahwa market bergerak dengan pola yang berulang dan terstruktur.
