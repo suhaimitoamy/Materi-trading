@@ -1,81 +1,75 @@
-# Bab 7 — Template Review Mingguan: Audit Kepatuhan (Compliance Audit)
+# Bab 7 — Template Review Mingguan: Audit Kepatuhan Akhir Pekan
 
-> "Hari Minggu bukanlah hari istirahat bagi trader; ini adalah hari persiapan. Mereka yang tidak mengevaluasi masa lalunya pada akhir pekan, dikutuk untuk mengulangi kerugiannya pada hari Senin. Template ini adalah cermin untuk melihat betapa jauhnya tindakan Anda dari rencana Anda."
+> "Seorang amatir menilai kesuksesannya dari jumlah uang yang ia kumpulkan di hari Jumat sore. Seorang profesional menilai kesuksesannya dari seberapa patuh ia pada sistemnya sejak Senin pagi, tak peduli apa pun hasil akhirnya."
 
 ## Mengapa Bab Ini Penting
-Pada Bab 4, kita telah membahas filosofi di balik *Review Mingguan*. Bab ini adalah alat eksekusinya. Daripada Anda bingung harus memikirkan apa saat duduk di depan layar pada hari Sabtu pagi, *template* ini akan memaksa Anda untuk menjawab serangkaian pertanyaan diagnostik yang tajam dan langsung ke sasaran.
+Menjurnal harian (seperti di Bab 2) adalah proses merekam remah-remah kejadian. Namun, tanpa menyatukan kepingan-kepingan itu di akhir pekan, remah-remah itu tidak akan pernah membentuk sebuah gambar utuh. Bab ini penting karena memberikan alat konkret (Template) untuk melakukan sinkronisasi data mingguan Anda secara metodis dan ringkas.
 
-*Template* ini dirancang dengan satu tujuan utama: Mengukur **Kepatuhan (Compliance)** Anda terhadap sistem. Tidak ada bagian yang secara khusus menanyakan "Berapa banyak uang yang Anda hasilkan minggu ini?". Mengapa? Karena sebagai pemula, fokus Anda harus 100% pada proses, bukan pada *outcome* (hasil akhir).
+Banyak trader berhenti di tahap *Weekly Review* karena menganggapnya butuh waktu berjam-jam. Dengan template yang tersusun baku, aktivitas audit kepatuhan ini hanya memakan waktu 15 hingga 30 menit setiap akhir pekan. *Review Mingguan* bukan tempat Anda menangisi jumlah kerugian atau merayakan laba, melainkan tempat Anda menelanjangi tingkat kedisiplinan dan objektivitas diri Anda tanpa belas kasihan. Inilah cermin koreksi terdekat sebelum Anda melempar modal Anda lagi di hari Senin pembukaan pasar berikutnya.
 
 ## Tujuan Pembelajaran
 Setelah mempelajari bab ini, pembaca diharapkan mampu:
-*   Melaksanakan *Review Mingguan* secara terstruktur dalam waktu kurang dari 30 menit.
-*   Mengisi metrik evaluasi kepatuhan (*Compliance Score*) dengan jujur dan objektif.
-*   Memetakan daftar kesalahan (*Mistake Log*) yang dominan selama lima hari perdagangan terakhir.
-*   Mengkalibrasi ulang persiapan mental sebelum pasar buka pada Senin pagi.
-*   Merumuskan KPI operasional untuk minggu yang baru.
+*   Menerapkan secara praktis kerangka kerja *Template Weekly Review* dalam rutinitas kalender akhir pekan trader harian.
+*   Mengukur tingkat **Skor Kepatuhan (Compliance Score)** mingguan secara kuantitatif berdasarkan ketaatan penuh pada aturan strategi, bukan berdasarkan hasil nominal Dolar.
+*   Mengidentifikasi kesalahan spesifik eksekusi berulang (seperti masuk terlalu cepat/awal, salah membaca narasi DXY, atau kegagalan menahan jemari dari godaan laba panik).
+*   Menyimpulkan wawasan koreksi terarah guna menyusun satu janji operasional (SOP perbaikan darurat) untuk perlindungan minggu depan.
 
-## Template Review Mingguan (Copy-Paste untuk Digunakan)
+## 1. Komponen Template Review Mingguan
+Template ini dirancang untuk segera digunakan (bisa Anda salin-tempel ke Notion, Evernote, atau di atas meja catatan fisik). Ia memiliki 4 bagian utama yang melingkupi statistik operasional, audit disiplin, ekstraksi pola dari transaksi, serta perintah persiapan operasional pekan raya mendatang.
 
-### [A] Ringkasan Metrik Dasar (Data Kuantitatif)
-*(Isi bagian ini dari rekap Jurnal Harian Anda di Bab 2)*
-*   **Periode Minggu:** [Misal: 10 Mei - 14 Mei 2024]
-*   **Total Eksekusi (Jumlah Trade):** [____] *Trade*
-*   **Win Rate (Hanya untuk pemantauan, bukan obsesi):** [____]%
-*   **Total Trade Sesuai Sistem (Rule-Based):** [____] *Trade*
-*   **Total Trade Pelanggaran (Impulsif/FOMO):** [____] *Trade*
-*   **COMPLIANCE SCORE (Skor Kepatuhan):** [____]%
-    *(Cara hitung: Trade Sesuai Sistem dibagi Total Trade x 100%. Target mingguan adalah > 90%)*
+### Bagian A: Statistik Mingguan (Tinjauan Data Kuadran)
+Ini adalah ringkasan kesehatan portofolio di akhir pekan, ditulis secara cepat dan objektif murni menggunakan satuan R (Risiko), bukan pamer Dolar atau Rupiah.
+*   **Total Trade yang Dieksekusi:** [Isi jumlah transaksi, misal: 8 Trade]
+*   **Total Win (Kemenangan):** [Isi jumlah, misal: 3 Trade]
+*   **Total Loss (Kerugian):** [Isi jumlah, misal: 5 Trade]
+*   **Win Rate:** [Isi persentase, misal: 37.5%]
+*   **Rasio Keuntungan Bersih (Total R):** [Isi hasil jumlahan akhir, misal: +1 R atau -2 R]
 
-### [B] Audit Psikologi & Emosi (The "Bad" Loss)
-*(Fokus pada trade yang melanggar aturan, bukan pada loss yang sesuai aturan)*
-1.  **Daftar Pelanggaran Terbesar Minggu Ini:**
-    *   [  ] FOMO (Masuk terlalu cepat tanpa konfirmasi).
-    *   [  ] Revenge Trading (Masuk berlawanan arah segera setelah Loss).
-    *   [  ] Memindahkan / Melebarkan Stop Loss.
-    *   [  ] Mengambil Profit Terlalu Cepat (Tangan Gatal sebelum target).
-    *   [  ] Over-risking (Menggunakan lot lebih dari 1%).
-    *   [  ] Lainnya: ______________________
-2.  **Trade Terburuk Minggu Ini (Berdasarkan Kecerobohan, Bukan Nominal):**
-    *   *Hari/Pair:* [Misal: Selasa / XAUUSD]
-    *   *Kenapa saya melakukannya? (Akar masalah emosi):* [Misal: "Saya sudah loss dua kali di sesi London, saya memaksakan trade di sesi NY yang choppy agar hari itu breakeven."]
-    *   *Apa yang seharusnya saya lakukan?* [Misal: "Tutup layar sesuai aturan Max 2 Loss per hari."]
+*Catatan Taktis:* Anda mungkin memiliki *Win Rate* hancur (hanya 37.5%), tetapi karena Rasio *Risk/Reward* (*Trade Management*) disiplin, Total R Anda bisa tetap bernilai positif (+1 R). Inilah kekuatan *Position Sizing*!
 
-### [C] Perayaan Disiplin (The "Good" Loss & The "Best" Win)
-*(Merayakan proses, bukan hasil)*
-1.  **Trade Terbaik Minggu Ini (Pelaksanaan Terbersih):**
-    *   *Hari/Pair:* [____]
-    *   *Mengapa ini terbaik?* [Misal: "Saya menunggu sabar selama 2 jam sampai harga menyentuh OTE, eksekusi lot presisi, dan tidak melihat chart selama posisi berjalan."]
-2.  **"Good Loss" Minggu Ini (Kerugian yang Bisa Dibanggakan):**
-    *   *Hari/Pair:* [____]
-    *   *Alasan Bangga:* [Misal: "Saya kena SL dengan risiko tetap 1%, saya menerimanya dan tidak melakukan balas dendam sama sekali."]
+### Bagian B: Audit Kepatuhan (Compliance Score)
+Anggaplah Anda adalah atasan dan sekaligus bawahan. Nilailah diri Anda dengan skor 1 hingga 5 (1 = Sangat Buruk melanggar aturan; 5 = Sangat Patuh berdisiplin baja).
 
-### [D] Perencanaan Ke Depan (Action Plan & KPI Baru)
-1.  **Observasi Market Minggu Ini:**
-    *   [Misal: "Pasar minggu ini bergerak sangat konsolidatif karena menunggu berita NFP di hari Jumat. Setup saya yang membutuhkan tren jelas banyak yang gagal."]
-2.  **Satu Kebiasaan Buruk yang Harus Dimatikan Minggu Depan:**
-    *   [____]
-3.  **KPI Spesifik (Hitam/Putih) untuk Minggu Depan:**
-    *   [Misal: "KPI: Saya tidak akan mengeksekusi trade apa pun sebelum jam 14:00 WIB (awal sesi London). Target skor kepatuhan: 100%."]
+*   *Kepatuhan Menunggu Konfirmasi SMT/FVG:* [1 - 5]
+*   *Kepatuhan Tidak Overtrading setelah Loss:* [1 - 5]
+*   *Kepatuhan Toleransi Risiko (Hanya 1% per trade):* [1 - 5]
+*   *Kepatuhan Tidak Menutup Profit Secara Panik Prematur:* [1 - 5]
+*   **Skor Total Kepatuhan Mingguan:** [Misal: 14/20]
 
----
+*Refleksi:* Jika Skor Kepatuhan Anda rendah (di bawah 10), jangan heran jika Total R Anda di Bagian A berakhir negatif berdarah-darah (*Loss*). Masalah Anda bulan ini murni psikologis, bukan teknikal chart algoritmis.
 
-## 1. Glosarium Bab 7
-*   **Compliance Score (Skor Kepatuhan):** Persentase yang menunjukkan seberapa setia Anda pada aturan sistem trading Anda sendiri dalam jangka waktu seminggu.
-*   **Mistake Log (Catatan Kesalahan):** Daftar spesifik mengenai pelanggaran operasional atau psikologis (seperti FOMO, melebarkan SL) yang dilakukan trader.
-*   **Good Loss:** Kerugian yang diterima dengan bangga karena trader sepenuhnya mematuhi prosedur eksekusi dan manajemen risiko.
-*   **Action Plan:** Rencana tindakan perbaikan yang dirumuskan dari evaluasi masa lalu untuk diimplementasikan secara tegas di minggu depan.
-*   **KPI Spesifik:** Indikator Kinerja Utama yang bersifat biner (Ya/Tidak dapat dicapai), bukan tujuan yang kabur (seperti "ingin lebih sabar").
+### Bagian C: Evaluasi Jurnal (Ekstraksi Pelajaran)
+Ambil 1 *Trade* Terbaik dan 1 *Trade* Terburuk dalam pekan ini, lalu jawab interogasi berikut secara singkat.
 
-## 2. Ringkasan Bab
-*   Gunakan template ini setiap akhir pekan untuk memaksa diri Anda duduk dan melakukan refleksi yang jujur.
-*   Fokuslah pada *Compliance Score* (Skor Kepatuhan). Sebuah minggu yang merugi uang namun memiliki kepatuhan 100% adalah kemajuan jangka panjang; sedangkan minggu yang profit berkat 5 kali *Revenge Trading* (Kepatuhan 0%) adalah sebuah kemunduran.
-*   Selalu temukan dan catat *Trade Terburuk* Anda (berdasarkan pelanggaran) agar otak Anda mengingat pedihnya ketidakdisiplinan.
-*   Jangan lupa merayakan *Good Loss*, karena kemampuan menerima kerugian tanpa emosi adalah tanda Anda mulai menjadi trader profesional.
-*   Akhiri *review* dengan menyusun satu *Action Plan* yang sangat spesifik dan dapat diukur untuk minggu berikutnya.
+**Review Trade Terbaik Minggu Ini:**
+*   Mengapa ini berhasil? *(Misal: "Sabar menunggu harga masuk area OTE diskon di bawah Midnight Open NY, didukung pelemahan tajam DXY pada rentang waktu London AM")*.
+*   Apa yang saya lakukan dengan benar? *(Misal: "Membiarkan harga fluktuatif selama 4 jam tanpa menyentuh tombol tutup layar sama sekali")*.
+
+**Review Trade Terburuk Minggu Ini:**
+*   Apakah ini *Good Loss* (Probabilitas wajar) atau *Ugly Loss* (Ceroboh)?
+*   Kapan dan di mana saya merusak aturan? *(Misal: "Memaksakan masuk buy Emas di sesi akhir Jumat sore setelah lelah menunggu, murni kena FOMO padahal tidak ada likuiditas tersapu")*.
+
+### Bagian D: Janji Koreksi Minggu Depan (The Forward Promise)
+Buat SATU saja aturan larangan atau instruksi perbaikan yang mutlak harus dipatuhi minggu depan, jangan lebih. Terlalu banyak aturan baru membuat otak kebingungan.
+*   **Target Koreksi Fokus:** *(Misal: "Senin besok hingga Jumat, saya dilarang menaruh *limit order* pada *Order Block* jika belum terjadi manipulasi pergerakan sapuan ekor lilin ke bawah *Daily Open*.")*
+
+## Glosarium
+*   **Template Weekly Review:** Kerangka pemandu evaluasi terstruktur secara mingguan untuk mendisiplinkan rutinitas pembedahan portofolio pasca-perdagangan pasar tutup buku akhir pekan.
+*   **Compliance Score (Skor Kepatuhan):** Metrik kalkulasi introspektif kuantitatif mandiri yang menakar seberapa kokoh kadar kepatuhan eksekusi seorang trader dalam mematuhi undang-undang batasan strateginya secara utuh.
+*   **Good Loss:** Spesifikasi taksonomi kerugian finansial yang sehat secara probabilitas statistik, direkam setelah konfirmasi kepatuhan penuh terhadap pedoman toleransi lot proteksi.
+*   **Ugly Loss:** Kategorisasi spesifik label kerugian beracun merusak modal dan pikiran akibat pelanggaran langsung ketaatan disiplin prosedural, biasanya dihiasi motif emosional keserakahan.
+*   **Forward Promise:** Konklusi ringkas instruksional dalam bentuk deklarasi spesifik pembatasan tunggal harian untuk meredam kebiasaan bocor destruktif yang direfleksikan guna dioperasikan di siklus kerja pembukaan layar keesokan harinya.
+
+## Ringkasan
+*   Pelaksanaan audit mingguan bukanlah tempat untuk meratapi ketiadaan hasil laba uang; sebaliknya, itu adalah panggung penghakiman evaluasi akurasi kesabaran mental (*Compliance Audit*).
+*   Catatan rekaman data Total R yang positif (+ Profit) adalah selebrasi kosong jika skor metrik nilai kepatuhan diri (*Compliance Score*) yang dihasilkan ternyata berada di palung terendah bergaris merah.
+*   Pemilihan interogasi ekstraksi terfokus khusus pada 1 Transaksi Unggulan dan 1 Transaksi Terburuk terbukti menghemat durasi waktu audit akhir pekan secara signifikan dan membuang elemen data berisik (*Noise*).
+*   Kesimpulan akhir minggu yang tangguh haruslah dibingkai dalam wujud pernyataan jaminan proaktif (*Forward Promise*) berupa penentuan mutlak satu perbaikan tata cara untuk ditanamkan ke bawah sadar.
 
 ## Penutup
-Template ini adalah asisten manajer Anda. Menyelesaikannya setiap minggu akan membangun akuntabilitas internal yang kuat. Anda tidak lagi butuh motivasi dari luar, karena angka *Compliance Score* Anda akan berbicara sendiri. Selanjutnya, di bab terakhir dari seri Jurnal ini (Bab 8), kita akan membahas **Template Review Bulanan** yang ditujukan untuk penyesuaian makro, seperti apakah sudah saatnya Anda menaikkan modal atau menurunkan ekspektasi.
+Dengan mengoperasikan panduan kerangka instan pada bab tata laksana tinjauan siklus mingguan ini, kita berhasil memenjarakan sifat liar impulsif ke dalam wujud pembukuan terkontrol. Melakukan ritual ini secara gigih pada setiap akhir hari Minggu sore niscaya menyuntikkan Anda perisai perlindungan logika rasional, menyongsong keganasan bel yang akan segera menabuh kembali pembukaan bursa pasar di Senin dini hari.
 
-## Catatan
-*Tugas Praktik: Salin template di atas ke dalam aplikasi Notes di HP Anda atau Notion Anda. Mulai biasakan untuk tidak mengakhiri hari Jumat Anda (penutupan market) sebelum mengatur jadwal alarm di hari Sabtu/Minggu untuk mengisi form ini.*
+Tinjauan mingguan mengamankan Anda dari ranjau mikro pergerakan keseharian layar monitor. Namun, untuk melihat pertumbuhan garis horizontal bukit gunung evolusi kemajuan psikologi makro secara helikopter (*Bird's-Eye View*), kita akan menelusurinya di garis akhir pencapaian bab puncak berikutnya: **Template Review Bulanan**.
+
+## Catatan (Tugas Praktik)
+*Tugas Praktik: Salin atau cetak kertas pola kerangka dari Bagian A hingga Bagian D di buku jurnal manual Anda detik ini juga. Setelah putaran aktivitas layar grafis hari Jumat ini resmi ditutup (*Market Close*), sediakan 20 menit menyeduh teh/kopi, dan nilailah tingkat Skor Kepatuhan Anda tanpa membohongi nurani dengan bersikap sok pahlawan; lalu, rancang satu butir instruksi janji kalender sakral perbaikan harian untuk pertempuran pembukaan awal minggu Anda kelak.*
