@@ -2,41 +2,24 @@
 
 Folder ini adalah titik pertemuan antara teori dan realitas. Di sinilah kurikulum ini disempurnakan.
 
-Seluruh konsep dari Folder 01 hingga 09 akan bermuara di sini untuk diuji ketangguhannya di medan pertempuran (data masa lalu dan evaluasi trade nyata).
+Seluruh konsep dari Folder 01 hingga 09 akan bermuara di sini untuk diuji ketangguhannya di medan pertempuran (data masa lalu dan evaluasi *trade* nyata).
 
 ---
 
 ## Fokus Folder Ini
 
-Materi di folder ini berpusat pada:
+Materi di folder ini berpusat pada 2 bab utama yang telah disusun sebagai jembatan praktik bagi Anda:
 
-- Pembedahan (*Autopsi*) transaksi riil: The Flawless Win, The Good Loss, dan The Ugly Loss.
-- Proses menyatukan HTF Bias, Intermarket, Manipulasi, dan Trigger eksekusi ke dalam satu kesatuan cerita.
-- Praktik menggunakan Template Backtesting di Spreadsheet.
-- Cara menghitung probabilitas sistem (Win Rate, Maximum Drawdown, Trade Expectancy).
-- Penguasaan disiplin simulasi untuk membangun Kepercayaan Diri Besi (*Iron Confidence*).
+1. Bab 1 — Contoh Real Trade Win dan Loss: Belajar dari Medan Tempur
+2. Bab 2 — Template Backtesting: Membangun Kepercayaan Diri
 
----
-
-## Tujuan Folder Ini
-
-Folder ini dibuat agar Anda:
-
-- Bisa membedakan kegagalan karena "pasar" (Good Loss) dengan kegagalan karena "emosi trader" (Ugly Loss).
-- Menyadari bahwa kemenangan (Win) bukanlah sihir, melainkan deretan kepatuhan prosedural.
-- Berhenti mencari indikator "Holy Grail" dan mulai mencari Edge (Keunggulan) melalui data statistik.
-- Membangun benteng psikologis dari rasa panik saat menghadapi masa-masa kerugian (Drawdown).
+Secara keseluruhan, folder ini difokuskan pada pembedahan empiris atas keputusan masa lalu Anda (Autopsi) dan simulasi berulang masa lalu (Backtesting) untuk membuktikan *Edge* statistik Anda di masa depan.
 
 ---
 
-## Cara Menggunakan Folder Ini
+## Mengapa Folder Ini Penting
 
-Urutan yang disarankan:
-
-1. Baca dengan seksama contoh studi kasus, perhatikan bagaimana logika (SMC/ICT) diaplikasikan secara terbalik (Reverse Engineering) saat mengevaluasi sebuah trade.
-2. Lakukan latihan *Autopsi Trade* pada transaksi pribadi Anda minggu lalu.
-3. Salin Template Backtesting ke dalam Excel/Google Sheets Anda.
-4. Dedikasikan waktu di akhir pekan untuk menjalankan 50-100 sampel simulasi Backtest dan temukan metrik harapan (Expectancy) Anda.
+Anda tidak bisa membawa harapan kosong dan keyakinan buta ke dalam pasar finansial. Folder ini krusial karena ia adalah pemutus ilusi trader pemula. Di sinilah Anda melihat perbedaan nyata antara *Loss* yang terencana ("Good Loss") dengan *Loss* yang timbul akibat kecerobohan emosi ("Ugly Loss"). Tanpa validasi data statistik melalui *backtesting*, sistem sebagus apa pun tidak akan mampu menahan rasa takut Anda saat terjadi *Drawdown*.
 
 ---
 
@@ -44,15 +27,14 @@ Urutan yang disarankan:
 
 Setelah menyelesaikan folder ini, Anda diharapkan:
 
-- Memiliki rutinitas evaluasi yang objektif layaknya profesional.
-- Tidak pernah berani menggunakan uang riil pada strategi yang belum lulus uji 100 sampel backtest.
-- Memahami dan siap secara mental menghadapi rentetan kekalahan (*Losing Streak*).
-- Menjadikan repositori ini bukan sekadar buku bacaan, melainkan pondasi karir trading yang bisa diulang dan diukur.
+- Bisa menyatukan seluruh narasi pasar (HTF, Manipulasi, Trigger) ke dalam satu kesatuan cerita.
+- Memiliki rutinitas *Autopsi Trade* yang objektif layaknya seorang profesional.
+- Tidak lagi berani mempertaruhkan uang riil pada strategi yang belum melewati 100 sampel simulasi.
+- Menguasai cara menemukan metrik seperti *Win Rate*, *Maximum Drawdown*, dan *Trade Expectancy*.
+- Membangun benteng pertahanan psikologis dari rasa panik karena menyadari *Loss* adalah bagian dari probabilitas, bukan kegagalan personal.
 
 ---
 
 ## Penutup Seluruh Materi
 
-Folder ini adalah akhir dari kurikulum, tetapi baru awal dari perjalanan trading Anda.
-
-Pengetahuan teknikal bisa dipelajari dalam beberapa minggu, tetapi kedisiplinan mengeksekusi sistem dan mengelola kerugian membutuhkan waktu bertahun-tahun. Kembali ke sini setiap kali Anda merasa kehilangan arah. Mulailah berlatih, kumpulkan data Anda, dan biarkan probabilitas bekerja untuk Anda.
+Folder ini adalah akhir dari kurikulum di repositori ini, tetapi baru merupakan permulaan dari perjalanan karir *trading* Anda. Pengetahuan teknis bisa dihafal dalam waktu sebulan, tetapi kedisiplinan dan kontrol emosional membutuhkan iterasi bertahun-tahun. Kembali ke "Rak Buku" ini setiap kali Anda bingung, kumpulkan data Anda, dan biarkan hukum probabilitas mengambil alih.
