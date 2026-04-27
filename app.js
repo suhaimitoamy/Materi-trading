@@ -9,6 +9,7 @@ const state = {
   allPages: [],
   currentPath: "",
   search: "",
+  searchReady: false,
   theme: localStorage.getItem("mt-theme") || "dark",
 };
 
@@ -46,8 +47,12 @@ function humanizeFile(name) {
     .replace(/-/g, " ");
 }
 
-function normalizeForSearch(value) {
-  return value.toLowerCase().replace(/\s+/g, " ").trim();
+function normalizeForSearch(value = "") {
+  return value.toLowerCase().replace(/[#*_`>|\-[\]()]/g, " ").replace(/\s+/g, " ").trim();
+}
+
+function encodePath(path) {
+  return path.split("/").map(encodeURIComponent).join("/");
 }
 
 function parseChapterNumber(name) {
@@ -101,6 +106,7 @@ async function loadStructure() {
         html_url: file.html_url,
         folder: folder.name,
         label: humanizeFile(file.name),
+        searchText: normalizeForSearch(`${folder.name} ${humanizeFolder(folder.name)} ${file.name} ${humanizeFile(file.name)}`),
       }));
 
     enriched.push({
@@ -110,18 +116,41 @@ async function loadStructure() {
     });
   }
 
-  state.folders = enriched;
-  state.allPages = [
-    {
-      path: "README.md",
-      name: "README.md",
-      folder: "",
-      label: "Beranda",
-      html_url: `https://github.com/${OWNER}/${REPO}/blob/${BRANCH}/README.md`,
-    },
-    ...enriched.flatMap((folder) => folder.files),
-  ];
+  const homePage = {
+    path: "README.md",
+    name: "README.md",
+    folder: "",
+    label: "Beranda",
+    html_url: `https://github.com/${OWNER}/${REPO}/blob/${BRANCH}/README.md`,
+    searchText: normalizeForSearch("README Beranda Materi Trading"),
+  };
 
+  state.folders = enriched;
+  state.allPages = [homePage, ...enriched.flatMap((folder) => folder.files)];
+
+  renderStats();
+  renderNav();
+  loadSearchIndex();
+}
+
+async function loadSearchIndex() {
+  const pages = [...state.allPages];
+
+  await Promise.allSettled(
+    pages.map(async (page) => {
+      const markdown = await fetchText(buildRawUrl(page.path));
+      const folder = state.folders.find((item) => item.name === page.folder);
+      page.searchText = normalizeForSearch([
+        page.label,
+        page.name,
+        page.path,
+        folder?.label || "",
+        markdown,
+      ].join(" "));
+    })
+  );
+
+  state.searchReady = true;
   renderStats();
   renderNav();
 }
@@ -129,34 +158,43 @@ async function loadStructure() {
 function renderStats() {
   const folderCount = state.folders.length;
   const pageCount = state.allPages.length - 1;
+  const searchStatus = state.searchReady ? "Isi materi" : "Judul materi";
+
   els.heroStats.innerHTML = `
     <div class="stat"><strong>${folderCount}</strong><span>Folder utama</span></div>
     <div class="stat"><strong>${pageCount}</strong><span>Halaman materi</span></div>
+    <div class="stat"><strong>${searchStatus}</strong><span>Mode pencarian</span></div>
   `;
+}
+
+function pageMatchesQuery(page, folder, query) {
+  if (!query) return true;
+  return (
+    page.searchText.includes(query) ||
+    normalizeForSearch(page.label).includes(query) ||
+    normalizeForSearch(page.name).includes(query) ||
+    normalizeForSearch(folder?.label || "").includes(query)
+  );
 }
 
 function renderNav() {
   const query = normalizeForSearch(state.search);
   els.nav.innerHTML = "";
 
-  const homeLink = document.createElement("a");
-  homeLink.href = "#/";
-  homeLink.className = `nav-home ${state.currentPath === "README.md" || !state.currentPath ? "active" : ""}`;
-  homeLink.textContent = "Beranda";
-  els.nav.appendChild(homeLink);
+  const homePage = getPageByPath("README.md");
+  const homeMatches = !query || pageMatchesQuery(homePage, null, query);
+
+  if (homeMatches) {
+    const homeLink = document.createElement("a");
+    homeLink.href = "#/";
+    homeLink.className = `nav-home ${state.currentPath === "README.md" || !state.currentPath ? "active" : ""}`;
+    homeLink.textContent = "Beranda";
+    els.nav.appendChild(homeLink);
+  }
 
   state.folders.forEach((folder) => {
-    const folderMatches = normalizeForSearch(folder.label).includes(query);
-    const visibleFiles = folder.files.filter((file) => {
-      if (!query) return true;
-      return (
-        normalizeForSearch(file.label).includes(query) ||
-        normalizeForSearch(file.name).includes(query) ||
-        folderMatches
-      );
-    });
-
-    if (query && !folderMatches && visibleFiles.length === 0) return;
+    const visibleFiles = folder.files.filter((file) => pageMatchesQuery(file, folder, query));
+    if (query && visibleFiles.length === 0) return;
 
     const details = document.createElement("details");
     details.className = "nav-section";
@@ -180,6 +218,13 @@ function renderNav() {
     details.appendChild(list);
     els.nav.appendChild(details);
   });
+
+  if (!els.nav.children.length) {
+    const empty = document.createElement("div");
+    empty.className = "nav-empty";
+    empty.textContent = state.searchReady ? "Tidak ada materi yang cocok." : "Memuat indeks pencarian...";
+    els.nav.appendChild(empty);
+  }
 }
 
 function getCurrentPage() {
@@ -193,11 +238,11 @@ function getPageByPath(path) {
 }
 
 function buildGithubUrl(path) {
-  return `https://github.com/${OWNER}/${REPO}/blob/${BRANCH}/${path}`;
+  return `https://github.com/${OWNER}/${REPO}/blob/${BRANCH}/${encodePath(path)}`;
 }
 
 function buildRawUrl(path) {
-  return `${RAW_BASE}/${path}`;
+  return `${RAW_BASE}/${encodePath(path)}`;
 }
 
 function renderBreadcrumb(page) {
@@ -231,8 +276,6 @@ function renderMarkdown(markdown) {
   marked.setOptions({
     gfm: true,
     breaks: false,
-    headerIds: true,
-    mangle: false,
   });
 
   const html = marked.parse(markdown);
@@ -254,10 +297,11 @@ async function loadPage(path) {
 
   try {
     const markdown = await fetchText(buildRawUrl(page.path));
+    page.searchText = normalizeForSearch(`${page.searchText} ${markdown}`);
     els.content.innerHTML = renderMarkdown(markdown);
     closeSidebar();
   } catch (error) {
-    els.content.innerHTML = '<div class="error">Konten gagal dimuat.</div>';
+    els.content.innerHTML = '<div class="error">Konten gagal dimuat. Periksa koneksi atau batas akses GitHub.</div>';
   }
 }
 
