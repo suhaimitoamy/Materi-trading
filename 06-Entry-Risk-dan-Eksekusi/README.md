@@ -141,7 +141,7 @@ Setelah menyelesaikan folder ini, Anda diharapkan:
 - lebih tenang saat mengelola posisi yang sedang berjalan
 - tidak mudah merusak trade karena takut atau serakah
 - mampu membaca loss dan profit sebagai data evaluasi
-- siap menerjemahkan logika trading ke aturan yang lebih sistematis
+- siap memperdalam istilah lanjutan yang muncul di glosarium dan konsep teknikal berikutnya
 
 ---
 
@@ -165,4 +165,4 @@ Folder ini menjadi jembatan penting antara pembacaan market dan eksekusi yang pr
 
 Setelah folder ini selesai, lanjut ke:
 
-**07 — Sistem Indikator dan Translasi Logika**
+**07 — Pengembangan Konsep dari Glosarium**
