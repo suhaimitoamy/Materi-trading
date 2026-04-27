@@ -27,7 +27,7 @@ Setelah membaca bab ini, pembaca diharapkan mampu:
 
 - memahami fungsi repo ini
 - mengetahui urutan belajar dari folder 00 sampai 10
-- memahami posisi folder 07 sebagai ruang pengembangan baru
+- memahami posisi folder 07 sebagai pengembangan konsep dari glosarium
 - memahami cara memakai glosarium sebagai kamus kerja
 - menghubungkan materi dengan chart nyata
 - menghindari kesalahan umum saat belajar trading
@@ -43,7 +43,7 @@ Repo ini dirancang untuk menjadi tempat belajar trading yang:
 - bisa dibaca ulang kapan saja
 - menghubungkan teori dan praktik
 - membantu membangun kerangka berpikir
-- memisahkan fondasi, eksekusi, psikologi, dan backtesting
+- memisahkan fondasi, eksekusi, psikologi, advanced concept, dan backtesting
 
 Repo ini bukan dibuat untuk dibaca cepat lalu selesai.
 
@@ -64,10 +64,10 @@ Karena sebelum belajar setup, trader perlu memahami arah belajar.
 Banyak pemula ingin langsung mencari:
 
 - entry paling presisi
-- indikator paling akurat
 - setup yang sering menang
 - trik menangkap reversal
 - jam terbaik untuk entry
+- model advanced yang terlihat canggih
 
 Padahal sebelum itu semua, ada hal yang lebih penting:
 
@@ -114,11 +114,9 @@ Memahami bahwa waktu sama pentingnya dengan lokasi.
 
 Belajar bagaimana ide trading diterjemahkan ke entry yang rapi, risk yang jelas, dan workflow yang disiplin.
 
-### 07 — Folder Pengembangan Lanjutan
+### 07 — Pengembangan Konsep dari Glosarium
 
-Folder ini disiapkan ulang untuk membahas materi yang belum terealisasikan dari glosarium.
-
-Bab lama di folder 07 dikosongkan agar folder ini bisa dipakai sebagai ruang pengembangan konsep baru.
+Memperdalam istilah glosarium yang belum punya pembahasan utama, seperti Bias Hierarchy, BPR, CE, PD Array, lifecycle imbalance, CISD, liquidity path, liquidity vacuum, protected high/low, range model, dan Turtle Soup.
 
 ### 08 — Jurnal dan Psikologi Pemula
 
@@ -179,7 +177,7 @@ Gunakan glosarium untuk:
 - menyamakan definisi saat membuat jurnal
 - membantu menyusun rule yang tidak kabur
 - mencari istilah yang belum dipahami
-- memilih kandidat materi yang akan dikembangkan di folder 07
+- menemukan istilah yang pembahasannya diperluas di folder 07
 
 Glosarium tidak perlu dihafal sekaligus.
 
@@ -222,7 +220,7 @@ Saat mulai belajar dari repo ini, target terbaik bukan:
 - langsung profit besar
 - langsung punya win rate tinggi
 - langsung berani trading besar
-- langsung membuat indikator kompleks
+- langsung menguasai semua konsep advanced
 
 Target yang lebih sehat adalah:
 
