@@ -1,6 +1,6 @@
 # Bab 07 — Panduan Belajar dan Alur Repo
 
-> "Repo ini paling kuat jika dibaca sebagai kurikulum, bukan sebagai kumpulan file. Setiap folder punya fungsi berbeda: ada yang membangun fondasi, ada yang mengajari eksekusi, ada yang melatih psikologi, dan ada yang menguji semuanya lewat backtesting."
+> "Repo ini paling kuat jika dibaca sebagai kurikulum, bukan sebagai kumpulan file. Setiap folder punya fungsi berbeda: ada yang membangun fondasi, ada yang mengajari eksekusi, ada yang memperdalam istilah, ada yang melatih psikologi, dan ada yang menguji semuanya lewat backtesting."
 
 ## Mengapa Bab Ini Penting
 
@@ -13,7 +13,7 @@ Tujuan bab ini adalah membantu pembaca baru memahami:
 - bagaimana membaca materi agar tidak loncat konsep
 - bagaimana membawa teori ke chart nyata
 - bagaimana memakai glosarium sebagai kamus kerja
-- bagaimana memahami posisi folder 07 yang disiapkan ulang
+- bagaimana memakai folder 07 sebagai pengembangan istilah glosarium
 
 Repo ini tidak hanya berisi teori.
 
@@ -142,13 +142,23 @@ Materinya mencakup:
 
 Folder ini menjawab pertanyaan: **bagaimana masuk, keluar, dan mengelola risiko?**
 
-### 07 — Folder Pengembangan Lanjutan
+### 07 — Pengembangan Konsep dari Glosarium
 
-Folder ini disiapkan ulang sebagai ruang pengembangan materi baru.
+Folder ini memperdalam istilah glosarium yang belum punya pembahasan utama di folder lain.
 
-Bab lama di folder 07 dikosongkan karena rencana barunya adalah mengisi folder ini dengan pembahasan istilah atau konsep dari glosarium yang belum terealisasikan sebagai materi utama.
+Materinya mencakup:
 
-Dengan begitu, folder 07 bisa menjadi tempat pengembangan konsep yang belum punya rumah khusus di folder 01–06, 08–10.
+- Bias Hierarchy
+- BPR, CE, dan PD Array
+- Lifecycle Imbalance
+- CISD dan Price Delivery Algorithm
+- Advanced Liquidity Mapping
+- Liquidity Engineering
+- Liquidity Path, Migration, Rotation, dan Cascade
+- Liquidity Vacuum, Void, Gap, Corridor, dan Channel
+- Protected High/Low, Range Model, dan Turtle Soup
+
+Folder ini menjadi penghubung antara fondasi teknikal dan konsep lanjutan.
 
 ### 08 — Jurnal dan Psikologi Pemula
 
@@ -181,7 +191,7 @@ Materinya mencakup:
 - Intermarket Analysis DXY
 - Framework XAUUSD
 
-Folder ini sebaiknya dibaca setelah folder 01–06 dan 08 sudah cukup dipahami.
+Folder ini sebaiknya dibaca setelah folder 01–08 sudah cukup dipahami.
 
 ### 10 — Case Studies dan Backtesting
 
@@ -259,7 +269,7 @@ Cara pakainya:
 - saat istilah muncul berkali-kali, cari contoh di chart
 - saat membuat jurnal, pakai istilah yang sama agar catatan konsisten
 - saat membuat rule, gunakan definisi glosarium agar tidak kabur
-- saat menemukan istilah yang belum punya bab khusus, catat sebagai kandidat folder 07
+- saat menemukan istilah yang dibahas lebih panjang, buka folder 07
 
 Glosarium bukan daftar hafalan.
 
@@ -367,4 +377,4 @@ Dengan cara itu, repo ini bukan hanya menjadi tempat membaca, tetapi menjadi sis
 
 ## Catatan
 
-*Tugas Praktik: buat daftar folder 00 sampai 10 di jurnal belajar Anda. Di samping setiap folder, tulis satu kalimat fungsi folder tersebut. Untuk folder 07, tulis sebagai ruang pengembangan materi dari glosarium yang belum punya pembahasan khusus.*
+*Tugas Praktik: buat daftar folder 00 sampai 10 di jurnal belajar Anda. Di samping setiap folder, tulis satu kalimat fungsi folder tersebut. Untuk folder 07, tulis sebagai pengembangan istilah glosarium yang belum punya pembahasan utama.*
