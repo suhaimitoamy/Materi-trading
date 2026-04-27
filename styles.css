@@ -87,6 +87,7 @@ a:hover { text-decoration: underline; }
 .breadcrumb,
 summary,
 .nav-links a,
+.nav-empty,
 .button {
   font-size: 0.94rem;
 }
@@ -114,7 +115,8 @@ summary,
 .breadcrumb,
 .sidebar-footer a,
 .loading,
-.error {
+.error,
+.nav-empty {
   color: var(--muted);
 }
 
@@ -143,11 +145,21 @@ input[type="search"]:focus {
 }
 
 .nav-home,
-.nav-links a {
+.nav-links a,
+.nav-empty {
   display: block;
   padding: 10px 12px;
   border-radius: 12px;
+}
+
+.nav-home,
+.nav-links a {
   color: var(--text);
+}
+
+.nav-empty {
+  border: 1px dashed var(--line);
+  background: color-mix(in srgb, var(--panel-2) 46%, transparent);
 }
 
 .nav-home.active,
