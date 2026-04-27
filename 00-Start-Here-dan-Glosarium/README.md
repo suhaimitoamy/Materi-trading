@@ -26,11 +26,11 @@ Folder ini adalah fondasi navigasi.
 
 Sebelum masuk ke materi teknis, pembaca perlu memahami:
 
-- apa fungsi setiap folder
-- istilah apa saja yang akan sering muncul
-- bagaimana membaca materi dengan urutan yang benar
-- bagaimana memakai chart saat belajar
-- bagaimana menghindari loncat-loncat konsep
+- fungsi setiap folder
+- istilah yang sering muncul
+- urutan belajar yang benar
+- cara memakai chart saat belajar
+- cara menghindari loncat-loncat konsep
 
 ---
 
@@ -59,8 +59,8 @@ Urutan utama repo saat ini:
 7. **06 — Entry, Risk, dan Eksekusi**  
    Validasi entry, trigger, invalidation, target, risk, position management, dan workflow eksekusi.
 
-8. **07 — Folder Pengembangan Lanjutan**  
-   Folder ini dikosongkan dari bab lama dan disiapkan untuk materi yang belum terealisasikan dari glosarium.
+8. **07 — Pengembangan Konsep dari Glosarium**  
+   Pengembangan istilah glosarium yang belum punya pembahasan utama, seperti Bias Hierarchy, BPR, CE, PD Array, CISD, liquidity path, liquidity vacuum, protected high/low, dan Turtle Soup.
 
 9. **08 — Jurnal dan Psikologi Pemula**  
    Jurnal, review mingguan/bulanan, psikologi pemula, risk management, dan position sizing.
@@ -79,9 +79,10 @@ Urutan yang disarankan:
 
 1. Baca **Bab 01 — Mulai dari Sini**.
 2. Buka **Bab 02 — Glosarium Istilah Dasar** saat menemukan istilah asing.
-3. Siapkan chart memakai **Bab 06 — Panduan TradingView**.
-4. Baca **Bab 07 — Panduan Belajar dan Alur Repo** sebelum masuk ke folder 01.
-5. Lanjut belajar folder 01 sampai 10 secara berurutan.
+3. Baca **Bab 03 — Cara Menggunakan Repo Ini** untuk memahami cara belajar.
+4. Siapkan chart memakai **Bab 06 — Panduan TradingView**.
+5. Baca **Bab 07 — Panduan Belajar dan Alur Repo** sebelum masuk ke folder 01.
+6. Lanjut belajar folder 01 sampai 10 secara berurutan.
 
 ---
 
@@ -95,8 +96,7 @@ Gunakan glosarium sebagai kamus kerja:
 - saat membuat jurnal dan ingin menyebut konsep dengan istilah yang benar
 - saat backtesting dan ingin menyamakan definisi
 - saat menyusun rule agar istilah tidak kabur
-
-Jika sebuah istilah belum dibahas sebagai bab khusus, istilah itu bisa menjadi kandidat pengembangan materi berikutnya, terutama untuk folder 07.
+- saat mencari istilah yang sudah punya pembahasan lanjutan di folder 07
 
 ---
 
