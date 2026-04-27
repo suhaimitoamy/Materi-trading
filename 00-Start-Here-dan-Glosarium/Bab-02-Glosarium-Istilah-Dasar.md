@@ -1,6 +1,6 @@
-# Glosarium Istilah Trading ICT & SMC (Edisi Lengkap)
+# Glosarium Istilah Trading ICT & SMC
 
-File ini adalah kamus referensi cepat untuk istilah teknis yang digunakan dalam repositori ini. Gunakan file ini untuk memahami istilah yang mungkin terasa asing saat Anda membaca bab-bab materi.
+File ini adalah kamus referensi cepat untuk istilah teknis yang digunakan dalam repositori ini. Gunakan file ini untuk memahami istilah yang terasa asing saat membaca bab-bab materi.
 
 ---
 
@@ -19,7 +19,7 @@ Perluasan harga yang tampak terarah, cepat, dan sistematis menuju target likuidi
 Gagasan bahwa sesi Asia sering membentuk range awal yang kemudian dipakai sebagai referensi likuiditas oleh sesi berikutnya.
 
 ### Asian Range
-Rentang harga (High ke Low) yang terbentuk selama sesi Asia. Sering menjadi acuan likuiditas untuk sesi London atau New York.
+Rentang harga dari high ke low yang terbentuk selama sesi Asia. Sering menjadi acuan likuiditas untuk sesi London atau New York.
 
 ---
 
@@ -57,13 +57,13 @@ Struktur market yang ditandai oleh pola **Higher High** dan **Higher Low**.
 ## C
 
 ### CE (Consequent Encroachment)
-Titik tengah atau level 50% dari sebuah **Fair Value Gap**. Sering dianggap sebagai level minimum rebalancing harga di dalam FVG. 1
+Titik tengah atau level 50% dari sebuah **Fair Value Gap**. Sering dianggap sebagai level minimum rebalancing harga di dalam FVG.
 
 ### ChoCh (Change of Character)
 Sinyal awal perubahan karakter market. Dalam banyak konteks dipakai mirip dengan **MSS**, walau sebagian trader membedakan nuansa keduanya.
 
 ### Change in State of Delivery (CISD)
-Perubahan cara harga bergerak atau “delivery” harga, yang menunjukkan transisi dari satu kondisi market ke kondisi lain.
+Perubahan cara harga bergerak atau delivery harga, yang menunjukkan transisi dari satu kondisi market ke kondisi lain.
 
 ### Consolidation
 Fase ketika harga bergerak sempit dan belum melakukan ekspansi yang jelas.
@@ -85,7 +85,7 @@ Rentang dari swing low ke swing high yang digunakan untuk membaca **Premium**, *
 Fase ketika market mulai benar-benar bergerak menuju target likuiditas yang dituju.
 
 ### Displacement
-Pergerakan harga yang sangat kuat, cepat, dan searah. Biasanya ditandai candle ekspansif dan sering meninggalkan FVG. 2
+Pergerakan harga yang sangat kuat, cepat, dan searah. Biasanya ditandai candle ekspansif dan sering meninggalkan FVG.
 
 ### Discount
 Area harga di bawah level 50% (**Equilibrium**) dari sebuah dealing range. Area ideal untuk mencari posisi **Buy**.
@@ -100,7 +100,7 @@ PD Array yang berada di area **Discount** dan lebih menarik untuk setup buy.
 Fase ketika harga sudah selesai dimanipulasi atau dikumpulkan, lalu bergerak ke target yang lebih jauh.
 
 ### Draw on Liquidity
-“Magnet” atau target utama ke mana harga kemungkinan besar akan bergerak.
+Magnet atau target utama ke mana harga kemungkinan besar akan bergerak.
 
 ---
 
@@ -123,7 +123,7 @@ Likuiditas yang berada di luar dealing range atau di luar struktur aktif saat in
 ## F
 
 ### Fair Value Gap (FVG)
-Celah ketidakefisienan harga yang terbentuk dalam formasi 3-candle saat harga bergerak terlalu cepat dan tidak terjadi transaksi yang seimbang. 3
+Celah ketidakefisienan harga yang terbentuk dalam formasi 3-candle saat harga bergerak terlalu cepat dan tidak terjadi transaksi yang seimbang.
 
 ### False Liquidity
 Area yang tampak menyimpan likuiditas kuat, tetapi ternyata tidak memberi respons market yang berarti.
@@ -186,7 +186,7 @@ Kondisi ketika harga menolak area imbalance tanpa mengisi penuh.
 Pergerakan harga yang kuat dan cepat, biasanya searah bias aktif.
 
 ### Inducement
-Gerak harga yang “menggoda” trader masuk terlalu cepat agar likuiditas mereka dapat diambil lebih dulu.
+Gerak harga yang menggoda trader masuk terlalu cepat agar likuiditas mereka dapat diambil lebih dulu.
 
 ### Internal Liquidity
 Likuiditas yang berada di dalam range atau struktur aktif saat ini.
@@ -203,7 +203,7 @@ Gerakan manipulasi di awal sesi London atau New York yang berlawanan dengan arah
 ## K
 
 ### Kill Zones
-Jendela waktu tertentu ketika volatilitas dan aktivitas institusional cenderung lebih tinggi. 4
+Jendela waktu tertentu ketika volatilitas dan aktivitas institusional cenderung lebih tinggi.
 
 ---
 
@@ -246,7 +246,7 @@ Jalur pergerakan harga yang relatif bersih menuju target likuiditas.
 Susunan harga yang membuat trader salah membaca lokasi likuiditas sebenarnya.
 
 ### Liquidity Depth
-Tingkat “ketebalan” atau besarnya likuiditas pada suatu area.
+Tingkat ketebalan atau besarnya likuiditas pada suatu area.
 
 ### Liquidity Distribution
 Penyebaran likuiditas ke beberapa level, bukan hanya satu titik.
@@ -255,7 +255,7 @@ Penyebaran likuiditas ke beberapa level, bukan hanya satu titik.
 Habisnya likuiditas di satu sisi sehingga harga terdorong mencari sisi likuiditas lain.
 
 ### Liquidity Engineering
-Proses market “membentuk” kondisi agar likuiditas terkumpul di lokasi yang diinginkan.
+Proses market membentuk kondisi agar likuiditas terkumpul di lokasi yang diinginkan.
 
 ### Liquidity Expansion
 Perluasan gerakan harga setelah likuiditas terserap dan market mulai delivery.
@@ -291,7 +291,7 @@ Perubahan target likuiditas akibat perubahan struktur atau konteks market.
 Rute atau jalur yang mungkin dilalui harga menuju target likuiditas.
 
 ### Liquidity Pool
-Area berkumpulnya order, terutama stop-loss dan pending order. 5
+Area berkumpulnya order, terutama stop-loss dan pending order.
 
 ### Liquidity Pool Creation
 Pembentukan kolam likuiditas baru akibat pola harga tertentu.
@@ -321,7 +321,7 @@ Beberapa sumber likuiditas yang bertumpuk di area berdekatan.
 Susunan likuiditas internal dan eksternal yang membentuk konteks market.
 
 ### Liquidity Sweep
-Peristiwa ketika harga menyentuh atau menembus area likuiditas untuk mengambil order. 6
+Peristiwa ketika harga menyentuh atau menembus area likuiditas untuk mengambil order.
 
 ### Liquidity Sweep Failure
 Sweep yang gagal menghasilkan continuation atau reversal yang diharapkan.
@@ -370,7 +370,7 @@ Fase ketika market melakukan jebakan, false break, atau sweep untuk mengambil li
 Susunan swing high dan swing low yang membentuk konteks arah market.
 
 ### Market Structure Shift (MSS)
-Perubahan arah struktur pasar yang biasanya terjadi setelah pengambilan likuiditas dan disertai displacement. 7
+Perubahan arah struktur pasar yang biasanya terjadi setelah pengambilan likuiditas dan disertai displacement.
 
 ### Mean Threshold
 Titik tengah atau level 50% dari body sebuah **Order Block**.
@@ -408,10 +408,10 @@ Sesi perdagangan New York yang sering memberi continuation atau reversal lanjuta
 ## O
 
 ### OB (Order Block)
-Candle atau area terakhir sebelum pergerakan impulsif yang dianggap menunjukkan jejak order institusional. 8
+Candle atau area terakhir sebelum pergerakan impulsif yang dianggap menunjukkan jejak order institusional.
 
 ### OTE (Optimal Trade Entry)
-Area retracement Fibonacci yang dianggap ideal untuk entry, umumnya di rentang 62%–79%. Dalam praktik ICT, 70.5% sering dijadikan titik fokus. 9
+Area retracement Fibonacci yang dianggap ideal untuk entry, umumnya di rentang 62%–79%. Dalam praktik ICT, 70.5% sering dijadikan titik fokus.
 
 ### OTE Entry Model
 Model entry yang memanfaatkan retracement ke area OTE disertai konfluensi lain.
@@ -531,7 +531,7 @@ Pembalikan arah yang muncul saat pergantian sesi atau setelah satu sesi mengambi
 Nama teknis untuk **Bearish Fair Value Gap**.
 
 ### SMT (Smart Money Technique)
-Divergensi antara dua aset yang berkorelasi, misalnya EURUSD dan GBPUSD, yang dapat memberi petunjuk manipulasi atau ketidaksinkronan harga. 10
+Divergensi antara dua aset yang berkorelasi, misalnya EURUSD dan GBPUSD, yang dapat memberi petunjuk manipulasi atau ketidaksinkronan harga.
 
 ### SSL (Sell-Side Liquidity)
 Kumpulan likuiditas di bawah lembah harga, biasanya berupa stop-loss dari posisi buy.
@@ -580,4 +580,5 @@ Bias arah pada konteks mingguan.
 ---
 
 ## Penutup
-Glosarium ini akan terus diperbarui seiring bertambahnya materi. Jika Anda menemukan istilah yang belum ada di sini, tambahkan istilah tersebut beserta definisi kerja yang tetap konsisten dengan logika market structure, liquidity, price delivery, dan execution.
+
+Glosarium ini akan terus diperbarui seiring bertambahnya materi. Jika menemukan istilah yang belum ada, tambahkan istilah tersebut beserta definisi kerja yang tetap konsisten dengan logika market structure, liquidity, price delivery, dan execution.
