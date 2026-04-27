@@ -1,6 +1,6 @@
 # Bab 6 — Risk Management dan Position Sizing: Sabuk Pengaman Akun Anda
 
-> "Tujuan utama seorang trader pada tahun pertamanya BUKANLAH mencetak uang, melainkan BERTASAN HIDUP. Anda tidak bisa belajar tentang probabilitas, psikologi, atau flow market jika modal Anda sudah hangus (Margin Call) di minggu kedua. Risk management adalah hak veto yang menyelamatkan nyawa akun Anda dari segala bentuk kebodohan analitis."
+> "Tujuan utama seorang trader pada tahun pertamanya BUKANLAH mencetak uang, melainkan BERTAHAN HIDUP. Anda tidak bisa belajar tentang probabilitas, psikologi, atau flow market jika modal Anda sudah hangus (Margin Call) di minggu kedua. Risk management adalah hak veto yang menyelamatkan nyawa akun Anda dari segala bentuk kebodohan analitis."
 
 ## Mengapa Bab Ini Penting
 Banyak trader pemula terobsesi mencari indikator yang memberikan *Win Rate* 90%. Mereka menghabiskan ratusan jam menonton YouTube demi setup "Anti-Gagal". Ini adalah pencarian fana. Kenyataannya, para profesional (khususnya *prop-firm trader* atau *hedge fund*) sangat nyaman dengan *Win Rate* 40% - 50%. Mengapa akun mereka tetap tumbuh pesat sementara pemula dengan Win Rate 60% bisa bangkrut?
@@ -27,7 +27,7 @@ Artinya, jika Anda memiliki modal $1.000:
 
 ## 2. Cara Menghitung Position Sizing (Lot)
 "Tapi bagaimana cara memastikan saya rugi tepat $10?"
-Jawabannya BUKAN dengan asal menekan Buy 0.1 Lot dan menggeser SL sampai angkanya pas $10. Stop Loss ditentukan oleh **struktur harga** (Bab 6 Folder 07), bukan oleh ukuran dompet Anda.
+Jawabannya BUKAN dengan asal menekan Buy 0.1 Lot dan menggeser SL sampai angkanya pas $10. Stop Loss ditentukan oleh **struktur harga dan titik invalidasi** (lihat `06-Entry-Risk-dan-Eksekusi/Bab-02-Invalidation-dan-Stop-Loss.md`), bukan oleh ukuran dompet Anda.
 
 Langkah yang benar (Position Sizing):
 1.  **Tentukan Area SL:** Cari level invalidasi struktural. Misal, SL harus dipasang sejauh 25 pips dari titik masuk (*entry*).
