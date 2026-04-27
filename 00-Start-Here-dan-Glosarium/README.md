@@ -1,33 +1,75 @@
 # 00 — Start Here dan Glosarium
 
-Folder ini adalah titik awal pembelajaran di repositori **Materi Trading**.
+Folder ini adalah pintu masuk utama untuk seluruh repositori **Materi Trading**.
 
-Tujuan utamanya adalah membantu Anda memahami cara memakai repo ini, cara belajar yang benar, istilah-istilah yang akan sering muncul, dan menyiapkan fondasi sebelum masuk ke materi teknis.
+Fungsi folder ini adalah menyamakan arah belajar sebelum pembaca masuk ke folder teknis. Di sini pembaca memahami cara memakai repo, urutan belajar, istilah dasar, setup alat kerja, dan peta besar hubungan antar-folder.
 
 ---
 
 ## Fokus Folder Ini
 
-Di folder ini Anda akan menemukan materi seputar:
+Folder ini berisi:
 
-- cara menggunakan repositori sebagai library belajar
-- arah dan urutan belajar yang disarankan
-- mindset awal sebelum belajar trading lebih jauh
-- glosarium istilah agar tidak bingung saat membaca materi lain
-- setup dasar alat kerja seperti TradingView
+- panduan mulai belajar dari repo ini
+- glosarium istilah SMC/ICT yang dipakai di folder 01–10
+- panduan setup TradingView untuk pemula
+- alur belajar dari fondasi sampai backtesting
+- cara menghubungkan teori, chart, jurnal, dan evaluasi
 
 ---
 
-## Kenapa Folder Ini Penting
+## Posisi Folder 00 dalam Repo
 
-Banyak orang langsung masuk ke entry, setup, atau indikator tanpa memahami bahasa market dan alur belajar yang benar.
+Folder 00 bukan tempat mencari setup entry.
 
-Folder ini dibuat agar Anda:
+Folder ini adalah fondasi navigasi.
 
-- tidak loncat-loncat materi tanpa arah
-- paham istilah dasar sejak awal
-- punya meja kerja yang rapi untuk belajar
-- mengurangi kebingungan saat masuk ke folder berikutnya
+Sebelum masuk ke materi teknis, pembaca perlu memahami:
+
+- apa fungsi setiap folder
+- istilah apa saja yang akan sering muncul
+- bagaimana membaca materi dengan urutan yang benar
+- bagaimana memakai chart saat belajar
+- bagaimana menghindari loncat-loncat konsep
+
+---
+
+## Peta Besar Repo
+
+Urutan utama repo saat ini:
+
+1. **00 — Start Here dan Glosarium**  
+   Titik awal, glosarium, setup TradingView, dan alur belajar.
+
+2. **01 — Fondasi Cara Melihat Pasar**  
+   Cara pandang awal terhadap market, likuiditas, dan narasi harga.
+
+3. **02 — Struktur dan Likuiditas**  
+   Swing, struktur harga, HH/HL/LH/LL, EQH/EQL, BSL/SSL, dan liquidity pool.
+
+4. **03 — Sweep, Grab, Run, dan Delivery**  
+   Cara harga mengambil likuiditas, melakukan sweep/grab, lalu delivery ke target.
+
+5. **04 — POI dan Lokasi Entry**  
+   Area entry seperti OB, FVG, breaker, mitigation, rejection block, vacuum block, premium-discount, dan kualitas POI.
+
+6. **05 — Session dan Timing**  
+   Asia, London, New York, killzone, Judas Swing, macro time window, dan timing entry.
+
+7. **06 — Entry, Risk, dan Eksekusi**  
+   Validasi entry, trigger, invalidation, target, risk, position management, dan workflow eksekusi.
+
+8. **07 — Folder Pengembangan Lanjutan**  
+   Folder ini dikosongkan dari bab lama dan disiapkan untuk materi yang belum terealisasikan dari glosarium.
+
+9. **08 — Jurnal dan Psikologi Pemula**  
+   Jurnal, review mingguan/bulanan, psikologi pemula, risk management, dan position sizing.
+
+10. **09 — Advanced Concepts dan Model Market**  
+    MMXM, SMT, PO3, Weekly Profiles, Silver Bullet, DXY correlation, dan framework XAUUSD.
+
+11. **10 — Case Studies dan Backtesting**  
+    Studi kasus trade, autopsi win/loss, template backtesting, metrik performa, dan forward test.
 
 ---
 
@@ -35,21 +77,38 @@ Folder ini dibuat agar Anda:
 
 Urutan yang disarankan:
 
-1. Baca materi pengantar dan cara memakai repo.
-2. Pelajari glosarium sampai istilah dasar terasa familiar.
-3. Rapikan alat kerja dan chart Anda.
-4. Baru lanjut ke folder fondasi cara melihat pasar.
+1. Baca **Bab 01 — Mulai dari Sini**.
+2. Buka **Bab 02 — Glosarium Istilah Dasar** saat menemukan istilah asing.
+3. Siapkan chart memakai **Bab 06 — Panduan TradingView**.
+4. Baca **Bab 07 — Panduan Belajar dan Alur Repo** sebelum masuk ke folder 01.
+5. Lanjut belajar folder 01 sampai 10 secara berurutan.
+
+---
+
+## Cara Memakai Glosarium
+
+Glosarium bukan materi yang harus dihafal sekaligus.
+
+Gunakan glosarium sebagai kamus kerja:
+
+- saat membaca bab lain dan menemukan istilah asing
+- saat membuat jurnal dan ingin menyebut konsep dengan istilah yang benar
+- saat backtesting dan ingin menyamakan definisi
+- saat menyusun rule agar istilah tidak kabur
+
+Jika sebuah istilah belum dibahas sebagai bab khusus, istilah itu bisa menjadi kandidat pengembangan materi berikutnya, terutama untuk folder 07.
 
 ---
 
 ## Hasil Belajar yang Diharapkan
 
-Setelah menyelesaikan folder ini, Anda diharapkan:
+Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 
-- memahami fungsi setiap folder di repo
-- mengenal istilah dasar yang dipakai di seluruh materi
-- memiliki alur belajar yang lebih terarah
-- siap masuk ke materi fondasi tanpa kebingungan
+- memahami fungsi seluruh folder repo
+- mengenal istilah dasar SMC/ICT yang sering dipakai
+- menyiapkan chart dan workspace yang rapi
+- mengikuti urutan belajar tanpa loncat konsep
+- membawa materi ke chart, jurnal, dan backtesting
 
 ---
 
