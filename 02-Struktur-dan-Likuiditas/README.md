@@ -1,86 +1,91 @@
 # 02 — Struktur dan Likuiditas
 
-Folder ini membahas bahasa dasar market: **struktur** dan **likuiditas**.
+Folder ini membahas bahasa utama dalam membaca market: **struktur** dan **likuiditas**.
 
-Di tahap ini Anda mulai belajar bagaimana market membentuk:
-- high dan low
-- swing mayor dan minor
-- struktur bullish dan bearish
-- perubahan struktur
-- jebakan likuiditas
-- target harga yang logis
-
-Folder ini adalah fondasi penting sebelum masuk ke pembahasan **sweep, grab, run, delivery,** dan **eksekusi entry**.
+Folder ini penting, tetapi tidak boleh dipelajari dengan terburu-buru. Pemula harus mulai dari high, low, swing, trend, dan range sebelum masuk ke istilah yang lebih kompleks.
 
 ---
 
-## Fokus Folder Ini
+## Tujuan Folder
 
-Materi di folder ini mencakup:
+Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 
-- **swing high** dan **swing low**
-- **HH, HL, LH, dan LL**
-- **BOS** dan **MSS**
-- **protected high** dan **protected low**
-- **inducement**
-- **liquidity pools**
-- **buy-side liquidity (BSL)** dan **sell-side liquidity (SSL)**
-- **equal highs** dan **equal lows**
-- **draw on liquidity**
-- **internal dan external liquidity**
-- **minor vs mayor structure**
-- **complex structure** dan **sub-structure**
-- **liquidity void**, **imbalance**, dan area yang menjadi target harga
-- **trendline liquidity** dan jebakan pola ritel
-- **HRLR vs LRLR**
-- **IRL & ERL** dalam konteks **dealing range**
+- menandai swing high dan swing low;
+- membedakan trend dan range;
+- memahami HH, HL, LH, dan LL;
+- mengenali area likuiditas dasar;
+- memahami buy-side dan sell-side liquidity;
+- mulai membaca target harga secara lebih logis.
 
 ---
 
-## Kenapa Folder Ini Penting
+## Urutan Belajar yang Disarankan
 
-Banyak trader gagal membaca market karena tidak jelas membedakan:
+Baca materi dengan urutan bertahap:
 
-- struktur yang valid dan yang tidak valid
-- break kecil dan perubahan struktur yang benar-benar penting
-- likuiditas utama dan *noise* kecil
-- target harga yang logis dan yang dipaksakan
-- continuation yang sehat dan jebakan manipulatif
+1. high, low, swing high, dan swing low;
+2. HH, HL, LH, dan LL;
+3. trend dan range;
+4. liquidity pool dasar;
+5. buy-side dan sell-side liquidity;
+6. equal high dan equal low;
+7. internal dan external liquidity;
+8. BOS dan MSS;
+9. protected high/low, inducement, dan struktur kompleks.
 
-Folder ini membantu Anda memahami bahwa market sangat sering bergerak untuk:
-- membangun likuiditas
-- mengambil likuiditas
-- menyeimbangkan harga
-- lalu melanjutkan **delivery** ke target berikutnya
-
-Dengan kata lain, folder ini membantu Anda naik level:
-dari sekadar melihat candle, menjadi mulai membaca **fungsi** di balik pergerakan harga.
+Jangan mulai dari MSS, inducement, IRL/ERL, atau complex structure jika struktur dasar belum kuat.
 
 ---
 
-## Cara Menggunakan Folder Ini
+## Istilah yang Wajib Dipahami Dulu
 
-Urutan belajar yang disarankan:
+Untuk pemula, istilah pertama yang harus dikuasai adalah:
 
-1. Pahami dulu struktur dasar.
-2. Pelajari bagaimana likuiditas terbentuk.
-3. Lihat hubungan antara struktur dan target harga.
-4. Bedakan mana struktur minor dan mayor.
-5. Latih menandai swing, BSL/SSL, EQH/EQL, dan target likuiditas pada chart lama.
-6. Biasakan bertanya bukan hanya “harga sedang ke mana”, tetapi juga “likuiditas mana yang sedang dituju”.
+- high;
+- low;
+- swing;
+- trend;
+- range;
+- liquidity;
+- buy-side liquidity;
+- sell-side liquidity.
+
+Istilah seperti HRLR, LRLR, IRL, ERL, complex structure, dan sub-structure dipelajari setelah fondasi ini jelas.
 
 ---
 
-## Hasil Belajar yang Diharapkan
+## Cara Belajar Folder Ini
 
-Setelah menyelesaikan folder ini, Anda diharapkan:
+Gunakan chart kosong.
 
-- mampu membaca struktur market dengan lebih rapi
-- mengenali lokasi likuiditas yang penting
-- memahami perbedaan antara target internal dan target eksternal
-- memahami kapan market sedang continuation, kapan sedang shift, dan kapan sedang menjebak
-- mampu membaca tujuan umum pergerakan harga dengan lebih objektif
-- siap masuk ke pembahasan **sweep, grab, run,** dan **delivery** dengan fondasi yang jauh lebih kuat
+Latihan awal:
+
+1. tandai high dan low yang jelas;
+2. tandai swing yang paling mudah terlihat;
+3. tentukan market sedang naik, turun, atau range;
+4. tandai liquidity di atas high dan di bawah low;
+5. catat apa yang masih membingungkan.
+
+---
+
+## Kesalahan yang Harus Dihindari
+
+- Menandai terlalu banyak struktur kecil.
+- Menganggap semua break sebagai perubahan struktur.
+- Menganggap semua high dan low sama penting.
+- Langsung masuk ke istilah advanced sebelum paham swing dasar.
+
+---
+
+## Syarat Lanjut ke Folder 03
+
+Sebelum lanjut, pembaca harus bisa:
+
+- menandai swing high dan swing low sederhana;
+- membedakan trend dan range;
+- mengenali buy-side dan sell-side liquidity;
+- menjelaskan liquidity dengan bahasa sendiri;
+- memahami bahwa struktur adalah konteks sebelum membaca sweep.
 
 ---
 
