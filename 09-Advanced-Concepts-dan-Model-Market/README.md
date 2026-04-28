@@ -1,60 +1,107 @@
 # 09 — Advanced Concepts dan Model Market
 
-Folder ini berisi kerangka kerja makro dan konsep tingkat lanjut (Advanced) untuk memperdalam cara baca market setelah fondasi dasar (Folder 01-08) benar-benar kuat.
+Folder ini berisi konsep lanjutan untuk memperdalam pembacaan market.
 
-Materi di sini dirancang untuk mengangkat perspektif Anda dari sekadar melihat "satu candlestick" menjadi membaca "skenario besar institusional".
-
----
-
-## Fokus Folder Ini
-
-Materi di folder ini mencakup:
-
-- Market Maker Models (MMXM) - Pemahaman siklus distribusi dan akumulasi makro.
-- SMT Divergence - Konfirmasi pembalikan (reversal) dari aliran pesanan tersembunyi.
-- Power of 3 (PO3 / AMD) - Membedah fase manipulasi harian (Judas Swing).
-- ICT Weekly Profiles - Mengenali hari di mana harga akan membalikkan tren (High/Low of the week).
-- ICT Silver Bullet - Strategi eksekusi khusus berbasis waktu (Time-Based Model).
-- Intermarket Analysis (DXY) - Menggunakan korelasi Dolar sebagai kompas utama.
-- Framework XAUUSD - Cara spesifik menangani volatilitas emas yang mematikan.
+Folder ini **bukan titik awal belajar**. Baca folder ini hanya setelah pembaca memahami fondasi, struktur, likuiditas, POI, timing, entry, risk, jurnal, dan review.
 
 ---
 
-## Tujuan Folder Ini
+## Tujuan Folder
 
-Folder ini dibuat agar Anda:
+Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 
-- Melihat market dari sudut pandang algoritmik, bukan sekadar garis Support/Resistance.
-- Mengetahui KAPAN harus bertrading sangat agresif dan KAPAN harus diam (berdasarkan Weekly Profile).
-- Menambah *confluence* tingkat tinggi (SMT & DXY) untuk menyaring setup palsu.
-- Bisa beroperasi sebagai Scalper berbasis waktu (Silver Bullet) atau Swing Trader berbasis makro.
-
----
-
-## Cara Menggunakan Folder Ini
-
-Agar tidak kelebihan informasi (*Information Overload*):
-
-1. Wajib pastikan Anda sudah menguasai Likuiditas, POI, Entry Rules, dan Manajemen Risiko (Folder 01-08).
-2. Pelajari konsep satu demi satu. (Misalnya: pelajari PO3 dan pahami dulu, baru pindah ke Weekly Profiles).
-3. Jangan gunakan semua konsep ini di satu layar secara bersamaan. Konsep lanjutan berguna untuk **Konteks**, bukan untuk membuat *chart* Anda berantakan.
-4. Lakukan pengujian pengamatan (Visual Backtesting) untuk setiap bab.
+- memahami model market advanced tanpa memaksakan pola;
+- menggunakan konsep lanjutan sebagai konteks, bukan sinyal tunggal;
+- menguji setiap model lewat contoh dan backtesting;
+- membedakan konsep yang cocok dan tidak cocok dengan gaya belajar pribadi;
+- menjaga chart tetap sederhana walaupun konsep yang dipelajari semakin kompleks.
 
 ---
 
-## Hasil Belajar yang Diharapkan
+## Prasyarat Sebelum Membaca
 
-Setelah menyelesaikan folder ini, Anda diharapkan:
+Sebelum masuk folder ini, pembaca sebaiknya sudah bisa:
 
-- Memiliki pembacaan narasi harga yang jauh lebih matang dan beralasan.
-- Berhenti terkecoh oleh pergerakan manipulasi pagi hari atau menjelang berita besar.
-- Selalu memastikan DXY dan SMT mendukung arah posisi Anda sebelum menekan tombol.
-- Memiliki kerangka operasional spesifik untuk trading Forex maupun Emas (XAUUSD).
+- membuat mapping chart;
+- menentukan liquidity dan POI;
+- membuat trade plan;
+- memahami invalidation, risk, dan target;
+- mengisi jurnal;
+- melakukan review mingguan.
+
+Jika belum, kembali ke folder 02 sampai 08.
+
+---
+
+## Urutan Belajar yang Disarankan
+
+Pelajari satu konsep per tahap:
+
+1. Market Maker Models (MMXM);
+2. Power of 3 atau AMD;
+3. ICT Weekly Profiles;
+4. SMT Divergence;
+5. Intermarket Analysis seperti DXY;
+6. Silver Bullet sebagai model berbasis waktu;
+7. Framework khusus seperti XAUUSD.
+
+Jangan memakai semua konsep sekaligus dalam satu chart.
+
+---
+
+## Prinsip Penting
+
+Konsep advanced seharusnya membuat pembacaan lebih jelas, bukan lebih rumit.
+
+Jika sebuah konsep membuat pembaca melihat setup di semua tempat, berarti konsep itu belum siap dipakai.
+
+Setiap model harus punya:
+
+- syarat valid;
+- syarat batal;
+- contoh menang;
+- contoh gagal;
+- hasil backtesting;
+- catatan psikologis.
+
+---
+
+## Cara Belajar Folder Ini
+
+Gunakan pola berikut untuk setiap bab:
+
+1. baca konsep;
+2. tulis definisi dengan bahasa sendiri;
+3. cari 10 contoh chart;
+4. pisahkan contoh jelas dan contoh yang dipaksakan;
+5. catat kapan konsep bekerja dan kapan gagal;
+6. jangan gunakan di live chart sebelum diuji.
+
+---
+
+## Kesalahan yang Harus Dihindari
+
+- Memulai belajar dari MMXM atau Silver Bullet.
+- Menganggap SMT atau DXY selalu memberi jawaban arah.
+- Memaksakan semua chart menjadi model advanced.
+- Mengabaikan risk karena merasa analisis lebih kuat.
+- Mengganti sistem setiap menemukan konsep baru.
+
+---
+
+## Syarat Lanjut ke Folder 10
+
+Sebelum lanjut, pembaca harus bisa:
+
+- menjelaskan satu model advanced dengan sederhana;
+- menentukan kapan model itu valid dan batal;
+- punya contoh chart yang sudah diuji;
+- tetap memakai jurnal, risk, dan trade plan.
 
 ---
 
 ## Lanjut Setelah Ini
 
-Setelah teori ini sempurna, masuklah ke "Laboratorium":
+Setelah folder ini selesai, lanjut ke:
 
 **10 — Case Studies dan Backtesting**
