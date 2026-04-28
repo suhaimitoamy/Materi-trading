@@ -21,6 +21,7 @@ Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 - menentukan Draw on Liquidity sementara;
 - membedakan internal dan external liquidity;
 - memahami BOS, MSS, inducement, minor-major structure, complex structure, IRL, dan ERL secara bertahap;
+- memahami protected high/low, dealing range, liquidity objective, objective shift, rebalancing, dan delivery;
 - membuat mapping struktur dan liquidity tanpa memenuhi chart.
 
 ---
@@ -89,7 +90,27 @@ Mengenalkan Internal Range Liquidity dan External Range Liquidity sebagai konsep
 
 ### Bab 16 — Mapping Struktur dan Likuiditas
 
-Menyatukan seluruh konsep folder 02 menjadi proses mapping chart yang rapi.
+Menyatukan konsep utama folder 02 menjadi proses mapping chart yang rapi.
+
+### Bab 17 — Protected High dan Protected Low
+
+Membahas level pertahanan struktur yang menjaga narasi bullish atau bearish.
+
+### Bab 18 — Dealing Range dan Liquidity Objective
+
+Mengenalkan medan kerja aktif market dan target liquidity utama.
+
+### Bab 19 — Liquidity Objective Shift
+
+Membahas perubahan target utama market saat struktur dan liquidity berubah.
+
+### Bab 20 — Rebalancing vs Delivery
+
+Membedakan proses harga menyeimbangkan area internal dan bergerak menuju objective utama.
+
+### Bab 21 — Advanced Structure Mapping
+
+Menyatukan bagian advanced folder 02 menjadi workflow mapping yang lebih matang.
 
 ---
 
@@ -97,7 +118,7 @@ Menyatukan seluruh konsep folder 02 menjadi proses mapping chart yang rapi.
 
 ### Ringkasan Folder 02
 
-Review cepat seluruh konsep penting dari Bab 01 sampai Bab 16.
+Review cepat seluruh konsep penting dari Bab 01 sampai Bab 21.
 
 ### Latihan Akhir Folder 02
 
@@ -115,7 +136,7 @@ Gunakan pola berikut:
 4. Jangan mencari entry.
 5. Tulis narasi struktur dan liquidity dengan bahasa sendiri.
 6. Cek checklist sebelum lanjut.
-7. Setelah Bab 16, kerjakan latihan akhir folder.
+7. Setelah Bab 21, kerjakan latihan akhir folder.
 
 ---
 
@@ -125,7 +146,7 @@ Gunakan pola berikut:
 - Menganggap semua break sebagai perubahan struktur.
 - Menganggap semua high dan low sama penting.
 - Menganggap liquidity sebagai sinyal entry otomatis.
-- Terlalu cepat masuk ke MSS, inducement, IRL/ERL, atau complex structure sebelum struktur dasar kuat.
+- Terlalu cepat masuk ke MSS, inducement, IRL/ERL, protected level, atau complex structure sebelum struktur dasar kuat.
 - Membuat chart terlalu ramai sampai tidak bisa menulis kesimpulan sederhana.
 
 ---
@@ -142,7 +163,8 @@ Sebelum lanjut, pembaca harus bisa:
 - membedakan internal dan external liquidity;
 - membedakan BOS, MSS, dan inducement;
 - memahami struktur minor dan mayor;
-- membuat mapping struktur dan liquidity;
+- memahami protected high/low, IRL/ERL, dealing range, objective shift, rebalancing, dan delivery;
+- membuat advanced mapping struktur dan liquidity;
 - menyelesaikan minimal 2 dari 3 latihan akhir dengan nilai A atau B.
 
 ---
