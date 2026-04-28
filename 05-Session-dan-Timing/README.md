@@ -1,81 +1,87 @@
 # 05 — Session dan Timing
 
-Folder ini membahas bagaimana **waktu** memengaruhi kualitas sebuah setup. Dalam pendekatan ICT, lokasi yang bagus belum cukup. Harga juga perlu datang ke lokasi itu pada waktu yang tepat agar *delivery* lebih layak terjadi.
+Folder ini membahas bagaimana **waktu** memengaruhi kualitas pembacaan market.
 
-Folder ini membantu pembaca memahami bahwa market tidak bergerak dengan kualitas yang sama sepanjang hari. Ada sesi yang lebih sering membangun likuiditas, ada sesi yang lebih sering melakukan manipulasi, dan ada sesi yang lebih sering menyelesaikan *delivery*.
-
----
-
-## Fokus Folder Ini
-
-Materi di folder ini mencakup:
-
-- pentingnya session dalam pembacaan market
-- Asia session sebagai *build* atau sebagai sesi yang mulai memberi arah
-- London session sebagai fase perubahan tempo, sweep, dan awal *delivery*
-- New York session sebagai sesi kelanjutan, pengujian, atau pembatalan narasi harian
-- London Kill Zone dan New York Kill Zone
-- Judas Swing di London dan New York
-- hubungan waktu dengan *daily bias* dan *timeframe alignment*
-- True Day Open dan Midnight Open
-- ICT Weekly Profiles
-- opening gap dan transisi antar sesi
-- *news days* dan *abnormal volatility*
-- AMD dalam struktur harian dan mingguan
-- Silver Bullet Session
-- Macro ICT (*time windows*)
-- NDOG dan NWOG
-- OHLC dan OLHC
-- PDH dan PDL
+Setelah pembaca memahami struktur, likuiditas, sweep, delivery, dan POI, barulah waktu menjadi penting. Session membantu menjawab pertanyaan: kapan area yang sudah dipetakan lebih layak diamati?
 
 ---
 
-## Kenapa Folder Ini Penting
+## Tujuan Folder
 
-Banyak setup gagal bukan karena arah salah, tetapi karena eksekusi dilakukan di waktu yang buruk.
+Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 
-Trader bisa saja punya POI yang bagus, bias yang cukup tepat, dan struktur yang terlihat rapi, tetapi hasilnya tetap buruk jika:
-
-- entry dilakukan di sesi yang salah
-- market masih build dan belum siap *delivery*
-- trader masuk sebelum sweep selesai
-- trader mengejar candle di luar jam yang paling aktif
-- trader tidak memahami kapan London atau New York sedang continuation, reversal, confirmation, atau cancellation
-
-Folder ini membantu pembaca memahami bahwa:
-
-- tidak semua jam punya kualitas yang sama
-- Asia, London, dan New York punya fungsi yang berbeda
-- *killzone* dan *macro time windows* membantu memperhalus timing
-- waktu sangat memengaruhi validitas setup
-- pembacaan sesi harus selalu dikaitkan dengan likuiditas, bias, dan objective market
+- memahami fungsi Asia, London, dan New York session;
+- membedakan waktu build, sweep, dan delivery secara sederhana;
+- menghubungkan timing dengan struktur dan likuiditas;
+- memahami killzone sebagai waktu pengamatan, bukan sinyal tunggal;
+- menunda konsep timing advanced sampai fondasi session jelas.
 
 ---
 
-## Cara Menggunakan Folder Ini
+## Urutan Belajar yang Disarankan
 
-Urutan belajar yang disarankan:
+Pelajari folder ini secara bertahap:
 
-1. Pahami dulu kenapa session penting dan bagaimana Asia, London, dan New York membentuk narasi harian.
-2. Pelajari peran *killzone*, Judas Swing, dan transisi antar sesi.
-3. Hubungkan timing dengan *daily bias*, *timeframe alignment*, Midnight Open, dan weekly profile.
-4. Pelajari kondisi khusus seperti *news days*, AMD, Asia trap, dan perbedaan karakter London vs New York.
-5. Gunakan Silver Bullet dan Macro ICT sebagai alat bantu presisi waktu, bukan sinyal tunggal.
-6. Akhiri dengan level dan struktur pendukung seperti NDOG, NWOG, OHLC, OLHC, PDH, dan PDL.
+1. kenapa waktu penting dalam market;
+2. karakter Asia session;
+3. karakter London session;
+4. karakter New York session;
+5. hubungan session dengan liquidity;
+6. killzone dan Judas Swing;
+7. daily bias, timeframe alignment, dan open price;
+8. konsep lanjutan seperti AMD, Silver Bullet, Macro ICT, NDOG/NWOG, OHLC/OLHC, PDH/PDL.
+
+Konsep pada poin 8 jangan dijadikan titik awal. Gunakan setelah pembaca paham karakter session dasar.
 
 ---
 
-## Hasil Belajar yang Diharapkan
+## Prinsip Penting
 
-Setelah menyelesaikan folder ini, Anda diharapkan:
+Jam tertentu tidak otomatis berarti ada peluang.
 
-- memahami kapan market lebih aktif dan kapan market cenderung hanya build
-- mampu membedakan sesi yang lebih dekat ke manipulasi, continuation, atau reversal
-- lebih sabar menunggu waktu yang tepat
-- mampu menghubungkan lokasi entry dengan timing
-- memahami bahwa *delivery* yang sehat sangat bergantung pada konteks waktu
-- lebih siap membaca setup intraday dengan struktur yang lebih matang
-- siap masuk ke pembahasan eksekusi, manajemen risiko, dan kualitas entry
+Timing harus dibaca bersama:
+
+- struktur;
+- liquidity;
+- POI;
+- bias;
+- reaksi harga;
+- kondisi hari itu.
+
+Session membantu menyaring waktu pengamatan, bukan menggantikan analisis.
+
+---
+
+## Cara Belajar Folder Ini
+
+Latihan sederhana:
+
+1. pilih satu instrumen;
+2. amati pergerakan saat Asia;
+3. amati apa yang berubah saat London;
+4. amati apa yang terjadi saat New York;
+5. catat session mana yang sering mengambil liquidity;
+6. jangan langsung mencari entry dari jam saja.
+
+---
+
+## Kesalahan yang Harus Dihindari
+
+- Menganggap killzone sebagai sinyal otomatis.
+- Menghafal jam tanpa membaca konteks.
+- Mencampur semua konsep timing sekaligus.
+- Masuk ke Silver Bullet atau Macro ICT sebelum paham session dasar.
+
+---
+
+## Syarat Lanjut ke Folder 06
+
+Sebelum lanjut, pembaca harus bisa:
+
+- menjelaskan fungsi dasar Asia, London, dan New York;
+- mengamati hubungan session dengan liquidity;
+- memahami bahwa timing adalah filter, bukan pengganti rencana;
+- menunggu area dan waktu selaras sebelum membahas entry.
 
 ---
 
