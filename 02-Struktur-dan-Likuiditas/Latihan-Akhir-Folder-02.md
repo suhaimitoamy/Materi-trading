@@ -21,13 +21,18 @@ Cukup gunakan:
 - label singkat;
 - screenshot sebelum dan sesudah mapping.
 
-Kerjakan latihan pada 3 chart berbeda.
+Kerjakan latihan pada 4 chart berbeda:
+
+1. chart trend;
+2. chart range;
+3. chart kompleks;
+4. chart advanced mapping.
 
 ---
 
-## Format Jawaban
+## Format Jawaban Dasar
 
-Gunakan format ini:
+Gunakan format ini untuk latihan 1 sampai 3:
 
 ```md
 # Latihan Chart
@@ -79,6 +84,56 @@ Bagian yang masih belum jelas:
 
 ---
 
+## Format Jawaban Advanced
+
+Gunakan format ini untuk latihan 4:
+
+```md
+# Latihan Advanced Mapping
+
+## 1. Timeframe Context
+Timeframe konteks:
+Alasan:
+
+## 2. Dealing Range
+High range:
+Low range:
+Premium / Equilibrium / Discount:
+
+## 3. Protected Level
+Protected high / protected low:
+Alasan:
+
+## 4. IRL dan ERL
+IRL utama:
+ERL utama:
+
+## 5. Liquidity Objective
+Objective awal:
+Alasan:
+
+## 6. Objective Shift
+Objective shift terjadi jika:
+Bukti yang dibutuhkan:
+
+## 7. Rebalancing vs Delivery
+Market sedang rebalancing / delivery:
+Alasan:
+
+## 8. Narasi Advanced Maksimal 5 Kalimat
+1.
+2.
+3.
+4.
+5.
+
+## 9. Keputusan Belajar
+Chart ini layak dianalisis / sebaiknya dilewati:
+Alasan:
+```
+
+---
+
 ## Latihan 1 — Chart Trend
 
 Pilih chart yang sedang trend.
@@ -125,6 +180,24 @@ Jawaban yang benar boleh berupa:
 
 ---
 
+## Latihan 4 — Advanced Mapping
+
+Pilih chart yang cukup jelas untuk advanced mapping.
+
+Tugas:
+
+1. tentukan dealing range aktif;
+2. tentukan protected high atau protected low;
+3. tandai IRL dan ERL;
+4. tentukan liquidity objective awal;
+5. tulis kondisi objective shift;
+6. bedakan apakah market sedang rebalancing atau delivery;
+7. tulis narasi advanced maksimal 5 kalimat.
+
+Latihan ini menguji Bab 17 sampai Bab 21.
+
+---
+
 ## Rubrik Penilaian
 
 ### Nilai A — Siap Lanjut
@@ -138,6 +211,11 @@ Pembaca bisa:
 - memilih DOL sementara;
 - membedakan internal/external liquidity;
 - membedakan BOS/MSS/inducement;
+- menentukan protected level;
+- menentukan dealing range;
+- membedakan IRL/ERL;
+- membaca objective shift;
+- membedakan rebalancing dan delivery;
 - menulis narasi maksimal 5 kalimat.
 
 ### Nilai B — Hampir Siap
@@ -147,9 +225,11 @@ Pembaca sudah bisa membaca struktur dasar, tetapi masih:
 - terlalu banyak menandai area;
 - belum jelas membedakan internal dan external;
 - masih bingung BOS vs inducement;
+- protected level belum konsisten;
+- objective shift belum jelas;
 - narasi terlalu panjang.
 
-Ulangi Bab 08 sampai Bab 13.
+Ulangi Bab 08 sampai Bab 21.
 
 ### Nilai C — Belum Siap
 
@@ -158,6 +238,7 @@ Pembaca masih:
 - tidak bisa menandai swing utama;
 - menganggap semua break valid;
 - tidak bisa memilih DOL;
+- tidak bisa menentukan dealing range;
 - menandai chart terlalu ramai;
 - langsung mencari entry.
 
@@ -167,7 +248,7 @@ Ulangi folder 02 dari Bab 01.
 
 ## Syarat Lulus Folder 02
 
-Sebelum lanjut ke folder 03, pembaca harus menyelesaikan minimal 2 dari 3 latihan dengan nilai A atau B.
+Sebelum lanjut ke folder 03, pembaca harus menyelesaikan minimal 3 dari 4 latihan dengan nilai A atau B.
 
 Jika belum, ulangi folder 02.
 
@@ -175,7 +256,7 @@ Jika belum, ulangi folder 02.
 
 ## Penutup
 
-Folder 02 selesai jika pembaca mampu membuat mapping struktur dan liquidity tanpa mencari entry.
+Folder 02 selesai jika pembaca mampu membuat mapping struktur dan liquidity dari dasar sampai advanced tanpa mencari entry.
 
 Setelah latihan ini selesai, lanjut ke:
 
