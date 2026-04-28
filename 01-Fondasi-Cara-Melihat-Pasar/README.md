@@ -23,7 +23,7 @@ Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 - menyusun market storytelling sederhana;
 - melakukan top down analysis ringan;
 - membaca chart tanpa overthinking;
-- mengerjakan checklist fondasi sebelum lanjut ke folder 02.
+- mengerjakan checklist dan latihan akhir sebelum lanjut ke folder 02.
 
 ---
 
@@ -87,6 +87,20 @@ Menjadi ujian mandiri sebelum lanjut ke folder 02.
 
 ---
 
+## Modul Penutup Folder
+
+### Ringkasan Folder 01
+
+Review cepat seluruh konsep penting dari Bab 01 sampai Bab 14.
+
+### Latihan Akhir Folder 01
+
+Latihan praktik menggunakan tiga chart: chart jelas, chart membingungkan, dan chart multi-timeframe.
+
+Gunakan latihan ini untuk memastikan pembaca siap masuk folder 02.
+
+---
+
 ## Cara Belajar Folder Ini
 
 Gunakan pola berikut:
@@ -98,6 +112,7 @@ Gunakan pola berikut:
 5. Fokus pada pertanyaan: “Apa cerita harga di chart ini?”
 6. Kerjakan latihan.
 7. Cek checklist sebelum lanjut.
+8. Selesaikan latihan akhir folder.
 
 ---
 
@@ -125,6 +140,7 @@ Sebelum lanjut, pembaca harus bisa:
 - menulis satu narasi harga sederhana;
 - melakukan top down ringan;
 - menyederhanakan chart yang terlalu ramai;
+- menyelesaikan minimal 2 dari 3 latihan akhir dengan nilai A atau B;
 - menahan diri untuk tidak mencari entry saat belajar fondasi.
 
 ---
