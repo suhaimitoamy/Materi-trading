@@ -1,380 +1,162 @@
 # Bab 07 — Panduan Belajar dan Alur Repo
 
-> "Repo ini paling kuat jika dibaca sebagai kurikulum, bukan sebagai kumpulan file. Setiap folder punya fungsi berbeda: ada yang membangun fondasi, ada yang mengajari eksekusi, ada yang memperdalam istilah, ada yang melatih psikologi, dan ada yang menguji semuanya lewat backtesting."
+## Tujuan Bab
 
-## Mengapa Bab Ini Penting
+Bab ini menjelaskan cara belajar dari folder `00` sampai `10` tanpa merasa kewalahan.
 
-Repo ini dibuat sebagai library materi trading yang sebaiknya dibaca dengan urutan, bukan secara acak.
-
-Tujuan bab ini adalah membantu pembaca baru memahami:
-
-- dari mana harus mulai
-- apa fungsi setiap folder
-- bagaimana membaca materi agar tidak loncat konsep
-- bagaimana membawa teori ke chart nyata
-- bagaimana memakai glosarium sebagai kamus kerja
-- bagaimana memakai folder 07 sebagai pengembangan istilah glosarium
-
-Repo ini tidak hanya berisi teori.
-
-Jika dipakai dengan benar, repo ini bisa menjadi sistem belajar lengkap:
-
-```text
-Baca → Cari contoh chart → Catat → Backtest → Review → Perbaiki
-```
+Repo ini tetap memakai struktur folder asli. Tidak perlu membuat jalur baru. Yang penting adalah membaca folder asli dengan urutan dan beban belajar yang benar.
 
 ---
 
-## Tujuan Pembelajaran
+## Prinsip Belajar
 
-Setelah mempelajari bab ini, pembaca diharapkan mampu:
+Gunakan alur berikut:
 
-- memahami struktur folder 00 sampai 10
-- mengetahui urutan belajar yang disarankan
-- memakai glosarium untuk membantu membaca bab lain
-- menghubungkan materi dengan chart nyata
-- menyiapkan proses belajar, jurnal, dan backtesting
-- menghindari kesalahan umum saat belajar dari repo
+**Mengapa → Apa → Kapan → Bagaimana**
 
----
+Artinya:
 
-## 1. Tujuan Utama Repo Ini
+1. pahami dulu kenapa konsep itu penting;
+2. pahami apa arti konsepnya;
+3. pahami kapan konsep itu dipakai;
+4. baru pelajari bagaimana menerapkannya.
 
-Repo ini bukan kumpulan catatan pendek yang dibaca sekali lalu selesai.
-
-Repo ini dirancang sebagai:
-
-- tempat menyusun fondasi berpikir tentang market
-- tempat menyimpan materi inti secara rapi
-- tempat kembali saat ingin review konsep tertentu
-- tempat membangun hubungan antara teori, praktik, dan evaluasi
-- jalur belajar bertahap dari dasar sampai backtesting
-
-Pendekatan terbaik bukan membaca satu istilah lalu lompat ke istilah lain.
-
-Pendekatan terbaik adalah mengikuti alur pembelajaran yang masuk akal.
+Jangan mulai dari teknik entry atau konsep advanced.
 
 ---
 
-## 2. Urutan Belajar yang Disarankan
+# Peta Folder 00–10
 
-Urutan ideal membaca repo ini adalah dari folder **00** sampai **10**.
+## 00 — Start Here dan Glosarium
 
-### 00 — Start Here dan Glosarium
+Fungsi: orientasi, istilah dasar, dan cara belajar.
 
-Mulai dari sini untuk memahami arah repo, cara belajar, setup TradingView, dan istilah dasar.
+Baca ini dulu agar tidak salah masuk ke materi berat.
 
-### 01 — Fondasi Cara Melihat Pasar
+## 01 — Fondasi Cara Melihat Pasar
 
-Di sini pembaca mengubah cara pandang terhadap chart, likuiditas, dan logika pergerakan harga.
+Fungsi: membangun cara pandang terhadap chart.
 
-Folder ini penting karena sebelum trader mencari entry, ia harus memahami cara market bergerak dan kenapa harga mencari likuiditas.
+Di sini pembaca belajar melihat market sebagai alur, bukan candle acak.
 
-### 02 — Struktur dan Likuiditas
+## 02 — Struktur dan Likuiditas
 
-Setelah fondasi berpikir terbentuk, pembaca mulai mempelajari kerangka teknis dasar market:
+Fungsi: belajar bahasa dasar market.
 
-- swing high / swing low
-- HH / HL / LH / LL
-- BSL / SSL
-- EQH / EQL
-- liquidity pool
-- inducement
+Mulai dari high, low, swing, trend, range, lalu masuk ke liquidity.
 
-Folder ini adalah bahasa dasar chart.
+## 03 — Sweep, Grab, Run, dan Delivery
 
-### 03 — Sweep, Grab, Run, dan Delivery
+Fungsi: memahami apa yang terjadi saat liquidity diambil.
 
-Folder ini menjelaskan bagaimana harga:
+Sweep dipelajari sebagai konteks, bukan sinyal entry otomatis.
 
-- mengambil likuiditas
-- menjebak pelaku pasar
-- melakukan sweep / grab
-- lalu delivery menuju target berikutnya
+## 04 — POI dan Lokasi Entry
 
-Di sini pembaca mulai memahami bahwa breakout tidak selalu continuation.
+Fungsi: memilih area pengamatan.
 
-### 04 — POI dan Lokasi Entry
+POI bukan tempat entry otomatis. POI harus dinilai dengan struktur dan liquidity.
 
-Di tahap ini pembaca belajar mengenali area-area yang layak diamati seperti:
+## 05 — Session dan Timing
 
-- Order Block
-- Fair Value Gap
-- Breaker Block
-- Mitigation Block
-- Rejection Block
-- Vacuum Block
-- Premium / Discount
-- kualitas POI
+Fungsi: memahami waktu.
 
-Folder ini menjawab pertanyaan: **di mana harga layak ditunggu?**
+Session membantu menyaring kapan market lebih layak diamati.
 
-### 05 — Session dan Timing
+## 06 — Entry, Risk, dan Eksekusi
 
-Setelah tahu lokasi, pembaca mulai belajar bahwa market juga punya ritme waktu.
+Fungsi: mengubah analisis menjadi rencana.
 
-Folder ini membahas:
+Di sini pembaca belajar trade plan, trigger, invalidation, risk, target, dan jurnal eksekusi.
 
-- Asia session
-- London session
-- New York session
-- killzone
-- Judas Swing
-- macro time window
-- timing entry
+## 07 — Pengembangan Konsep dari Glosarium
 
-Folder ini menjawab pertanyaan: **kapan peluang lebih layak diamati?**
+Fungsi: pengayaan istilah.
 
-### 06 — Entry, Risk, dan Eksekusi
+Folder ini bukan untuk pemula awal. Baca setelah folder 01–06 cukup kuat.
 
-Bagian ini fokus pada bagaimana ide trading diterjemahkan menjadi tindakan.
+## 08 — Jurnal dan Psikologi Pemula
 
-Materinya mencakup:
+Fungsi: membangun evaluasi dan kontrol diri.
 
-- validasi entry
-- trigger
-- invalidation
-- target
-- stop loss
-- position management
-- trading rules
-- workflow eksekusi
+Jurnal membantu melihat pola kesalahan dan perkembangan.
 
-Folder ini menjawab pertanyaan: **bagaimana masuk, keluar, dan mengelola risiko?**
+## 09 — Advanced Concepts dan Model Market
 
-### 07 — Pengembangan Konsep dari Glosarium
+Fungsi: konsep lanjutan.
 
-Folder ini memperdalam istilah glosarium yang belum punya pembahasan utama di folder lain.
+MMXM, SMT, PO3, Silver Bullet, dan model advanced lain dipelajari setelah fondasi dan jurnal kuat.
 
-Materinya mencakup:
+## 10 — Case Studies dan Backtesting
 
-- Bias Hierarchy
-- BPR, CE, dan PD Array
-- Lifecycle Imbalance
-- CISD dan Price Delivery Algorithm
-- Advanced Liquidity Mapping
-- Liquidity Engineering
-- Liquidity Path, Migration, Rotation, dan Cascade
-- Liquidity Vacuum, Void, Gap, Corridor, dan Channel
-- Protected High/Low, Range Model, dan Turtle Soup
+Fungsi: menguji teori dengan contoh dan data.
 
-Folder ini menjadi penghubung antara fondasi teknikal dan konsep lanjutan.
-
-### 08 — Jurnal dan Psikologi Pemula
-
-Di sini fokus bergeser ke pengembangan diri trader.
-
-Materinya mencakup:
-
-- jurnal trading
-- template jurnal
-- psikologi pemula
-- FOMO
-- revenge trading
-- review mingguan dan bulanan
-- risk management
-- position sizing
-
-Folder ini penting karena strategi bagus tetap bisa rusak jika trader tidak punya evaluasi dan kontrol emosi.
-
-### 09 — Advanced Concepts dan Model Market
-
-Bagian ini untuk konsep lanjutan setelah fondasi cukup kuat.
-
-Materinya mencakup:
-
-- MMXM
-- SMT Divergence
-- PO3
-- ICT Weekly Profiles
-- Silver Bullet
-- Intermarket Analysis DXY
-- Framework XAUUSD
-
-Folder ini sebaiknya dibaca setelah folder 01–08 sudah cukup dipahami.
-
-### 10 — Case Studies dan Backtesting
-
-Tahap ini menghubungkan teori ke chart nyata.
-
-Materinya mencakup:
-
-- contoh real trade win dan loss
-- autopsi trade
-- template backtesting
-- metrik performa
-- expectancy
-- maximum drawdown
-- forward test
-
-Folder ini menjadi tempat menguji apakah pemahaman benar-benar bisa dipakai.
+Di sini pembaca belajar membedah chart dan menguji model secara bertahap.
 
 ---
 
-## 3. Cara Membaca Satu Materi dengan Benar
+# Cara Membaca Satu Bab
 
-Saat membuka satu file materi, jangan hanya membaca judul lalu merasa sudah paham konsepnya.
+Gunakan urutan ini setiap membuka bab:
 
-Gunakan urutan ini:
+1. baca tujuan bab;
+2. pahami istilah inti;
+3. buka chart;
+4. cari contoh sederhana;
+5. tulis catatan dengan bahasa sendiri;
+6. kerjakan latihan;
+7. cek checklist sebelum lanjut.
 
-1. baca pengantar dan tujuan bab
-2. pahami definisi inti
-3. lihat hubungan konsep itu dengan struktur dan likuiditas
-4. cari tahu kapan konsep itu valid dan kapan lemah
-5. tulis ringkasan singkat dengan bahasa sendiri
-6. buka chart dan cari contoh nyata
-7. simpan temuan itu di jurnal belajar
-
-Kalau hanya membaca tanpa membuka chart, pemahaman akan cepat menguap.
+Jika belum bisa menjelaskan ulang dengan sederhana, ulangi bab tersebut.
 
 ---
 
-## 4. Metode Belajar yang Paling Efektif
+# Cara Agar Tidak Overwhelmed
 
-Agar repo ini benar-benar berguna, gunakan pola belajar berikut.
+Ikuti aturan ini:
 
-### Baca
-
-Pelajari satu materi sampai selesai.
-
-### Tandai
-
-Catat istilah baru, kebingungan, dan poin yang terasa penting.
-
-### Buka chart
-
-Cari bentuk nyata dari konsep itu di chart.
-
-### Screenshot atau catat
-
-Simpan contoh yang menurut Anda paling jelas.
-
-### Review
-
-Kembali ke materi dan cocokkan apakah pembacaan chart Anda sudah sesuai.
-
-### Ulangi
-
-Ulangi proses ini sampai konsep terasa natural.
+- satu sesi belajar cukup satu bab;
+- jangan membuka folder 07 atau 09 terlalu awal;
+- jangan menandai terlalu banyak area di chart;
+- jangan memakai semua konsep dalam satu analisis;
+- simpan istilah sulit untuk dipelajari nanti;
+- gunakan glosarium hanya saat dibutuhkan.
 
 ---
 
-## 5. Cara Memakai Glosarium Bersama Folder 01–10
+# Rutinitas Belajar yang Disarankan
 
-Glosarium di folder 00 dipakai sebagai kamus kerja.
+Contoh rutinitas sederhana:
 
-Cara pakainya:
+1. baca satu bab;
+2. ringkas 3 poin utama;
+3. buka chart dan cari 2 contoh;
+4. simpan screenshot;
+5. tulis apa yang masih membingungkan;
+6. ulangi keesokan hari.
 
-- saat menemukan istilah asing, kembali ke glosarium
-- saat istilah muncul berkali-kali, cari contoh di chart
-- saat membuat jurnal, pakai istilah yang sama agar catatan konsisten
-- saat membuat rule, gunakan definisi glosarium agar tidak kabur
-- saat menemukan istilah yang dibahas lebih panjang, buka folder 07
-
-Glosarium bukan daftar hafalan.
-
-Glosarium adalah alat bantu agar seluruh repo memakai bahasa yang sama.
+Belajar pelan tetapi konsisten lebih baik daripada membaca banyak bab tanpa paham.
 
 ---
 
-## 6. Kesalahan Umum Saat Belajar dari Repo Ini
+# Setelah Menyelesaikan Satu Folder
 
-### 1. Lompat ke materi advanced terlalu cepat
+Sebelum lanjut ke folder berikutnya, lakukan:
 
-Trader sering tertarik ke topik seperti MMXM, SMT, atau Silver Bullet sebelum benar-benar paham struktur dan likuiditas.
-
-### 2. Membaca istilah tanpa membuka chart
-
-Akibatnya konsep hanya terasa pintar di kepala, tetapi kosong saat market bergerak.
-
-### 3. Mencari setup sebelum membangun kerangka pikir
-
-Ini membuat pembelajaran jadi reaktif dan tidak stabil.
-
-### 4. Menghafal nama konsep tanpa memahami fungsinya
-
-Trader jadi tahu istilah, tetapi tidak tahu kapan konsep itu relevan.
-
-### 5. Tidak mencatat proses belajar
-
-Tanpa catatan, semua materi terasa dibaca terus dari awal.
-
-### 6. Tidak melakukan backtesting
-
-Teori yang tidak diuji akan mudah berubah menjadi keyakinan palsu.
+1. tulis fungsi folder tersebut;
+2. tulis 5 istilah utama;
+3. cari 3 contoh chart;
+4. jelaskan ulang materi dengan bahasa sendiri;
+5. catat bagian yang masih perlu diulang.
 
 ---
 
-## 7. Alat yang Sebaiknya Disiapkan Saat Belajar
+# Checklist Kelulusan Bab
 
-Agar proses belajar lebih rapi, siapkan:
+Sebelum lanjut dari folder 00, pembaca harus bisa:
 
-- akun TradingView atau platform charting lain
-- watchlist kecil berisi instrumen yang benar-benar dipelajari
-- jurnal belajar
-- folder screenshot chart
-- template review mingguan
-- spreadsheet backtesting
-
-Dengan alat sederhana ini, repo akan jauh lebih berguna daripada sekadar bahan bacaan.
-
----
-
-## 8. Apa yang Harus Dilakukan Setelah Menyelesaikan Satu Folder
-
-Setelah selesai satu folder, jangan langsung merasa sudah menguasai topik itu.
-
-Lakukan tiga hal:
-
-1. tulis ringkasan inti folder tersebut
-2. cari minimal tiga contoh chart nyata
-3. jelaskan kembali konsepnya dengan bahasa sendiri
-
-Jika belum bisa menjelaskan ulang dengan sederhana, berarti pemahaman belum benar-benar matang.
-
----
-
-## 9. Hubungan Repo Ini dengan Backtesting
-
-Materi di repo ini akan jauh lebih kuat jika langsung dibawa ke proses backtesting.
-
-Contohnya:
-
-- setelah belajar liquidity sweep, buka chart lama dan tandai sweep yang jelas
-- setelah belajar Order Block, lihat area mana yang benar-benar menghasilkan displacement
-- setelah belajar session, lihat kapan sweep dan delivery paling sering terjadi
-- setelah belajar risk management, uji apakah ukuran posisi sudah sehat
-- setelah belajar advanced concepts, cek apakah konsep itu benar-benar muncul berulang atau hanya terlihat bagus di contoh tertentu
-
-Teori yang tidak pernah diuji akan mudah berubah menjadi keyakinan palsu.
-
----
-
-## 10. Target Pembelajaran yang Sehat
-
-Target pembelajaran yang realistis dari repo ini adalah:
-
-- memahami bahasa market dengan lebih baik
-- membangun proses analisis yang konsisten
-- mengurangi entry impulsif
-- meningkatkan kualitas review dan jurnal
-- menyatukan teori, waktu, lokasi, dan eksekusi
-- membangun data backtesting yang jujur
-
-Target utamanya bukan langsung profit besar, tetapi membangun fondasi trader yang lebih matang.
-
----
-
-## 11. Penutup
-
-Repo ini akan paling berguna bagi pembaca yang sabar, terstruktur, dan mau menghubungkan materi dengan chart nyata.
-
-Baca secara urut. Uji di chart. Catat hasilnya. Review kembali.
-
-Dengan cara itu, repo ini bukan hanya menjadi tempat membaca, tetapi menjadi sistem belajar yang hidup.
-
----
-
-## Catatan
-
-*Tugas Praktik: buat daftar folder 00 sampai 10 di jurnal belajar Anda. Di samping setiap folder, tulis satu kalimat fungsi folder tersebut. Untuk folder 07, tulis sebagai pengembangan istilah glosarium yang belum punya pembahasan utama.*
+- menjelaskan fungsi folder 00 sampai 10;
+- tahu folder mana yang pemula dan folder mana yang advanced;
+- memahami cara memakai glosarium;
+- punya rutinitas belajar sederhana;
+- siap membaca folder 01 tanpa mengejar entry.
