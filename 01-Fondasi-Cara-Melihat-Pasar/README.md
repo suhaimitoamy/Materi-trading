@@ -1,58 +1,66 @@
 # 01 — Fondasi Cara Melihat Pasar
 
-Folder ini berisi materi untuk membangun cara pandang yang benar terhadap market.
+Folder ini membangun cara pandang dasar sebelum masuk ke struktur, likuiditas, POI, dan entry.
 
-Sebelum belajar entry, POI, atau timing, Anda perlu memahami bahwa market tidak cukup dibaca sebagai kumpulan candle. Market perlu dibaca sebagai alur harga, narasi, perpindahan likuiditas, dan konteks waktu yang membentuk pergerakan harga dari satu tujuan ke tujuan berikutnya.
-
----
-
-## Fokus Folder Ini
-
-Materi di folder ini berpusat pada:
-
-- perubahan mindset dari melihat market secara acak menjadi terstruktur
-- logika dasar bagaimana harga bergerak
-- cara membaca narasi market
-- hubungan antara harga, likuiditas, dan waktu
-- kerangka berpikir sebelum masuk ke teknikal yang lebih detail
-- fondasi seperti IPDA, bias, premium/discount, dan konteks
+Di tahap ini pembaca belum diminta mencari entry. Fokusnya adalah belajar melihat market sebagai alur pergerakan harga, bukan kumpulan candle acak.
 
 ---
 
-## Tujuan Folder Ini
+## Tujuan Folder
 
-Folder ini dibuat agar Anda:
+Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 
-- tidak hanya menghafal pola
-- mulai memahami alasan di balik gerakan harga
-- punya dasar yang kuat sebelum masuk ke struktur dan likuiditas
-- membangun bias yang lebih logis
-- memahami bahwa harga sering bergerak dengan tujuan, bukan tanpa arah
+- memahami bahwa market perlu dibaca dengan konteks;
+- membedakan membaca chart dan menebak arah;
+- memahami bahwa harga bergerak dari satu area ke area lain;
+- mulai mengenal konsep bias secara sederhana;
+- siap masuk ke struktur dan likuiditas tanpa terlalu banyak istilah berat.
+
+---
+
+## Apa yang Dipelajari di Sini?
+
+Materi folder ini sebaiknya dipahami sebagai fondasi berpikir:
+
+1. cara melihat market dengan lebih tenang;
+2. kenapa chart tidak boleh dibaca dari satu candle saja;
+3. bagaimana harga membentuk cerita;
+4. kenapa konteks lebih penting daripada pola tunggal;
+5. pengantar ringan tentang bias, premium-discount, dan area tujuan harga.
+
+Istilah yang lebih teknis seperti IPDA, model algoritmik, atau konsep lanjutan cukup dikenali dulu. Jangan dipaksa dipahami terlalu dalam di folder ini.
 
 ---
 
 ## Cara Belajar Folder Ini
 
-Agar hasilnya maksimal:
+Gunakan pola berikut:
 
-1. Baca materi secara berurutan.
-2. Jangan buru-buru mencari entry saat masih di tahap fondasi.
-3. Fokus pada cara berpikir, bukan pada hafalan istilah saja.
-4. Cocokkan setiap konsep dengan chart agar logikanya terasa nyata.
-5. Saat menemukan istilah seperti likuiditas, imbalance, premium, discount, atau IPDA, pahami dulu fungsi sederhananya sebelum menghafal nama teknisnya.
+1. Baca satu bab.
+2. Tulis ringkasan dengan bahasa sendiri.
+3. Buka chart dan cari contoh sederhana.
+4. Jangan mencari entry.
+5. Fokus pada pertanyaan: “Apa cerita harga di chart ini?”
 
 ---
 
-## Hasil Belajar yang Diharapkan
+## Kesalahan yang Harus Dihindari
 
-Setelah menyelesaikan folder ini, Anda diharapkan:
+- Menghafal istilah tanpa paham fungsi.
+- Langsung mencari setup entry.
+- Memaksa semua chart terlihat rapi.
+- Menganggap satu candle cukup untuk membuat kesimpulan.
 
-- memahami kerangka dasar melihat market
-- punya cara berpikir yang lebih rapi
-- mulai paham bahwa market bergerak dengan tujuan
-- memahami bahwa harga sering berpindah dari satu target ke target lain
-- memahami bahwa waktu juga memengaruhi kualitas setup
-- siap masuk ke struktur dan likuiditas dengan pemahaman yang lebih kuat
+---
+
+## Syarat Lanjut ke Folder 02
+
+Sebelum lanjut, pembaca harus bisa:
+
+- menjelaskan market sebagai alur, bukan candle acak;
+- membaca konteks sederhana;
+- memahami bahwa bias adalah dugaan, bukan kepastian;
+- menahan diri untuk tidak mencari entry saat belajar fondasi.
 
 ---
 
