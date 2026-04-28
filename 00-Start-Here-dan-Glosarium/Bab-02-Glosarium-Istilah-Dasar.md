@@ -1,584 +1,300 @@
-# Glosarium Istilah Trading ICT & SMC
+# Bab 02 — Glosarium Istilah Dasar
 
-File ini adalah kamus referensi cepat untuk istilah teknis yang digunakan dalam repositori ini. Gunakan file ini untuk memahami istilah yang terasa asing saat membaca bab-bab materi.
+## Tujuan Bab
 
----
+Glosarium ini adalah kamus kerja, bukan daftar hafalan.
 
-## A
+Pemula tidak perlu memahami semua istilah sekaligus. Gunakan bab ini saat menemukan kata yang belum paham di folder lain.
 
-### AMD (Accumulation, Manipulation, Distribution)
-Kerangka narasi harian yang menjelaskan bagaimana market sering bergerak: membangun range atau posisi awal (Accumulation), melakukan jebakan/manipulasi (Manipulation), lalu bergerak ke target utama (Distribution).
+Agar tidak overwhelmed, istilah dibagi menjadi tiga tingkat:
 
-### Accumulation
-Fase ketika harga cenderung membentuk range sempit sebelum ekspansi yang lebih jelas.
+1. istilah wajib pemula;
+2. istilah menengah;
+3. istilah advanced.
 
-### Algorithmic Expansion
-Perluasan harga yang tampak terarah, cepat, dan sistematis menuju target likuiditas.
-
-### Asian Accumulation
-Gagasan bahwa sesi Asia sering membentuk range awal yang kemudian dipakai sebagai referensi likuiditas oleh sesi berikutnya.
-
-### Asian Range
-Rentang harga dari high ke low yang terbentuk selama sesi Asia. Sering menjadi acuan likuiditas untuk sesi London atau New York.
+Mulai dari tingkat pertama. Istilah advanced boleh dilewati dulu.
 
 ---
 
-## B
+# A. Istilah Wajib Pemula
 
-### Balanced Price Range (BPR)
-Area overlap antara dua **Fair Value Gap** yang berlawanan arah. Sering dianggap sebagai area harga yang lebih seimbang dan sensitif terhadap reaksi harga.
+Istilah di bagian ini perlu dipahami sebelum masuk folder 02 sampai 06.
 
-### Bearish
-Kondisi pasar yang sedang bergerak turun atau memiliki bias turun.
+## Bias
 
-### Bearish Structure
-Struktur market yang ditandai oleh pola **Lower High** dan **Lower Low**.
+Arah dugaan utama berdasarkan pembacaan chart.
 
-### BISI (Buyside Imbalance Sellside Inefficiency)
-Nama teknis untuk **Bullish Fair Value Gap**.
+Bias bukan kepastian. Bias hanya membantu menyusun skenario.
 
-### BOS (Break of Structure)
-Penembusan struktur yang searah dengan tren saat ini. Biasanya dibaca sebagai tanda continuation.
+## Candle
 
-### Breaker Block
-**Order Block** yang telah ditembus, lalu berubah fungsi menjadi area reaksi baru saat harga kembali.
+Bentuk visual yang menunjukkan pergerakan harga dalam satu periode waktu.
 
-### BSL (Buy-Side Liquidity)
-Kumpulan likuiditas di atas puncak harga, biasanya berupa stop-loss dari posisi sell.
+## High
 
-### Bullish
-Kondisi pasar yang sedang bergerak naik atau memiliki bias naik.
+Titik tertinggi pada area tertentu.
 
-### Bullish Structure
-Struktur market yang ditandai oleh pola **Higher High** dan **Higher Low**.
+## Low
 
----
+Titik terendah pada area tertentu.
 
-## C
+## Swing High
 
-### CE (Consequent Encroachment)
-Titik tengah atau level 50% dari sebuah **Fair Value Gap**. Sering dianggap sebagai level minimum rebalancing harga di dalam FVG.
+Puncak sementara sebelum harga turun.
 
-### ChoCh (Change of Character)
-Sinyal awal perubahan karakter market. Dalam banyak konteks dipakai mirip dengan **MSS**, walau sebagian trader membedakan nuansa keduanya.
+## Swing Low
 
-### Change in State of Delivery (CISD)
-Perubahan cara harga bergerak atau delivery harga, yang menunjukkan transisi dari satu kondisi market ke kondisi lain.
+Dasar sementara sebelum harga naik.
 
-### Consolidation
-Fase ketika harga bergerak sempit dan belum melakukan ekspansi yang jelas.
+## Trend
 
-### Continuation Model
-Model entry yang berasumsi harga akan melanjutkan arah struktur dominan setelah pullback atau reaksi di area tertentu.
+Kondisi ketika harga cenderung bergerak ke satu arah.
 
----
+## Range
 
-## D
+Kondisi ketika harga bergerak bolak-balik di antara area atas dan bawah.
 
-### Daily Bias
-Arah dominan yang paling mungkin untuk hari berjalan berdasarkan struktur, likuiditas, dan konteks timeframe tinggi.
+## Higher High (HH)
 
-### Dealing Range
-Rentang dari swing low ke swing high yang digunakan untuk membaca **Premium**, **Discount**, dan **Equilibrium**.
+High baru yang lebih tinggi dari high sebelumnya.
 
-### Delivery Phase
-Fase ketika market mulai benar-benar bergerak menuju target likuiditas yang dituju.
+## Higher Low (HL)
 
-### Displacement
-Pergerakan harga yang sangat kuat, cepat, dan searah. Biasanya ditandai candle ekspansif dan sering meninggalkan FVG.
+Low baru yang lebih tinggi dari low sebelumnya.
 
-### Discount
-Area harga di bawah level 50% (**Equilibrium**) dari sebuah dealing range. Area ideal untuk mencari posisi **Buy**.
+## Lower High (LH)
 
-### Discount Acceptance
-Kondisi ketika harga menerima area discount sebagai lokasi yang valid sebelum bergerak naik atau melanjutkan bias bullish.
+High baru yang lebih rendah dari high sebelumnya.
 
-### Discount PD Array
-PD Array yang berada di area **Discount** dan lebih menarik untuk setup buy.
+## Lower Low (LL)
 
-### Distribution
-Fase ketika harga sudah selesai dimanipulasi atau dikumpulkan, lalu bergerak ke target yang lebih jauh.
+Low baru yang lebih rendah dari low sebelumnya.
 
-### Draw on Liquidity
-Magnet atau target utama ke mana harga kemungkinan besar akan bergerak.
+## Liquidity
 
----
+Area yang sering menjadi perhatian harga karena banyak order berkumpul di sana.
 
-## E
+## Buy-Side Liquidity (BSL)
 
-### EQH / EQL (Equal Highs / Equal Lows)
-Dua atau lebih puncak/lembah yang berada di level hampir sama. Ini adalah area likuiditas yang kuat.
+Liquidity yang biasanya berada di atas high.
 
-### Equilibrium
-Titik tengah atau level 50% dari sebuah **Dealing Range**.
+## Sell-Side Liquidity (SSL)
 
-### Expansion
-Fase ketika range mulai melebar dan harga bergerak menjauh dari area keseimbangan.
+Liquidity yang biasanya berada di bawah low.
 
-### External Liquidity
-Likuiditas yang berada di luar dealing range atau di luar struktur aktif saat ini.
+## Equal High (EQH)
 
----
+Beberapa high yang terlihat sejajar atau hampir sejajar.
 
-## F
+## Equal Low (EQL)
 
-### Fair Value Gap (FVG)
-Celah ketidakefisienan harga yang terbentuk dalam formasi 3-candle saat harga bergerak terlalu cepat dan tidak terjadi transaksi yang seimbang.
+Beberapa low yang terlihat sejajar atau hampir sejajar.
 
-### False Liquidity
-Area yang tampak menyimpan likuiditas kuat, tetapi ternyata tidak memberi respons market yang berarti.
+## Sweep
 
-### False Breakout
-Penembusan level penting yang gagal dilanjutkan dan justru berbalik arah.
+Kondisi ketika harga mengambil high atau low lalu memberi reaksi.
 
----
+Sweep bukan entry otomatis.
 
-## G
+## POI (Point of Interest)
 
-### Grab
-Istilah singkat untuk **Liquidity Grab**.
+Area pengamatan di chart.
 
----
+POI bukan area yang pasti memberi hasil.
 
-## H
+## Entry
 
-### Higher High (HH)
-Puncak baru yang lebih tinggi dari puncak sebelumnya.
+Titik masuk dalam sebuah rencana trading.
 
-### Higher Low (HL)
-Lembah baru yang lebih tinggi dari lembah sebelumnya.
+## Invalidation
 
-### Higher Timeframe Bias
-Bias yang diambil dari timeframe besar seperti 4H, Daily, atau Weekly untuk menyaring arah entry di timeframe kecil.
+Kondisi yang membuat ide trading dianggap batal.
 
-### HRLR (High Resistance Liquidity Run)
-Pergerakan harga menuju likuiditas yang lambat dan penuh hambatan.
+## Stop Loss
 
-### HTF (Higher Time Frame)
-Timeframe besar seperti 4H, Daily, atau Weekly.
+Batas risiko ketika ide trading tidak berjalan sesuai rencana.
+
+## Target
+
+Area tujuan yang direncanakan sebelum entry.
+
+## Risk
+
+Jumlah risiko yang siap diterima dalam satu trade.
+
+## Reward
+
+Potensi hasil dari trade jika skenario berjalan sesuai rencana.
+
+## Journal
+
+Catatan proses belajar dan trading untuk evaluasi.
 
 ---
 
-## I
+# B. Istilah Menengah
 
-### Imbalance
-Ketidakseimbangan antara pembeli dan penjual yang terlihat dari gerak harga yang terlalu cepat.
+Istilah di bagian ini dipelajari setelah istilah dasar cukup kuat.
 
-### Imbalance Continuation
-Kondisi ketika harga bereaksi pada area imbalance lalu melanjutkan arah sebelumnya.
+## BOS (Break of Structure)
 
-### Imbalance Extension
-Kondisi ketika ketidakseimbangan bertambah atau memanjang akibat continuation yang kuat.
+Penembusan struktur yang searah dengan arah dominan sebelumnya.
 
-### Imbalance Failure
-Kondisi ketika area imbalance gagal menahan atau memicu reaksi yang diharapkan.
+## MSS (Market Structure Shift)
 
-### Imbalance Fill
-Proses ketika harga kembali mengisi area imbalance.
+Perubahan struktur yang menandakan kemungkinan perubahan arah.
 
-### Imbalance Partial Fill
-Kondisi ketika harga hanya mengisi sebagian area imbalance.
+## Internal Liquidity
 
-### Imbalance Rejection
-Kondisi ketika harga menolak area imbalance tanpa mengisi penuh.
+Liquidity yang berada di dalam range aktif.
 
-### Impulsive Move
-Pergerakan harga yang kuat dan cepat, biasanya searah bias aktif.
+## External Liquidity
 
-### Inducement
-Gerak harga yang menggoda trader masuk terlalu cepat agar likuiditas mereka dapat diambil lebih dulu.
+Liquidity yang berada di luar range aktif.
 
-### Internal Liquidity
-Likuiditas yang berada di dalam range atau struktur aktif saat ini.
+## Dealing Range
+
+Rentang high dan low yang digunakan untuk membaca posisi harga.
+
+## Premium
+
+Area atas dari sebuah dealing range.
+
+## Discount
+
+Area bawah dari sebuah dealing range.
+
+## Equilibrium
+
+Area tengah atau 50% dari dealing range.
+
+## Order Block (OB)
+
+Area candle sebelum pergerakan kuat yang sering diamati sebagai POI.
+
+## Fair Value Gap (FVG)
+
+Area ketidakseimbangan harga yang terbentuk karena pergerakan cepat.
+
+## Displacement
+
+Dorongan harga yang kuat dan jelas dalam satu arah.
+
+## Delivery
+
+Alur perpindahan harga menuju area tujuan.
+
+## Killzone
+
+Jendela waktu yang sering digunakan untuk pengamatan market.
+
+Killzone bukan sinyal entry otomatis.
+
+## Judas Swing
+
+Gerakan awal session yang sering mengambil liquidity sebelum arah utama lebih jelas.
+
+## Risk Reward Ratio
+
+Perbandingan antara risiko dan potensi hasil.
+
+## Position Sizing
+
+Cara menentukan ukuran posisi berdasarkan batas risiko.
 
 ---
 
-## J
+# C. Istilah Advanced
 
-### Judas Swing
-Gerakan manipulasi di awal sesi London atau New York yang berlawanan dengan arah dominan hari itu.
+Istilah di bagian ini tidak wajib dipahami di awal.
 
----
+Pelajari setelah menyelesaikan folder 01 sampai 08.
 
-## K
+## BPR (Balanced Price Range)
 
-### Kill Zones
-Jendela waktu tertentu ketika volatilitas dan aktivitas institusional cenderung lebih tinggi.
+Area overlap antara dua area imbalance yang berlawanan arah.
 
----
+## CE (Consequent Encroachment)
 
-## L
+Titik tengah dari area Fair Value Gap.
 
-### Liquidity Alignment
-Kondisi ketika target likuiditas selaras dengan bias, struktur, dan lokasi entry.
+## PD Array
 
-### Liquidity Accumulation
-Penumpukan likuiditas secara bertahap di area tertentu.
+Kumpulan area referensi seperti OB, FVG, BPR, high/low, premium, dan discount.
 
-### Liquidity Build
-Proses terbentuknya area yang makin jelas menyimpan likuiditas.
+## CISD (Change in State of Delivery)
 
-### Liquidity Capture
-Proses market mengambil order yang tersimpan di area likuiditas tertentu.
+Perubahan cara harga bergerak dari satu kondisi delivery ke kondisi lain.
 
-### Liquidity Cascade
-Efek berantai saat satu sapuan likuiditas memicu gerakan ke likuiditas berikutnya.
+## Liquidity Path
 
-### Liquidity Channel
-Jalur harga yang dibentuk oleh dua sisi likuiditas yang relatif teratur.
+Perkiraan jalur harga menuju liquidity berikutnya.
 
-### Liquidity Clusters
-Sekelompok level likuiditas yang berdekatan.
+## Liquidity Vacuum
 
-### Liquidity Compression
-Penyempitan harga yang sering mendahului ekspansi dan pengambilan likuiditas.
+Area minim hambatan yang dapat membuat harga bergerak cepat.
 
-### Liquidity Consolidation
-Kondisi ketika market berkonsolidasi sambil mengumpulkan order di kedua sisi.
+## Protected High
 
-### Liquidity Concentration
-Kepadatan likuiditas pada satu area harga tertentu.
+High yang seharusnya bertahan jika skenario bearish masih valid.
 
-### Liquidity Corridor
-Jalur pergerakan harga yang relatif bersih menuju target likuiditas.
+## Protected Low
 
-### Liquidity Deception
-Susunan harga yang membuat trader salah membaca lokasi likuiditas sebenarnya.
+Low yang seharusnya bertahan jika skenario bullish masih valid.
 
-### Liquidity Depth
-Tingkat ketebalan atau besarnya likuiditas pada suatu area.
+## Turtle Soup
 
-### Liquidity Distribution
-Penyebaran likuiditas ke beberapa level, bukan hanya satu titik.
+Model yang memanfaatkan false break di atas high atau di bawah low.
 
-### Liquidity Drain
-Habisnya likuiditas di satu sisi sehingga harga terdorong mencari sisi likuiditas lain.
+## SMT Divergence
 
-### Liquidity Engineering
-Proses market membentuk kondisi agar likuiditas terkumpul di lokasi yang diinginkan.
+Divergence antara dua instrumen yang berkorelasi.
 
-### Liquidity Expansion
-Perluasan gerakan harga setelah likuiditas terserap dan market mulai delivery.
+## MMXM (Market Maker Models)
 
-### Liquidity Extraction
-Pengambilan likuiditas dari satu sisi market untuk mendukung gerak berikutnya.
+Model advanced untuk membaca fase akumulasi, manipulasi, dan distribusi.
 
-### Liquidity Fakeout
-Breakout palsu yang tujuan utamanya adalah mengambil likuiditas.
+## PO3 / AMD
 
-### Liquidity Gap
-Celah harga akibat gerakan cepat yang meninggalkan ketidakefisienan.
+Kerangka accumulation, manipulation, dan distribution.
 
-### Liquidity Grab
-Pengambilan likuiditas yang cepat, singkat, dan sering langsung diikuti reaksi balik.
+## Silver Bullet
 
-### Liquidity Ladder
-Susunan beberapa area likuiditas yang bertingkat.
+Model berbasis waktu yang hanya dipelajari setelah fondasi timing dan entry kuat.
 
-### Liquidity Magnet
-Istilah lain untuk **Draw on Liquidity**.
+## Intermarket Analysis
 
-### Liquidity Migration
-Perpindahan fokus target likuiditas dari satu area ke area lain.
-
-### Liquidity Objective
-Tujuan likuiditas yang sedang dibidik oleh harga.
-
-### Liquidity Objective Shift
-Perubahan target likuiditas akibat perubahan struktur atau konteks market.
-
-### Liquidity Path
-Rute atau jalur yang mungkin dilalui harga menuju target likuiditas.
-
-### Liquidity Pool
-Area berkumpulnya order, terutama stop-loss dan pending order.
-
-### Liquidity Pool Creation
-Pembentukan kolam likuiditas baru akibat pola harga tertentu.
-
-### Liquidity Raid
-Sapuan agresif ke area likuiditas tertentu.
-
-### Liquidity Range
-Rentang harga yang memuat beberapa titik likuiditas penting.
-
-### Liquidity Reversal
-Pembalikan arah setelah likuiditas diambil.
-
-### Liquidity Rotation
-Perpindahan fokus harga dari satu pool likuiditas ke pool yang lain.
-
-### Liquidity Rotation Target
-Target likuiditas berikutnya dalam proses rotasi harga.
-
-### Liquidity Run
-Pergerakan harga yang terus melaju menuju kumpulan likuiditas berikutnya.
-
-### Liquidity Stacking
-Beberapa sumber likuiditas yang bertumpuk di area berdekatan.
-
-### Liquidity Structure
-Susunan likuiditas internal dan eksternal yang membentuk konteks market.
-
-### Liquidity Sweep
-Peristiwa ketika harga menyentuh atau menembus area likuiditas untuk mengambil order.
-
-### Liquidity Sweep Failure
-Sweep yang gagal menghasilkan continuation atau reversal yang diharapkan.
-
-### Liquidity Targeting
-Proses membaca likuiditas mana yang paling mungkin dibidik market.
-
-### Liquidity Trap Setup
-Susunan harga yang membuat trader masuk di sisi yang salah.
-
-### Liquidity Vacuum
-Area yang miskin transaksi atau minim hambatan sehingga harga bisa bergerak sangat cepat.
-
-### Liquidity Void
-Area kosong atau ketidakefisienan harga yang sering bergerak cepat dan minim transaksi dua arah.
-
-### London Manipulation
-Istilah kerja untuk sweep atau manipulasi awal yang sering muncul saat sesi London dibuka.
-
-### London Session
-Sesi perdagangan London yang sering membawa kenaikan volatilitas.
-
-### Lower High (LH)
-Puncak baru yang lebih rendah dari puncak sebelumnya.
-
-### Lower Low (LL)
-Lembah baru yang lebih rendah dari lembah sebelumnya.
-
-### LRLR (Low Resistance Liquidity Run)
-Pergerakan harga menuju likuiditas yang cepat dan minim hambatan.
-
-### LTF (Lower Time Frame)
-Timeframe kecil seperti 15M, 5M, dan 1M.
-
-### LTF Confirmation Entry
-Entry yang dilakukan setelah ada validasi tambahan dari timeframe kecil.
+Membandingkan instrumen terkait untuk membaca konteks tambahan.
 
 ---
 
-## M
+# Cara Menggunakan Glosarium
 
-### Manipulation
-Fase ketika market melakukan jebakan, false break, atau sweep untuk mengambil likuiditas sebelum move utama.
+Gunakan glosarium seperti ini:
 
-### Market Structure
-Susunan swing high dan swing low yang membentuk konteks arah market.
-
-### Market Structure Shift (MSS)
-Perubahan arah struktur pasar yang biasanya terjadi setelah pengambilan likuiditas dan disertai displacement.
-
-### Mean Threshold
-Titik tengah atau level 50% dari body sebuah **Order Block**.
-
-### Micro BOS Entry
-Entry yang menggunakan BOS di timeframe kecil sebagai pemicu.
-
-### Micro MSS Entry
-Entry yang menggunakan MSS di timeframe kecil sebagai pemicu.
-
-### Mitigation
-Proses ketika harga kembali ke area tertentu untuk menyelesaikan order yang tertinggal.
-
-### Mitigation Block
-Area block yang sering digunakan market untuk kembali melakukan mitigasi sebelum continuation.
-
-### Momentum Delivery
-Delivery harga yang didorong momentum kuat.
-
-### Monthly Bias
-Bias arah pada konteks bulanan.
+1. Baca bab utama terlebih dahulu.
+2. Jika menemukan istilah asing, cek glosarium.
+3. Jangan menghafal semua istilah sekaligus.
+4. Tandai istilah yang sering muncul.
+5. Pelajari istilah advanced hanya saat sudah sampai folder yang sesuai.
 
 ---
 
-## N
+# Latihan Praktik
 
-### New York Expansion
-Ekspansi harga yang sering terjadi selama sesi New York.
+Pilih 10 istilah dari bagian A.
 
-### New York Session
-Sesi perdagangan New York yang sering memberi continuation atau reversal lanjutan.
+Tulis ulang definisinya dengan bahasa sendiri.
 
----
-
-## O
-
-### OB (Order Block)
-Candle atau area terakhir sebelum pergerakan impulsif yang dianggap menunjukkan jejak order institusional.
-
-### OTE (Optimal Trade Entry)
-Area retracement Fibonacci yang dianggap ideal untuk entry, umumnya di rentang 62%–79%. Dalam praktik ICT, 70.5% sering dijadikan titik fokus.
-
-### OTE Entry Model
-Model entry yang memanfaatkan retracement ke area OTE disertai konfluensi lain.
+Setelah itu, buka chart dan cari contoh sederhana untuk minimal 5 istilah.
 
 ---
 
-## P
+# Checklist Kelulusan Bab
 
-### PD Array
-Sekumpulan alat bantu atau area referensi seperti **Order Block**, **FVG**, **BPR**, high/low sebelumnya, dan area premium/discount yang dipakai untuk mencari reaksi harga.
+Sebelum lanjut, pembaca harus bisa:
 
-### PD Array Entry
-Entry yang dibangun dari reaksi harga di salah satu PD Array.
-
-### PDH / PDL (Previous Day High / Low)
-Titik tertinggi atau terendah dari hari perdagangan sebelumnya. Sering menjadi target likuiditas.
-
-### POI (Point of Interest)
-Area di chart tempat trader menunggu harga bereaksi.
-
-### Position Management
-Cara mengelola posisi setelah entry, termasuk partial, trailing, dan exit.
-
-### Premium
-Area harga di atas level 50% (**Equilibrium**) dari sebuah rentang harga. Area ideal untuk mencari posisi **Sell**.
-
-### Premium PD Array
-PD Array yang berada di area premium dan lebih menarik untuk setup sell.
-
-### Premium Rejection
-Kondisi ketika harga menolak area premium.
-
-### Price Delivery Algorithm
-Gagasan bahwa harga bergerak mengikuti logika institusional menuju likuiditas dan efisiensi harga.
-
-### Price Rebalancing
-Proses harga kembali ke area tidak seimbang untuk menutup ketidakefisienan.
-
-### Protected High
-High yang seharusnya tetap bertahan bila bias bearish masih valid.
-
-### Protected Low
-Low yang seharusnya tetap bertahan bila bias bullish masih valid.
-
-### Previous High
-High sebelumnya yang sering menjadi referensi target atau likuiditas.
-
-### Previous Low
-Low sebelumnya yang sering menjadi referensi target atau likuiditas.
-
-### Previous Month High / Low
-High atau Low bulan sebelumnya.
-
-### Previous Week High / Low
-High atau Low minggu sebelumnya.
-
----
-
-## R
-
-### Range Expansion
-Pelebaran range saat harga mulai keluar dari fase sempit.
-
-### Range High Liquidity
-Likuiditas yang berada di atas batas atas range.
-
-### Range Low Liquidity
-Likuiditas yang berada di bawah batas bawah range.
-
-### Range Manipulation
-Gerak tipu di dalam atau di sekitar range untuk mengambil likuiditas.
-
-### Range Rebalance
-Kembalinya harga ke bagian tengah range atau area value untuk menutup ketidakseimbangan.
-
-### Range Structure
-Kondisi market yang bergerak mendatar di antara batas high dan low tertentu.
-
-### Rebalancing
-Proses market kembali ke area imbalance agar distribusi harga menjadi lebih efisien.
-
-### Retracement
-Tarikan balik harga sebelum continuation atau reversal yang lebih besar.
-
-### Retracement Model
-Model entry yang menunggu pullback ke area value sebelum masuk.
-
-### Rejection
-Kondisi ketika harga menolak suatu area dan gagal melanjutkan penetrasi.
-
-### Risk Per Trade
-Besarnya risiko yang ditentukan untuk satu transaksi.
-
-### Risk Reward Ratio
-Perbandingan antara risiko dengan potensi hasil suatu trade.
-
----
-
-## S
-
-### Scaling In
-Menambah posisi secara bertahap sesuai rencana.
-
-### Scaling Out
-Mengurangi posisi secara bertahap untuk mengunci profit.
-
-### Session Expansion
-Ekspansi harga yang terjadi saat pergantian atau overlap sesi.
-
-### Session Liquidity
-Likuiditas yang terbentuk dari high/low atau range suatu sesi.
-
-### Session Reversal
-Pembalikan arah yang muncul saat pergantian sesi atau setelah satu sesi mengambil likuiditas sesi lain.
-
-### SIBI (Sellside Imbalance Buyside Inefficiency)
-Nama teknis untuk **Bearish Fair Value Gap**.
-
-### SMT (Smart Money Technique)
-Divergensi antara dua aset yang berkorelasi, misalnya EURUSD dan GBPUSD, yang dapat memberi petunjuk manipulasi atau ketidaksinkronan harga.
-
-### SSL (Sell-Side Liquidity)
-Kumpulan likuiditas di bawah lembah harga, biasanya berupa stop-loss dari posisi buy.
-
-### Stop Hunt
-Peristiwa ketika harga sengaja menyapu area stop-loss sebelum bergerak ke arah sebenarnya.
-
-### Stop Loss Liquidity
-Likuiditas yang berasal dari kumpulan stop-loss trader.
-
-### Swing High
-Puncak lokal yang menjadi referensi resistance atau buy-side liquidity.
-
-### Swing Low
-Lembah lokal yang menjadi referensi support atau sell-side liquidity.
-
-### Swing High Liquidity
-Likuiditas yang menumpuk di atas swing high.
-
-### Swing Low Liquidity
-Likuiditas yang menumpuk di bawah swing low.
-
-### Sweep
-Istilah singkat untuk **Liquidity Sweep**.
-
----
-
-## T
-
-### Trend Structure
-Susunan struktur harga yang menunjukkan tren naik atau tren turun.
-
-### Trap Liquidity
-Likuiditas yang tercipta dari posisi trader yang terjebak di sisi salah market.
-
-### Turtle Soup
-Strategi trading yang memanfaatkan false breakout di atas high atau di bawah low.
-
----
-
-## W
-
-### Weekly Bias
-Bias arah pada konteks mingguan.
-
----
-
-## Penutup
-
-Glosarium ini akan terus diperbarui seiring bertambahnya materi. Jika menemukan istilah yang belum ada, tambahkan istilah tersebut beserta definisi kerja yang tetap konsisten dengan logika market structure, liquidity, price delivery, dan execution.
+- menjelaskan minimal 10 istilah dasar;
+- membedakan istilah dasar dan advanced;
+- memahami bahwa glosarium bukan hafalan;
+- tahu kapan harus kembali membuka glosarium.
