@@ -4,6 +4,20 @@ const BRANCH = "main";
 const API_BASE = `https://api.github.com/repos/${OWNER}/${REPO}/contents`;
 const RAW_BASE = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}`;
 
+const CURRICULUM_FOLDERS = [
+  "00-Start-Here-dan-Glosarium",
+  "01-Fondasi-Cara-Melihat-Pasar",
+  "02-Struktur-dan-Likuiditas",
+  "03-Sweep-Grab-Run-dan-Delivery",
+  "04-POI-dan-Lokasi-Entry",
+  "05-Session-dan-Timing",
+  "06-Entry-Risk-dan-Eksekusi",
+  "07-Pengembangan-Konsep-dari-Glosarium",
+  "08-Jurnal-dan-Psikologi-Pemula",
+  "09-Advanced-Concepts-dan-Model-Market",
+  "10-Case-Studies-dan-Backtesting",
+];
+
 const state = {
   folders: [],
   allPages: [],
@@ -60,10 +74,6 @@ function parseChapterNumber(name) {
   return match ? Number(match[1]) : -1;
 }
 
-function sortFolders(a, b) {
-  return a.name.localeCompare(b.name, undefined, { numeric: true });
-}
-
 function sortFiles(a, b) {
   const aReadme = a.name.toLowerCase() === "readme.md";
   const bReadme = b.name.toLowerCase() === "readme.md";
@@ -90,9 +100,15 @@ async function fetchText(url) {
 
 async function loadStructure() {
   const rootItems = await fetchJson(API_BASE);
-  const folders = rootItems
-    .filter((item) => item.type === "dir" && /^\d{2}-/.test(item.name))
-    .sort(sortFolders);
+  const folderByName = new Map(
+    rootItems
+      .filter((item) => item.type === "dir")
+      .map((item) => [item.name, item])
+  );
+
+  const folders = CURRICULUM_FOLDERS
+    .map((name) => folderByName.get(name))
+    .filter(Boolean);
 
   const enriched = [];
   for (const folder of folders) {
@@ -161,7 +177,7 @@ function renderStats() {
   const searchStatus = state.searchReady ? "Isi materi" : "Judul materi";
 
   els.heroStats.innerHTML = `
-    <div class="stat"><strong>${folderCount}</strong><span>Folder utama</span></div>
+    <div class="stat"><strong>${folderCount}</strong><span>Folder kurikulum</span></div>
     <div class="stat"><strong>${pageCount}</strong><span>Halaman materi</span></div>
     <div class="stat"><strong>${searchStatus}</strong><span>Mode pencarian</span></div>
   `;
