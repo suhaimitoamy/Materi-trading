@@ -4,19 +4,21 @@
 
 Bab ini mengenalkan struktur harga dari titik paling dasar.
 
-Sebelum membahas BOS, MSS, inducement, protected high/low, atau liquidity mapping, pembaca harus bisa melihat high, low, swing, trend, dan range terlebih dahulu.
+Sebelum membahas BOS, MSS, inducement, protected high/low, IRL/ERL, atau struktur kompleks, pembaca harus bisa melihat high, low, swing, trend, dan range terlebih dahulu.
 
-Di bab ini, pembaca belum perlu mencari entry. Fokusnya hanya membaca bentuk dasar market.
+Fokus bab ini bukan mencari entry. Fokusnya adalah membaca bentuk dasar market.
 
 ---
 
-## Kenapa Bab Ini Dipelajari Pertama di Folder 02?
+## Kenapa Bab Ini Menjadi Awal Folder 02?
 
 Struktur adalah kerangka chart.
 
-Jika struktur belum jelas, pembaca akan sulit memahami likuiditas, sweep, POI, session, dan entry. Semua konsep itu membutuhkan kemampuan membaca posisi harga terlebih dahulu.
+Jika struktur belum jelas, konsep lain akan terasa seperti istilah yang berdiri sendiri. Likuiditas, sweep, POI, session, entry, dan invalidation semuanya membutuhkan kemampuan membaca posisi harga.
 
-Tanpa struktur, chart terlihat seperti candle acak. Dengan struktur, chart mulai terlihat seperti cerita yang punya urutan.
+Tanpa struktur, chart terlihat seperti candle acak.
+
+Dengan struktur, chart mulai terlihat seperti cerita yang punya urutan.
 
 ---
 
@@ -24,14 +26,14 @@ Tanpa struktur, chart terlihat seperti candle acak. Dengan struktur, chart mulai
 
 Struktur harga adalah susunan high dan low yang terbentuk saat harga bergerak.
 
-Harga tidak bergerak lurus. Harga bergerak dalam ayunan:
+Harga jarang bergerak lurus. Harga biasanya bergerak dalam ayunan:
 
 - naik lalu turun;
 - turun lalu naik;
 - bergerak bolak-balik;
 - kadang cepat, kadang lambat.
 
-Ayunan inilah yang membentuk struktur.
+Ayunan ini membentuk struktur.
 
 ---
 
@@ -45,55 +47,39 @@ High adalah titik tertinggi pada area tertentu.
 
 Low adalah titik terendah pada area tertentu.
 
-### Swing High
+### Swing
 
-Swing high adalah puncak sementara sebelum harga turun.
+Swing adalah ayunan harga dari satu titik ke titik lain.
 
-### Swing Low
-
-Swing low adalah dasar sementara sebelum harga naik.
-
-Untuk pemula, cari swing yang jelas terlihat. Jangan terlalu cepat menandai swing kecil yang membingungkan.
+Untuk pemula, swing yang dipilih harus jelas terlihat. Jangan terlalu cepat menandai swing kecil yang membingungkan.
 
 ---
 
-## Trend Naik, Trend Turun, dan Range
-
-Setelah high dan low terlihat, pembaca mulai membaca kondisi market.
+## Tiga Kondisi Market Dasar
 
 ### Trend Naik
 
-Market cenderung naik jika harga membentuk:
-
-- Higher High;
-- Higher Low.
-
-Artinya, high semakin tinggi dan low juga semakin tinggi.
+Market cenderung naik jika high dan low semakin tinggi.
 
 ### Trend Turun
 
-Market cenderung turun jika harga membentuk:
-
-- Lower Low;
-- Lower High.
-
-Artinya, low semakin rendah dan high juga semakin rendah.
+Market cenderung turun jika high dan low semakin rendah.
 
 ### Range
 
 Market range jika harga bergerak bolak-balik di antara area atas dan area bawah.
 
-Dalam range, pembaca harus lebih sabar karena breakout awal sering belum tentu valid.
+Dalam range, pembaca harus lebih sabar karena penembusan awal sering belum tentu valid.
 
 ---
 
-## Jangan Terjebak Satu Candle
+## Struktur Dibaca dari Rangkaian, Bukan Satu Candle
 
-Satu candle hijau besar tidak selalu berarti trend naik.
+Satu candle hijau besar tidak otomatis berarti market bullish.
 
-Satu candle merah besar tidak selalu berarti trend turun.
+Satu candle merah besar tidak otomatis berarti market bearish.
 
-Struktur dibaca dari rangkaian pergerakan, bukan dari satu candle.
+Struktur dibaca dari rangkaian high, low, dan swing.
 
 Pertanyaan yang lebih sehat:
 
@@ -105,18 +91,20 @@ Pertanyaan yang lebih sehat:
 
 ---
 
-## Hubungan Struktur dengan Materi Berikutnya
+## Hubungan Struktur dengan Materi Folder 02
 
-Struktur akan menjadi dasar untuk memahami:
+Folder 02 akan bergerak bertahap:
 
-- liquidity;
-- sweep;
-- POI;
-- session;
-- trigger;
-- invalidation.
+1. struktur dasar;
+2. swing high dan swing low;
+3. HH, HL, LH, LL;
+4. trend, range, dan expansion;
+5. struktur sehat dan struktur rusak;
+6. liquidity;
+7. BOS, MSS, inducement, minor-major structure;
+8. struktur kompleks dan IRL/ERL advanced.
 
-Karena itu, bab ini sengaja dibuat sederhana. Konsep seperti BOS, MSS, protected high/low, dan complex structure akan lebih mudah dipahami setelah pembaca nyaman membaca struktur dasar.
+Bab ini adalah pintu masuk agar semua konsep itu tidak terasa lompat.
 
 ---
 
@@ -140,18 +128,15 @@ Lakukan latihan berikut:
 
 1. tandai 5 high yang jelas;
 2. tandai 5 low yang jelas;
-3. cari 3 swing high;
-4. cari 3 swing low;
-5. tentukan apakah market sedang naik, turun, atau range;
-6. tulis alasan dengan bahasa sendiri.
-
-Jangan entry. Ini latihan membaca struktur.
+3. tentukan apakah market sedang naik, turun, atau range;
+4. tulis alasan dengan bahasa sendiri;
+5. jangan mencari entry.
 
 ---
 
 ## Ringkasan Bab
 
-Struktur harga adalah susunan high, low, dan swing yang membentuk cerita market. Pemula harus memahami trend naik, trend turun, dan range sebelum masuk ke istilah teknis seperti BOS, MSS, protected high/low, dan liquidity mapping.
+Struktur harga adalah susunan high, low, dan swing yang membentuk cerita market. Pemula harus memahami struktur dasar sebelum masuk ke istilah teknis seperti BOS, MSS, inducement, protected high/low, dan IRL/ERL.
 
 ---
 
@@ -160,7 +145,7 @@ Struktur harga adalah susunan high, low, dan swing yang membentuk cerita market.
 Sebelum lanjut, pembaca harus bisa:
 
 - membedakan high dan low;
-- menandai swing high dan swing low sederhana;
+- memahami swing secara sederhana;
 - membedakan trend naik, trend turun, dan range;
 - menjelaskan kenapa satu candle tidak cukup untuk membaca struktur;
 - membaca struktur tanpa mencari entry.
