@@ -4,6 +4,8 @@ Folder ini membahas **Point of Interest (POI)** sebagai area pengamatan, bukan a
 
 Setelah memahami struktur, likuiditas, sweep, dan delivery, pembaca mulai belajar memilih area yang layak diperhatikan. Fokus folder ini adalah kualitas area, bukan sekadar menghafal nama pola.
 
+Tujuan folder ini bukan mencari entry. Tujuannya adalah membuat pembaca mampu memilih POI yang jelas, relevan, dan punya target sebelum masuk ke session, timing, dan eksekusi.
+
 ---
 
 ## Tujuan Folder
@@ -11,62 +13,132 @@ Setelah memahami struktur, likuiditas, sweep, dan delivery, pembaca mulai belaja
 Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 
 - memahami POI sebagai area pengamatan;
-- membedakan area yang jelas dan area yang dipaksakan;
 - mengenal Order Block dan Fair Value Gap secara bertahap;
 - memahami premium dan discount sebagai konteks lokasi;
-- menilai kualitas POI berdasarkan struktur, likuiditas, dan reaksi harga.
+- memilih POI setelah sweep dan displacement;
+- memahami Mitigation Block, Breaker Block, Rejection Block, Vacuum Block, dan Liquidity Void;
+- membedakan POI valid dan invalid;
+- membedakan HTF POI dan LTF POI;
+- menilai confluence, freshness, dan target liquidity;
+- memberi grade POI;
+- membuat mapping POI tanpa memenuhi chart.
 
 ---
 
-## Urutan Belajar yang Disarankan
+## Daftar Isi Folder
 
-Pelajari folder ini secara bertahap:
+### Bab 01 — Apa Itu Order Block?
 
-1. pahami dulu arti POI secara sederhana;
-2. pelajari Order Block sebagai area dasar;
-3. pelajari Fair Value Gap sebagai area imbalance;
-4. hubungkan POI dengan dealing range, premium, dan discount;
-5. pelajari kualitas POI;
-6. baru lanjut ke Breaker, Mitigation, Rejection Block, Vacuum Block, dan gap analysis.
+Mengenalkan Order Block sebagai area pengamatan, bukan entry otomatis.
 
-Jangan mulai dari jenis POI yang terlalu banyak. Satu atau dua area yang jelas lebih baik daripada chart yang penuh tanda.
+### Bab 02 — Fair Value Gap (FVG)
+
+Mengenalkan FVG sebagai area imbalance yang muncul karena pergerakan cepat.
+
+### Bab 03 — Apa Itu POI?
+
+Menjelaskan POI sebagai area pengamatan yang punya alasan market.
+
+### Bab 04 — POI dalam Premium dan Discount
+
+Membahas lokasi POI dalam dealing range.
+
+### Bab 05 — POI setelah Sweep
+
+Menjelaskan kenapa POI setelah liquidity sweep lebih layak diamati.
+
+### Bab 06 — POI dengan Displacement
+
+Membahas hubungan POI dengan dorongan harga yang jelas.
+
+### Bab 07 — Mitigation Block
+
+Mengenalkan area yang dikunjungi ulang setelah pergerakan kuat.
+
+### Bab 08 — Breaker Block
+
+Membahas area lama yang gagal menjaga struktur lalu berubah fungsi.
+
+### Bab 09 — Rejection Block
+
+Mengenalkan area penolakan harga yang jelas.
+
+### Bab 10 — Vacuum Block dan Liquidity Void
+
+Membahas area yang terbentuk karena harga bergerak cepat.
+
+### Bab 11 — Valid vs Invalid POI
+
+Membedakan POI yang layak diamati dan POI yang sebaiknya diabaikan.
+
+### Bab 12 — HTF POI dan LTF POI
+
+Membahas POI dari timeframe besar dan kecil.
+
+### Bab 13 — POI Confluence
+
+Mengenalkan pertemuan beberapa alasan yang mendukung satu POI.
+
+### Bab 14 — POI yang Sudah Terlalu Sering Disentuh
+
+Membahas fresh, used, dan overused POI.
+
+### Bab 15 — Advanced POI Selection
+
+Membahas cara memilih POI secara lebih selektif.
+
+### Bab 16 — POI dan Target Liquidity
+
+Menjelaskan kenapa POI harus punya target harga yang jelas.
+
+### Bab 17 — Mapping POI
+
+Menyatukan seluruh proses pemilihan POI menjadi workflow mapping.
+
+### Bab 18 — Advanced POI Reading
+
+Menyatukan konsep POI secara advanced tanpa membuat chart terlalu ramai.
 
 ---
 
-## Prinsip Penting
+## Modul Penutup Folder
 
-POI bukan jaminan harga akan bereaksi.
+### Ringkasan Folder 04
 
-POI harus dibaca bersama:
+Review cepat seluruh konsep penting dari Bab 01 sampai Bab 18.
 
-- struktur market;
-- likuiditas yang sudah atau belum diambil;
-- posisi harga dalam range;
-- kualitas reaksi sebelumnya;
-- waktu atau session.
+### Latihan Akhir Folder 04
+
+Latihan praktik untuk memastikan pembaca bisa memilih POI sebelum lanjut ke folder 05.
 
 ---
 
 ## Cara Belajar Folder Ini
 
-Latihan sederhana:
+Gunakan pola berikut:
 
-1. ambil satu chart kosong;
-2. tandai struktur besarnya;
-3. tandai likuiditas terdekat;
-4. pilih maksimal dua POI yang paling jelas;
-5. tulis alasan kenapa area itu layak diamati;
-6. jangan entry hanya karena area sudah ditandai.
+1. Baca satu bab.
+2. Buka chart lama.
+3. Tandai struktur dan liquidity lebih dulu.
+4. Pilih maksimal dua POI.
+5. Tulis alasan memilih POI.
+6. Tentukan target liquidity setelah POI.
+7. Jangan mencari entry.
+8. Cek checklist sebelum lanjut.
+9. Setelah Bab 18, kerjakan latihan akhir folder.
 
 ---
 
 ## Kesalahan yang Harus Dihindari
 
+- Menganggap POI sebagai entry otomatis.
 - Menganggap semua candle sebagai Order Block.
 - Menganggap semua gap sebagai area penting.
 - Menandai terlalu banyak POI.
 - Memilih POI tanpa melihat struktur.
-- Mencari entry sebelum ada rencana yang jelas.
+- Memilih POI tanpa target liquidity.
+- Menggunakan POI advanced tanpa konteks.
+- Tidak menghapus POI yang sudah lemah.
 
 ---
 
@@ -77,7 +149,13 @@ Sebelum lanjut, pembaca harus bisa:
 - menjelaskan POI dengan bahasa sederhana;
 - memilih POI tanpa memenuhi chart;
 - memahami premium dan discount secara dasar;
-- membedakan area pengamatan dan keputusan entry.
+- membedakan area pengamatan dan keputusan entry;
+- menilai valid dan invalid POI;
+- membedakan HTF POI dan LTF POI;
+- memberi grade POI;
+- menentukan target liquidity setelah POI;
+- membuat mapping POI;
+- menyelesaikan minimal 3 dari 4 latihan akhir dengan nilai A atau B.
 
 ---
 
