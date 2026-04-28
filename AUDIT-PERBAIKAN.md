@@ -1,269 +1,310 @@
-# Audit Kurikulum Repo Materi Trading
+# Audit Repo Materi Trading
 
-Dokumen ini adalah audit terbaru untuk folder asli `00` sampai `10`.
+Dokumen ini mencatat audit terbaru untuk repository `Materi-trading`.
 
-Fokus audit ini bukan membuat folder baru, tetapi mengecek apakah bab di folder asli sudah ramah pemula, urut, dan siap menjadi media ajar bertahap.
-
----
-
-## Kesimpulan Audit Utama
-
-Materi repo sudah kaya dan lengkap, tetapi beban belajar masih terlalu berat untuk pemula.
-
-Masalah utama bukan kurang materi, melainkan:
-
-1. terlalu banyak istilah teknis muncul terlalu awal;
-2. mindset, jurnal, dan risk awareness masih terlalu jauh di belakang;
-3. beberapa README folder menjelaskan terlalu banyak konsep sekaligus;
-4. urutan bab belum sepenuhnya mengikuti alur Mengapa -> Apa -> Kapan -> Bagaimana;
-5. folder 07, 09, dan sebagian 05 berisi konsep advanced yang sebaiknya diberi pagar belajar lebih jelas;
-6. web reader masih menampilkan semua folder secara setara, sehingga pemula bisa masuk ke bab berat terlalu cepat.
+Fokus audit: memastikan repo kembali memakai folder asli `00` sampai `10`, menghapus kebingungan akibat folder level baru yang sempat dibuat, dan menilai kesiapan materi sebagai media ajar bertahap dari pemula sampai advanced.
 
 ---
 
-## Audit per Folder
+## Ringkasan Status Saat Ini
 
-### 00 — Start Here dan Glosarium
+Repo sudah berisi materi yang sangat lengkap, tetapi masih belum sepenuhnya siap sebagai media ajar final karena ada masalah struktur dan navigasi.
 
-Status: perlu diringankan dan dijadikan gerbang belajar.
+Masalah paling penting saat ini:
 
-Masalah:
-
-- README sudah menjelaskan fungsi repo, tetapi peta besar masih langsung memperkenalkan semua folder 01 sampai 10.
-- Glosarium berpotensi membuat pemula merasa harus memahami semua istilah sejak awal.
-- Bab panduan belajar perlu lebih tegas membedakan istilah inti dan istilah lanjutan.
-
-Arah edit:
-
-- Bab awal harus menjelaskan cara belajar bertahap.
-- Glosarium dibagi menjadi istilah wajib pemula dan istilah lanjutan.
-- Folder 00 harus menjadi filter agar pembaca tidak lompat ke materi advanced.
+1. `README.md` root masih menunjuk ke folder baru `00-Mulai-Di-Sini`, padahal arah final adalah folder asli `00-Start-Here-dan-Glosarium` sampai `10-Case-Studies-dan-Backtesting`.
+2. Sebagian folder level baru masih ada di repo, misalnya `01-Level-1-The-Foundations`.
+3. `app.js` web reader membaca semua folder yang diawali angka dua digit, sehingga folder level baru yang masih tersisa dapat ikut tampil di website.
+4. README folder asli `00` sampai `10` sudah mulai diringankan, tetapi belum semua bab di dalamnya selesai diedit.
+5. Beberapa bab asli masih terlalu berat untuk pemula dan perlu ditulis ulang dengan format yang konsisten.
 
 ---
 
-### 01 — Fondasi Cara Melihat Pasar
+## Keputusan Final Struktur
 
-Status: sudah tepat sebagai fondasi, tetapi masih terlalu cepat masuk istilah besar.
-
-Masalah:
-
-- README langsung menyebut IPDA, bias, premium/discount, liquidity, dan konteks sekaligus.
-- Untuk pemula total, fondasi sebaiknya dimulai dari cara melihat market, bukan langsung istilah model.
-
-Arah edit:
-
-- Mulai dari perubahan cara pandang: market bukan candle acak.
-- Baru setelah itu masuk konsep harga bergerak dari area ke area.
-- IPDA dan istilah lebih teknis dibuat sebagai pengantar ringan, bukan pembahasan berat.
-
----
-
-### 02 — Struktur dan Likuiditas
-
-Status: materi sangat penting, tetapi daftar konsep terlalu padat.
-
-Masalah:
-
-- README langsung memuat BOS, MSS, protected high/low, inducement, liquidity pools, IRL/ERL, complex structure, sub-structure, HRLR/LRLR, dan banyak istilah lain.
-- Pemula perlu belajar swing, high, low, trend, dan range dulu sebelum masuk struktur kompleks.
-
-Arah edit:
-
-- Bab awal harus fokus ke swing high, swing low, HH, HL, LH, LL.
-- Liquidity dasar baru masuk setelah struktur dasar.
-- MSS, inducement, protected high/low, IRL/ERL, dan complex structure ditaruh setelah pembaca paham dasar.
-
----
-
-### 03 — Sweep, Grab, Run, dan Delivery
-
-Status: urutan folder sudah benar setelah struktur dan liquidity.
-
-Masalah:
-
-- Istilah sweep, grab, stop hunt, displacement, dan delivery muncul bersamaan.
-- Pemula bisa salah mengira sweep adalah sinyal langsung.
-
-Arah edit:
-
-- Awali dengan penjelasan sederhana: harga mengambil area yang jelas dulu.
-- Pisahkan sweep sebagai kejadian, grab sebagai proses, run sebagai lanjutan, dan delivery sebagai cerita besar.
-- Tambahkan peringatan bahwa sweep bukan entry otomatis.
-
----
-
-### 04 — POI dan Lokasi Entry
-
-Status: terlalu berat jika dibaca pemula tanpa penyederhanaan.
-
-Masalah:
-
-- README langsung memuat Order Block, FVG, Breaker, Mitigation, Rejection Block, Vacuum Block, premium/discount, dan kualitas entry.
-- Ada risiko pembaca menghafal nama area tanpa tahu fungsi area.
-
-Arah edit:
-
-- Bab awal harus menjelaskan POI sebagai area pengamatan, bukan area pasti entry.
-- OB dan FVG dijadikan pengantar dasar.
-- Breaker, Mitigation, Rejection Block, Vacuum Block, dan gap analysis ditaruh setelah bab kualitas POI.
-
----
-
-### 05 — Session dan Timing
-
-Status: kontennya lengkap, tetapi terlalu banyak advanced timing dalam satu folder.
-
-Masalah:
-
-- README langsung memuat Asia, London, NY, killzone, Judas Swing, weekly profile, true day open, midnight open, AMD, Silver Bullet, Macro ICT, NDOG/NWOG, OHLC/OLHC, PDH/PDL.
-- Untuk pemula, session harus dimulai dari fungsi waktu, bukan daftar istilah waktu.
-
-Arah edit:
-
-- Bab awal: kenapa waktu penting.
-- Lanjut: karakter Asia, London, New York.
-- Killzone dan Judas Swing setelah pembaca paham session.
-- Silver Bullet, Macro ICT, NDOG/NWOG, weekly profile masuk akhir folder atau diarahkan ke advanced.
-
----
-
-### 06 — Entry, Risk, dan Eksekusi
-
-Status: folder penting, tetapi terlalu banyak model entry dan manajemen posisi muncul sekaligus.
-
-Masalah:
-
-- README memuat validasi entry, trigger, invalidation, target, partial, OTE, Unicorn, Inversion, layering, pyramiding, scaling in, dan exit sekaligus.
-- Untuk pemula, entry harus dimulai dari trade plan, bukan model entry.
-
-Arah edit:
-
-- Bab awal: dari mapping ke trade plan.
-- Baru masuk trigger, invalidation, stop loss, target.
-- Model entry seperti Unicorn, Inversion, OTE masuk setelah fondasi eksekusi.
-- Pyramiding dan scaling in harus menjadi materi akhir.
-
----
-
-### 07 — Pengembangan Konsep dari Glosarium
-
-Status: isinya advanced dan seharusnya diberi label jelas sebagai pengayaan.
-
-Masalah:
-
-- BPR, CE, PD Array, CISD, advanced liquidity mapping, liquidity engineering, liquidity vacuum, range model, Turtle Soup bukan materi pemula.
-- Jika dibaca terlalu cepat, folder ini akan memecah fokus belajar.
-
-Arah edit:
-
-- Jadikan folder ini sebagai bridge intermediate-advanced.
-- Tambahkan prasyarat sebelum setiap bab.
-- Urutkan dari bias hierarchy dulu, lalu PD Array/BPR/CE, lalu delivery advanced, baru liquidity engineering dan Turtle Soup.
-
----
-
-### 08 — Jurnal dan Psikologi Pemula
-
-Status: materi ini seharusnya naik lebih awal secara konsep, tetapi folder tetap bisa dipertahankan.
-
-Masalah:
-
-- Psikologi pemula, journaling, dan risk awareness terlalu penting jika hanya muncul setelah folder 07.
-- README memakai bahasa yang cukup keras untuk pemula dan bisa terasa menekan.
-
-Arah edit:
-
-- Bab psikologi dasar dirujuk sejak folder 00 atau 01.
-- Folder 08 tetap menjadi tempat template lengkap jurnal, review, dan risk tracking.
-- Bahasa dibuat lebih membimbing, bukan menghakimi.
-
----
-
-### 09 — Advanced Concepts dan Model Market
-
-Status: tepat sebagai advanced, tetapi perlu pagar prasyarat yang lebih kuat.
-
-Masalah:
-
-- MMXM, SMT, PO3, Weekly Profiles, Silver Bullet, DXY, dan XAUUSD framework adalah konsep berat.
-- README masih bisa membuat pembaca ingin masuk terlalu cepat karena terlihat menarik.
-
-Arah edit:
-
-- Tambahkan peringatan: jangan mulai dari folder ini.
-- Setiap bab perlu format: prasyarat, fungsi konsep, kapan dipakai, kesalahan umum, latihan backtest.
-- Silver Bullet dan XAUUSD framework harus ditegaskan sebagai model spesifik, bukan shortcut.
-
----
-
-### 10 — Case Studies dan Backtesting
-
-Status: sangat penting sebagai penutup, tetapi bahasanya perlu lebih edukatif.
-
-Masalah:
-
-- README memakai banyak istilah berat seperti autopsi, flawless win, ugly loss, iron confidence, expectancy, drawdown.
-- Untuk media ajar, folder ini perlu dimulai dari cara membaca satu case study dengan sederhana.
-
-Arah edit:
-
-- Awali dengan cara membedah satu contoh.
-- Pisahkan studi kasus win, loss baik, loss karena pelanggaran, dan missed trade.
-- Backtesting dimulai dari 20 contoh sebelum naik ke 50-100 contoh.
-- Metrik seperti expectancy dan drawdown dijelaskan bertahap.
-
----
-
-## Rencana Edit yang Benar
-
-Tahap 1:
-
-- Bersihkan perubahan folder baru yang tidak sesuai arahan.
-- Kembalikan fokus ke folder asli 00 sampai 10.
-- Update README utama agar menunjuk folder asli, bukan folder baru.
-
-Tahap 2:
-
-- Edit README folder 00 sampai 10 agar lebih ramah pemula.
-- Tambahkan prasyarat dan syarat kelulusan di tiap folder.
-- Kurangi istilah berat di bagian awal folder.
-
-Tahap 3:
-
-- Edit bab per folder asli.
-- Ringankan bab awal di setiap folder.
-- Tambahkan struktur tetap: tujuan, kenapa urutannya di sini, inti materi, latihan, checklist.
-
-Tahap 4:
-
-- Update web reader agar menampilkan folder asli 00 sampai 10, tetapi dengan label level belajar yang lebih jelas.
-
----
-
-## Prioritas Edit Bab
-
-Prioritas tertinggi:
+Struktur final yang benar adalah tetap memakai folder asli:
 
 1. `00-Start-Here-dan-Glosarium`
 2. `01-Fondasi-Cara-Melihat-Pasar`
 3. `02-Struktur-dan-Likuiditas`
-4. `08-Jurnal-dan-Psikologi-Pemula`
-
-Prioritas menengah:
-
-5. `03-Sweep-Grab-Run-dan-Delivery`
-6. `04-POI-dan-Lokasi-Entry`
-7. `05-Session-dan-Timing`
-8. `06-Entry-Risk-dan-Eksekusi`
-
-Prioritas advanced:
-
-9. `07-Pengembangan-Konsep-dari-Glosarium`
+4. `03-Sweep-Grab-Run-dan-Delivery`
+5. `04-POI-dan-Lokasi-Entry`
+6. `05-Session-dan-Timing`
+7. `06-Entry-Risk-dan-Eksekusi`
+8. `07-Pengembangan-Konsep-dari-Glosarium`
+9. `08-Jurnal-dan-Psikologi-Pemula`
 10. `09-Advanced-Concepts-dan-Model-Market`
 11. `10-Case-Studies-dan-Backtesting`
 
+Folder level baru seperti `01-Level-1-The-Foundations`, `02-Level-2-Market-Reading`, dan sejenisnya bukan struktur final dan harus dibersihkan.
+
 ---
 
-## Catatan Koreksi Proses
+## Audit Root Repo
 
-Perubahan sebelumnya yang membuat folder level baru bukan arah final. Arah final adalah mengedit folder asli 00 sampai 10 agar tetap memakai struktur repo yang sudah ada, tetapi isinya dibuat lebih bertahap, ringan, dan siap dipakai sebagai media ajar.
+### README.md
+
+Status: perlu diperbaiki segera.
+
+Masalah:
+
+- README root masih menulis bahwa jalur utama dimulai dari `00-Mulai-Di-Sini`.
+- Ini bertentangan dengan keputusan final bahwa folder asli `00` sampai `10` adalah jalur utama.
+- Jika dibiarkan, pembaca akan bingung sejak halaman pertama.
+
+Arah perbaikan:
+
+- Ubah README root agar menunjuk ke folder asli `00-Start-Here-dan-Glosarium`.
+- Jelaskan bahwa repo adalah kurikulum bertahap memakai folder asli `00` sampai `10`.
+- Hapus narasi folder level baru.
+
+---
+
+## Audit Web Reader
+
+### app.js
+
+Status: perlu disesuaikan.
+
+Masalah:
+
+- Web reader mengambil semua folder yang diawali pola angka dua digit.
+- Karena folder level baru juga diawali angka seperti `01-Level-1...`, folder tersebut dapat ikut muncul di navigasi website.
+- Ini membuat website berpotensi menampilkan dua jalur belajar yang saling bertabrakan.
+
+Arah perbaikan:
+
+- Tambahkan whitelist folder asli `00` sampai `10`.
+- Atau hapus semua folder level baru sampai tidak tersisa file.
+- Pastikan web reader hanya menampilkan folder asli final.
+
+---
+
+## Audit Folder 00 — Start Here dan Glosarium
+
+Status: sudah mulai diperbaiki.
+
+Yang sudah baik:
+
+- Bab 01 sudah diringankan dan diarahkan ke cara belajar folder asli `00` sampai `10`.
+- Glosarium sudah diubah menjadi bertingkat: dasar, menengah, advanced.
+- Bab panduan belajar sudah dibuat lebih fokus pada folder asli.
+
+Sisa masalah:
+
+- Perlu cek semua bab lain di folder 00 agar tidak masih mengarah ke folder level baru.
+- Perlu pastikan istilah advanced tidak muncul terlalu awal di bab pengantar.
+
+Arah perbaikan:
+
+- Tambahkan checklist folder 00.
+- Pastikan semua bab memakai bahasa pemula.
+
+---
+
+## Audit Folder 01 — Fondasi Cara Melihat Pasar
+
+Status: README sudah diringankan, bab isi perlu diaudit satu per satu.
+
+Masalah utama:
+
+- Beberapa konsep seperti IPDA, premium/discount, bias, dan narasi market bisa terasa berat jika muncul terlalu cepat.
+- Folder ini harus menjadi transisi dari cara belajar ke cara melihat chart.
+
+Arah perbaikan:
+
+- Bab awal harus dimulai dari cara melihat market sebagai alur harga.
+- Istilah teknis cukup diperkenalkan ringan.
+- Tambahkan latihan: membaca satu chart tanpa mencari entry.
+
+---
+
+## Audit Folder 02 — Struktur dan Likuiditas
+
+Status: README sudah diringankan, bab isi masih perlu prioritas tinggi.
+
+Masalah utama:
+
+- Folder ini sangat penting tetapi mudah menjadi berat karena banyak istilah teknis.
+- Bab awal harus benar-benar sederhana sebelum masuk BOS, MSS, inducement, protected high/low, IRL/ERL, dan complex structure.
+
+Arah perbaikan:
+
+- Bab awal fokus ke high, low, swing, trend, range.
+- Setelah itu baru liquidity dasar.
+- Konsep advanced structure ditempatkan belakangan.
+- Setiap bab perlu latihan chart.
+
+---
+
+## Audit Folder 03 — Sweep, Grab, Run, dan Delivery
+
+Status: README sudah diringankan.
+
+Masalah utama:
+
+- Pembaca bisa salah memahami sweep sebagai sinyal langsung.
+- Istilah grab, run, displacement, delivery perlu dipisahkan dengan jelas.
+
+Arah perbaikan:
+
+- Bab awal menjelaskan sweep sebagai kejadian, bukan entry.
+- Tambahkan contoh: sweep yang reversal, sweep yang continuation, dan sweep yang gagal.
+
+---
+
+## Audit Folder 04 — POI dan Lokasi Entry
+
+Status: README sudah diringankan.
+
+Masalah utama:
+
+- Folder ini berpotensi membuat pemula menghafal area tanpa memahami fungsi.
+- OB, FVG, breaker, mitigation, rejection block, dan vacuum block tidak boleh muncul sebagai beban sekaligus.
+
+Arah perbaikan:
+
+- Bab awal: POI sebagai area pengamatan.
+- Lanjut OB dan FVG dasar.
+- Breaker, mitigation, rejection block, vacuum block masuk setelah kualitas POI.
+
+---
+
+## Audit Folder 05 — Session dan Timing
+
+Status: README sudah diringankan.
+
+Masalah utama:
+
+- Terlalu banyak konsep waktu advanced dalam satu folder.
+- Silver Bullet, Macro ICT, NDOG/NWOG, OHLC/OLHC, dan weekly profile harus diberi pagar.
+
+Arah perbaikan:
+
+- Bab awal: fungsi waktu.
+- Lanjut karakter Asia, London, New York.
+- Advanced timing masuk akhir folder atau dirujuk sebagai materi lanjutan.
+
+---
+
+## Audit Folder 06 — Entry, Risk, dan Eksekusi
+
+Status: README sudah diringankan.
+
+Masalah utama:
+
+- Entry masih bisa menjadi terlalu menarik bagi pemula sehingga risk dan trade plan diabaikan.
+- Model entry perlu ditunda setelah pembaca paham invalidation dan risk.
+
+Arah perbaikan:
+
+- Bab awal: dari mapping ke trade plan.
+- Lanjut trigger, invalidation, stop loss, target.
+- Model entry seperti OTE, Unicorn, Inversion, dan 2022 mentorship masuk setelah dasar eksekusi.
+
+---
+
+## Audit Folder 07 — Pengembangan Konsep dari Glosarium
+
+Status: README sudah diberi prasyarat dan pagar advanced.
+
+Masalah utama:
+
+- Folder ini tetap berisi istilah yang berat.
+- Harus jelas bahwa folder ini bukan titik awal.
+
+Arah perbaikan:
+
+- Tambahkan prasyarat di setiap bab.
+- Gunakan format: fungsi konsep, kapan dipakai, kapan diabaikan, latihan.
+
+---
+
+## Audit Folder 08 — Jurnal dan Psikologi Pemula
+
+Status: README sudah dibuat lebih membimbing.
+
+Masalah utama:
+
+- Materi ini sebenarnya harus dirujuk sejak awal belajar.
+- Folder tetap di posisi 08, tetapi konsep jurnal dasar perlu disebut di folder 00 dan 01.
+
+Arah perbaikan:
+
+- Tambahkan rujukan dari folder 00 ke jurnal dasar.
+- Buat template jurnal pemula yang ringkas.
+- Hindari bahasa yang terlalu menekan.
+
+---
+
+## Audit Folder 09 — Advanced Concepts dan Model Market
+
+Status: README sudah diberi pagar advanced.
+
+Masalah utama:
+
+- Konsep seperti MMXM, SMT, PO3, Silver Bullet, DXY, dan XAUUSD framework sangat menarik tetapi mudah disalahgunakan pemula.
+
+Arah perbaikan:
+
+- Setiap bab wajib punya prasyarat.
+- Setiap model harus dijelaskan sebagai konteks yang perlu diuji, bukan shortcut.
+- Tambahkan latihan backtesting per model.
+
+---
+
+## Audit Folder 10 — Case Studies dan Backtesting
+
+Status: README sudah diringankan.
+
+Masalah utama:
+
+- Folder ini harus menjadi laboratorium, bukan sekadar contoh hasil.
+- Metrik seperti expectancy, drawdown, dan win rate perlu dijelaskan bertahap.
+
+Arah perbaikan:
+
+- Mulai dari cara membaca satu case study.
+- Pisahkan win, good loss, bad loss, missed trade.
+- Mulai backtesting dari 20 contoh, lalu naik bertahap.
+
+---
+
+## Prioritas Perbaikan Berikutnya
+
+### Prioritas 1 — Struktur dan navigasi
+
+1. Perbaiki `README.md` root.
+2. Bersihkan folder level baru yang tidak final.
+3. Update `app.js` agar hanya membaca folder asli `00` sampai `10`.
+
+### Prioritas 2 — Bab awal folder inti
+
+1. Folder 01 bab awal.
+2. Folder 02 bab high/low/swing dan liquidity dasar.
+3. Folder 03 bab sweep dasar.
+4. Folder 04 bab POI dasar.
+5. Folder 06 bab trade plan dan invalidation.
+
+### Prioritas 3 — Advanced guardrail
+
+1. Tambahkan prasyarat di semua bab folder 07.
+2. Tambahkan prasyarat di semua bab folder 09.
+3. Tambahkan format backtesting di folder 10.
+
+---
+
+## Kesimpulan Audit
+
+Repo ini sudah punya materi yang kuat, tetapi statusnya saat ini masih campuran antara struktur asli dan sisa struktur baru yang tidak final.
+
+Arah final yang benar adalah:
+
+- tetap memakai folder asli `00` sampai `10`;
+- memperbaiki root README;
+- membersihkan folder level baru;
+- mengunci web reader agar hanya menampilkan folder asli;
+- menulis ulang bab-bab awal agar lebih ringan;
+- menunda materi advanced sampai pembaca siap.
+
+Jika empat masalah navigasi diselesaikan lebih dulu, repo akan jauh lebih jelas dan siap dilanjutkan menjadi media ajar penuh.
