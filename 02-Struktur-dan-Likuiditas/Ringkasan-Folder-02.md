@@ -2,7 +2,7 @@
 
 ## Fungsi Ringkasan
 
-File ini adalah review cepat setelah menyelesaikan Bab 01 sampai Bab 16 di folder `02-Struktur-dan-Likuiditas`.
+File ini adalah review cepat setelah menyelesaikan Bab 01 sampai Bab 21 di folder `02-Struktur-dan-Likuiditas`.
 
 Gunakan ringkasan ini sebelum lanjut ke folder `03-Sweep-Grab-Run-dan-Delivery`.
 
@@ -91,7 +91,27 @@ IRL adalah liquidity dalam range. ERL adalah liquidity luar range atau di ujung 
 
 ### Bab 16 — Mapping Struktur dan Likuiditas
 
-Bab ini menyatukan seluruh folder 02 menjadi proses mapping chart yang rapi.
+Bab ini menyatukan konsep utama folder 02 menjadi proses mapping chart yang rapi.
+
+### Bab 17 — Protected High dan Protected Low
+
+Protected low menjaga bullish structure. Protected high menjaga bearish structure. Jika level protected rusak, narasi market perlu dievaluasi.
+
+### Bab 18 — Dealing Range dan Liquidity Objective
+
+Dealing range adalah medan kerja aktif. Liquidity objective adalah target liquidity utama yang sedang diburu harga.
+
+### Bab 19 — Liquidity Objective Shift
+
+Objective shift adalah perubahan target utama ketika struktur, protected level, atau liquidity event mengubah narasi market.
+
+### Bab 20 — Rebalancing vs Delivery
+
+Rebalancing adalah harga kembali ke area internal. Delivery adalah harga bergerak menuju liquidity objective utama.
+
+### Bab 21 — Advanced Structure Mapping
+
+Bab ini menyatukan protected level, dealing range, IRL/ERL, objective, objective shift, rebalancing, dan delivery menjadi workflow advanced.
 
 ---
 
@@ -110,7 +130,13 @@ Gunakan urutan sederhana berikut:
 9. Baca apakah ada BOS atau MSS.
 10. Cek apakah break valid atau hanya inducement.
 11. Bedakan struktur minor dan mayor.
-12. Buat mapping sederhana.
+12. Tentukan protected high atau protected low.
+13. Tentukan dealing range aktif.
+14. Tandai IRL dan ERL.
+15. Tentukan liquidity objective.
+16. Evaluasi apakah objective shift terjadi.
+17. Bedakan rebalancing dan delivery.
+18. Buat advanced mapping sederhana.
 
 ---
 
@@ -128,6 +154,11 @@ Gunakan urutan sederhana berikut:
 - Tidak semua MSS valid.
 - Inducement sering muncul di internal liquidity.
 - Struktur minor tidak selalu mengubah struktur mayor.
+- Protected level bukan swing sembarang.
+- Liquidity objective bisa berubah jika struktur berubah.
+- Rebalancing bukan selalu reversal.
+- Delivery bukan alasan untuk mengejar harga.
+- Advanced mapping harus lebih selektif, bukan lebih ramai.
 
 ---
 
@@ -142,6 +173,11 @@ Pembaca siap lanjut jika mampu:
 - memilih DOL sementara;
 - membedakan internal dan external liquidity;
 - membedakan BOS, MSS, dan inducement;
+- menentukan protected high atau protected low;
+- menentukan dealing range;
+- membedakan IRL dan ERL;
+- membaca liquidity objective dan objective shift;
+- membedakan rebalancing dan delivery;
 - membuat mapping struktur dan liquidity tanpa memenuhi chart.
 
-Jika belum, ulangi Bab 01 sampai Bab 16.
+Jika belum, ulangi Bab 01 sampai Bab 21.
