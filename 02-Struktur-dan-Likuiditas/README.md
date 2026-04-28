@@ -2,7 +2,9 @@
 
 Folder ini membahas bahasa utama dalam membaca market: **struktur** dan **likuiditas**.
 
-Folder ini penting, tetapi tidak boleh dipelajari dengan terburu-buru. Pemula harus mulai dari high, low, swing, trend, dan range sebelum masuk ke istilah yang lebih kompleks.
+Folder ini adalah lanjutan langsung dari `01-Fondasi-Cara-Melihat-Pasar`. Jika folder 01 mengajarkan cara melihat market sebagai cerita, folder 02 mengajarkan cara memetakan struktur dan liquidity yang membentuk cerita itu.
+
+Tujuan folder ini bukan mencari entry. Tujuannya adalah membuat pembaca bisa membaca market secara rapi sebelum masuk ke sweep, POI, session, dan eksekusi.
 
 ---
 
@@ -10,61 +12,110 @@ Folder ini penting, tetapi tidak boleh dipelajari dengan terburu-buru. Pemula ha
 
 Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 
-- menandai swing high dan swing low;
-- membedakan trend dan range;
+- membaca struktur harga dari high, low, dan swing;
+- membedakan swing high dan swing low yang jelas;
 - memahami HH, HL, LH, dan LL;
-- mengenali area likuiditas dasar;
-- memahami buy-side dan sell-side liquidity;
-- mulai membaca target harga secara lebih logis.
+- membedakan trend, range, dan expansion;
+- mengenali struktur sehat, melemah, dan rusak;
+- menandai BSL, SSL, EQH, dan EQL;
+- menentukan Draw on Liquidity sementara;
+- membedakan internal dan external liquidity;
+- memahami BOS, MSS, inducement, minor-major structure, complex structure, IRL, dan ERL secara bertahap;
+- membuat mapping struktur dan liquidity tanpa memenuhi chart.
 
 ---
 
-## Urutan Belajar yang Disarankan
+## Daftar Isi Folder
 
-Baca materi dengan urutan bertahap:
+### Bab 01 — Apa Itu Struktur Harga?
 
-1. high, low, swing high, dan swing low;
-2. HH, HL, LH, dan LL;
-3. trend dan range;
-4. liquidity pool dasar;
-5. buy-side dan sell-side liquidity;
-6. equal high dan equal low;
-7. internal dan external liquidity;
-8. BOS dan MSS;
-9. protected high/low, inducement, dan struktur kompleks.
+Pintu masuk untuk memahami struktur sebagai susunan high, low, dan swing.
 
-Jangan mulai dari MSS, inducement, IRL/ERL, atau complex structure jika struktur dasar belum kuat.
+### Bab 02 — Swing High dan Swing Low
+
+Mengenalkan puncak dan lembah harga yang menjadi fondasi seluruh struktur.
+
+### Bab 03 — HH, HL, LH, dan LL
+
+Membahas bahasa dasar struktur bullish dan bearish.
+
+### Bab 04 — Trend, Range, dan Expansion
+
+Membantu pembaca membedakan kondisi market yang terarah, bolak-balik, atau bergerak kuat.
+
+### Bab 05 — Struktur Sehat vs Struktur Rusak
+
+Menjelaskan kapan struktur masih bertahan, melemah, atau mulai gagal.
+
+### Bab 06 — Buy-Side dan Sell-Side Liquidity
+
+Mengenalkan liquidity dasar di atas high dan di bawah low.
+
+### Bab 07 — Equal High dan Equal Low
+
+Membahas area high/low sejajar sebagai liquidity pool yang obvious.
+
+### Bab 08 — Draw on Liquidity
+
+Membantu pembaca memilih target liquidity yang paling logis dalam konteks saat itu.
+
+### Bab 09 — Internal dan External Liquidity
+
+Membedakan target kecil di dalam range dan target besar di luar range.
+
+### Bab 10 — BOS vs MSS
+
+Membedakan break continuation dan perubahan struktur.
+
+### Bab 11 — Inducement vs Break of Structure
+
+Membantu pembaca mengenali umpan liquidity yang sering terlihat seperti break valid.
+
+### Bab 12 — Valid vs Invalid MSS
+
+Membahas cara menilai MSS yang kuat, lemah, atau gagal.
+
+### Bab 13 — Struktur Minor vs Struktur Mayor
+
+Menjelaskan perbedaan struktur kecil dan struktur utama.
+
+### Bab 14 — Complex Structure dan Sub-Structure
+
+Mengenalkan struktur berlapis dan cara membacanya tanpa overthinking.
+
+### Bab 15 — IRL dan ERL Advanced
+
+Mengenalkan Internal Range Liquidity dan External Range Liquidity sebagai konsep lanjutan.
+
+### Bab 16 — Mapping Struktur dan Likuiditas
+
+Menyatukan seluruh konsep folder 02 menjadi proses mapping chart yang rapi.
 
 ---
 
-## Istilah yang Wajib Dipahami Dulu
+## Modul Penutup Folder
 
-Untuk pemula, istilah pertama yang harus dikuasai adalah:
+### Ringkasan Folder 02
 
-- high;
-- low;
-- swing;
-- trend;
-- range;
-- liquidity;
-- buy-side liquidity;
-- sell-side liquidity.
+Review cepat seluruh konsep penting dari Bab 01 sampai Bab 16.
 
-Istilah seperti HRLR, LRLR, IRL, ERL, complex structure, dan sub-structure dipelajari setelah fondasi ini jelas.
+### Latihan Akhir Folder 02
+
+Latihan praktik untuk memastikan pembaca bisa melakukan mapping struktur dan liquidity sebelum lanjut folder 03.
 
 ---
 
 ## Cara Belajar Folder Ini
 
-Gunakan chart kosong.
+Gunakan pola berikut:
 
-Latihan awal:
-
-1. tandai high dan low yang jelas;
-2. tandai swing yang paling mudah terlihat;
-3. tentukan market sedang naik, turun, atau range;
-4. tandai liquidity di atas high dan di bawah low;
-5. catat apa yang masih membingungkan.
+1. Baca satu bab.
+2. Buka chart kosong.
+3. Kerjakan latihan bab tersebut.
+4. Jangan mencari entry.
+5. Tulis narasi struktur dan liquidity dengan bahasa sendiri.
+6. Cek checklist sebelum lanjut.
+7. Setelah Bab 16, kerjakan latihan akhir folder.
 
 ---
 
@@ -73,7 +124,9 @@ Latihan awal:
 - Menandai terlalu banyak struktur kecil.
 - Menganggap semua break sebagai perubahan struktur.
 - Menganggap semua high dan low sama penting.
-- Langsung masuk ke istilah advanced sebelum paham swing dasar.
+- Menganggap liquidity sebagai sinyal entry otomatis.
+- Terlalu cepat masuk ke MSS, inducement, IRL/ERL, atau complex structure sebelum struktur dasar kuat.
+- Membuat chart terlalu ramai sampai tidak bisa menulis kesimpulan sederhana.
 
 ---
 
@@ -82,10 +135,15 @@ Latihan awal:
 Sebelum lanjut, pembaca harus bisa:
 
 - menandai swing high dan swing low sederhana;
-- membedakan trend dan range;
-- mengenali buy-side dan sell-side liquidity;
-- menjelaskan liquidity dengan bahasa sendiri;
-- memahami bahwa struktur adalah konteks sebelum membaca sweep.
+- membedakan HH/HL/LH/LL;
+- membedakan trend, range, dan expansion;
+- menandai BSL/SSL dan EQH/EQL;
+- memilih DOL sementara;
+- membedakan internal dan external liquidity;
+- membedakan BOS, MSS, dan inducement;
+- memahami struktur minor dan mayor;
+- membuat mapping struktur dan liquidity;
+- menyelesaikan minimal 2 dari 3 latihan akhir dengan nilai A atau B.
 
 ---
 
