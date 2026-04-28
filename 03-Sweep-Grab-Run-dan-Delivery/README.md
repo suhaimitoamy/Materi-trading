@@ -1,59 +1,81 @@
 # 03 — Sweep, Grab, Run, dan Delivery
 
-Folder ini membahas bagaimana market mengambil likuiditas, membentuk jebakan, lalu mengirim harga menuju target berikutnya.
+Folder ini membahas apa yang terjadi ketika harga mendekati atau mengambil area likuiditas.
 
-Jika folder sebelumnya membantu memahami struktur dan likuiditas, maka folder ini berfokus pada **bagaimana likuiditas itu digunakan untuk menggerakkan harga**.
-
----
-
-## Fokus Folder Ini
-
-Materi dalam folder ini berpusat pada proses inti pergerakan harga:
-
-- **Liquidity Sweep** (pengambilan likuiditas)
-- **Liquidity Grab** (jebakan cepat)
-- **Stop Hunt** (pemicu *Stop Loss*)
-- **Liquidity Run** (pergerakan menuju target likuiditas)
-- **Displacement** (dorongan harga kuat)
-- **Delivery** (proses pengiriman harga)
-- hubungan antara **manipulasi dan arah market berikutnya**
+Setelah memahami struktur dan likuiditas di folder 02, pembaca mulai belajar membaca proses: harga mengambil area tertentu, memberi reaksi, lalu bergerak menuju area berikutnya.
 
 ---
 
-## Tujuan Folder Ini
+## Tujuan Folder
 
-Folder ini bertujuan agar Anda:
+Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 
-- tidak salah mengartikan sweep sebagai breakout
-- memahami kapan market sedang mengambil likuiditas
-- membedakan antara gerakan manipulatif dan delivery yang valid
-- mengenali kapan market siap melanjutkan pergerakan
+- memahami sweep secara sederhana;
+- membedakan sweep, grab, dan run;
+- memahami bahwa sweep bukan sinyal entry otomatis;
+- melihat hubungan antara likuiditas dan reaksi harga;
+- memahami delivery sebagai alur perpindahan harga.
+
+---
+
+## Urutan Belajar yang Disarankan
+
+Pelajari folder ini secara bertahap:
+
+1. review kembali buy-side dan sell-side liquidity;
+2. pahami sweep sebagai pengambilan area high atau low;
+3. pahami grab sebagai proses pengambilan likuiditas;
+4. pahami run sebagai gerakan setelah likuiditas diambil;
+5. pahami displacement sebagai dorongan harga kuat;
+6. pahami delivery sebagai cerita besar harga menuju target.
+
+---
+
+## Prinsip Penting
+
+Sweep tidak selalu berarti harga akan berbalik arah.
+
+Kadang sweep menjadi awal reversal. Kadang hanya reaksi sementara. Kadang harga tetap melanjutkan arah sebelumnya.
+
+Karena itu, sweep harus dibaca bersama:
+
+- struktur;
+- lokasi likuiditas;
+- reaksi setelah sweep;
+- target berikutnya;
+- konteks waktu.
 
 ---
 
 ## Cara Belajar Folder Ini
 
-Untuk memahami materi dengan lebih efektif:
+Latihan sederhana:
 
-1. Hubungkan konsep di folder ini dengan **struktur dan likuiditas** dari folder sebelumnya.  
-2. Amati chart dan tandai area **BSL / SSL** yang diambil.  
-3. Perhatikan apa yang terjadi setelah sweep:  
-   - apakah terjadi reversal  
-   - apakah terjadi continuation  
-   - atau hanya reaksi sementara  
-4. Fokus pada **alur pergerakan (delivery)**, bukan hanya bentuk candle.
+1. cari high atau low yang jelas;
+2. lihat apakah harga pernah menembus area itu;
+3. amati apa yang terjadi setelahnya;
+4. catat apakah harga reversal, continuation, atau hanya reaksi kecil;
+5. jangan langsung menyimpulkan dari satu contoh.
 
 ---
 
-## Hasil Belajar yang Diharapkan
+## Kesalahan yang Harus Dihindari
 
-Setelah menyelesaikan folder ini, Anda diharapkan:
+- Menganggap semua sweep pasti reversal.
+- Menganggap semua break adalah breakout valid.
+- Entry hanya karena harga mengambil high atau low.
+- Tidak melihat struktur sebelumnya.
 
-- memahami fungsi **sweep, grab, dan run**
-- lebih peka terhadap jebakan likuiditas
-- mampu membedakan **fake move dan valid delivery**
-- mulai membaca arah market berdasarkan **Draw on Liquidity**
-- memahami kapan market benar-benar berubah arah
+---
+
+## Syarat Lanjut ke Folder 04
+
+Sebelum lanjut, pembaca harus bisa:
+
+- menandai area likuiditas yang diambil;
+- menjelaskan sweep dengan bahasa sederhana;
+- membedakan sweep dan entry;
+- membaca reaksi harga setelah likuiditas diambil.
 
 ---
 
