@@ -20,7 +20,10 @@ Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 - membaca konteks timeframe;
 - memahami premium, discount, dan equilibrium secara dasar;
 - mengenal IPDA dan delivery harga sebagai kerangka berpikir ringan;
-- menulis narasi harga sederhana sebelum masuk ke folder struktur.
+- menyusun market storytelling sederhana;
+- melakukan top down analysis ringan;
+- membaca chart tanpa overthinking;
+- mengerjakan checklist fondasi sebelum lanjut ke folder 02.
 
 ---
 
@@ -28,39 +31,59 @@ Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 
 ### Bab 01 — SMC/ICT: Cara Baru Melihat Pasar
 
-Bab ini mengubah cara pandang pembaca dari mencari sinyal menjadi membaca cerita harga.
+Mengubah cara pandang pembaca dari mencari sinyal menjadi membaca cerita harga.
 
 ### Bab 02 — Siapa Itu Smart Money?
 
-Bab ini menjelaskan Smart Money sebagai pelaku besar yang membutuhkan liquidity, bukan konsep mistis.
+Menjelaskan Smart Money sebagai pelaku besar yang membutuhkan liquidity, bukan konsep mistis.
 
 ### Bab 03 — Dari Support Resistance ke Liquidity Pools
 
-Bab ini menjembatani pemahaman support/resistance klasik menuju liquidity pool.
+Menjembatani pemahaman support/resistance klasik menuju liquidity pool.
 
 ### Bab 04 — Harga Bergerak dari Likuiditas ke Likuiditas
 
-Bab ini menjelaskan bahwa liquidity sering menjadi tujuan pergerakan harga.
+Menjelaskan bahwa liquidity sering menjadi tujuan pergerakan harga.
 
 ### Bab 05 — Bias Bukan Ramalan
 
-Bab ini mengenalkan bias sebagai skenario kerja, bukan prediksi pasti.
+Mengenalkan bias sebagai skenario kerja, bukan prediksi pasti.
 
 ### Bab 06 — Konteks Timeframe
 
-Bab ini menjelaskan perbedaan gambar besar dan detail kecil melalui HTF dan LTF.
+Menjelaskan perbedaan gambar besar dan detail kecil melalui HTF dan LTF.
 
 ### Bab 07 — Premium, Discount, dan Lokasi Harga
 
-Bab ini mengenalkan lokasi harga dalam range agar pembaca tidak membaca market secara buta.
+Mengenalkan lokasi harga dalam range agar pembaca tidak membaca market secara buta.
 
 ### Bab 08 — Pengantar IPDA dan Delivery Harga
 
-Bab ini mengenalkan delivery harga sebagai alur perpindahan harga menuju area tertentu.
+Mengenalkan delivery harga sebagai alur perpindahan harga menuju area tertentu.
 
 ### Bab 09 — Hubungan Narasi Harga, Likuiditas, dan Waktu
 
-Bab ini menyatukan semua konsep folder 01 menjadi narasi harga sederhana.
+Menyatukan lokasi, liquidity, dan waktu sebagai narasi market.
+
+### Bab 10 — Context Before Setup
+
+Menegaskan bahwa konteks harus dipahami sebelum mencari setup.
+
+### Bab 11 — Market Storytelling
+
+Melatih pembaca menyusun cerita market dengan bahasa sederhana.
+
+### Bab 12 — Top Down Analysis Ringan
+
+Mengenalkan cara membaca market dari timeframe besar ke timeframe kecil.
+
+### Bab 13 — Membaca Chart Tanpa Overthinking
+
+Membantu pembaca menyederhanakan chart dan tidak memakai terlalu banyak konsep sekaligus.
+
+### Bab 14 — Checklist Fondasi sebelum Masuk Struktur
+
+Menjadi ujian mandiri sebelum lanjut ke folder 02.
 
 ---
 
@@ -86,6 +109,7 @@ Gunakan pola berikut:
 - Menganggap satu candle cukup untuk membuat kesimpulan.
 - Menganggap bias sebagai ramalan pasti.
 - Terlalu cepat masuk ke folder advanced.
+- Membaca chart terlalu ramai sampai kehilangan narasi utama.
 
 ---
 
@@ -99,6 +123,8 @@ Sebelum lanjut, pembaca harus bisa:
 - membaca HTF dan LTF secara dasar;
 - memahami premium-discount secara ringan;
 - menulis satu narasi harga sederhana;
+- melakukan top down ringan;
+- menyederhanakan chart yang terlalu ramai;
 - menahan diri untuk tidak mencari entry saat belajar fondasi.
 
 ---
