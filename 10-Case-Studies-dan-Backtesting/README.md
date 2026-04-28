@@ -1,58 +1,97 @@
 # 10 — Case Studies dan Backtesting
 
-Folder ini adalah titik pertemuan antara teori dan realitas. Di sinilah kurikulum ini disempurnakan.
+Folder ini adalah tempat menguji semua konsep dari folder sebelumnya.
 
-Seluruh konsep dari Folder 01 hingga 09 akan bermuara di sini untuk diuji ketangguhannya di medan pertempuran (data masa lalu dan evaluasi trade nyata).
-
----
-
-## Fokus Folder Ini
-
-Materi di folder ini berpusat pada:
-
-- Pembedahan (*Autopsi*) transaksi riil: The Flawless Win, The Good Loss, dan The Ugly Loss.
-- Proses menyatukan HTF Bias, Intermarket, Manipulasi, dan Trigger eksekusi ke dalam satu kesatuan cerita.
-- Praktik menggunakan Template Backtesting di Spreadsheet.
-- Cara menghitung probabilitas sistem (Win Rate, Maximum Drawdown, Trade Expectancy).
-- Penguasaan disiplin simulasi untuk membangun Kepercayaan Diri Besi (*Iron Confidence*).
+Di sini pembaca belajar membedah contoh, mencatat data, dan melihat apakah sebuah model benar-benar layak dipakai dalam latihan yang lebih serius.
 
 ---
 
-## Tujuan Folder Ini
+## Tujuan Folder
 
-Folder ini dibuat agar Anda:
+Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 
-- Bisa membedakan kegagalan karena "pasar" (Good Loss) dengan kegagalan karena "emosi trader" (Ugly Loss).
-- Menyadari bahwa kemenangan (Win) bukanlah sihir, melainkan deretan kepatuhan prosedural.
-- Berhenti mencari indikator "Holy Grail" dan mulai mencari Edge (Keunggulan) melalui data statistik.
-- Membangun benteng psikologis dari rasa panik saat menghadapi masa-masa kerugian (Drawdown).
-
----
-
-## Cara Menggunakan Folder Ini
-
-Urutan yang disarankan:
-
-1. Baca dengan seksama contoh studi kasus, perhatikan bagaimana logika (SMC/ICT) diaplikasikan secara terbalik (Reverse Engineering) saat mengevaluasi sebuah trade.
-2. Lakukan latihan *Autopsi Trade* pada transaksi pribadi Anda minggu lalu.
-3. Salin Template Backtesting ke dalam Excel/Google Sheets Anda.
-4. Dedikasikan waktu di akhir pekan untuk menjalankan 50-100 sampel simulasi Backtest dan temukan metrik harapan (Expectancy) Anda.
+- membedah satu studi kasus secara rapi;
+- membedakan trade yang prosesnya baik dan trade yang prosesnya buruk;
+- melakukan backtesting bertahap;
+- memahami win rate, drawdown, dan expectancy secara sederhana;
+- memakai data untuk memperbaiki sistem;
+- tidak menilai kemampuan dari satu hasil saja.
 
 ---
 
-## Hasil Belajar yang Diharapkan
+## Urutan Belajar yang Disarankan
 
-Setelah menyelesaikan folder ini, Anda diharapkan:
+Pelajari folder ini secara bertahap:
 
-- Memiliki rutinitas evaluasi yang objektif layaknya profesional.
-- Tidak pernah berani menggunakan uang riil pada strategi yang belum lulus uji 100 sampel backtest.
-- Memahami dan siap secara mental menghadapi rentetan kekalahan (*Losing Streak*).
-- Menjadikan repositori ini bukan sekadar buku bacaan, melainkan pondasi karir trading yang bisa diulang dan diukur.
+1. cara membaca satu studi kasus;
+2. membedah trade yang menang;
+3. membedah trade yang rugi tetapi prosesnya benar;
+4. membedah trade yang rugi karena melanggar rencana;
+5. mencatat missed trade;
+6. membuat template backtesting;
+7. mengumpulkan 20 contoh awal;
+8. menaikkan sample ke 50 sampai 100 contoh;
+9. membaca metrik seperti win rate, expectancy, dan drawdown.
+
+Mulai dari sedikit contoh dulu. Jangan langsung mengejar 100 contoh jika format pencatatan belum rapi.
 
 ---
 
-## Penutup Seluruh Materi
+## Prinsip Penting
 
-Folder ini adalah akhir dari kurikulum, tetapi baru awal dari perjalanan trading Anda.
+Backtesting bukan mencari contoh yang cocok dengan keinginan.
 
-Pengetahuan teknikal bisa dipelajari dalam beberapa minggu, tetapi kedisiplinan mengeksekusi sistem dan mengelola kerugian membutuhkan waktu bertahun-tahun. Kembali ke sini setiap kali Anda merasa kehilangan arah. Mulailah berlatih, kumpulkan data Anda, dan biarkan probabilitas bekerja untuk Anda.
+Backtesting adalah proses menguji ide secara jujur, termasuk mencatat contoh yang gagal.
+
+Trade menang belum tentu prosesnya benar. Trade rugi belum tentu prosesnya salah. Yang dinilai adalah apakah keputusan sesuai rencana.
+
+---
+
+## Cara Belajar Folder Ini
+
+Gunakan format sederhana untuk setiap contoh:
+
+- tanggal;
+- instrumen;
+- timeframe;
+- bias;
+- struktur;
+- liquidity;
+- POI;
+- trigger;
+- invalidation;
+- target;
+- hasil;
+- catatan pelajaran.
+
+Setelah beberapa contoh terkumpul, cari pola kesalahan dan kondisi terbaik.
+
+---
+
+## Kesalahan yang Harus Dihindari
+
+- Hanya menyimpan contoh yang berhasil.
+- Mengubah aturan saat hasil tidak sesuai.
+- Tidak mencatat contoh gagal.
+- Menilai sistem dari satu atau dua chart.
+- Menggunakan istilah advanced tanpa data pendukung.
+
+---
+
+## Syarat Menutup Kurikulum
+
+Pembaca dianggap menyelesaikan folder ini jika mampu:
+
+- membuat studi kasus dengan format rapi;
+- mengumpulkan contoh backtesting;
+- membaca data dasar dari hasil latihan;
+- memperbaiki aturan berdasarkan data;
+- menjelaskan sistem pribadi dengan sederhana.
+
+---
+
+## Penutup
+
+Folder ini adalah akhir materi, tetapi bukan akhir proses belajar.
+
+Setelah menyelesaikan folder ini, kembali ke jurnal, ulangi backtesting, perbaiki aturan, dan terus sederhanakan proses belajar.
