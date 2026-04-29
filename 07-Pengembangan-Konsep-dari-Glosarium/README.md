@@ -2,7 +2,7 @@
 
 Folder ini adalah folder pengayaan. Isinya mengembangkan istilah dari glosarium yang belum dibahas panjang di folder sebelumnya.
 
-Folder ini **bukan titik awal belajar**. Baca folder ini setelah pembaca memahami fondasi, struktur, likuiditas, POI, timing, entry, dan risk dasar.
+Folder ini **bukan titik awal belajar** dan bukan folder entry. Baca folder ini setelah pembaca memahami fondasi, struktur, likuiditas, sweep, delivery, POI, timing, entry, dan risk dasar.
 
 ---
 
@@ -12,8 +12,9 @@ Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 
 - memperdalam istilah yang sering muncul di materi;
 - memahami hubungan antar-konsep dengan lebih rapi;
-- membaca bias, PD Array, imbalance, dan liquidity path secara lebih matang;
+- membaca bias, PD Array, imbalance, delivery, dan liquidity path secara lebih matang;
 - membedakan konsep dasar dan konsep lanjutan;
+- memilih konsep yang relevan saja;
 - tidak menggunakan istilah advanced sebagai sinyal otomatis.
 
 ---
@@ -33,34 +34,55 @@ Jika belum, kembali ke folder 02 sampai 06.
 
 ---
 
-## Urutan Belajar yang Disarankan
+## Daftar Isi Folder
 
-1. **Bab 01 — Bias Hierarchy**  
-   Mulai dari urutan bias karena ini membantu membaca konteks besar.
+### Bab 01 — Bias Hierarchy
 
-2. **Bab 02 — Balanced Price Range, Consequent Encroachment, dan PD Array**  
-   Pelajari sebagai pengembangan area harga, bukan hafalan istilah.
+Membahas hierarki bias dari Monthly, Weekly, Daily, dan HTF bias.
 
-3. **Bab 03 — Lifecycle Imbalance**  
-   Pahami bagaimana imbalance bisa terisi, ditolak, gagal, atau berlanjut.
+### Bab 02 — PD Array, BPR, dan Consequent Encroachment
 
-4. **Bab 04 — CISD dan Price Delivery Algorithm**  
-   Masuk ke perubahan delivery setelah konsep dasar kuat.
+Mengenalkan kelompok area referensi harga, overlap imbalance, dan titik tengah area.
 
-5. **Bab 05 — Advanced Liquidity Mapping**  
-   Perluas pembacaan liquidity setelah liquidity dasar jelas.
+### Bab 03 — Lifecycle Imbalance
 
-6. **Bab 06 — Liquidity Engineering dan Trap Formation**  
-   Pelajari cara liquidity terbentuk, bukan untuk menebak semua jebakan.
+Membahas siklus imbalance: fill, rejection, failure, continuation, dan extension.
 
-7. **Bab 07 — Liquidity Path, Migration, Rotation, dan Cascade**  
-   Pahami perpindahan target harga secara bertahap.
+### Bab 04 — CISD dan Price Delivery Algorithm
 
-8. **Bab 08 — Liquidity Vacuum, Void, Gap, Corridor, dan Channel**  
-   Pelajari area minim hambatan setelah paham delivery.
+Membaca perubahan cara harga dikirim dan bagaimana delivery berpindah.
 
-9. **Bab 09 — Protected High/Low, Range Model, dan Turtle Soup**  
-   Gunakan sebagai konsep lanjutan setelah range dan liquidity dikuasai.
+### Bab 05 — Advanced Liquidity Mapping
+
+Memperdalam liquidity sebagai struktur, cluster, alignment, depth, distribution, dan stacking.
+
+### Bab 06 — Liquidity Engineering dan Trap Formation
+
+Membahas proses pembentukan liquidity, compression, deception, dan trap.
+
+### Bab 07 — Liquidity Path, Migration, Rotation, dan Cascade
+
+Membahas perpindahan target liquidity dan jalur harga menuju objective.
+
+### Bab 08 — Liquidity Vacuum, Void, Gap, Corridor, dan Channel
+
+Membahas ruang gerak harga, jalur bersih, LRLR, dan HRLR.
+
+### Bab 09 — Protected High/Low, Range Model, dan Turtle Soup
+
+Membahas protected level, range manipulation, stop hunt, liquidity reversal, dan Turtle Soup.
+
+---
+
+## Modul Penutup Folder
+
+### Ringkasan Folder 07
+
+Review cepat seluruh konsep penting dari Bab 01 sampai Bab 09.
+
+### Latihan Akhir Folder 07
+
+Latihan praktik untuk memastikan pembaca bisa memakai konsep advanced secara selektif sebelum lanjut folder 08.
 
 ---
 
@@ -86,14 +108,27 @@ Untuk setiap bab:
 
 ---
 
+## Kesalahan yang Harus Dihindari
+
+- Memakai istilah advanced sebagai sinyal entry.
+- Mencampur semua konsep dalam satu chart.
+- Menandai terlalu banyak area.
+- Tidak bisa menjelaskan konsep dengan bahasa sendiri.
+- Menggunakan konsep hanya untuk membenarkan bias.
+- Lupa kembali ke struktur, liquidity, target, dan risk.
+
+---
+
 ## Syarat Lanjut ke Folder 08
 
 Sebelum lanjut, pembaca harus bisa:
 
-- menjelaskan minimal 3 konsep dari folder ini dengan bahasa sendiri;
+- menjelaskan minimal 5 konsep dari folder ini dengan bahasa sendiri;
 - tidak mencampur semua istilah dalam satu chart;
 - tahu konsep mana yang hanya konteks dan mana yang berhubungan dengan eksekusi;
-- kembali ke jurnal untuk mencatat contoh.
+- menghubungkan konsep folder 07 dengan folder 02 sampai 06;
+- membuat chart tetap bersih;
+- menyelesaikan minimal 3 dari 4 latihan akhir dengan nilai A atau B.
 
 ---
 
