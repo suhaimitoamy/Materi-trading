@@ -13,7 +13,9 @@ Setelah menyelesaikan folder ini, pembaca diharapkan mampu:
 - memahami model market advanced tanpa memaksakan pola;
 - menggunakan konsep lanjutan sebagai konteks, bukan sinyal tunggal;
 - menguji setiap model lewat contoh dan backtesting;
-- membedakan konsep yang cocok dan tidak cocok dengan gaya belajar pribadi;
+- membedakan model utama dan model tambahan;
+- menentukan syarat valid dan syarat invalid model;
+- membedakan model yang valid, belum valid, invalid, dan dipaksakan;
 - menjaga chart tetap sederhana walaupun konsep yang dipelajari semakin kompleks.
 
 ---
@@ -33,36 +35,91 @@ Jika belum, kembali ke folder 02 sampai 08.
 
 ---
 
-## Urutan Belajar yang Disarankan
+## Daftar Isi Folder
 
-Pelajari satu konsep per tahap:
+### Bab 01 — Market Maker Models (MMXM)
 
-1. Market Maker Models (MMXM);
-2. Power of 3 atau AMD;
-3. ICT Weekly Profiles;
-4. SMT Divergence;
-5. Intermarket Analysis seperti DXY;
-6. Silver Bullet sebagai model berbasis waktu;
-7. Framework khusus seperti XAUUSD.
+Membahas peta besar pengiriman harga dari accumulation, manipulation, reversal, sampai distribution.
 
-Jangan memakai semua konsep sekaligus dalam satu chart.
+### Bab 02 — SMT Divergence
+
+Membahas perbedaan perilaku antar instrumen berkorelasi sebagai konfirmasi tambahan.
+
+### Bab 03 — Power of 3 dan AMD
+
+Membahas fase accumulation, manipulation, dan distribution.
+
+### Bab 04 — ICT Weekly Profiles
+
+Membahas karakter mingguan sebagai konteks, bukan prediksi pasti.
+
+### Bab 05 — Intermarket Analysis dan DXY
+
+Membahas DXY dan intermarket sebagai konteks tambahan.
+
+### Bab 06 — XAUUSD Framework
+
+Membahas kerangka khusus membaca XAUUSD yang memiliki volatility tinggi.
+
+### Bab 07 — Silver Bullet Model Advanced
+
+Membahas Silver Bullet sebagai model timing advanced yang perlu konteks, liquidity, displacement, target, dan risk.
+
+### Bab 08 — Macro Model Advanced
+
+Membahas Macro sebagai jendela observasi delivery.
+
+### Bab 09 — Intraday Reversal Model
+
+Membahas perubahan arah intraday setelah liquidity, failed acceptance, displacement, dan struktur mendukung.
+
+### Bab 10 — Continuation Model Advanced
+
+Membahas kelanjutan arah setelah rebalancing atau internal sweep.
+
+### Bab 11 — Reversal Model Advanced
+
+Membahas reversal advanced dengan objective shift dan target sisi lawan.
+
+### Bab 12 — Range Model Advanced
+
+Membahas range sebagai area pembentukan liquidity, acceptance, rejection, dan delivery.
+
+### Bab 13 — News Volatility Model
+
+Membahas news sebagai faktor risiko dan pemicu volatility tinggi.
+
+### Bab 14 — Multi-Timeframe Model Alignment
+
+Membahas keselarasan model antara HTF dan LTF.
+
+### Bab 15 — Model Invalidation dan Failure
+
+Membahas syarat batal dan kegagalan model.
+
+### Bab 16 — Model Selection dan Filtering
+
+Membahas cara memilih sedikit model yang relevan dan membuang model yang dipaksakan.
+
+### Bab 17 — Mapping Model Market Advanced
+
+Menyatukan seluruh konsep model advanced menjadi workflow mapping.
+
+### Bab 18 — Advanced Model Reading
+
+Menyatukan seluruh model advanced menjadi cara baca yang selektif dan berbasis data.
 
 ---
 
-## Prinsip Penting
+## Modul Penutup Folder
 
-Konsep advanced seharusnya membuat pembacaan lebih jelas, bukan lebih rumit.
+### Ringkasan Folder 09
 
-Jika sebuah konsep membuat pembaca melihat setup di semua tempat, berarti konsep itu belum siap dipakai.
+Review cepat seluruh konsep penting dari Bab 01 sampai Bab 18.
 
-Setiap model harus punya:
+### Latihan Akhir Folder 09
 
-- syarat valid;
-- syarat batal;
-- contoh menang;
-- contoh gagal;
-- hasil backtesting;
-- catatan psikologis.
+Latihan praktik untuk memastikan pembaca bisa memilih, menguji, dan memakai model advanced secara selektif.
 
 ---
 
@@ -86,6 +143,8 @@ Gunakan pola berikut untuk setiap bab:
 - Memaksakan semua chart menjadi model advanced.
 - Mengabaikan risk karena merasa analisis lebih kuat.
 - Mengganti sistem setiap menemukan konsep baru.
+- Tidak menulis syarat invalid model.
+- Tidak mencatat contoh gagal.
 
 ---
 
@@ -93,10 +152,12 @@ Gunakan pola berikut untuk setiap bab:
 
 Sebelum lanjut, pembaca harus bisa:
 
-- menjelaskan satu model advanced dengan sederhana;
+- menjelaskan minimal satu model advanced dengan sederhana;
 - menentukan kapan model itu valid dan batal;
 - punya contoh chart yang sudah diuji;
-- tetap memakai jurnal, risk, dan trade plan.
+- membedakan model utama dan tambahan;
+- tetap memakai jurnal, risk, dan trade plan;
+- menyelesaikan minimal 3 dari 4 latihan akhir dengan nilai A atau B.
 
 ---
 
