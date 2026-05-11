@@ -8,37 +8,24 @@ Trading bukanlah sekadar analisis grafik; ini adalah bisnis probabilitas di mana
 
 ## Fokus Folder Ini
 
-Materi di folder ini berpusat pada:
+Materi di folder ini berpusat pada 8 bab utama yang telah disusun agar Anda bisa langsung mempraktikannya:
 
-- Pentingnya Jurnal Trading (membedakan jurnal proses dengan trade-log biasa).
-- Template praktis Jurnal Harian.
-- Psikologi trader pemula (mengatasi Fear, FOMO, dan Revenge Trading).
-- Template dan panduan melakukan Review Mingguan (Compliance Audit).
-- Template dan panduan melakukan Review Bulanan (Macro Scaling).
-- Siklus evolusi trader (PDCA).
-- Aturan baku Risk Management dan Position Sizing (Cara menghitung Lot).
+1. Bab 1 — Mengapa Jurnal Trading Penting
+2. Bab 2 — Template Jurnal Trading Sederhana
+3. Bab 3 — Psikologi Pemula: Takut, FOMO, dan Balas Dendam
+4. Bab 4 — Review Mingguan dan Bulanan
+5. Bab 5 — Panduan Jurnal Review dan Pengembangan Trader
+6. Bab 6 — Risk Management dan Position Sizing
+7. Bab 7 — Template Review Mingguan
+8. Bab 8 — Template Review Bulanan
 
----
-
-## Tujuan Folder Ini
-
-Folder ini dibuat agar Anda:
-
-- Berhenti trading secara impulsif tanpa proses evaluasi.
-- Mampu mendiagnosis pola kelemahan dan kekuatan Anda sendiri melalui data.
-- Menyadari bahwa *Loss* (kerugian) adalah biaya operasional bisnis, bukan kegagalan.
-- Menjaga emosi tetap stabil dan akun tetap terlindungi saat menghadapi rentetan kerugian (*drawdown*).
+Secara keseluruhan, folder ini difokuskan pada penguasaan mental trader, pencatatan proses secara disiplin, perlindungan modal, serta cara melakukan siklus evaluasi berkelanjutan.
 
 ---
 
-## Cara Belajar Folder Ini
+## Mengapa Folder Ini Penting
 
-Agar hasilnya terasa:
-
-1. Baca materi ini berdampingan dengan praktik Anda di akun Demo atau Live.
-2. Segera salin dan gunakan template Jurnal, Review Mingguan, dan Bulanan yang disediakan.
-3. Terapkan perhitungan Risk Management (1% Rule) tanpa kompromi pada setiap posisi.
-4. Lakukan evaluasi akhir pekan secara jujur (fokus pada kepatuhan, bukan pada uang yang dihasilkan).
+Folder ini adalah fondasi profesional Anda. Kemampuan mengenali *Liquidity Sweep*, *FVG*, dan *Order Block* tidak akan menyelamatkan Anda dari kerugian besar jika Anda tidak bisa mengelola diri sendiri. Folder ini memberikan sistem operasional agar Anda berhenti bertaruh (judi) dan mulai berbisnis.
 
 ---
 
@@ -49,13 +36,13 @@ Setelah menyelesaikan folder ini, Anda diharapkan:
 - Memiliki sistem pencatatan (jurnal) yang rapi, cepat, dan fungsional.
 - Paham cara melindungi modal menggunakan *Position Sizing* mekanis.
 - Memiliki *Circuit Breaker* mental untuk menghentikan aksi balas dendam ke pasar.
-- Menjadikan evaluasi akhir pekan sebagai kebiasaan utama pengembang diri.
-- Siap memegang modal besar dan melangkah ke konsep *Advanced*.
+- Menjadikan evaluasi mingguan dan bulanan sebagai kebiasaan utama pengembangan diri.
+- Siap memegang modal nyata dan melangkah ke materi tingkat lanjut.
 
 ---
 
 ## Lanjut Setelah Ini
 
-Setelah folder ini selesai, lanjut ke:
+Setelah Anda memahami pentingnya menjaga performa mental dan risiko, serta terbiasa menjurnal, Anda siap melangkah ke materi teknis yang lebih dalam di:
 
 **09 — Advanced Concepts dan Model Market**

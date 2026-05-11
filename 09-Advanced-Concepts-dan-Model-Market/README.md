@@ -1,6 +1,6 @@
 # 09 — Advanced Concepts dan Model Market
 
-Folder ini berisi kerangka kerja makro dan konsep tingkat lanjut (Advanced) untuk memperdalam cara baca market setelah fondasi dasar (Folder 01-08) benar-benar kuat.
+Folder ini berisi kerangka kerja makro dan konsep tingkat lanjut (*Advanced*) untuk memperdalam cara baca market setelah fondasi dasar (Folder 01-08) benar-benar kuat.
 
 Materi di sini dirancang untuk mengangkat perspektif Anda dari sekadar melihat "satu candlestick" menjadi membaca "skenario besar institusional".
 
@@ -8,37 +8,23 @@ Materi di sini dirancang untuk mengangkat perspektif Anda dari sekadar melihat "
 
 ## Fokus Folder Ini
 
-Materi di folder ini mencakup:
+Materi di folder ini berpusat pada 7 bab utama yang telah disusun untuk memperluas arsenal trading Anda:
 
-- Market Maker Models (MMXM) - Pemahaman siklus distribusi dan akumulasi makro.
-- SMT Divergence - Konfirmasi pembalikan (reversal) dari aliran pesanan tersembunyi.
-- Power of 3 (PO3 / AMD) - Membedah fase manipulasi harian (Judas Swing).
-- ICT Weekly Profiles - Mengenali hari di mana harga akan membalikkan tren (High/Low of the week).
-- ICT Silver Bullet - Strategi eksekusi khusus berbasis waktu (Time-Based Model).
-- Intermarket Analysis (DXY) - Menggunakan korelasi Dolar sebagai kompas utama.
-- Framework XAUUSD - Cara spesifik menangani volatilitas emas yang mematikan.
+1. Bab 1 — Market Maker Models (MMXM)
+2. Bab 2 — SMT Divergence Konfirmasi Institusi
+3. Bab 3 — Power of 3 (PO3): Logika Candle Harian
+4. Bab 4 — ICT Weekly Profiles: Memahami Siklus Mingguan
+5. Bab 5 — ICT Silver Bullet: Strategi Waktu Spesifik
+6. Bab 6 — Intermarket Analysis DXY Correlation
+7. Bab 7 — Framework XAUUSD: Konteks Bias dan Eksekusi
 
----
-
-## Tujuan Folder Ini
-
-Folder ini dibuat agar Anda:
-
-- Melihat market dari sudut pandang algoritmik, bukan sekadar garis Support/Resistance.
-- Mengetahui KAPAN harus bertrading sangat agresif dan KAPAN harus diam (berdasarkan Weekly Profile).
-- Menambah *confluence* tingkat tinggi (SMT & DXY) untuk menyaring setup palsu.
-- Bisa beroperasi sebagai Scalper berbasis waktu (Silver Bullet) atau Swing Trader berbasis makro.
+Secara keseluruhan, folder ini difokuskan pada penggabungan antara analisis harga (struktur mikroskopis) dan siklus waktu makro untuk membangun *bias* yang kokoh.
 
 ---
 
-## Cara Menggunakan Folder Ini
+## Mengapa Folder Ini Penting
 
-Agar tidak kelebihan informasi (*Information Overload*):
-
-1. Wajib pastikan Anda sudah menguasai Likuiditas, POI, Entry Rules, dan Manajemen Risiko (Folder 01-08).
-2. Pelajari konsep satu demi satu. (Misalnya: pelajari PO3 dan pahami dulu, baru pindah ke Weekly Profiles).
-3. Jangan gunakan semua konsep ini di satu layar secara bersamaan. Konsep lanjutan berguna untuk **Konteks**, bukan untuk membuat *chart* Anda berantakan.
-4. Lakukan pengujian pengamatan (Visual Backtesting) untuk setiap bab.
+Pemahaman *price action* standar tidak cukup untuk menangani ketidakteraturan harian. Folder ini penting karena menjembatani analisis teknikal yang kaku dengan logika algoritmik institusi (*IPDA*). Dengan ini, Anda belajar kapan manipulasi harga dirancang untuk terjadi dan bagaimana menungganginya, bukan menghindarinya.
 
 ---
 
@@ -46,15 +32,16 @@ Agar tidak kelebihan informasi (*Information Overload*):
 
 Setelah menyelesaikan folder ini, Anda diharapkan:
 
-- Memiliki pembacaan narasi harga yang jauh lebih matang dan beralasan.
+- Memiliki pembacaan narasi harga yang jauh lebih matang, logis, dan beralasan.
 - Berhenti terkecoh oleh pergerakan manipulasi pagi hari atau menjelang berita besar.
-- Selalu memastikan DXY dan SMT mendukung arah posisi Anda sebelum menekan tombol.
-- Memiliki kerangka operasional spesifik untuk trading Forex maupun Emas (XAUUSD).
+- Selalu memastikan pergerakan DXY dan *SMT Divergence* mendukung arah posisi Anda sebelum menekan tombol *entry*.
+- Memiliki kerangka operasional spesifik dan akurat untuk bertrading pada *Pair* Forex maupun Emas (XAUUSD).
+- Mampu memetakan posisi harga saat ini di dalam cetak biru *Market Maker Model* yang lebih besar.
 
 ---
 
 ## Lanjut Setelah Ini
 
-Setelah teori ini sempurna, masuklah ke "Laboratorium":
+Setelah teori dan konsep lanjutan ini dipahami secara matang, langkah terakhir adalah mematangkannya lewat "Laboratorium" untuk menguji sistem Anda:
 
 **10 — Case Studies dan Backtesting**

@@ -1,78 +1,75 @@
-# Bab 2 — Template Backtesting: Simulasi Laboratorium Anda
+# Bab 2 — Template Backtesting: Membangun Kepercayaan Diri
 
-> "Jangan pernah membawa senjata yang belum Anda uji ke medan pertempuran riil. Backtesting adalah laboratorium pribadi Anda; di sanalah Anda menguji peluru, memperbaiki bidikan, dan yang paling penting, di sanalah Anda berlatih untuk tidak berkedip saat pelatuk ditarik puluhan kali tanpa hasil."
+> "Jika Anda tidak bisa menunjukkan kepada saya 100 *trade* historis berturut-turut dari strategi Anda beserta hasil statistiknya, Anda sebenarnya tidak memiliki strategi. Anda hanya memiliki sekelompok asumsi yang menunggu untuk dihancurkan oleh pasar."
 
 ## Mengapa Bab Ini Penting
-Di Bab 17 pada Folder 07, kita telah membahas secara teori mengapa *Backtesting* itu krusial dan bahaya dari optimasi berlebih (*Curve Fitting*). Kini saatnya kita beralih ke ranah praktis. Bagaimana persisnya Anda mencatat ratusan data transaksi masa lalu (*Bar Replay*) tanpa kehilangan arah?
+Kebanyakan trader ritel pemula sering kali berpindah-pindah strategi setiap kali mereka mengalami tiga kali *loss* beruntun (fenomena *Strategy Hopping*). Hari Senin mereka menggunakan *Support & Resistance*, hari Rabu mereka mencoba *Order Block*, dan hari Jumat mereka kembali ke persilangan indikator *Moving Average*. Mengapa ini sering terjadi? Karena mereka tidak memiliki "Kepercayaan Diri Besi" (*Iron Confidence*). Dan kepercayaan diri yang kokoh tidak datang dari menonton video YouTube atau membaca buku ini, melainkan datang dari pembuktian pribadi melalui proses **Backtesting**.
 
-Bab ini menyediakan *blueprint* operasional: sebuah **Template Backtesting** siap pakai. Jika Anda hanya memajukan *candle* demi *candle* di TradingView tanpa mendokumentasikannya, Anda sedang bermain *video game*, bukan melakukan simulasi. Data yang tidak tercatat tidak dapat dievaluasi keunggulannya (*Edge*). Dengan *template* yang terstruktur, Anda akan mengumpulkan metrik statistik matematis yang membuktikan kepada otak Anda bahwa strategi ini, jika dijalankan 100 kali secara mekanis, akan mencetak uang.
+Bab ini penting karena menjabarkan metode konkret tentang cara Anda mengumpulkan data mandiri untuk sistem trading Anda. *Backtesting* adalah proses menyimulasikan strategi di masa lalu untuk memprediksi performanya di masa depan. Tanpa data *backtesting*, Anda pada dasarnya sedang menembak dalam gelap. Jika Anda tahu dari data bahwa strategi Anda secara historis akan memberikan *Loss* 4 kali berturut-turut sebelum akhirnya memberikan *Win* beruntun, maka Anda tidak akan panik ketika Anda benar-benar menghadapi 4 kali *Loss* tersebut di akun *live*.
 
 ## Tujuan Pembelajaran
 Setelah mempelajari bab ini, pembaca diharapkan mampu:
-*   Menyiapkan lingkungan simulasi (*Backtesting Environment*) menggunakan fitur Replay di platform charting.
-*   Menggunakan Template Backtesting (Excel/Google Sheets) secara disiplin untuk merekam data transaksi historis.
-*   Menghitung dan mengevaluasi "The Big 3 Metrics" (Win Rate, Expectancy, dan Maximum Drawdown) dari hasil *backtest*.
-*   Menemukan korelasi antara kondisi pasar spesifik dengan performa strategi melalui proses penyaringan data (*Filtering*).
-*   Membangun rasa percaya diri tanpa syarat terhadap sistem sebelum menggunakannya di *live market*.
+*   Memahami perbedaan mendasar antara *Forward Testing* (demo) dan *Backtesting* (simulasi masa lalu).
+*   Membuat *Spreadsheet* jurnal simulasi yang ketat dan fungsional.
+*   Mengukur secara mandiri probabilitas kemenangan (*Win Rate*), rata-rata pengembalian (*Expectancy*), dan titik terburuk (*Maximum Drawdown*) dari sistem pribadi.
+*   Menghilangkan ilusi "harus selalu benar", dan mulai berfokus pada keunggulan statistik jangka panjang.
+*   Menemukan dan memperbaiki kebocoran dalam SOP eksekusi (misalnya, strategi terbukti menguntungkan di sesi London, namun selalu rugi di sesi Asia).
 
-## Persiapan Simulasi
-1.  **Platform:** TradingView (fitur *Bar Replay*).
-2.  **Rentang Waktu (Sample Size):** Pilih satu *pair* (misal: EURUSD). Mundur ke belakang minimal 3-6 bulan untuk *day trading*, atau selesaikan tepat 100 sampel transaksi secara berurutan. (Tidak boleh melompati hari secara acak).
-3.  **Tutup Mata pada Harga Kanan:** Jujurlah pada diri sendiri. Jika Anda curang mengintip harga masa depan, simulasi Anda menjadi sampah.
+## 1. Alat yang Anda Butuhkan
+Sebelum memulai proses *backtesting*, Anda memerlukan tiga fondasi utama:
+1.  **Platform Charting dengan Fitur Replay:** TradingView (paket esensial/premium) adalah standar industri. Anda butuh fitur *Bar Replay* agar Anda tidak "mengintip" atau berbuat curang dengan melihat pergerakan harga di sisi kanan *chart* sebelum saat eksekusi tiba.
+2.  **Buku Catatan Digital (Spreadsheet):** Google Sheets, Microsoft Excel, atau Notion. Anda wajib mencatat setiap *trade* yang dieksekusi secara manual.
+3.  **Sistem yang Sudah Memiliki Aturan Baku (SOP):** Anda tidak bisa melakukan *backtesting* pada *feeling* atau intuisi. Anda hanya bisa mem-*backtest* variabel yang pasti. Misalnya: "Saya hanya mencari *Buy* jika terjadi *Liquidity Sweep* di sesi London, lalu muncul *Bullish MSS* di M5."
 
-## Template Backtesting (Salin ke Spreadsheet/Excel)
+## 2. Struktur Kolom Spreadsheet Jurnal Backtesting
+Jangan membuat struktur yang terlalu rumit. Kolom Anda harus berfokus pada dua hal: **Konteks** (Mengapa Anda masuk?) dan **Hasil** (Apa yang terjadi?). Berikut adalah rekomendasi kolom untuk *spreadsheet* Anda:
 
-Buatlah *Spreadsheet* dengan kolom-kolom berikut ini:
+*   **No. Trade:** (1, 2, 3... hingga 100)
+*   **Tanggal Simulasi & Sesi:** (Misal: 14 Mei 2023 / London)
+*   **Pair/Instrumen:** (Misal: EURUSD)
+*   **Arah Eksekusi:** (Long / Short)
+*   **Konteks HTF (Bias):** (Bullish/Bearish Daily/H4)
+*   **Trigger (Pemicu Entry):** (FVG, Order Block, Breaker)
+*   **Risk (Risiko %):** (Tetap di angka 1% per trade)
+*   **R/R Target (Rencana Awal):** (Misal: 1:2 atau 1:3)
+*   **R Realisasi (Hasil Akhir):** (+2R, -1R, atau Breakeven 0R)
+*   **Screenshots (Bukti):** Tautan gambar *chart* sebelum Anda *entry* dan setelah harga menyentuh TP/SL.
+*   **Catatan Evaluasi:** (Misalnya: "Saya hampir *closing* manual karena panik, tetapi harga akhirnya sampai ke TP. Harus lebih bersabar.")
 
-| No. | Tanggal & Waktu | Hari | Instrumen | Arah (L/S) | Setup Model | HTF Bias | Eksekusi (LTF) | Hasil (W/L/BE) | R/R Awal | R Realisasi | Durasi Trade | Catatan Visual |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | 12/05 09:30 | Sel | EURUSD | Long | Silver Bullet | Bullish | M5 MSS | Win | 1:2.5 | +2.5R | 2.5 Jam | *Link Screenshot* |
-| 2 | 13/05 04:00 | Rab | EURUSD | Short | OTE + FVG | Bearish | M5 Engulf | Loss | 1:3.0 | -1.0R | 30 Mnt | *Link Screenshot* |
+## 3. Matematika Harapan (Trade Expectancy)
+Setelah Anda mengumpulkan 100 *trade* berturut-turut, Anda dapat menemukan *Edge* (Keunggulan) Anda yang sebenarnya.
 
-### Penjelasan Kolom Kunci:
-*   **Hari (Sel, Rab, dll):** Sangat krusial. Pada akhir *backtest* 100 trade, Anda harus memfilter data ini untuk menemukan hari apa Anda memiliki *Win Rate* terburuk (misalnya: Senin sering *choppy*).
-*   **Arah (L/S):** *Long* (Buy) atau *Short* (Sell). Berguna untuk melihat apakah strategi Anda lebih jago naik atau turun.
-*   **R/R Awal vs R Realisasi:** (Rasio *Risk/Reward*). Mungkin target awal Anda 1:3, tapi *trade* berbalik arah di tengah jalan dan Anda terkena *Break-Even* (0 R).
-*   **Catatan Visual:** Simpan *link* tangkapan layar (bisa menggunakan *tool* seperti Gyazo atau Lightshot) dari *trade* saat dieksekusi. Ini menjadi *Playbook* Anda.
+**Rumus Harapan:**
+`Expectancy = (Win Rate % x Rata-rata Profit per Win) - (Loss Rate % x Rata-rata Loss per Loss)`
 
-## Mengevaluasi "The Big 3 Metrics"
-Setelah tabel Anda terisi penuh 100 transaksi beruntun, Anda wajib menghitung tiga metrik inti ini (gunakan rumus Excel):
-
-### 1. Win Rate (Tingkat Kemenangan)
-*(Total Kemenangan / Total Transaksi) x 100.*
-Jika Anda melakukan 100 transaksi, dan 45 di antaranya adalah *Win* (termasuk *win* parsial) sementara 55 adalah *Loss*, maka *Win Rate* Anda 45%.
-**Ekspektasi:** Untuk sistem SMC dengan R/R tinggi (1:2 atau lebih), *Win Rate* 40% hingga 55% adalah angka profesional yang sangat sehat. Jangan berkecil hati.
-
-### 2. Maximum Drawdown (Rangkaian Kekalahan Terburuk)
-Ini adalah angka yang akan menyelamatkan kewarasan Anda saat *live trading*.
-Cari di baris Excel Anda: "Berapa banyak *Loss* berturut-turut terpanjang yang saya alami dalam 100 transaksi ini?"
-Jika jawabannya adalah "8 kali Loss beruntun," Anda telah menemukan skenario kiamat strategi Anda. Saat bertrading *live* nanti dan Anda mengalami 5x Loss beruntun, Anda tidak akan panik atau mengubah indikator, karena Anda sudah tahu bahwa sistem ini bisa bertahan hingga 8x Loss dan pada akhirnya tetap profit di trade ke-100.
-
-### 3. Trade Expectancy (Harapan Matematis)
-Rumus: `(Win Rate % x Rata-rata Profit R) - (Loss Rate % x Rata-rata Loss R)`.
 Contoh sistem kita (Win 45%, R/R 1:2):
-`(0.45 x 2) - (0.55 x 1) = 0.90 - 0.55 = +0.35 R`.
-**Arti Angka Ini:** Setiap kali Anda menekan tombol eksekusi (meskipun *trade* tersebut *Loss* sekalipun), secara statistik Anda sedang "mencetak" +0.35 R (misal $3.5 jika 1R=$10) dalam probabilitas jangka panjang. Selama hasilnya **positif**, sistem Anda adalah mesin pencetak uang.
+*   Rata-rata Profit = 2R
+*   Rata-rata Loss = 1R
+*   Expectancy = (0.45 x 2) - (0.55 x 1)
+*   Expectancy = 0.9 - 0.55 = **+0.35R per trade**.
 
-## Merangkul Kebosanan
-*Backtesting* itu membosankan. Ini adalah pekerjaan kasar (*grunt work*) yang membuat 95% pemula menyerah dan memilih mencari jalan pintas indikator ajaib. Namun, mereka yang menolak jalan pintas dan bersedia mengisi 100 baris Excel ini dengan keringat mereka sendiri akan lulus dengan kepercayaan diri besi (Iron Confidence) yang tidak bisa dibeli dengan harga berapa pun.
+Artinya, secara statistik, setiap kali Anda menekan tombol eksekusi tanpa memedulikan emosi sesaat, Anda *diharapkan* akan mendapatkan keuntungan +0.35R (atau 0.35% jika risiko Anda 1%). Jika Anda mengeksekusi 100 *trade*, Anda akan meraup profit sekitar +35R dalam jangka panjang, *meskipun* persentase kemenangan (*Win Rate*) Anda hanya 45%. Ini adalah fakta statistik yang akan menyelamatkan psikologi Anda.
 
-## 1. Glosarium Bab 2 (Template Backtesting)
-*   **Backtesting Environment:** Ruang simulasi (biasanya menggunakan fitur *replay* grafik) yang dirancang untuk sedekat mungkin mereplikasi kondisi saat transaksi dilakukan secara langsung (live).
-*   **Trade Expectancy (Harapan Tradisional):** Rumus statistik yang menunjukkan rata-rata nominal atau persentase profit yang diharapkan dari setiap eksekusi tunggal berdasarkan kumpulan data historis yang besar.
-*   **Sample Size (Ukuran Sampel):** Jumlah minimum data transaksi historis (direkomendasikan > 100 *trade* berurutan) yang diperlukan agar kesimpulan statistik dari uji coba tersebut memiliki signifikansi yang valid (tidak terpengaruh variasi acak sementara).
-*   **Drawdown Period:** Fase di mana kurva ekuitas/modal simulasi mengalami penurunan secara signifikan dari puncaknya akibat serangkaian kerugian.
-*   **R Realisasi:** Nilai kelipatan rasio profit/loss nyata yang dibukukan (*closed*), yang mungkin berbeda dari ekspektasi R/R di awal karena dinamika pergerakan pasar.
+## 4. Merangkul Kebosanan
+Proses *Backtesting* itu sangat membosankan. Ini adalah pekerjaan kasar (*grunt work*) yang monoton, yang biasanya membuat 95% pemula menyerah dan memilih jalan pintas dengan mencari indikator ajaib atau *signal* berbayar. Namun, percayalah, mereka yang menolak jalan pintas dan bersedia secara mandiri mengisi 100 baris Excel ini dengan keringat mereka sendiri akan lulus dengan gelar kepercayaan diri besi (*Iron Confidence*) yang tidak bisa dibeli dengan harga berapa pun di pasar.
 
-## 2. Ringkasan Bab
-*   Fitur simulasi tanpa didokumentasikan di dalam sebuah *Spreadsheet* secara disiplin bukanlah *backtesting*, melainkan sekadar bermain-main menebak pergerakan historis.
-*   Template Excel yang ketat memaksa trader untuk mencatat parameter seperti Hari Eksekusi, Konfirmasi LTF, dan Target Rasio secara mendetail untuk memfasilitasi evaluasi data tahap lanjut.
-*   Penting untuk mengevaluasi tidak hanya jumlah untung, namun secara spesifik metrik *Win Rate*, *Maximum Drawdown*, dan *Trade Expectancy*.
-*   Mendeteksi *Maximum Drawdown* historis adalah kunci utama untuk mempertahankan ketenangan mental saat trader kelak menghadapi masa-masa buruk di *live market*.
-*   Jika *Trade Expectancy* secara statistik terbukti bernilai positif pada sampel >100 trade, trader memiliki keunggulan objektif (Edge) di pasar yang siap dikonversi ke akun nyata.
+## Glosarium
+*   **Backtesting Environment:** Ruang simulasi (biasanya menggunakan fitur *bar replay* pada grafik) yang dirancang untuk sedekat mungkin mereplikasi kondisi *real-time* saat transaksi dilakukan secara langsung (*live*).
+*   **Trade Expectancy (Harapan Matematis):** Rumus statistik probabilitas yang menunjukkan rata-rata nominal atau persentase profit yang *diharapkan* dari setiap eksekusi tunggal berdasarkan kumpulan data historis yang valid.
+*   **Sample Size (Ukuran Sampel):** Jumlah minimum data transaksi historis (sangat direkomendasikan > 100 *trade* berurutan) yang diperlukan agar kesimpulan statistik dari uji coba tersebut memiliki signifikansi yang valid dan tidak sekadar kebetulan (terpengaruh variasi acak sementara).
+*   **Drawdown Period:** Fase menyakitkan di mana kurva ekuitas/modal simulasi mengalami penurunan secara signifikan dari titik puncaknya akibat serangkaian kerugian berturut-turut.
+*   **R Realisasi:** Nilai kelipatan rasio profit/loss nyata yang benar-benar dibukukan (*closed*), yang mungkin berbeda dari ekspektasi target R/R di awal karena dinamika atau penutupan dini.
 
-## Penutup Terakhir Pustaka
-Selamat! Dengan mempelajari dan, semoga saja, mempraktikkan pengisian jurnal simulasi ini, Anda telah menyelesaikan seluruh rute panjang repositori ini—dari Folder 00 (Glosarium) hingga Folder 10. Anda kini memiliki *Library* utuh tentang cara memandang pasar, menyusun sistem, dan mengelola pikiran Anda. Repositori ini akan selalu ada di sini sebagai "Rak Buku" Anda. Berhentilah mencari trik baru. Kembalilah ke halaman pertama, eksekusi, uji, evaluasi, dan ulangi. Keberhasilan dalam trading hanyalah pengulangan yang membosankan dari kebiasaan-kebiasaan brilian. Sampai jumpa di kurva probabilitas.
+## Ringkasan
+*   Hanya menekan tombol simulasi (*play*) tanpa mendokumentasikan setiap proses ke dalam sebuah *Spreadsheet* secara disiplin bukanlah sebuah proses *backtesting*, melainkan sekadar bermain-main menebak pergerakan historis (yang tidak berguna).
+*   Template Excel yang ketat memaksa trader untuk mencatat parameter vital seperti Hari Eksekusi, Konfirmasi LTF, dan Target Rasio secara mendetail untuk memfasilitasi evaluasi data tahap lanjut guna menemukan kelemahan sistem.
+*   Sangat penting untuk mengevaluasi tidak hanya total jumlah untung yang didapat, namun secara spesifik fokus pada metrik *Win Rate*, *Maximum Drawdown*, dan *Trade Expectancy*.
+*   Meskipun *Win Rate* (tingkat kemenangan) berada di bawah 50%, seorang trader masih bisa mencetak profitabilitas yang konsisten dan luar biasa di pasar asalkan memiliki *Trade Expectancy* bernilai positif dan *Risk to Reward* (R/R) yang rasional.
 
-## Catatan
-*Tugas Akhir: Buat tabel Spreadsheet (seperti contoh di atas). Komitmenkan akhir pekan ini (Sabtu dan Minggu) untuk menyelesaikan minimal 50 transaksi simulasi pertama Anda. Jangan berhenti sebelum Anda menyelesaikan baris ke-50. Temukan Expectancy dan Drawdown Anda sendiri.*
+## Penutup
+Selamat! Dengan mempelajari dan, semoga saja, mempraktikkan pengisian jurnal simulasi di atas, Anda telah berhasil menyelesaikan seluruh rute panjang repositori ini—dari tahap pengenalan di Folder 00 (Glosarium) hingga implementasi akhir di Folder 10. Anda kini telah memiliki sebuah *Library* (pustaka) utuh dan komprehensif tentang cara memandang struktur pasar, merangkai narasi *Smart Money*, menyusun sistem operasi mekanis, dan yang paling krusial: mengelola pikiran Anda sendiri di hadapan ketidakpastian pasar.
+
+Repositori ini akan selalu ada di sini sebagai "Rak Buku Khusus" Anda. Berhentilah mencari trik-trik teknikal baru yang hanya membuang waktu. Kembalilah ke halaman pertama repositori ini, pilih salah satu model eksekusi (seperti *Silver Bullet* atau *Turtle Soup*), eksekusi, lakukan pengujian tanpa henti, evaluasi hasil data Anda, dan ulangi. Keberhasilan dalam dunia trading secara harfiah hanyalah pengulangan yang konsisten dan membosankan dari kebiasaan-kebiasaan brilian. Sampai jumpa di kurva probabilitas!
+
+## Catatan (Tugas Praktik)
+*Tugas Akhir: Buat tabel Spreadsheet (seperti contoh pada Bab ini atau yang lebih sesuai dengan gaya Anda). Komitmenkan akhir pekan ini (Sabtu dan Minggu) untuk menyelesaikan minimal 50 transaksi simulasi pertama Anda. Jangan berhenti, jangan ubah strategi, dan jangan curang sebelum Anda menyelesaikan baris ke-50 di jurnal Anda. Temukan *Expectancy* (Harapan Positif) dan *Drawdown* terpanjang Anda sendiri dari data tersebut.*
