@@ -1,128 +1,75 @@
-# Materi Trading
+# Materi Trading — Buku Kurikulum Berjenjang
 
-Repositori ini dirancang sebagai **library belajar trading** yang terstruktur, bertahap, dan mudah di-review kembali.
+Repositori ini sekarang disusun sebagai **buku panduan belajar trading bertahap** dari pemula sampai advanced.
 
-Tujuan utamanya adalah menyediakan tempat belajar yang rapi agar materi tidak tercecer, mudah dibaca ulang, dan tersusun dari fondasi paling dasar sampai praktik di chart nyata, khususnya dengan pendekatan **Smart Money Concepts (SMC) & ICT**.
+Fokus utama repo ini bukan lagi sekadar mengumpulkan catatan, tetapi membimbing proses belajar dengan urutan yang lebih manusiawi:
 
----
+**Mengapa → Apa → Kapan → Bagaimana**
 
-## Tujuan Repositori
-
-Repo ini dibuat untuk membantu proses belajar trading secara lebih terarah:
-
-- membangun fondasi cara melihat market.
-- memahami struktur, likuiditas, dan delivery harga.
-- mempelajari lokasi entry dan timing yang presisi.
-- melatih eksekusi, risk management, dan disiplin psikologis.
-- menerjemahkan konsep ke dalam aturan dan logika indikator.
-- membangun jurnal untuk evaluasi berkelanjutan.
-- menghubungkan teori dengan studi kasus dan backtesting riil.
-
-Repositori ini bukan sekadar kumpulan catatan, tetapi disusun sebagai **jalur belajar trading profesional dari dasar sampai lanjutan**.
+Artinya, murid tidak langsung dipaksa menghafal istilah teknikal. Setiap konsep diperkenalkan dari alasan belajarnya, maknanya, waktu penggunaannya, lalu cara menerapkannya di chart.
 
 ---
 
-## Cara Membaca Struktur Repo
+## Cara Membaca Repo Ini
 
-Struktur repo ini memakai logika sederhana:
+Jalur utama belajar ada di folder berikut:
 
-- **Folder** = bab besar / kelompok topik
-- **File `.md`** = satu materi utama (bab)
-- **Isi file** = penjelasan konsep, kerangka berpikir, dan panduan belajar (dilengkapi Glosarium, Ringkasan, dan Tugas Praktik)
+1. **00 — Buku Kurikulum Berjenjang**  
+   Peta besar seluruh kurikulum, aturan belajar, dan cara memakai repo.
 
-Artinya, repo ini bisa dipakai seperti **rak buku belajar trading pribadi**.
+2. **01 — Level 1: The Foundations**  
+   Membangun mindset, fondasi trading, risk awareness, dan bahasa dasar chart.
 
----
+3. **02 — Level 2: Market Reading**  
+   Membaca struktur market, likuiditas, range, POI dasar, dan mapping chart.
 
-## Susunan Materi
+4. **03 — Level 3: The Execution**  
+   Mengubah analisis menjadi rencana entry, timing, invalidation, risk, dan jurnal eksekusi.
 
-### 00 — Start Here dan Glosarium
-Titik awal pembelajaran. Berisi arah repo, cara belajar, istilah dasar, dan persiapan alat kerja seperti TradingView.
+5. **04 — Level 4: Mastery**  
+   Mempelajari konsep advanced, model market, backtesting, case studies, automasi, dan profesionalisme.
 
-### 01 — Fondasi Cara Melihat Pasar
-Berisi perubahan cara pandang terhadap market, narasi harga, logika pergerakan, dan fondasi sebelum masuk ke materi teknis.
-
-### 02 — Struktur dan Likuiditas
-Membahas swing, HH/HL/LH/LL, liquidity pools, inducement, equal highs/lows, dan tujuan umum pergerakan harga.
-
-### 03 — Sweep, Grab, Run, dan Delivery
-Membahas bagaimana market mengambil likuiditas, membentuk jebakan, lalu bergerak menuju target berikutnya.
-
-### 04 — POI dan Lokasi Entry
-Membahas Order Block, Fair Value Gap, Breaker, Mitigation, premium-discount, kualitas area entry, termasuk Rejection Block dan Vacuum Block.
-
-### 05 — Session dan Timing
-Membahas Asia, London, New York, killzone, Judas Swing, Silver Bullet, dan Macro ICT untuk presisi waktu.
-
-### 06 — Entry, Risk, dan Eksekusi
-Membahas validasi entry, trigger, invalidation, target, manajemen posisi, dan disiplin eksekusi (Workflow Entry).
-
-### 07 — Sistem Indikator dan Translasi Logika
-Membahas bagaimana konsep subyektif SMC diterjemahkan ke aturan sistem objektif, state engine, scoring, dashboard, dan meminimalkan visual clutter.
-
-### 08 — Jurnal dan Psikologi Pemula
-Membahas pentingnya jurnal trading, template evaluasi mingguan/bulanan, psikologi (mengatasi FOMO dan Revenge Trading), serta Position Sizing.
-
-### 09 — Advanced Concepts dan Model Market
-Berisi konsep lanjutan seperti Market Maker Models (MMXM), SMT Divergence, Power of 3 (PO3), Weekly Profiles, Silver Bullet, dan Intermarket Analysis (DXY & US10Y).
-
-### 10 — Case Studies dan Backtesting
-Berisi pembedahan riil anatomi trade (Win & Loss), template backtesting Spreadsheet, evaluasi probabilitas, dan cara membangun Edge.
+Folder materi lama tetap dapat dipakai sebagai **bank referensi**, tetapi jalur belajar utama sekarang mengikuti 4 level di atas.
 
 ---
 
-## Alur Belajar yang Disarankan
+## Prinsip Kurikulum
 
-Agar pembelajaran lebih rapi, ikuti urutan berikut secara berurutan, layaknya sebuah kurikulum:
+Kurikulum ini dibuat untuk pemula total atau trader yang masih sering loss, sehingga urutannya sengaja dibuat bertahap.
 
-1. Mulai dari **00** dan **01** untuk membangun cara pandang yang benar.
-2. Masuk ke **02** dan **03** untuk memahami struktur dan bahasa dasar likuiditas.
-3. Pelajari **04** dan **05** untuk memahami "Di mana" dan "Kapan" peluang muncul.
-4. Masuk ke **06** dan **07** untuk mengubah teori menjadi eksekusi dan logika algoritma.
-5. Perkuat disiplin di **08** melalui jurnal dan pembentukan mental baja.
-6. Dalami strategi makro tingkat lanjut di **09**.
-7. Uji semua pemahaman melalui praktik dan simulasi di **10**.
+Semakin tinggi nomor bab, semakin tinggi tingkat kompleksitasnya.
+
+Level awal tidak langsung membahas istilah berat seperti MMXM, SMT, Silver Bullet, BPR, atau advanced liquidity path. Semua konsep tersebut ditunda sampai fondasi, market reading, eksekusi, dan jurnal sudah kuat.
 
 ---
 
-## Cara Menggunakan Repo Ini
+## Target Hasil Belajar
 
-Agar hasil belajar lebih maksimal:
+Setelah menyelesaikan kurikulum ini, murid diharapkan mampu:
 
-1. Baca materi secara berurutan bab demi bab.
-2. Jangan melompati bagian "Tugas Praktik" di akhir setiap bab.
-3. Buka chart saat membaca agar konsep tidak hanya dipahami secara teori (Visualisasi).
-4. Tandai poin penting yang sering berulang.
-5. Review ulang materi yang masih membingungkan.
-6. Lakukan **backtest wajib** menggunakan template di Bab 10 sebelum mempertaruhkan uang riil.
-
----
-
-## Untuk Siapa Repo Ini
-
-Repo ini sangat cocok untuk:
-
-- Pemula yang ingin belajar trading SMC/ICT dengan kurikulum yang terarah dan rapi.
-- Trader berpengalaman yang ingin menyusun ulang fondasi dan kedisiplinan mereka.
-- Pembelajar yang frustrasi dengan *Information Overload* di internet dan membutuhkan panduan langkah-demi-langkah.
+- memahami trading sebagai bisnis probabilitas, bukan tebak arah;
+- membaca struktur market dengan lebih rapi;
+- mengenali area likuiditas dan potensi tujuan harga;
+- memilih POI dan timing entry dengan alasan yang jelas;
+- membuat trade plan sebelum entry;
+- mengelola risk, jurnal, dan evaluasi performa;
+- menguji strategi lewat backtesting dan case studies;
+- naik ke konsep advanced tanpa kehilangan fondasi.
 
 ---
 
-## Arah Pengembangan Repo
+## Aturan Belajar
 
-Repositori ini akan terus dikembangkan secara bertahap melalui:
+Baca materi secara berurutan. Jangan loncat ke Level 4 sebelum Level 1–3 benar-benar dikuasai.
 
-- Penambahan materi baru dan konsep-konsep *Advanced* lainnya.
-- Penyempurnaan penjelasan yang sudah ada.
-- Penambahan studi kasus *live trade*.
-- Penguatan hubungan antara teori, eksekusi, dan review.
+Setiap bab harus dipelajari dengan chart terbuka. Trading tidak cukup dipahami dari teori; konsep harus dilihat langsung di market.
 
-Target akhirnya adalah menjadikan repo ini sebagai **Buku Panduan Trading Terlengkap (SMC/ICT)** yang bisa dipakai sebagai standar belajar jangka panjang.
+Gunakan jurnal sejak awal. Trader yang tidak mencatat keputusan biasanya sulit membedakan antara strategi yang salah dan disiplin yang belum stabil.
 
 ---
 
-## Catatan Penting
+## Catatan Risiko
 
-Semua materi di repositori ini bersifat **edukatif**. Trading adalah bisnis probabilitas dengan risiko tinggi.
+Semua materi di repo ini bersifat edukatif.
 
-Gunakan repo ini untuk belajar, membangun kerangka berpikir, dan melatih cara membaca market. Selalu lakukan pengujian mandiri melalui **backtest** yang ketat dan evaluasi mendalam sebelum menerapkan konsep apa pun dalam akun *Live*.
+Trading memiliki risiko tinggi. Tidak ada konsep, indikator, atau model entry yang menjamin profit. Gunakan materi ini untuk membangun pemahaman, melakukan backtesting, forward testing, dan evaluasi mandiri sebelum menggunakan akun live.

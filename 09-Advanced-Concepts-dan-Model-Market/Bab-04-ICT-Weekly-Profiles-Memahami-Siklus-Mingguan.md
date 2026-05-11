@@ -1,66 +1,465 @@
-# Bab 4 — ICT Weekly Profiles: Memahami Siklus Mingguan
+# Bab 04 — ICT Weekly Profiles: Memahami Siklus Mingguan
 
-> "Pasar tidak bergerak tanpa jadwal. Sebagaimana ada ritme harian dalam pembentukan satu buah candle (Power of 3), ada ritme mingguan dalam pembentukan sekumpulan hari. Mengetahui 'Weekly Profile' (Profil Mingguan) apa yang sedang dimainkan oleh algoritma memberi Anda hak istimewa untuk mengetahui hari apa Anda harus bertrading sangat agresif, dan hari apa Anda harus menahan diri sepenuhnya."
+> "Sama seperti satu candle harian punya fase accumulation, manipulation, dan distribution, satu minggu trading juga punya ritme. Trader yang memahami profil mingguan tidak lagi melihat Senin sampai Jumat sebagai hari yang sama."
 
 ## Mengapa Bab Ini Penting
-Kebanyakan trader harian (*day trader*) bangun setiap pagi dengan pertanyaan yang sama: "Apa yang akan dilakukan pasar hari ini?" Mereka menganalisis hari demi hari tanpa melihat konteks mingguan. Akibatnya, mereka sering kali kebingungan saat sistem yang bekerja sangat baik di hari Selasa tiba-tiba hancur total di hari Kamis, padahal mereka melihat pola teknikal (*setup*) yang persis sama.
 
-Kenyataannya, hari-hari dalam seminggu (*Monday to Friday*) tidak diciptakan setara. Algoritma IPDA (Interbank Price Delivery Algorithm) menyebarkan volume dan likuiditas menggunakan jadwal makro yang terprediksi yang disebut **Weekly Profiles**. Dengan mempelajari profil-profil ini, Anda akan tahu kapan *Weekly High/Low* (Puncak atau Dasar mingguan) kemungkinan besar akan terbentuk. Jika Anda bisa mengantisipasi kapan *reversal* mingguan akan terjadi, Anda bisa terhindar dari masuk posisi yang melawan arus besar.
+Banyak day trader hanya menganalisis market dari hari ke hari.
+
+Setiap pagi mereka bertanya:
+
+> "Hari ini buy atau sell?"
+
+Pertanyaan itu penting, tetapi belum lengkap.
+
+Market tidak bergerak dalam ruang kosong. Hari Senin, Selasa, Rabu, Kamis, dan Jumat sering memiliki karakter berbeda dalam pembentukan candle mingguan.
+
+Kesalahan umum trader adalah memakai ekspektasi yang sama untuk semua hari.
+
+Contoh:
+
+- memaksa trend besar di hari Senin yang masih accumulation
+- mengejar breakout Selasa yang ternyata weekly manipulation
+- takut entry Rabu/Kamis saat distribution justru mulai berjalan
+- menahan posisi terlalu lama Jumat saat profit taking terjadi
+
+**ICT Weekly Profiles** membantu trader membaca kemungkinan posisi harga dalam siklus mingguan.
+
+Konsep ini tidak bertujuan menebak masa depan secara pasti. Tujuannya adalah memberi ekspektasi yang lebih realistis tentang apa yang mungkin sedang dibentuk market dalam minggu berjalan.
+
+Dengan memahami profil mingguan, trader bisa lebih selektif:
+
+- kapan agresif
+- kapan hati-hati
+- kapan menunggu
+- kapan menghindari market
+- kapan weekly high atau weekly low mungkin terbentuk
+
+---
 
 ## Tujuan Pembelajaran
+
 Setelah mempelajari bab ini, pembaca diharapkan mampu:
-*   Memahami konsep perpanjangan *Power of 3 (PO3)* dari tingkat harian ke tingkat mingguan (Weekly Candle).
-*   Mengenali karakteristik pergerakan harga di hari Senin (Hari Akumulasi).
-*   Memahami "Classic Tuesday Low/High of the Week" (Selasa sebagai hari manipulasi utama).
-*   Mengidentifikasi profil mingguan umum: *Tuesday Reversal*, *Wednesday Reversal*, dan *Consolidation/News Week*.
-*   Membangun ekspektasi operasional harian berdasarkan *Weekly Profile* yang teridentifikasi.
+
+- memahami PO3 dalam skala mingguan
+- membaca karakter umum Senin sampai Jumat
+- mengenali Tuesday Reversal dan Wednesday Reversal
+- memahami minggu konsolidasi atau news week
+- memakai weekly profile untuk menyusun ekspektasi harian
+- menghindari entry yang melawan fase mingguan
+- menghubungkan weekly profile dengan daily bias, PO3, dan session timing
+
+---
 
 ## 1. PO3 dalam Skala Mingguan
-Sama seperti Bab 3 di mana kita membedah *Candle Harian* (Accumulation -> Manipulation -> Distribution), *Candle Mingguan* juga dibentuk oleh logika yang sama, namun setiap fasenya sering kali mewakili durasi satu hari penuh:
 
-*   **Minggu/Senin (Accumulation):** Pasar buka dengan lambat. Senin sering kali bergerak menyamping atau membuat tren kecil (False Move) yang memancing ritel. Harga tidak bergerak terlalu jauh dari *Open* mingguan.
-*   **Selasa/Rabu Pagi (Manipulation / The Wick):** Harga bergerak tajam melawan tren mingguan yang sebenarnya. Di sinilah **Puncak atau Dasar Mingguan (Weekly High/Low)** kemungkinan besar akan dicetak. Ini adalah *Judas Swing* skala makro.
-*   **Rabu Siang/Kamis (Distribution / The Body):** Ini adalah saat pergerakan nyata (searah *Weekly Bias*) terjadi. Harga meledak dan tren kuat terjadi. Ini adalah hari-hari terbaik untuk bertrading.
-*   **Jumat (Close / Retracement):** Pasar mengambil napas. Profit diambil (*profit taking*), sehingga harga sering sedikit memantul kembali (*retrace*) ke tengah sebelum pasar ditutup untuk akhir pekan.
+Power of 3 tidak hanya berlaku pada candle harian. Konsep yang sama juga bisa diterapkan pada candle mingguan.
 
-## 2. Profil 1: Classic Tuesday Reversal (Profil Paling Umum)
-Ini adalah profil yang paling penting untuk dihapal. Jika Anda memproyeksikan minggu tersebut akan Bullish (naik), ini yang terjadi:
-*   **Senin:** Harga bergerak lambat turun di bawah pembukaan hari Senin.
-*   **Selasa:** Harga melanjutkan penurunan Senin secara agresif, sering kali menyapu *Previous Weekly Low* atau level likuiditas penting. Di sesi London hari Selasa, harga tiba-tiba berbalik arah ke atas dengan kuat. **Dasar Mingguan (Low of the Week) resmi terbentuk.**
-*   **Rabu - Kamis:** Karena dasar sudah dibentuk di hari Selasa, hari Rabu dan Kamis menjadi tren naik satu arah yang masif. Tugas Anda hanyalah mencari *setup Buy*.
-*   **Jumat:** Sedikit konsolidasi di atas atau koreksi kecil.
+Satu minggu bisa dibaca sebagai proses:
 
-*Penting:* Profil yang sama berlaku terbalik untuk *Bearish Week* (Selasa membentuk *High of the Week* lalu harga anjlok hingga Jumat).
+1. Accumulation
+2. Manipulation
+3. Distribution
+4. Close / retracement
 
-## 3. Profil 2: Wednesday Reversal (Efek Berita Tengah Minggu)
-Terkadang, hari Selasa tidak cukup kuat untuk menciptakan manipulasi (misalnya karena tidak ada jadwal rilis berita besar). Algoritma akan menunda *Judas Swing* hingga hari Rabu.
+Secara sederhana:
 
-*   **Senin - Selasa:** Harga bergerak *choppy* (berantakan) atau turun dengan lambat. Ritel semakin yakin trennya turun.
-*   **Rabu:** Ada rilis berita (seperti CPI atau FOMC). Berita tersebut menekan harga jatuh sedikit lebih rendah (membuat *Low of the Week*), lalu segera berbalik tajam. Sisa hari Rabu dan Kamis menjadi fase Distribusi yang sangat agresif.
+| Fase | Hari yang Sering Terlibat | Fungsi |
+|---|---|---|
+| Accumulation | Senin | Membentuk range awal |
+| Manipulation | Selasa / Rabu | Membentuk weekly high atau weekly low |
+| Distribution | Rabu / Kamis | Delivery utama minggu itu |
+| Close / Retracement | Jumat | Profit taking atau lanjutan akhir |
 
-## 4. Profil 3: Consolidation / Non-Farm Payroll (NFP) Week
-Ini sering terjadi pada minggu pertama setiap bulan (Minggu NFP) atau menjelang libur besar (akhir tahun/akhir bulan).
+Ini bukan hukum kaku. Tetapi pola ini sering membantu trader menyusun ekspektasi.
 
-*   **Senin hingga Kamis:** Harga bergerak tanpa arah (*range-bound*). Tidak ada tren jelas, hanya menyapu likuiditas atas dan bawah secara bergantian (Choppy). Algoritma menahan volume.
-*   **Jumat (Hari Rilis Berita Besar):** Di sinilah volatilitas meledak dan tren mingguan (atau bahkan bulanan) baru saja dimulai di akhir minggu.
-*   **Sikap Trader:** Jika Anda mengenali profil ini di hari Rabu (karena Senin-Rabu pergerakannya sangat sempit), Anda harus mengerem dan tidak memaksakan *setup continuation* besar. Anda mungkin lebih baik tidak bertrading sampai berita dirilis.
+Jika minggu diproyeksikan bullish, maka weekly low sering terbentuk lebih awal sebelum harga naik.
 
-## 5. Glosarium Bab 4
-*   **Weekly Profile:** Pola perilaku pergerakan harga yang berulang selama siklus satu minggu perdagangan (Senin hingga Jumat).
-*   **High/Low of the Week:** Titik harga tertinggi atau terendah absolut yang dicapai dalam satu minggu; biasanya terbentuk antara hari Selasa dan Rabu.
-*   **Classic Tuesday Reversal:** Profil mingguan ideal di mana manipulasi (pembentukan puncak/dasar palsu) terjadi dan diselesaikan pada hari Selasa.
-*   **Choppy:** Kondisi pergerakan harga yang tidak menentu, tajam bolak-balik tanpa tren yang jelas, sering terjadi pada fase konsolidasi atau menunggu berita besar.
-*   **Profit Taking:** Aksi institusi/trader menutup posisi untung mereka di akhir minggu (biasanya Jumat sore), yang menyebabkan harga bergerak mundur melawan tren mingguan.
+Jika minggu diproyeksikan bearish, maka weekly high sering terbentuk lebih awal sebelum harga turun.
 
-## 6. Ringkasan Bab
-*   Menganalisis pergerakan hari ini tanpa memahami kita sedang berada di hari apa dalam sebuah *Weekly Profile* sama seperti membaca satu bab tanpa tahu alur novelnya.
-*   Konsep AMD (Akumulasi, Manipulasi, Distribusi) sangat kuat saat diterapkan dalam rentang waktu Senin (Akumulasi), Selasa/Rabu (Manipulasi), dan Kamis (Distribusi).
-*   Sebagian besar titik terendah (dalam minggu Bullish) dan titik tertinggi (dalam minggu Bearish) dicetak pada hari Selasa sesi London, atau selambat-lambatnya hari Rabu.
-*   Setelah titik ekstrem mingguan tersebut terkonfirmasi, hari-hari berikutnya (Rabu dan Kamis) menjadi jendela waktu dengan probabilitas *win rate* dan pergerakan terjauh yang paling aman untuk dieksekusi.
-*   Ketahui kalender ekonomi. Jika rilis berita terbesar ada di hari Jumat (seperti NFP), maka profil Senin-Kamis sangat mungkin menjadi konsolidasi yang menjebak (Choppy).
+---
+
+## 2. Karakter Umum Hari dalam Satu Minggu
+
+### Senin
+
+Senin sering menjadi hari accumulation.
+
+Ciri umum:
+
+- range belum jelas
+- volume kadang lebih lambat
+- market membangun weekly open context
+- false move bisa muncul
+- trader sering terlalu cepat membuat bias besar
+
+Senin bukan selalu hari buruk, tetapi trader harus hati-hati membaca trend besar dari Senin saja.
+
+### Selasa
+
+Selasa sering menjadi hari manipulasi penting.
+
+Ciri umum:
+
+- market mulai lebih aktif
+- weekly high atau weekly low bisa mulai terbentuk
+- liquidity dari Senin bisa disapu
+- arah palsu sering muncul sebelum reversal
+
+Jika weekly bias jelas, Selasa bisa menjadi hari penting untuk mencari reversal dari manipulasi.
+
+### Rabu
+
+Rabu sering menjadi hari konfirmasi atau reversal lanjutan.
+
+Ciri umum:
+
+- jika Selasa belum membentuk ekstrem, Rabu bisa melakukannya
+- news besar sering mempercepat manipulasi
+- setelah reversal, distribution bisa mulai kuat
+
+Rabu sering menjadi hari transisi dari manipulasi ke delivery.
+
+### Kamis
+
+Kamis sering menjadi hari distribution.
+
+Ciri umum:
+
+- arah mingguan lebih jelas
+- continuation lebih bersih
+- target likuiditas mingguan mulai didekati
+- setup searah weekly bias sering lebih kuat
+
+Jika weekly low/high sudah terbentuk, Kamis bisa menjadi hari eksekusi yang lebih agresif.
+
+### Jumat
+
+Jumat bisa punya dua karakter:
+
+- continuation terakhir menuju target mingguan
+- profit taking dan retracement
+
+Trader perlu hati-hati karena Jumat bisa bergerak tajam, tetapi juga bisa berbalik setelah target tercapai.
+
+---
+
+## 3. Classic Tuesday Reversal
+
+Classic Tuesday Reversal adalah salah satu profil yang paling sering dibahas.
+
+Dalam bullish week:
+
+1. Senin membangun range atau bergerak turun pelan
+2. Selasa turun lebih dalam menyapu liquidity
+3. weekly low terbentuk
+4. muncul reversal bullish
+5. Rabu/Kamis menjadi fase naik utama
+
+Dalam bearish week:
+
+1. Senin membangun range atau bergerak naik pelan
+2. Selasa naik lebih tinggi menyapu liquidity
+3. weekly high terbentuk
+4. muncul reversal bearish
+5. Rabu/Kamis menjadi fase turun utama
+
+Kuncinya bukan langsung entry hanya karena hari Selasa.
+
+Tetap butuh:
+
+- HTF bias
+- liquidity sweep
+- premium/discount
+- MSS
+- displacement
+- POI entry
+- target likuiditas
+
+Hari Selasa hanya memberi konteks waktu bahwa manipulasi mingguan mungkin sedang terjadi.
+
+---
+
+## 4. Wednesday Reversal
+
+Kadang Selasa belum cukup jelas.
+
+Market bisa tetap choppy atau melanjutkan gerakan manipulatif sampai Rabu.
+
+Wednesday Reversal sering muncul ketika:
+
+- ada news besar Rabu
+- Selasa hanya membangun likuiditas tambahan
+- market belum menyentuh target manipulasi
+- weekly open masih belum memberi arah jelas
+
+Dalam bullish scenario:
+
+- Senin dan Selasa turun atau choppy
+- Rabu sweep low lebih dalam
+- muncul bullish shift
+- Rabu sore dan Kamis naik kuat
+
+Dalam bearish scenario:
+
+- Senin dan Selasa naik atau choppy
+- Rabu sweep high lebih dalam
+- muncul bearish shift
+- Rabu sore dan Kamis turun kuat
+
+Jika Selasa belum memberi reversal bersih, jangan memaksa. Tunggu Rabu memberi konfirmasi.
+
+---
+
+## 5. Consolidation Week
+
+Tidak semua minggu akan trending.
+
+Ada minggu ketika market hanya bergerak dalam range.
+
+Ciri consolidation week:
+
+- Senin sampai Rabu sempit
+- high dan low saling disapu
+- tidak ada displacement bersih
+- setup continuation sering gagal
+- harga bolak-balik di dalam range
+- trader mudah overtrade
+
+Minggu seperti ini biasanya terjadi saat:
+
+- menjelang news besar
+- menjelang FOMC / CPI / NFP
+- akhir bulan
+- libur besar
+- market menunggu katalis makro
+
+Sikap terbaik:
+
+- kurangi frekuensi trade
+- fokus pada range high/low
+- hindari target terlalu jauh
+- tunggu breakout valid setelah news
+- jangan memaksa weekly trend
+
+---
+
+## 6. NFP / News Week
+
+Minggu NFP atau minggu news besar sering punya karakter khusus.
+
+Market bisa menahan pergerakan besar sampai data keluar.
+
+Contoh:
+
+- Senin sampai Kamis choppy
+- range sempit atau manipulatif dua arah
+- Jumat saat news, volatilitas meledak
+- setelah news, market baru memilih arah
+
+Dalam kondisi ini, setup teknikal biasa bisa lebih mudah gagal.
+
+Trader harus memperhatikan kalender ekonomi.
+
+Jika news terbesar ada di Jumat, jangan heran jika Senin–Kamis tidak memberi delivery bersih.
+
+---
+
+## 7. Weekly Open sebagai Referensi
+
+Weekly Open adalah harga pembukaan minggu.
+
+Fungsinya mirip seperti Midnight Open pada intraday, tetapi dalam skala mingguan.
+
+Trader bisa memakai Weekly Open untuk melihat:
+
+- apakah harga sedang membentuk wick mingguan?
+- apakah harga berada di atas atau bawah open?
+- apakah pergerakan awal minggu melawan bias?
+- apakah harga sudah kembali menyeberangi open setelah manipulasi?
+
+Dalam bullish week, harga bisa turun di bawah Weekly Open terlebih dahulu untuk membentuk wick bawah, lalu naik.
+
+Dalam bearish week, harga bisa naik di atas Weekly Open terlebih dahulu untuk membentuk wick atas, lalu turun.
+
+Weekly Open bukan sinyal entry tunggal. Ia hanya referensi konteks.
+
+---
+
+## 8. Cara Membuat Rencana Berdasarkan Weekly Profile
+
+Gunakan alur berikut setiap awal minggu.
+
+### Minggu / Senin
+
+Tandai:
+
+- Weekly Open
+- Previous Week High
+- Previous Week Low
+- HTF POI
+- target liquidity besar
+- kalender news utama
+
+### Selasa
+
+Amati:
+
+- apakah harga menyapu liquidity Senin?
+- apakah harga membentuk weekly high/low?
+- apakah ada SMT atau rejection?
+- apakah LTF mulai shift?
+
+### Rabu
+
+Konfirmasi:
+
+- apakah Selasa sudah reversal?
+- apakah Rabu melanjutkan delivery?
+- atau Rabu justru menjadi manipulation utama?
+
+### Kamis
+
+Eksekusi continuation:
+
+- cari setup searah weekly delivery
+- targetkan liquidity berikutnya
+- hindari entry melawan arah yang sudah jelas
+
+### Jumat
+
+Kelola risiko:
+
+- waspadai profit taking
+- jangan mengejar gerakan terlambat
+- amati apakah target mingguan sudah tercapai
+- kurangi ambisi jika market sudah extended
+
+---
+
+## 9. Contoh Bullish Weekly Profile
+
+Skenario:
+
+- HTF bias bullish
+- Previous Week High menjadi target
+- Senin range kecil
+- Selasa turun menyapu low Senin
+- harga masuk discount
+- muncul bullish MSS
+- Rabu naik melewati Weekly Open
+- Kamis continuation menuju PWH
+- Jumat profit taking
+
+Narasi:
+
+- Senin = accumulation
+- Selasa = manipulation membentuk weekly low
+- Rabu/Kamis = distribution bullish
+- Jumat = close / retracement
+
+---
+
+## 10. Contoh Bearish Weekly Profile
+
+Skenario:
+
+- HTF bias bearish
+- Previous Week Low menjadi target
+- Senin range kecil
+- Selasa naik menyapu high Senin
+- harga masuk premium
+- muncul bearish MSS
+- Rabu turun melewati Weekly Open
+- Kamis continuation menuju PWL
+- Jumat profit taking
+
+Narasi:
+
+- Senin = accumulation
+- Selasa = manipulation membentuk weekly high
+- Rabu/Kamis = distribution bearish
+- Jumat = close / retracement
+
+---
+
+## 11. Kesalahan Umum Membaca Weekly Profile
+
+### 1. Menganggap semua Selasa pasti reversal
+
+Selasa sering penting, tetapi tidak selalu menjadi reversal.
+
+### 2. Mengabaikan news
+
+News bisa menggeser manipulasi ke Rabu atau Jumat.
+
+### 3. Memaksa trend di consolidation week
+
+Jika market range, jangan memaksa target besar.
+
+### 4. Tidak memperhatikan HTF bias
+
+Weekly profile harus tetap dibaca bersama konteks Daily, H4, atau HTF POI.
+
+### 5. Terlambat entry Jumat
+
+Jika target mingguan sudah tercapai, Jumat bisa menjadi fase profit taking.
+
+---
+
+## 12. Checklist Weekly Profile
+
+Sebelum minggu berjalan, jawab:
+
+- HTF bias minggu ini apa?
+- Weekly Open ada di mana?
+- Previous Week High dan Low di mana?
+- liquidity besar ada di mana?
+- news besar ada hari apa?
+- apakah Senin membentuk range?
+- apakah Selasa menyapu high/low Senin?
+- apakah reversal sudah dikonfirmasi?
+- apakah Rabu/Kamis menjadi distribution?
+- apakah Jumat masih layak entry atau sudah late move?
+
+---
+
+## 13. Glosarium Bab 04
+
+- **Weekly Profile:** pola umum pergerakan harga dalam satu minggu trading.
+- **Weekly Open:** harga pembukaan minggu yang digunakan sebagai referensi konteks.
+- **High of the Week:** titik tertinggi dalam minggu berjalan.
+- **Low of the Week:** titik terendah dalam minggu berjalan.
+- **Tuesday Reversal:** profil ketika weekly high/low terbentuk pada hari Selasa.
+- **Wednesday Reversal:** profil ketika manipulasi atau reversal utama tertunda sampai Rabu.
+- **Consolidation Week:** minggu yang cenderung range tanpa trend jelas.
+- **Profit Taking:** aksi pengambilan profit yang sering membuat retracement di akhir minggu.
+
+---
+
+## 14. Ringkasan Bab
+
+Inti bab ini adalah:
+
+- weekly profile membantu trader membaca konteks satu minggu
+- Senin sering menjadi accumulation
+- Selasa/Rabu sering menjadi manipulation atau pembentuk weekly high/low
+- Rabu/Kamis sering menjadi distribution utama
+- Jumat bisa continuation atau profit taking
+- news week bisa membuat market choppy sebelum data besar
+- weekly open membantu membaca wick dan body candle mingguan
+- weekly profile bukan sinyal entry, tetapi konteks untuk menyaring setup
+
+---
 
 ## Penutup
-Dengan menambahkan pemahaman tentang siklus mingguan, Anda telah melengkapi analisis *top-down* dari skala makro hingga keseharian. Anda kini tahu hari apa yang harus diperhatikan lebih tajam. Di bab berikutnya, kita akan menyelam lebih dalam ke kerangka waktu (*timeframe*) harian yang paling akurat, dengan mempelajari algoritma waktu yang sangat presisi: **ICT Silver Bullet: Strategi Waktu Spesifik**.
+
+Weekly Profiles membantu trader memahami bahwa tidak semua hari punya kualitas yang sama.
+
+Dengan membaca posisi hari dalam siklus mingguan, trader bisa menghindari banyak kesalahan: terlalu agresif di hari accumulation, tertipu manipulasi Selasa/Rabu, atau mengejar pergerakan Jumat yang sudah terlambat.
+
+Di bab berikutnya, kita akan membahas **ICT Silver Bullet**, model eksekusi berbasis waktu yang lebih sempit dan mekanis.
 
 ## Catatan
-*Tugas Praktik: Buka kalender atau chart H4 pair mayor (seperti EURUSD). Mundur ke belakang (backtest) selama 4 minggu berturut-turut. Catat untuk setiap minggunya: Di hari apa titik Tertinggi (High) minggu itu terbentuk? Di hari apa titik Terendah (Low) minggu itu terbentuk? Hitung seberapa sering hari Selasa dan Rabu muncul sebagai pembuat titik ekstrem tersebut.*
+
+*Tugas Praktik: buka chart H4 selama empat minggu terakhir. Catat hari apa weekly high dan weekly low terbentuk. Tandai apakah minggu tersebut Tuesday Reversal, Wednesday Reversal, atau Consolidation Week.*

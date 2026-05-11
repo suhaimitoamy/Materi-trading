@@ -1,74 +1,493 @@
-# Bab 4 — Review Mingguan dan Bulanan: Menemukan Pola Keberhasilan dan Kegagalan
+# Bab 04 — Review Mingguan dan Bulanan: Menemukan Pola Keberhasilan dan Kegagalan
 
-> "Menulis jurnal tanpa pernah membacanya kembali adalah seperti merekam video pertandingan olahraga tetapi tidak pernah memutarnya untuk melihat kesalahan posisi pemain. Pertumbuhan tidak terjadi saat Anda melakukan trading; pertumbuhan terjadi pada akhir pekan, saat Anda duduk diam merenungi data Anda."
+> "Menulis jurnal tanpa pernah membacanya kembali seperti merekam pertandingan tetapi tidak pernah menonton ulang kesalahan pemain. Pertumbuhan trader tidak hanya terjadi saat entry. Pertumbuhan besar justru terjadi saat market tutup, ketika data dibaca dengan kepala dingin."
 
 ## Mengapa Bab Ini Penting
-Di Bab 1 dan 2, Anda telah belajar cara mengumpulkan data melalui Jurnal Trading. Di Bab 3, Anda memahami pentingnya menjaga stabilitas psikologis. Namun, data yang tertumpuk dan tidak pernah dianalisis hanyalah sebuah memori mati.
 
-Banyak trader rajin mencatat *entry* dan *exit* mereka setiap hari, tetapi karena mereka tidak pernah melakukan "Audit" secara berkala, mereka tidak pernah tahu *mengapa* sistem mereka berhasil atau gagal. Mereka tidak bisa memisahkan antara strategi yang memang buruk (membutuhkan perbaikan teknikal) atau eksekusi yang buruk (membutuhkan perbaikan psikologis). Bab ini akan memandu Anda merancang rutinitas *Review Mingguan* dan *Review Bulanan* untuk mengekstrak makna dari jurnal Anda dan mengubahnya menjadi *Action Plan* (Rencana Tindakan).
+Di bab sebelumnya, Anda sudah memahami fungsi jurnal, template jurnal, dan bahaya emosi seperti takut, FOMO, serta revenge trading. Namun jurnal yang hanya ditulis tanpa pernah dibaca ulang akan kehilangan sebagian besar manfaatnya.
+
+Banyak trader rajin mencatat entry dan exit setiap hari. Mereka punya screenshot, catatan emosi, hasil win/loss, dan alasan entry. Tetapi setelah itu, semua catatan hanya menumpuk. Tidak ada evaluasi. Tidak ada kesimpulan. Tidak ada perubahan aturan.
+
+Akhirnya, kesalahan yang sama terus berulang.
+
+Minggu ini FOMO. Minggu depan FOMO lagi. Bulan ini memindahkan SL. Bulan depan masih memindahkan SL. Trader merasa sudah belajar, padahal sebenarnya hanya mengulang pola lama dengan catatan yang lebih banyak.
+
+Di sinilah review mingguan dan bulanan menjadi penting.
+
+Review membantu trader mengubah jurnal menjadi keputusan. Dari review, trader bisa melihat:
+
+- kesalahan apa yang paling sering muncul
+- setup apa yang paling bersih
+- sesi mana yang paling cocok
+- emosi apa yang paling merusak
+- loss mana yang sehat dan loss mana yang rusak
+- aturan apa yang perlu diperbaiki minggu depan
+
+Jurnal adalah bahan mentah. Review adalah proses memasak bahan itu menjadi pelajaran.
+
+Tanpa review, jurnal hanya menjadi arsip. Dengan review, jurnal menjadi mesin perkembangan.
+
+---
 
 ## Tujuan Pembelajaran
+
 Setelah mempelajari bab ini, pembaca diharapkan mampu:
-*   Memahami perbedaan fokus antara Review Mingguan (Taktis) dan Review Bulanan (Strategis).
-*   Melakukan Audit Kepatuhan (Compliance Audit) untuk mengukur tingkat kedisiplinan.
-*   Mengidentifikasi "Trade Terbaik" dan "Trade Terburuk" secara objektif, bukan berdasarkan nominal profit/loss.
-*   Mengklasifikasikan jenis kerugian (*Good Loss* vs *Bad Loss*).
-*   Merumuskan perbaikan spesifik yang akan diimplementasikan pada minggu/bulan berikutnya.
 
-## 1. Fokus Review Mingguan (Taktikal & Operasional)
-Review mingguan sebaiknya dilakukan pada hari Sabtu atau Minggu, saat pasar tutup dan emosi Anda sudah sepenuhnya reda. Fokus utama review mingguan bukanlah pada "Berapa banyak uang yang saya hasilkan?", melainkan **"Seberapa patuh saya pada sistem?"**
+- memahami perbedaan fungsi review mingguan dan review bulanan
+- melakukan audit kepatuhan terhadap sistem trading sendiri
+- membedakan good loss dan bad loss secara objektif
+- menemukan trade terbaik dan trade terburuk berdasarkan proses, bukan nominal
+- mengubah hasil review menjadi action plan yang jelas
+- memakai data jurnal untuk memperbaiki sistem, psikologi, dan manajemen risiko
 
-**Langkah-langkah Review Mingguan:**
-1.  **Hitung Compliance Rate (Tingkat Kepatuhan):**
-    Jika Anda melakukan 10 transaksi minggu ini, berapa banyak yang benar-benar mengikuti *rules* Anda secara sempurna? Jika ada 8 *trade* yang sesuai aturan (meskipun berujung *loss*), maka Compliance Rate Anda adalah 80%. Target Anda adalah 100%.
-2.  **Klasifikasi Kerugian:**
-    *   *Good Loss:* Kerugian yang didapat meskipun Anda mengikuti seluruh aturan 100%. Ini adalah statistik pasar yang wajar. (Tidak perlu diperbaiki).
-    *   *Bad Loss:* Kerugian yang didapat karena Anda FOMO, memindahkan SL, atau melanggar *rules*. (Ini adalah penyakit yang harus disembuhkan).
-3.  **Tentukan Trade Terburuk (The Worst Trade):** Pilih satu *trade* paling ceroboh minggu itu. Tulis besar-besar alasannya dan bagaimana perasaan Anda.
-4.  **Action Plan Minggu Depan:** Rumuskan 1-2 aturan perbaikan yang spesifik. (Salah: "Minggu depan saya harus lebih sabar." Benar: "Minggu depan, saya tidak akan membuka MT4 sebelum jam 14:00 WIB.")
+---
 
-## 2. Fokus Review Bulanan (Strategis & Makro)
-Review bulanan (dilakukan di akhir atau awal bulan) mengambil sudut pandang yang lebih luas, seperti seorang manajer investasi mengevaluasi portofolionya. Di sini, Anda melihat tren jangka panjang.
+## 1. Review Adalah Jembatan antara Jurnal dan Perbaikan
 
-**Langkah-langkah Review Bulanan:**
-1.  **Evaluasi Metrik Statistik:**
-    *   *Win Rate (%)* selama satu bulan terakhir.
-    *   *Average Risk/Reward Ratio*. (Apakah profit Anda rata-rata dua kali lipat lebih besar dari loss Anda?).
-    *   *Profit Factor*. (Total keuntungan kotor dibagi total kerugian kotor).
-2.  **Analisis Waktu & Instrumen:**
-    Saring tag/label jurnal Anda (Bab 2). Temukan di sesi mana (Asia, London, NY) Anda paling sering *Loss*. Temukan pada *Pair* apa (EURUSD, XAUUSD) Anda paling *profitable*. Jika XAUUSD selalu menyedot uang Anda bulan ini, pertimbangkan untuk menghapusnya dari *watchlist* bulan depan.
-3.  **Evaluasi Skala Setup:**
-    Manakah *Grade Setup* Anda (A+, A, B) yang memberikan hasil terbaik? Apakah Anda terlalu sering memaksakan diri mengambil *setup* B dan C?
-4.  **Penyesuaian Risiko (Scaling):**
-    Jika bulan ini performa dan disiplin Anda luar biasa, bulan depan Anda berhak menaikkan risiko per *trade* (misal dari 0.5% menjadi 1%). Sebaliknya, jika bulan ini Anda hancur karena emosi, turunkan risiko Anda setengahnya di bulan depan.
+Menulis jurnal adalah langkah pertama. Tetapi membaca kembali jurnal adalah langkah yang membuat perubahan terjadi.
 
-## 3. "The Playbook" (Buku Panduan Pribadi)
-Salah satu hasil terbaik dari melakukan review adalah Anda bisa mengumpulkan gambar *screenshot* dari "Trade Terbaik" Anda (The Best Trades) ke dalam satu folder khusus yang disebut **The Playbook**.
+Saat trade sedang berjalan, emosi masih aktif. Trader mudah membenarkan keputusan buruk atau terlalu menyalahkan diri sendiri. Saat market sudah tutup, pikiran lebih tenang. Di titik itu, trader bisa melihat kejadian dengan lebih objektif.
 
-*Playbook* adalah galeri visual *setup A+* yang tereksekusi dengan sempurna. Setiap kali Anda merasa bingung melihat *chart* hari ini, Anda membuka *Playbook* Anda. Otak Anda akan mencocokkan pola: "Apakah kondisi market saat ini mirip dengan gambar-gambar terbaik di *Playbook* saya?" Jika tidak, Anda diam. Ini adalah cara termudah menanamkan intuisi visual.
+Review menjawab pertanyaan penting:
 
-## 4. Jebakan Evaluasi Berbasis Profit
-Trader pemula sering mengevaluasi minggu mereka berdasarkan uang: "Minggu ini hijau (profit), berarti saya trading dengan bagus." Ini sangat menyesatkan.
+- apakah saya benar-benar mengikuti rules?
+- apakah loss saya sehat atau akibat pelanggaran?
+- apakah profit saya lahir dari proses bagus atau hanya kebetulan?
+- apakah saya mengulang kesalahan yang sama?
+- apa satu hal yang harus diperbaiki minggu depan?
 
-Anda bisa saja beruntung minggu ini karena melakukan *Revenge Trading* dengan lot raksasa tanpa SL, lalu harga berbalik arah dan memberikan Anda profit besar. Jika Anda mereview ini sebagai "minggu yang baik", Anda sedang memupuk kebiasaan fatal yang akan meledakkan akun Anda di bulan depan. **Puji disiplin Anda, bukan profit Anda.** Profit adalah efek samping dari kedisiplinan yang diulang terus-menerus.
+Tanpa review, trader hanya sibuk mencari setup baru. Dengan review, trader mulai memperbaiki dirinya sendiri.
 
-## 5. Glosarium Bab 4
-*   **Compliance Audit:** Evaluasi yang difokuskan pada tingkat kepatuhan trader terhadap aturan sistemnya sendiri, terlepas dari hasil akhirnya (profit/loss).
-*   **Good Loss:** Transaksi kerugian yang terjadi secara natural meskipun trader mengeksekusi sistem dengan sempurna sesuai aturan (bagian probabilitas pasar).
-*   **Bad Loss:** Transaksi kerugian yang timbul karena kecerobohan emosional, pelanggaran aturan, atau intervensi manual (menggeser SL).
-*   **Playbook:** Kumpulan tangkapan layar (screenshot) dari *setup-setup* historis terbaik trader yang digunakan sebagai cetak biru visual untuk referensi eksekusi di masa depan.
-*   **Profit Factor:** Metrik statistik yang membandingkan jumlah total profit kotor dengan total kerugian kotor (angka di atas 1 menunjukkan sistem menguntungkan).
+---
 
-## 6. Ringkasan Bab
-*   Menjurnal data tanpa melakukan rutinitas review mingguan dan bulanan adalah pekerjaan yang sia-sia.
-*   Review Mingguan berfokus pada perbaikan perilaku dan kepatuhan terhadap aturan sistem (Taktis).
-*   Fokuslah mencari persentase *Compliance Rate* dan memberantas *Bad Loss* (kerugian akibat pelanggaran aturan).
-*   Review Bulanan berfokus pada pencarian tren dari data besar (Strategis) seperti metrik Win Rate, waktu terbaik, instrumen paling *profitable*, dan kelayakan penambahan risiko.
-*   Keberhasilan sebuah minggu tidak ditentukan oleh seberapa banyak uang yang didapat, melainkan oleh seberapa tinggi disiplin Anda dalam mengikuti *rules*.
-*   Kumpulkan *setup* kemenangan terbaik Anda ke dalam *Playbook* sebagai pedoman referensi visual di masa depan.
+## 2. Perbedaan Review Mingguan dan Review Bulanan
+
+Review mingguan dan bulanan punya fungsi yang berbeda.
+
+### Review Mingguan
+
+Review mingguan bersifat taktis dan operasional.
+
+Fokusnya adalah:
+
+- kepatuhan terhadap rules
+- kualitas eksekusi
+- kesalahan psikologi
+- trade terbaik dan terburuk minggu ini
+- satu action plan untuk minggu depan
+
+Review mingguan menjawab:
+
+> "Apa yang harus saya perbaiki segera minggu depan?"
+
+### Review Bulanan
+
+Review bulanan bersifat strategis dan makro.
+
+Fokusnya adalah:
+
+- performa dalam sampel lebih besar
+- win rate
+- average R
+- maximum drawdown
+- pair atau sesi terbaik
+- setup yang harus dipertahankan atau dibuang
+- keputusan risk scaling
+
+Review bulanan menjawab:
+
+> "Apakah sistem dan kebiasaan saya sedang bergerak ke arah yang benar?"
+
+Keduanya saling melengkapi. Review mingguan memperbaiki langkah kecil. Review bulanan memastikan arah besar tetap benar.
+
+---
+
+## 3. Fokus Utama Review Mingguan: Compliance
+
+Kesalahan terbesar trader pemula adalah menilai minggu trading hanya dari profit atau loss.
+
+Minggu profit belum tentu minggu bagus. Minggu loss belum tentu minggu buruk.
+
+Yang lebih penting adalah **compliance**, yaitu tingkat kepatuhan terhadap aturan sistem.
+
+Contoh:
+
+- Minggu A: profit +3R, tetapi semua entry karena FOMO dan lot terlalu besar.
+- Minggu B: loss -1R, tetapi semua entry sesuai rules dan risk aman.
+
+Secara uang, minggu A terlihat lebih baik. Secara perkembangan trader, minggu B jauh lebih sehat.
+
+Karena itu, review mingguan harus dimulai dari pertanyaan:
+
+> "Seberapa patuh saya minggu ini?"
+
+Bukan:
+
+> "Berapa uang yang saya dapat minggu ini?"
+
+---
+
+## 4. Cara Menghitung Compliance Rate
+
+Compliance rate adalah persentase trade yang benar-benar sesuai rules.
+
+Rumus sederhana:
+
+```text
+Compliance Rate = (Jumlah Trade Sesuai Rules / Total Trade) x 100%
+```
+
+Contoh:
+
+- total trade minggu ini: 10
+- trade sesuai rules: 7
+- trade pelanggaran: 3
+
+Maka:
+
+```text
+7 / 10 x 100% = 70%
+```
+
+Artinya, dari 10 keputusan, hanya 70% yang benar-benar sesuai sistem.
+
+Target awal yang sehat:
+
+| Level | Arti |
+|---|---|
+| 90–100% | Sangat disiplin |
+| 75–89% | Cukup baik, masih perlu perbaikan |
+| 50–74% | Banyak keputusan emosional |
+| Di bawah 50% | Trading belum terkendali |
+
+Untuk pemula, mengejar compliance 90% lebih penting daripada mengejar profit besar.
+
+Profit yang datang dari disiplin bisa diulang. Profit yang datang dari pelanggaran hanya memperkuat kebiasaan buruk.
+
+---
+
+## 5. Good Loss vs Bad Loss
+
+Tidak semua loss sama.
+
+### Good Loss
+
+Good loss adalah loss yang terjadi meskipun trader sudah mengikuti sistem.
+
+Ciri good loss:
+
+- bias sudah jelas
+- entry sesuai model
+- risk sesuai aturan
+- SL tidak digeser
+- tidak ada revenge trade setelahnya
+- semua proses bisa dijelaskan ulang
+
+Good loss tidak perlu dibenci. Itu bagian normal dari probabilitas.
+
+### Bad Loss
+
+Bad loss adalah loss yang lahir dari pelanggaran.
+
+Ciri bad loss:
+
+- entry karena FOMO
+- masuk di luar jam rencana
+- lot terlalu besar
+- SL digeser
+- entry tanpa validasi
+- revenge trading
+- melanggar checklist
+
+Bad loss harus dipelajari dan dikurangi.
+
+Review mingguan harus fokus membunuh bad loss, bukan membenci semua loss.
+
+---
+
+## 6. Trade Terbaik dan Trade Terburuk
+
+Dalam review mingguan, pilih dua trade penting:
+
+1. Trade terbaik
+2. Trade terburuk
+
+Namun penilaiannya bukan berdasarkan uang.
+
+### Trade terbaik
+
+Trade terbaik adalah trade dengan proses paling bersih.
+
+Bisa saja hasilnya loss, tetapi tetap menjadi trade terbaik jika:
+
+- setup valid
+- entry sabar
+- risk tepat
+- exit sesuai rencana
+- emosi stabil
+- tidak ada pelanggaran
+
+### Trade terburuk
+
+Trade terburuk adalah trade dengan proses paling rusak.
+
+Bisa saja hasilnya profit, tetapi tetap buruk jika:
+
+- entry impulsif
+- mengejar candle
+- lot terlalu besar
+- tidak ada SL logis
+- exit emosional
+- profit hanya karena keberuntungan
+
+Ini penting karena trader harus belajar memuji proses, bukan hanya hasil.
+
+---
+
+## 7. Struktur Review Mingguan
+
+Gunakan alur berikut setiap akhir minggu.
+
+### A. Data Dasar
+
+| Pertanyaan | Jawaban |
+|---|---|
+| Total trade minggu ini |  |
+| Total win |  |
+| Total loss |  |
+| Total BE |  |
+| Total R minggu ini |  |
+| Compliance rate |  |
+
+### B. Audit Kepatuhan
+
+Jawab:
+
+- berapa trade yang sesuai rules?
+- berapa trade yang melanggar rules?
+- rules apa yang paling sering dilanggar?
+- apakah pelanggaran terjadi di sesi tertentu?
+- apakah pelanggaran muncul setelah win/loss tertentu?
+
+### C. Audit Psikologi
+
+Jawab:
+
+- emosi apa yang paling sering muncul?
+- apakah ada FOMO?
+- apakah ada revenge trading?
+- apakah ada early exit?
+- apakah risk terlalu besar membuat takut?
+
+### D. Trade Terbaik
+
+Catat:
+
+- pair
+- sesi
+- model entry
+- alasan trade ini dianggap terbaik
+- screenshot
+- pelajaran yang harus dipertahankan
+
+### E. Trade Terburuk
+
+Catat:
+
+- pair
+- sesi
+- kesalahan utama
+- emosi saat itu
+- akibatnya
+- aturan pencegahan minggu depan
+
+### F. Action Plan Minggu Depan
+
+Buat satu aturan spesifik.
+
+Contoh buruk:
+
+> "Saya harus lebih sabar."
+
+Contoh bagus:
+
+> "Minggu depan saya tidak boleh entry sebelum London Killzone dan hanya boleh ambil maksimal 2 trade per hari."
+
+Action plan harus jelas, bisa dicek, dan tidak terlalu banyak.
+
+---
+
+## 8. Fokus Utama Review Bulanan: Arah Besar
+
+Review bulanan melihat gambaran yang lebih luas.
+
+Kalau review mingguan bertanya:
+
+> "Apa kesalahan saya minggu ini?"
+
+review bulanan bertanya:
+
+> "Pola besar apa yang muncul dari seluruh bulan ini?"
+
+Di review bulanan, trader mulai melihat:
+
+- setup mana yang paling menghasilkan
+- pair mana yang paling merusak
+- sesi mana yang paling cocok
+- hari apa yang sering buruk
+- apakah risk terlalu besar atau terlalu kecil
+- apakah sistem butuh disederhanakan
+- apakah disiplin membaik atau menurun
+
+Review bulanan bukan tempat menghukum diri sendiri. Review bulanan adalah tempat membuat keputusan strategis.
+
+---
+
+## 9. Struktur Review Bulanan
+
+Gunakan alur berikut di akhir bulan.
+
+### A. Metrik Utama
+
+| Metrik | Hasil |
+|---|---|
+| Total trade |  |
+| Win rate |  |
+| Net R |  |
+| Average R win |  |
+| Average R loss |  |
+| Maximum drawdown |  |
+| Compliance rate rata-rata |  |
+
+### B. Performa Berdasarkan Sesi
+
+| Sesi | Total Trade | Net R | Catatan |
+|---|---:|---:|---|
+| Asia |  |  |  |
+| London |  |  |  |
+| New York |  |  |  |
+
+### C. Performa Berdasarkan Setup
+
+| Setup | Total Trade | Net R | Kesimpulan |
+|---|---:|---:|---|
+| OTE |  |  |  |
+| FVG Return |  |  |  |
+| Sweep + MSS |  |  |  |
+| Lainnya |  |  |  |
+
+### D. Performa Berdasarkan Instrumen
+
+| Instrumen | Total Trade | Net R | Keputusan |
+|---|---:|---:|---|
+| XAUUSD |  |  |  |
+| EURUSD |  |  |  |
+| GBPUSD |  |  |  |
+
+### E. Keputusan Bulan Depan
+
+Tentukan:
+
+- setup yang dipertahankan
+- setup yang dibuang sementara
+- sesi yang diprioritaskan
+- pair yang dikurangi
+- batas trade harian
+- risk per trade bulan depan
+- satu fokus psikologi utama
+
+---
+
+## 10. The Playbook: Galeri Setup Terbaik
+
+Salah satu hasil terbaik dari review adalah **playbook**.
+
+Playbook adalah kumpulan screenshot setup terbaik Anda.
+
+Isinya bukan semua trade. Hanya trade yang benar-benar bersih.
+
+Contoh isi playbook:
+
+- setup buy terbaik
+- setup sell terbaik
+- contoh sweep + MSS yang bersih
+- contoh London reversal terbaik
+- contoh entry yang sabar
+- contoh good loss yang disiplin
+
+Fungsi playbook adalah melatih mata.
+
+Sebelum trading, buka playbook dan tanyakan:
+
+> "Apakah chart hari ini mirip dengan setup terbaik saya?"
+
+Jika tidak mirip, diam.
+
+Playbook membantu trader berhenti memaksakan setup B dan C ketika setup A belum muncul.
+
+---
+
+## 11. Kesalahan Umum Saat Review
+
+### 1. Hanya melihat profit dan loss
+
+Profit bisa datang dari keputusan buruk. Loss bisa datang dari keputusan bagus. Karena itu, nilai proses terlebih dahulu.
+
+### 2. Terlalu banyak action plan
+
+Jika setiap minggu membuat 10 aturan baru, trader akan bingung. Pilih satu atau dua fokus utama.
+
+### 3. Tidak jujur terhadap pelanggaran
+
+Review hanya berguna jika trader jujur. Kalau pelanggaran ditutup-tutupi, perkembangan akan berhenti.
+
+### 4. Mengubah sistem terlalu cepat
+
+Satu minggu buruk belum tentu berarti sistem rusak. Jangan mengubah seluruh strategi hanya karena beberapa loss.
+
+### 5. Tidak memakai screenshot
+
+Tanpa screenshot, review akan terlalu bergantung pada ingatan.
+
+---
+
+## 12. Glosarium Bab 04
+
+- **Review Mingguan:** evaluasi rutin mingguan untuk menilai kepatuhan, psikologi, dan kualitas eksekusi.
+- **Review Bulanan:** evaluasi skala lebih besar untuk membaca performa strategi, sesi, setup, dan instrumen.
+- **Compliance Rate:** persentase trade yang sesuai aturan dibanding total trade.
+- **Good Loss:** kerugian yang terjadi meskipun seluruh proses sudah benar.
+- **Bad Loss:** kerugian yang muncul karena pelanggaran aturan atau keputusan emosional.
+- **Playbook:** kumpulan screenshot setup terbaik sebagai referensi visual pribadi.
+- **Action Plan:** aturan perbaikan spesifik yang akan diterapkan pada periode berikutnya.
+
+---
+
+## 13. Ringkasan Bab
+
+Inti bab ini adalah:
+
+- jurnal harus dibaca ulang agar menjadi alat perkembangan
+- review mingguan fokus pada kepatuhan dan perilaku
+- review bulanan fokus pada pola besar dan keputusan strategis
+- compliance rate lebih penting daripada profit jangka pendek
+- good loss harus diterima, bad loss harus dikurangi
+- trade terbaik dan terburuk dinilai dari proses, bukan nominal uang
+- playbook membantu trader membangun referensi visual setup berkualitas
+- action plan harus spesifik, sederhana, dan bisa dicek
+
+---
 
 ## Penutup
-Ritual *review* pada akhir pekan adalah saat di mana Anda berubah wujud dari seorang "Eksekutor Lapangan" menjadi "CEO Bisnis". CEO mengevaluasi laporan untuk memastikan perusahaannya berjalan efisien. Di bab berikutnya, kita akan membahas salah satu tugas utama seorang CEO: Mengatur keuangan. Kita akan masuk ke bab **Panduan Jurnal Review dan Pengembangan Trader** untuk merajut sistem evaluasi ini menjadi kerangka pengembangan diri berkelanjutan.
+
+Review adalah momen ketika trader berhenti menjadi eksekutor dan mulai menjadi evaluator.
+
+Saat market buka, tugas trader adalah menjalankan rencana. Saat market tutup, tugas trader adalah membaca data dan memperbaiki diri.
+
+Trader yang serius tidak hanya bertanya, "besok entry di mana?" Ia juga bertanya, "minggu ini saya melanggar apa, dan bagaimana cara mencegahnya?"
+
+Di bab berikutnya, kita akan menyatukan jurnal, review, dan perbaikan ke dalam siklus pengembangan trader yang lebih lengkap.
 
 ## Catatan
-*Tugas Praktik: Atur pengingat di kalender HP Anda: "Setiap Sabtu Jam 10:00 Pagi - Jurnal Review Session". Alokasikan waktu 30-45 menit. Buka jurnal Anda, dan cari satu saja "Bad Loss" dari minggu ini. Tuliskan satu aturan tindakan pencegahan agar Bad Loss tersebut tidak terulang minggu depan.*
+
+*Tugas Praktik: akhir pekan ini, buka jurnal Anda dan pilih satu bad loss paling jelas. Tulis penyebabnya, emosi yang muncul, dan satu aturan spesifik agar kesalahan itu tidak terulang minggu depan.*
