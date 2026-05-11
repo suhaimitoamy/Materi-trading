@@ -1,2 +1,2 @@
 const SUPABASE_URL = "https://dqvrfspovuvvulxqspooj.supabase.co";
-const SUPABASE_ANON_KEY = "KEY_ANON_KAMU";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRxdnJmc3BvdnV3dWx4cXNwb29qIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgzNDA5OTQsImV4cCI6MjA5MzkxNjk5NH0.yREPROuey2rXCFHSw_xN57MI3GBDlbNmJmp7C7oHDr4";
