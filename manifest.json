@@ -1,0 +1,225 @@
+{
+  "repo": {
+    "owner": "suhaimitoamy",
+    "name": "Materi-trading",
+    "branch": "main"
+  },
+  "folders": [
+    {
+      "name": "00-Pemula-Nol-dan-Peta-Belajar",
+      "files": [
+        "README.md",
+        "Bab-01-Trading-itu-Apa-dan-Apa-yang-Sedang-Dipelajari.md",
+        "Bab-02-Market-Chart-dan-Candlestick.md",
+        "Bab-03-Timeframe-Trend-dan-Range.md",
+        "Bab-04-Level-Harga-Support-Resistance-dan-High-Low.md",
+        "Bab-05-Risiko-Dasar-Akun-Demo-dan-Ekspektasi.md",
+        "Bab-06-Setup-TradingView-dan-Meja-Kerja-Belajar.md",
+        "Bab-07-Glosarium-Awam-ke-Teknis-dan-Peta-Naik-Level.md"
+      ]
+    },
+    {
+      "name": "01-Transisi-ke-Bahasa-SMC-dan-ICT",
+      "files": [
+        "README.md",
+        "Bab-01-SMC-ICT-Cara-Baru-Melihat-Pasar.md",
+        "Bab-02-Siapa-itu-Smart-Money.md",
+        "Bab-03-Dari-Support-Resistance-ke-Liquidity-Pools.md",
+        "Bab-04-Likuiditas-Sebagai-Tujuan-Harga.md",
+        "Bab-05-Support-Resistance-ala-ICT.md",
+        "Bab-06-AMD-Accumulation-Manipulation-Distribution.md",
+        "Bab-07-Mengapa-Market-Terlihat-Acak-Padahal-Sedang-Berpindah-Target.md",
+        "Bab-08-IPDA-dan-Narasi-Harga.md",
+        "Bab-09-Hubungan-Narasi-Harga-Likuiditas-dan-Waktu.md",
+        "Bab-10-Perbedaan-Trend-Range-dan-Expansion-dari-Sudut-Pandang-Institusi.md",
+        "Bab-11-Market-Efficiency-Paradigm.md",
+        "Bab-12-Memahami-Interbank-Price-Delivery-Algorithm-IPDA.md",
+        "Bab-13-Konsep-Premium-vs-Discount-Secara-Mendasar.md",
+        "Bab-14-Waktu-vs-Harga-Mana-yang-Lebih-Penting.md"
+      ]
+    },
+    {
+      "name": "02-Struktur-dan-Likuiditas",
+      "files": [
+        "README.md",
+        "Bab-01-Apa-itu-Struktur-Harga.md",
+        "Bab-02-Swing-High-dan-Swing-Low.md",
+        "Bab-03-HH-HL-LH-LL.md",
+        "Bab-04-Buy-Side-Liquidity-dan-Sell-Side-Liquidity.md",
+        "Bab-05-Equal-Highs-dan-Equal-Lows.md",
+        "Bab-06-Draw-on-Liquidity.md",
+        "Bab-07-Internal-dan-External-Liquidity.md",
+        "Bab-08-Apa-itu-Market-Structure-Shift.md",
+        "Bab-09-Struktur-Minor-vs-Struktur-Mayor.md",
+        "Bab-10-Valid-vs-Invalid-MSS.md",
+        "Bab-11-Inducement-vs-Break-of-Structure.md",
+        "Bab-12-Complex-Structure-dan-Sub-Structure.md",
+        "Bab-13-Liquidity-Void-dan-Cara-Mengisinya.md",
+        "Bab-14-Trendline-Liquidity-dan-Retail-Patterns.md",
+        "Bab-15-High-Resistance-Liquidity-Run-vs-Low-Resistance.md",
+        "Bab-16-IRL-dan-ERL advance.md"
+      ]
+    },
+    {
+      "name": "03-Sweep-Grab-Run-dan-Delivery",
+      "files": [
+        "README.md",
+        "Bab-01-Apa-itu-Liquidity-Sweep.md",
+        "Bab-02-Apa-itu-Liquidity-Grab.md",
+        "Bab-03-Apa-itu-Liquidity-Run.md",
+        "Bab-04-Mengapa-Breakout-Sering-Menipu.md",
+        "Bab-05-Delivery-Sequence.md",
+        "Bab-06-Displacement.md",
+        "Bab-07-Continuation-Leg-dan-Continuation-Failure.md",
+        "Bab-08-Continuation-Failure-dan-Tanda-Awal-Pembalikan.md",
+        "Bab-09-Liquidity-Run-yang-Valid-vs-yang-Palsu.md",
+        "Bab-10-False-Displacement-dan-Cara-Membedakannya.md",
+        "Bab-11-SMR-Smart-Money-Reversal-Model.md",
+        "Bab-12-Turtle-Soup-Model-A-dan-Model-B.md",
+        "Bab-13-Sweep-Grab-Run-dan-Delivery-Change-in-State-of-Delivery-CISD.md"
+      ]
+    },
+    {
+      "name": "04-POI-dan-Lokasi-Entry",
+      "files": [
+        "README.md",
+        "Bab-01-Apa-itu-Order-Block.md",
+        "Bab-02-Apa-itu-Fair-Value-Gap.md",
+        "Bab-03-Apa-itu-Breaker-Block.md",
+        "Bab-04-Apa-itu-Mitigation-Block.md",
+        "Bab-05-Dealing-Range-Premium-dan-Discount.md",
+        "Bab-06-Memilih-POI-yang-Benar.md",
+        "Bab-07-Inversion-Fair-Value-Gap.md",
+        "Bab-08-Propulsion-Block.md",
+        "Bab-09-ICT-PD-Array-Matrix.md",
+        "Bab-10-Consequent-Encroachment.md",
+        "Bab-11-Order-Block-yang-High-Probability.md",
+        "Bab-12-Kapan-POI-Diabaikan.md",
+        "Bab-13-POI-Utama-vs-POI-Sekunder.md",
+        "Bab-14-POI-dalam-Trend-vs-POI-dalam-Range.md",
+        "Bab-15-Kapan-FVG-Lebih-Kuat-daripada-OB.md",
+        "Bab-16-Kapan-OB-Lebih-Kuat-daripada-FVG.md",
+        "Bab-17-Checklist-Menilai-Kekuatan-POI.md",
+        "Bab-18-Kapan-CE-Lebih-Berguna-daripada-Full-Fill-FVG.md",
+        "Bab-19-Kapan-POI-Tumpang-Tindih-Menjadi-Kekuatan-dan-Kapan-Menjadi-Bias.md",
+        "Bab-20-Volume-Imbalance-dan-Gap-Analysis.md",
+        "Bab-21-Rejection-Block-dan-Vacuum-Block.md"
+      ]
+    },
+    {
+      "name": "05-Session-dan-Timing",
+      "files": [
+        "README.md",
+        "Bab-01-Mengapa-Session-Penting.md",
+        "Bab-02-Asia-Session-dan-Range-Awal.md",
+        "Bab-03-London-Open-dan-Perubahan-Tempo.md",
+        "Bab-04-New-York-dan-Kelanjutan-Delivery.md",
+        "Bab-05-Apa-itu-Judas-Swing.md",
+        "Bab-06-Daily-Bias-dan-Timeframe-Alignment.md",
+        "Bab-07-True-Day-Open-Midnight-Open-dan-Kill-Zones.md",
+        "Bab-08-ICT-Weekly-Profiles.md",
+        "Bab-09-Opening-Gap-dan-Session-Transitions.md",
+        "Bab-10-London-Kill-Zone-dan-New-York-Kill-Zone.md",
+        "Bab-11-News-Days-dan-Abnormal-Volatility.md",
+        "Bab-12-AMD-dalam-Struktur-Harian-dan-Mingguan.md",
+        "Bab-13-Kapan-London-Memberi-Reversal-dan-Kapan-Memberi-Continuation.md",
+        "Bab-14-Kapan-New-York-Memberi-Reversal-dan-Kapan-Memberi-Continuation.md",
+        "Bab-15-Kapan-New-York-Mengonfirmasi-London-dan-Kapan-Membatalkannya.md",
+        "Bab-16-Bedanya-Judas-Swing-London-vs-New-York.md",
+        "Bab-17-Kapan-Asia-Hanya-Build-dan-Kapan-Memberi-Arah.md",
+        "Bab-18-Kapan-Asia-Membuat-Jebakan-untuk-London.md",
+        "Bab-19-Silver-Bullet-Session-ICT.md",
+        "Bab-20-Macro-ICT-Time-Windows.md",
+        "Bab-21-NDOG-dan-NWOG.md",
+        "Bab-22-OHLC-dan-OLHC-untuk-Daily-Bias.md",
+        "Bab-23-PDH-dan-PDL.md"
+      ]
+    },
+    {
+      "name": "06-Entry-Risk-dan-Eksekusi",
+      "files": [
+        "README.md",
+        "Bab-01-Dari-Validasi-ke-Trigger.md",
+        "Bab-02-Invalidation-dan-Stop-Loss.md",
+        "Bab-03-Target-dan-Partial-Take-Profit.md",
+        "Bab-04-Do-Not-Chase.md",
+        "Bab-05-Disiplin-Eksekusi.md",
+        "Bab-06-2022-Mentorship-Entry-Model.md",
+        "Bab-07-Unicorn-Entry-Model.md",
+        "Bab-08-Inversion-Entry-Model.md",
+        "Bab-09-Proyeksi-Target-dengan-Standard-Deviation-Fibonacci.md",
+        "Bab-10-Menyusun-Trading-Rules-dan-Alur-Baca.md",
+        "Bab-11-OTE-Optimal-Trade-Entry.md",
+        "Bab-12-Liquidity-Grab-ke-MSS-ke-Entry-Flow-Chart.md",
+        "Bab-13-Mengelola-Layering-dan-Overtrading.md",
+        "Bab-14-Kapan-Tidak-Trade.md",
+        "Bab-15-Checklist-Sebelum-Entry.md",
+        "Bab-16-Checklist-Setelah-Entry.md",
+        "Bab-17-Cara-Membaca-Trade-yang-Gagal.md",
+        "Bab-18-Cara-Mengelola-Trade-yang-Sudah-Masuk-Profit.md",
+        "Bab-19-Kapan-Memindahkan-Stop-Loss-dan-Kapan-Tidak.md",
+        "Bab-20-Kapan-Scale-Out-dan-Kapan-Hold-Full.md",
+        "Bab-21-Bedanya-Exit-Objektif-vs-Exit-Emosional.md",
+        "Bab-22-Pyramiding-dan-Scaling-In-Position.md"
+      ]
+    },
+    {
+      "name": "07-Sistem-Indikator-dan-Translasi-Logika",
+      "files": [
+        "README.md",
+        "Bab-01-Mengubah-Konsep-menjadi-Rule.md",
+        "Bab-02-State-Engine.md",
+        "Bab-03-Zone-Engine.md",
+        "Bab-04-Trigger-Engine.md",
+        "Bab-05-Scoring-dan-Dashboard.md",
+        "Bab-06-Invalidation-Engine-dan-Expiry-Logic.md",
+        "Bab-07-Mapping-Konsep-ICT-ke-Indikator.md",
+        "Bab-08-Cara-Membaca-Dashboard-dan-State-Secara-Benar.md",
+        "Bab-09-Batas-Indikator-dan-Kapan-Manusia-Harus-Mengambil-Alih.md",
+        "Bab-10-Mengapa-Indikator-Bisa-Terlambat.md",
+        "Bab-11-Mengapa-Indikator-Bisa-Terlihat-Terlalu-Ramai.md",
+        "Bab-12-Cara-Menyederhanakan-Indikator-Tanpa-Membuang-Logika.md",
+        "Bab-13-Perbedaan-Indikator-Prediktif-vs-Konfirmatif.md",
+        "Bab-14-Warning-Alert-vs-Trigger-Alert.md",
+        "Bab-15-Mengapa-Satu-Setup-Bisa-Dibaca-Beda-oleh-Manusia-dan-Indikator.md",
+        "Bab-16-Cara-Mengubah-Alert-Menjadi-Workflow-Nyata.md",
+        "Bab-17-Backtesting-Logika-Indikator-di-TradingView.md"
+      ]
+    },
+    {
+      "name": "08-Jurnal-dan-Psikologi-Pemula",
+      "files": [
+        "README.md",
+        "Bab-01-Mengapa-Jurnal-Trading-Penting.md",
+        "Bab-02-Template-Jurnal-Trading-Sederhana.md",
+        "Bab-03-Psikologi-Pemula-Takut-FOMO-dan-Balas-Dendam.md",
+        "Bab-04-Review-Mingguan-dan-Bulanan.md",
+        "Bab-5-Panduan-Jurnal-Review-dan-Pengembangan-Trader.md",
+        "Bab-6-Risk-Management-dan-Position-Sizing.md",
+        "Bab-7-Template-Review-Mingguan.md",
+        "Bab-8-Template-Review-Bulanan.md"
+      ]
+    },
+    {
+      "name": "09-Advanced-Concepts-dan-Model-Market",
+      "files": [
+        "README.md",
+        "Bab-01-Market-Maker-Models-MMXM.md",
+        "Bab-02-SMT-Divergence-Konfirmasi-Institusi.md",
+        "Bab-03-Power-of-3-PO3-Logika-Candle-Harian.md",
+        "Bab-04-ICT-Weekly-Profiles-Memahami-Siklus-Mingguan.md",
+        "Bab-05-ICT-Silver-Bullet-Strategi-Waktu-Spesifik.md",
+        "Bab-6-Intermarket-Analysis-DXY-Correlation.md",
+        "Bab-7--Framework-XAUUSD-Konteks-Bias-dan-Eksekusi.md"
+      ]
+    },
+    {
+      "name": "10-Case-Studies-dan-Backtesting",
+      "files": [
+        "README.md",
+        "Bab-1-Contoh-Real-Trade-Win-dan-Loss.md",
+        "Bab-2-Template-Backtesting.md"
+      ]
+    }
+  ]
+}

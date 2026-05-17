@@ -1,64 +1,53 @@
 # 03 — Sweep, Grab, Run, dan Delivery
 
-Folder ini membahas bagaimana market mengambil likuiditas, membentuk jebakan, lalu mengirim harga menuju target berikutnya.
+Kalau folder `02` mengajarkan **di mana target harga berada**, folder ini mulai mengajarkan **bagaimana harga pergi ke sana**.
 
-Jika folder sebelumnya membantu memahami struktur dan likuiditas, maka folder ini berfokus pada **bagaimana likuiditas itu digunakan untuk menggerakkan harga**.
+---
+
+## Prasyarat
+
+Anda sebaiknya sudah nyaman dengan:
+
+- struktur dasar
+- swing high dan swing low
+- buy-side liquidity dan sell-side liquidity
 
 ---
 
 ## Fokus Folder Ini
 
-Materi dalam folder ini berpusat pada proses inti pergerakan harga:
-
-- **Liquidity Sweep** (pengambilan likuiditas)
-- **Liquidity Grab** (jebakan cepat)
-- **Stop Hunt** (pemicu *Stop Loss*)
-- **Liquidity Run** (pergerakan menuju target likuiditas)
-- **Displacement** (dorongan harga kuat)
-- **Delivery** (proses pengiriman harga)
-- hubungan antara **manipulasi dan arah market berikutnya**
-
----
-
-## Tujuan Folder Ini
-
-Folder ini bertujuan agar Anda:
-
-- tidak salah mengartikan sweep sebagai breakout
-- memahami kapan market sedang mengambil likuiditas
-- membedakan antara gerakan manipulatif dan delivery yang valid
-- mengenali kapan market siap melanjutkan pergerakan
+- liquidity sweep
+- liquidity grab
+- liquidity run
+- delivery sequence
+- displacement
+- continuation failure
+- perubahan tempo market
 
 ---
 
 ## Cara Belajar Folder Ini
 
-Untuk memahami materi dengan lebih efektif:
+Jangan hafal definisi saja. Cari di chart:
 
-1. Hubungkan konsep di folder ini dengan **struktur dan likuiditas** dari folder sebelumnya.  
-2. Amati chart dan tandai area **BSL / SSL** yang diambil.  
-3. Perhatikan apa yang terjadi setelah sweep:  
-   - apakah terjadi reversal  
-   - apakah terjadi continuation  
-   - atau hanya reaksi sementara  
-4. Fokus pada **alur pergerakan (delivery)**, bukan hanya bentuk candle.
+- kapan harga hanya menyapu lalu balik
+- kapan harga menyapu lalu lanjut
+- kapan breakout ternyata jebakan
+
+Di folder ini, observasi visual jauh lebih penting daripada hafalan kata.
 
 ---
 
 ## Hasil Belajar yang Diharapkan
 
-Setelah menyelesaikan folder ini, Anda diharapkan:
+Setelah folder ini selesai, Anda diharapkan:
 
-- memahami fungsi **sweep, grab, dan run**
-- lebih peka terhadap jebakan likuiditas
-- mampu membedakan **fake move dan valid delivery**
-- mulai membaca arah market berdasarkan **Draw on Liquidity**
-- memahami kapan market benar-benar berubah arah
+- lebih peka membedakan sapuan dan kelanjutan
+- tidak mudah terkecoh oleh breakout yang terlihat meyakinkan
+- siap memahami lokasi entry yang lebih presisi
 
 ---
 
 ## Lanjut Setelah Ini
-
-Setelah folder ini selesai, lanjut ke:
 
 **04 — POI dan Lokasi Entry**

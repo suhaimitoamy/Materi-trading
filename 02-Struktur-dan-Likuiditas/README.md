@@ -1,91 +1,52 @@
 # 02 — Struktur dan Likuiditas
 
-Folder ini membahas bahasa dasar market: **struktur** dan **likuiditas**.
+Folder ini adalah **inti teknikal pertama** setelah pembaca selesai melewati tahap pemula nol dan tahap transisi istilah.
 
-Di tahap ini Anda mulai belajar bagaimana market membentuk:
-- high dan low
-- swing mayor dan minor
-- struktur bullish dan bearish
-- perubahan struktur
-- jebakan likuiditas
-- target harga yang logis
+Di sinilah bahasa chart mulai menjadi lebih formal.
 
-Folder ini adalah fondasi penting sebelum masuk ke pembahasan **sweep, grab, run, delivery,** dan **eksekusi entry**.
+---
+
+## Prasyarat
+
+Sebaiknya Anda sudah menyelesaikan:
+
+- `00 — Pemula Nol dan Peta Belajar`
+- `01 — Transisi ke Bahasa SMC dan ICT`
+
+Kalau belum, folder ini akan terasa terlalu padat.
 
 ---
 
 ## Fokus Folder Ini
 
-Materi di folder ini mencakup:
-
-- **swing high** dan **swing low**
-- **HH, HL, LH, dan LL**
-- **BOS** dan **MSS**
-- **protected high** dan **protected low**
-- **inducement**
-- **liquidity pools**
-- **buy-side liquidity (BSL)** dan **sell-side liquidity (SSL)**
-- **equal highs** dan **equal lows**
-- **draw on liquidity**
-- **internal dan external liquidity**
-- **minor vs mayor structure**
-- **complex structure** dan **sub-structure**
-- **liquidity void**, **imbalance**, dan area yang menjadi target harga
-- **trendline liquidity** dan jebakan pola ritel
-- **HRLR vs LRLR**
-- **IRL & ERL** dalam konteks **dealing range**
+- struktur harga
+- swing high dan swing low
+- HH, HL, LH, LL
+- BSL dan SSL
+- internal dan external liquidity
+- MSS, BOS, inducement, dan konsep struktur lain
 
 ---
 
-## Kenapa Folder Ini Penting
+## Cara Belajar Folder Ini
 
-Banyak trader gagal membaca market karena tidak jelas membedakan:
-
-- struktur yang valid dan yang tidak valid
-- break kecil dan perubahan struktur yang benar-benar penting
-- likuiditas utama dan *noise* kecil
-- target harga yang logis dan yang dipaksakan
-- continuation yang sehat dan jebakan manipulatif
-
-Folder ini membantu Anda memahami bahwa market sangat sering bergerak untuk:
-- membangun likuiditas
-- mengambil likuiditas
-- menyeimbangkan harga
-- lalu melanjutkan **delivery** ke target berikutnya
-
-Dengan kata lain, folder ini membantu Anda naik level:
-dari sekadar melihat candle, menjadi mulai membaca **fungsi** di balik pergerakan harga.
-
----
-
-## Cara Menggunakan Folder Ini
-
-Urutan belajar yang disarankan:
-
-1. Pahami dulu struktur dasar.
-2. Pelajari bagaimana likuiditas terbentuk.
-3. Lihat hubungan antara struktur dan target harga.
-4. Bedakan mana struktur minor dan mayor.
-5. Latih menandai swing, BSL/SSL, EQH/EQL, dan target likuiditas pada chart lama.
-6. Biasakan bertanya bukan hanya “harga sedang ke mana”, tetapi juga “likuiditas mana yang sedang dituju”.
+- buka chart saat membaca
+- gambar high dan low dengan tangan sendiri
+- jangan pindah ke bab berikutnya kalau belum paham bentuk visual bab sebelumnya
+- fokus dulu pada bentuk, baru pada nama istilahnya
 
 ---
 
 ## Hasil Belajar yang Diharapkan
 
-Setelah menyelesaikan folder ini, Anda diharapkan:
+Setelah folder ini selesai, Anda diharapkan:
 
-- mampu membaca struktur market dengan lebih rapi
-- mengenali lokasi likuiditas yang penting
-- memahami perbedaan antara target internal dan target eksternal
-- memahami kapan market sedang continuation, kapan sedang shift, dan kapan sedang menjebak
-- mampu membaca tujuan umum pergerakan harga dengan lebih objektif
-- siap masuk ke pembahasan **sweep, grab, run,** dan **delivery** dengan fondasi yang jauh lebih kuat
+- bisa membaca struktur dasar market
+- memahami area atas dan bawah sebagai target harga
+- siap memahami sweep, grab, run, dan delivery di folder berikutnya
 
 ---
 
 ## Lanjut Setelah Ini
-
-Setelah folder ini selesai, lanjut ke:
 
 **03 — Sweep, Grab, Run, dan Delivery**

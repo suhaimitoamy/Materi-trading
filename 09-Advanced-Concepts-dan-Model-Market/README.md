@@ -1,60 +1,56 @@
 # 09 — Advanced Concepts dan Model Market
 
-Folder ini berisi kerangka kerja makro dan konsep tingkat lanjut (Advanced) untuk memperdalam cara baca market setelah fondasi dasar (Folder 01-08) benar-benar kuat.
+Folder ini memang **lanjutan**. Ia bukan dibuat untuk pembaca yang masih belajar candle, trend, dan high-low.
 
-Materi di sini dirancang untuk mengangkat perspektif Anda dari sekadar melihat "satu candlestick" menjadi membaca "skenario besar institusional".
+Kalau fondasinya belum kuat, folder ini akan terasa seperti kumpulan jargon berat.
+
+---
+
+## Kapan Masuk ke Folder Ini
+
+Masuk ke folder ini setelah Anda:
+
+- nyaman membaca struktur dan likuiditas
+- paham POI, session, entry, dan risk
+- sudah menjalani jurnal dan backtesting dasar
 
 ---
 
 ## Fokus Folder Ini
 
-Materi di folder ini mencakup:
-
-- Market Maker Models (MMXM) - Pemahaman siklus distribusi dan akumulasi makro.
-- SMT Divergence - Konfirmasi pembalikan (reversal) dari aliran pesanan tersembunyi.
-- Power of 3 (PO3 / AMD) - Membedah fase manipulasi harian (Judas Swing).
-- ICT Weekly Profiles - Mengenali hari di mana harga akan membalikkan tren (High/Low of the week).
-- ICT Silver Bullet - Strategi eksekusi khusus berbasis waktu (Time-Based Model).
-- Intermarket Analysis (DXY) - Menggunakan korelasi Dolar sebagai kompas utama.
-- Framework XAUUSD - Cara spesifik menangani volatilitas emas yang mematikan.
+- MMXM
+- SMT
+- PO3
+- weekly profiles
+- Silver Bullet
+- intermarket
+- framework makro
 
 ---
 
-## Tujuan Folder Ini
+## Cara Belajar Folder Ini
 
-Folder ini dibuat agar Anda:
+- ambil satu konsep dulu, jangan semuanya sekaligus
+- uji pengamatan di chart
+- jangan pakai semua konsep advance di satu layar
 
-- Melihat market dari sudut pandang algoritmik, bukan sekadar garis Support/Resistance.
-- Mengetahui KAPAN harus bertrading sangat agresif dan KAPAN harus diam (berdasarkan Weekly Profile).
-- Menambah *confluence* tingkat tinggi (SMT & DXY) untuk menyaring setup palsu.
-- Bisa beroperasi sebagai Scalper berbasis waktu (Silver Bullet) atau Swing Trader berbasis makro.
-
----
-
-## Cara Menggunakan Folder Ini
-
-Agar tidak kelebihan informasi (*Information Overload*):
-
-1. Wajib pastikan Anda sudah menguasai Likuiditas, POI, Entry Rules, dan Manajemen Risiko (Folder 01-08).
-2. Pelajari konsep satu demi satu. (Misalnya: pelajari PO3 dan pahami dulu, baru pindah ke Weekly Profiles).
-3. Jangan gunakan semua konsep ini di satu layar secara bersamaan. Konsep lanjutan berguna untuk **Konteks**, bukan untuk membuat *chart* Anda berantakan.
-4. Lakukan pengujian pengamatan (Visual Backtesting) untuk setiap bab.
+Folder ini seharusnya memperdalam konteks, bukan membuat chart Anda sesak.
 
 ---
 
 ## Hasil Belajar yang Diharapkan
 
-Setelah menyelesaikan folder ini, Anda diharapkan:
+Setelah folder ini selesai, Anda diharapkan:
 
-- Memiliki pembacaan narasi harga yang jauh lebih matang dan beralasan.
-- Berhenti terkecoh oleh pergerakan manipulasi pagi hari atau menjelang berita besar.
-- Selalu memastikan DXY dan SMT mendukung arah posisi Anda sebelum menekan tombol.
-- Memiliki kerangka operasional spesifik untuk trading Forex maupun Emas (XAUUSD).
+- punya pembacaan market yang lebih matang
+- mampu menambah konfluensi tingkat tinggi
+- bisa memahami istilah advance tanpa merasa terlempar
 
 ---
 
 ## Lanjut Setelah Ini
 
-Setelah teori ini sempurna, masuklah ke "Laboratorium":
+Gunakan folder ini bersamaan dengan:
 
-**10 — Case Studies dan Backtesting**
+- `10 — Case Studies dan Backtesting`
+- `07 — Sistem Indikator dan Translasi Logika`

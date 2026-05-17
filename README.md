@@ -1,128 +1,136 @@
 # Materi Trading
 
-Repositori ini dirancang sebagai **library belajar trading** yang terstruktur, bertahap, dan mudah di-review kembali.
+Repositori ini adalah **library belajar trading bertahap** yang sekarang disusun ulang agar masuk akal untuk:
 
-Tujuan utamanya adalah menyediakan tempat belajar yang rapi agar materi tidak tercecer, mudah dibaca ulang, dan tersusun dari fondasi paling dasar sampai praktik di chart nyata, khususnya dengan pendekatan **Smart Money Concepts (SMC) & ICT**.
+- orang yang benar-benar baru mengenal trading
+- orang yang sudah pernah lihat chart tetapi belum paham alur market
+- pembelajar yang ingin naik dari bahasa awam ke istilah teknis SMC/ICT sampai level lanjut
 
----
-
-## Tujuan Repositori
-
-Repo ini dibuat untuk membantu proses belajar trading secara lebih terarah:
-
-- membangun fondasi cara melihat market.
-- memahami struktur, likuiditas, dan delivery harga.
-- mempelajari lokasi entry dan timing yang presisi.
-- melatih eksekusi, risk management, dan disiplin psikologis.
-- menerjemahkan konsep ke dalam aturan dan logika indikator.
-- membangun jurnal untuk evaluasi berkelanjutan.
-- menghubungkan teori dengan studi kasus dan backtesting riil.
-
-Repositori ini bukan sekadar kumpulan catatan, tetapi disusun sebagai **jalur belajar trading profesional dari dasar sampai lanjutan**.
-
----
-
-## Cara Membaca Struktur Repo
-
-Struktur repo ini memakai logika sederhana:
-
-- **Folder** = bab besar / kelompok topik
-- **File `.md`** = satu materi utama (bab)
-- **Isi file** = penjelasan konsep, kerangka berpikir, dan panduan belajar (dilengkapi Glosarium, Ringkasan, dan Tugas Praktik)
-
-Artinya, repo ini bisa dipakai seperti **rak buku belajar trading pribadi**.
-
----
-
-## Susunan Materi
-
-### 00 — Start Here dan Glosarium
-Titik awal pembelajaran. Berisi arah repo, cara belajar, istilah dasar, dan persiapan alat kerja seperti TradingView.
-
-### 01 — Fondasi Cara Melihat Pasar
-Berisi perubahan cara pandang terhadap market, narasi harga, logika pergerakan, dan fondasi sebelum masuk ke materi teknis.
-
-### 02 — Struktur dan Likuiditas
-Membahas swing, HH/HL/LH/LL, liquidity pools, inducement, equal highs/lows, dan tujuan umum pergerakan harga.
-
-### 03 — Sweep, Grab, Run, dan Delivery
-Membahas bagaimana market mengambil likuiditas, membentuk jebakan, lalu bergerak menuju target berikutnya.
-
-### 04 — POI dan Lokasi Entry
-Membahas Order Block, Fair Value Gap, Breaker, Mitigation, premium-discount, kualitas area entry, termasuk Rejection Block dan Vacuum Block.
-
-### 05 — Session dan Timing
-Membahas Asia, London, New York, killzone, Judas Swing, Silver Bullet, dan Macro ICT untuk presisi waktu.
-
-### 06 — Entry, Risk, dan Eksekusi
-Membahas validasi entry, trigger, invalidation, target, manajemen posisi, dan disiplin eksekusi (Workflow Entry).
-
-### 07 — Sistem Indikator dan Translasi Logika
-Membahas bagaimana konsep subyektif SMC diterjemahkan ke aturan sistem objektif, state engine, scoring, dashboard, dan meminimalkan visual clutter.
-
-### 08 — Jurnal dan Psikologi Pemula
-Membahas pentingnya jurnal trading, template evaluasi mingguan/bulanan, psikologi (mengatasi FOMO dan Revenge Trading), serta Position Sizing.
-
-### 09 — Advanced Concepts dan Model Market
-Berisi konsep lanjutan seperti Market Maker Models (MMXM), SMT Divergence, Power of 3 (PO3), Weekly Profiles, Silver Bullet, dan Intermarket Analysis (DXY & US10Y).
-
-### 10 — Case Studies dan Backtesting
-Berisi pembedahan riil anatomi trade (Win & Loss), template backtesting Spreadsheet, evaluasi probabilitas, dan cara membangun Edge.
-
----
-
-## Alur Belajar yang Disarankan
-
-Agar pembelajaran lebih rapi, ikuti urutan berikut secara berurutan, layaknya sebuah kurikulum:
-
-1. Mulai dari **00** dan **01** untuk membangun cara pandang yang benar.
-2. Masuk ke **02** dan **03** untuk memahami struktur dan bahasa dasar likuiditas.
-3. Pelajari **04** dan **05** untuk memahami "Di mana" dan "Kapan" peluang muncul.
-4. Masuk ke **06** dan **07** untuk mengubah teori menjadi eksekusi dan logika algoritma.
-5. Perkuat disiplin di **08** melalui jurnal dan pembentukan mental baja.
-6. Dalami strategi makro tingkat lanjut di **09**.
-7. Uji semua pemahaman melalui praktik dan simulasi di **10**.
-
----
-
-## Cara Menggunakan Repo Ini
-
-Agar hasil belajar lebih maksimal:
-
-1. Baca materi secara berurutan bab demi bab.
-2. Jangan melompati bagian "Tugas Praktik" di akhir setiap bab.
-3. Buka chart saat membaca agar konsep tidak hanya dipahami secara teori (Visualisasi).
-4. Tandai poin penting yang sering berulang.
-5. Review ulang materi yang masih membingungkan.
-6. Lakukan **backtest wajib** menggunakan template di Bab 10 sebelum mempertaruhkan uang riil.
-
----
-
-## Untuk Siapa Repo Ini
-
-Repo ini sangat cocok untuk:
-
-- Pemula yang ingin belajar trading SMC/ICT dengan kurikulum yang terarah dan rapi.
-- Trader berpengalaman yang ingin menyusun ulang fondasi dan kedisiplinan mereka.
-- Pembelajar yang frustrasi dengan *Information Overload* di internet dan membutuhkan panduan langkah-demi-langkah.
-
----
-
-## Arah Pengembangan Repo
-
-Repositori ini akan terus dikembangkan secara bertahap melalui:
-
-- Penambahan materi baru dan konsep-konsep *Advanced* lainnya.
-- Penyempurnaan penjelasan yang sudah ada.
-- Penambahan studi kasus *live trade*.
-- Penguatan hubungan antara teori, eksekusi, dan review.
-
-Target akhirnya adalah menjadikan repo ini sebagai **Buku Panduan Trading Terlengkap (SMC/ICT)** yang bisa dipakai sebagai standar belajar jangka panjang.
+Fokus utamanya bukan memberi setup instan, tetapi membangun pemahaman yang nyambung dari dasar sampai advance.
 
 ---
 
 ## Catatan Penting
 
-Semua materi di repositori ini bersifat **edukatif**. Trading adalah bisnis probabilitas dengan risiko tinggi.
+Versi lama repo ini terlalu cepat masuk ke jargon seperti `liquidity`, `IPDA`, dan `premium/discount`.
 
-Gunakan repo ini untuk belajar, membangun kerangka berpikir, dan melatih cara membaca market. Selalu lakukan pengujian mandiri melalui **backtest** yang ketat dan evaluasi mendalam sebelum menerapkan konsep apa pun dalam akun *Live*.
+Struktur baru ini dibuat dengan prinsip:
+
+1. **pemula nol tidak boleh dipaksa memahami jargon di hari pertama**
+2. istilah teknis harus muncul **setelah** pembaca paham bahasa chart dasar
+3. materi advance tetap dipertahankan, tetapi jalur menuju ke sana dibuat lebih bertahap
+
+---
+
+## Peta Belajar Baru
+
+| Folder | Level | Fokus |
+| --- | --- | --- |
+| `00-Pemula-Nol-dan-Peta-Belajar` | Pemula nol | Trading itu apa, chart, candle, timeframe, trend, range, support/resistance, risiko dasar, dan jembatan ke istilah teknis |
+| `01-Transisi-ke-Bahasa-SMC-dan-ICT` | Dasar menuju teknis | Mengubah bahasa awam menjadi bahasa SMC/ICT |
+| `02-Struktur-dan-Likuiditas` | Dasar teknikal inti | Struktur harga, swing, HH/HL/LH/LL, BSL, SSL, MSS |
+| `03-Sweep-Grab-Run-dan-Delivery` | Menengah | Cara market menyapu likuiditas dan bergerak ke target |
+| `04-POI-dan-Lokasi-Entry` | Menengah | Order Block, FVG, Breaker, Mitigation, dan kualitas area entry |
+| `05-Session-dan-Timing` | Menengah | Asia, London, New York, kill zone, daily bias, ritme waktu |
+| `06-Entry-Risk-dan-Eksekusi` | Menengah ke lanjut | Validasi, trigger, stop loss, target, checklist eksekusi |
+| `08-Jurnal-dan-Psikologi-Pemula` | Inti operasional | Jurnal, review, FOMO, revenge trading, risk management |
+| `10-Case-Studies-dan-Backtesting` | Laboratorium | Menerapkan konsep di chart nyata dan backtesting |
+| `07-Sistem-Indikator-dan-Translasi-Logika` | Lanjut | Mengubah konsep discretionary menjadi sistem dan rule |
+| `09-Advanced-Concepts-dan-Model-Market` | Lanjut | MMXM, SMT, PO3, Silver Bullet, intermarket, framework makro |
+
+---
+
+## Urutan Belajar yang Disarankan
+
+### Jalur pertama untuk pemula nol
+
+Ikuti urutan ini dulu:
+
+`00 -> 01 -> 02 -> 03 -> 04 -> 05 -> 06 -> 08 -> 10`
+
+Setelah jalur pertama terasa lebih stabil, baru masuk:
+
+`07 -> 09`
+
+Alasannya sederhana:
+
+- `07` terlalu cepat kalau pembaca belum punya proses baca chart yang matang
+- `09` terlalu padat kalau struktur, likuiditas, entry, dan risk belum benar-benar menempel
+
+### Jalur untuk pembaca yang sudah kenal chart dasar
+
+Kalau Anda sudah paham candle, trend, range, support/resistance, dan risiko dasar, tetap mulai dari:
+
+`00 (scan cepat) -> 01 -> 02 -> 03 -> 04 -> 05 -> 06 -> 08 -> 10 -> 07 -> 09`
+
+---
+
+## Kapan Istilah Teknis Mulai Muncul
+
+Agar ekspektasinya jelas:
+
+- di `00`, istilah dibuat sesederhana mungkin
+- di `01`, istilah teknis mulai dikenalkan dan diterjemahkan dari bahasa awam
+- di `02` ke atas, bahasa teknis mulai menjadi bahasa kerja utama
+
+Jadi kalau Anda belum paham kata seperti `liquidity`, `draw on liquidity`, `MSS`, atau `FVG`, itu **normal**. Tempat yang benar untuk mulai adalah folder `00`, bukan folder `02` atau `04`.
+
+---
+
+## Cara Menggunakan Repo Ini
+
+Gunakan pola belajar berikut:
+
+1. baca satu bab sampai selesai
+2. tulis ulang inti bab dengan bahasa sendiri
+3. buka chart dan cari contoh nyatanya
+4. simpan screenshot atau catatan
+5. ulangi sampai konsepnya terasa natural
+
+Jangan membaca 10 istilah dalam satu malam lalu berharap semuanya menempel.
+
+---
+
+## Prinsip Belajar yang Harus Dijaga
+
+- jangan buru-buru cari entry kalau bahasa chart dasar belum paham
+- jangan hafal istilah tanpa tahu fungsinya
+- jangan anggap loss sebagai bukti bahwa konsepnya salah; sering kali prosesnya yang belum rapi
+- jangan lompat ke `09` hanya karena topiknya terlihat keren
+- gunakan akun demo atau mode observasi dulu saat masih di tahap awal
+
+---
+
+## Untuk Siapa Repo Ini
+
+Repo ini cocok untuk:
+
+- pemula nol yang butuh jalur belajar trading yang tidak membingungkan
+- trader yang selama ini tahu istilah tetapi belum paham urutannya
+- pembelajar SMC/ICT yang ingin punya struktur belajar lebih rapi
+
+Repo ini kurang cocok untuk:
+
+- orang yang hanya mencari “entry hari ini”
+- orang yang tidak mau membuka chart saat belajar
+- orang yang ingin lompat langsung ke materi advance tanpa fondasi
+
+---
+
+## Hasil Akhir yang Dituju
+
+Setelah melalui repo ini dengan benar, pembaca diharapkan bisa:
+
+- memahami chart dari level paling dasar
+- mengerti hubungan antara struktur, likuiditas, waktu, dan eksekusi
+- membaca istilah teknis trading tanpa bingung
+- menyusun proses trading yang lebih objektif dan disiplin
+- naik ke konsep advance tanpa merasa jargon-jargon itu datang dari langit
+
+---
+
+## Catatan Risiko
+
+Semua materi di repo ini bersifat edukatif. Trading adalah bisnis probabilitas dengan risiko tinggi.
+
+Tujuan repo ini adalah membantu Anda membangun **kerangka berpikir**, bukan menjanjikan profit cepat. Gunakan backtesting, jurnal, dan manajemen risiko sebelum mempertaruhkan uang riil.

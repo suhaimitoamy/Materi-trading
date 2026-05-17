@@ -1,10 +1,11 @@
-const OWNER = "suhaimitoamy";
-const REPO = "Materi-trading";
-const BRANCH = "main";
-const API_BASE = `https://api.github.com/repos/${OWNER}/${REPO}/contents`;
-const RAW_BASE = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}`;
+const DEFAULT_REPO = {
+  owner: "suhaimitoamy",
+  name: "Materi-trading",
+  branch: "main",
+};
 
 const state = {
+  repo: { ...DEFAULT_REPO },
   folders: [],
   allPages: [],
   currentPath: "",
@@ -71,8 +72,12 @@ function sortFiles(a, b) {
   return a.name.localeCompare(b.name, undefined, { numeric: true });
 }
 
+function encodePath(path) {
+  return path.split("/").map(encodeURIComponent).join("/");
+}
+
 async function fetchJson(url) {
-  const res = await fetch(url, { headers: { Accept: "application/vnd.github+json" } });
+  const res = await fetch(url);
   if (!res.ok) throw new Error(`Gagal mengambil ${url}`);
   return res.json();
 }
@@ -83,32 +88,39 @@ async function fetchText(url) {
   return res.text();
 }
 
+function buildGithubUrl(path) {
+  const { owner, name, branch } = state.repo;
+  return `https://github.com/${owner}/${name}/blob/${branch}/${encodePath(path)}`;
+}
+
+function buildContentUrl(path) {
+  return `./${encodePath(path)}`;
+}
+
 async function loadStructure() {
-  const rootItems = await fetchJson(API_BASE);
-  const folders = rootItems
-    .filter((item) => item.type === "dir" && /^\d{2}-/.test(item.name))
-    .sort(sortFolders);
+  const manifest = await fetchJson("./manifest.json");
+  state.repo = { ...DEFAULT_REPO, ...(manifest.repo || {}) };
 
-  const enriched = [];
-  for (const folder of folders) {
-    const items = await fetchJson(`${API_BASE}/${encodeURIComponent(folder.name)}`);
-    const files = items
-      .filter((item) => item.type === "file" && /\.md$/i.test(item.name))
-      .sort(sortFiles)
-      .map((file) => ({
-        name: file.name,
-        path: file.path,
-        html_url: file.html_url,
-        folder: folder.name,
-        label: humanizeFile(file.name),
-      }));
+  const enriched = (manifest.folders || [])
+    .slice()
+    .sort(sortFolders)
+    .map((folder) => {
+      const files = (folder.files || [])
+        .map((name) => ({
+          name,
+          path: `${folder.name}/${name}`,
+          html_url: buildGithubUrl(`${folder.name}/${name}`),
+          folder: folder.name,
+          label: humanizeFile(name),
+        }))
+        .sort(sortFiles);
 
-    enriched.push({
-      name: folder.name,
-      label: humanizeFolder(folder.name),
-      files,
+      return {
+        name: folder.name,
+        label: humanizeFolder(folder.name),
+        files,
+      };
     });
-  }
 
   state.folders = enriched;
   state.allPages = [
@@ -117,7 +129,7 @@ async function loadStructure() {
       name: "README.md",
       folder: "",
       label: "Beranda",
-      html_url: `https://github.com/${OWNER}/${REPO}/blob/${BRANCH}/README.md`,
+      html_url: buildGithubUrl("README.md"),
     },
     ...enriched.flatMap((folder) => folder.files),
   ];
@@ -192,14 +204,6 @@ function getPageByPath(path) {
   return state.allPages.find((page) => page.path === path);
 }
 
-function buildGithubUrl(path) {
-  return `https://github.com/${OWNER}/${REPO}/blob/${BRANCH}/${path}`;
-}
-
-function buildRawUrl(path) {
-  return `${RAW_BASE}/${path}`;
-}
-
 function renderBreadcrumb(page) {
   if (!page || page.path === "README.md") {
     els.breadcrumb.innerHTML = "<span>Beranda</span>";
@@ -253,7 +257,7 @@ async function loadPage(path) {
   els.content.innerHTML = '<div class="loading">Memuat konten...</div>';
 
   try {
-    const markdown = await fetchText(buildRawUrl(page.path));
+    const markdown = await fetchText(buildContentUrl(page.path));
     els.content.innerHTML = renderMarkdown(markdown);
     closeSidebar();
   } catch (error) {
@@ -299,7 +303,7 @@ async function init() {
     await loadPage(getCurrentPage());
   } catch (error) {
     els.pageTitle.textContent = "Materi Trading";
-    els.content.innerHTML = '<div class="error">Struktur repo gagal dimuat. Coba refresh beberapa saat lagi.</div>';
+    els.content.innerHTML = '<div class="error">Struktur repo gagal dimuat. Jalankan lewat server lokal atau refresh lagi.</div>';
   }
 }
 
